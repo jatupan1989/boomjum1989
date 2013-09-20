@@ -1,3 +1,10 @@
+### 0.1.5
+- Added ability to block whole page
+- Blocked subframes (<iframe>, etc.) are now redirected to a safe page (so there is a visual to indicate blocking)
+- In a new install page & images are whitelisted by default
+- Now using <a href="http://www.google.com/fonts/specimen/Roboto+Condensed">Roboto Condensed font</a>, better suited for the matrix
+- Reworked project structure and code in order to grow better
+
 ### 0.1.4
 - Fine tuned local storage
 
