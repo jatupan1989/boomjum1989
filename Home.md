@@ -1,2 +1,2 @@
-* [wiki/Permissions](Permissions)
-* [wiki/Change log](Change-log)
+* [Permissions](wiki/Permissions)
+* [Change log](wiki/Change-log)
