@@ -1,5 +1,5 @@
 ### 0.1.6
-- Now block inline script tags on top frame when scripts are blacklisted for this top frame (before only separate script files where prevented from being loaded/executed). Still need to look into this for subframes.
+- Now block inline script tags on top frame when scripts are blacklisted for this top frame (before, only separate script files where prevented from being loaded/executed). Still need to look into this for subframes.
 
 ### 0.1.5
 - Added ability to block whole page
