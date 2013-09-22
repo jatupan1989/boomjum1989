@@ -4,7 +4,7 @@
     * async update of extension badge
     * caching top url stats for a while, this reduce mem alloc during stats collection
 - Fixed an issue with &lt;noscript&gt; tags caused by a bug in Chromium (see <https://code.google.com/p/chromium/issues/detail?id=232410>)
-- Fixed code related to some error messages at the console
+- Fixed code related to some error messages at the console (valid web requests not necessarily matched to a tab, like when the page is pre-rendered -- example: googling for 'wikipedia', wikipedia.org is pre-fetched internally)
 
 ### 0.1.6
 - Now block inline script tags on top frame when scripts are blacklisted for this top frame (before, only separate script files where prevented from being loaded/executed). Still need to look into this for subframes.
