@@ -1,3 +1,10 @@
+### 0.1.7
+- Smart reloading of tabs when extension popup menu closed (only if necessary)
+- Improved responsiveness:
+    * async update of extension badge
+    * caching top url stats for a while, this reduce mem alloc during stats collection
+- Fixed an issue with &lt;noscript&gt; tags cause by a bug in Chromium (<https://code.google.com/p/chromium/issues/detail?id=232410>)
+
 ### 0.1.6
 - Now block inline script tags on top frame when scripts are blacklisted for this top frame (before, only separate script files where prevented from being loaded/executed). Still need to look into this for subframes.
 - Added <http://dns-bh.sagadc.org/immortal_domains.txt> as another source of list of blacklisted domain name.
