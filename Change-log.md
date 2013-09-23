@@ -1,3 +1,7 @@
+### 0.1.8
+- Opened popup menu now updates in real-time as net traffic is processed
+- Fine tuning visuals
+
 ### 0.1.7
 - Smart reloading of tabs when extension popup menu closed (only if necessary)
 - Improved responsiveness:
