@@ -1,5 +1,6 @@
 ### 0.2.00
 - Added [justdomains](http://dns-bh.sagadc.org/justdomains) blacklist from [DNS-BH – Malware Domain Blocklist](http://www.malwaredomains.com/?page_id=1508) (22850 entries)
+- Ignore fragment in URL when creating/looking URL stats store.
 
 ### 0.1.9
 - Extension now loads properly when tabs are already present, and when chromium is launched first time
