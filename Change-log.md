@@ -1,3 +1,7 @@
+### 0.1.9
+- Extension now loads properly when tabs are already present, and when chromium is launched first time
+- Better display of web requests count in extension icon
+
 ### 0.1.8
 - Opened popup menu now updates in real-time as net traffic is processed
 - Fine tuning visuals
