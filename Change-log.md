@@ -1,4 +1,4 @@
-### 0.2.00
+### 0.2.0
 - Added ability to whitelist/blacklist cookies.
 - Added [justdomains](http://dns-bh.sagadc.org/justdomains) blacklist from [DNS-BH – Malware Domain Blocklist](http://www.malwaredomains.com/?page_id=1508) (22,850 entries)
 - Ignore fragment in URL when creating/looking URL stats store.
