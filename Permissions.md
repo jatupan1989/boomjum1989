@@ -2,6 +2,7 @@ HTTP Switchboard requires the following permissions to work properly:
 
     "permissions": [
         "contentSettings",
+        "cookies",
         "storage",
         "tabs",
         "webNavigation",
@@ -11,6 +12,7 @@ HTTP Switchboard requires the following permissions to work properly:
     ],
 
 * **contentSettings**: to enable/disable javascript for a web page.
+* **cookies**: to allow the removal of blocked cookies.
 * **storage**: to store your own whitelist/blacklist domains/objects.
 * **tabs**: to enable forcing a reload of the content of a tab (when the content of the whitelist/blacklist change), and to enable injecting code into a page which reports whether at least one `<script>` tag is used on the page.
 * **webNavigation**: to allow redirecting the URL of a blocked page or frame to a dummy page.
