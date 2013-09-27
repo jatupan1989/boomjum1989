@@ -1,3 +1,7 @@
+### 0.2.1
+- More accurate cookie reporting.
+- Further fine tuning the UI of the popup menu.
+
 ### 0.2.0
 - Added ability to whitelist/blacklist cookies.
 - Added [justdomains](http://dns-bh.sagadc.org/justdomains) blacklist from [DNS-BH – Malware Domain Blocklist](http://www.malwaredomains.com/?page_id=1508) (22,850 entries)
