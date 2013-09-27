@@ -18,4 +18,4 @@ HTTP Switchboard requires the following permissions to work properly:
 * **webNavigation**: to allow redirecting the URL of a blocked page or frame to a dummy page.
 * **webRequest**: to allow intercepting all requests in order to inspect them.
 * **webRequestBlocking**: to be able to block a request if the object of the request is blacklisted.
-* `<all_urls>`: to be able to inspect traffic for all URLs (necessary in order to decide whether a block should be enforced).
+* `<all_urls>`: to be able to inspect traffic for all URLs (necessary in order to decide whether a block directive should be enforced).
