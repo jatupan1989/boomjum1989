@@ -1,5 +1,5 @@
 ### 0.2.3
-- Quick fix required to address the issue of msn.com disregarding standards (as per RFC #1738, '|' must be escaped in a URL, msn.com does not escape '|'...)
+- Quick fix required to address the issue of msn.com disregarding standards (as per RFC #1738, '|' must be escaped in a URL, msn.com does not escape '|'... culprit URL found at `http://money.ca.msn.com/`)
 
 ### 0.2.2
 - Remote blacklists will be reloaded from remote servers every 7 days.
