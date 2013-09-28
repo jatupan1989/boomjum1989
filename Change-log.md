@@ -2,7 +2,7 @@
 - Remote blacklists will be reloaded from remote servers every 7 days.
 - Started work on options page.
 - Fixed [issue #1](https://github.com/gorhill/httpswitchboard/issues/1).
-- Fixed a memory leak
+- Fixed a memory leak.
 
 ### 0.2.1
 - More accurate cookie reporting.
