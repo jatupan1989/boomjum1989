@@ -1,3 +1,8 @@
+### 0.2.2
+- Remote blacklists will be reloaded from remote servers every 7 days.
+- Fixed issue #1.
+- Bit of work on options page.
+
 ### 0.2.1
 - More accurate cookie reporting.
 - Further fine tuning the UI of the popup menu.
