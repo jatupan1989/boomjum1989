@@ -9,3 +9,5 @@ HTTP Switchboard uses the work of other people:
     * [DNS-BH – Malware Domain Blocklist](http://www.malwaredomains.com/?page_id=1508):
         - [justdomains](http://dns-bh.sagadc.org/justdomains)
         - [immortal_domains](http://dns-bh.sagadc.org/immortal_domains.txt)
+- Arts:
+    * [dialog-information-symbolic.svg](https://github.com/GNOME/gnome-icon-theme-symbolic/blob/master/gnome/scalable/status/dialog-information-symbolic.svg)
