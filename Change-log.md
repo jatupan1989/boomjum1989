@@ -1,5 +1,8 @@
 ### 0.2.3
-- Quick fix required to address the issue of msn.com disregarding standards (as per RFC #1738, '|' must be escaped in a URL, msn.com does not escape '|'... culprit URL found at `http://money.ca.msn.com/`)
+- Added button in popup menu to easily access info page.
+- More work on info page.
+- Fix to address the issue of msn.com disregarding standards (as per RFC1738, '|' must be escaped in a URL, msn.com does not escape '|'... culprit URL found at `http://money.ca.msn.com/`).
+- Fixed memory leak. Really. (something to investigate: non visible web pages can still run their JS in chromium?)
 
 ### 0.2.2
 - Remote blacklists will be reloaded from remote servers every 7 days.
