@@ -1,3 +1,7 @@
+### 0.2.4
+- Show details of remote blacklists on info page.
+- Fixed a bug which caused HTTP Switchboard to diagnose there was actual inline scripting on all pages, regardless whether it was really the case.
+
 ### 0.2.3
 - Added button in popup menu to easily access info page.
 - More work on info page.
