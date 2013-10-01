@@ -1,6 +1,6 @@
 ### 0.2.4
-- Show details of remote blacklists on info page.
-- Ability to filter stats per page URL in info page.
+- Show details of remote blacklists being used on info page.
+- Ability to filter stats per web page on info page.
 - Fixed a bug which caused HTTP Switchboard to diagnose there was actual inline scripting on all pages, regardless whether it was really the case.
 
 ### 0.2.3
