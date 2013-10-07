@@ -1,3 +1,7 @@
+### 0.2.5
+- Fixed bug introduced in 0.2.4 which broke the fetching of remote blacklists.
+- IP address can now be properly handled.
+
 ### 0.2.4
 - Show details of remote blacklists being used on info page.
 - Ability to filter stats per web page on info page.
