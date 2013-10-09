@@ -4,5 +4,5 @@ Under construction.
 So far, here is what I found:
 - [favicon.ico](http://en.wikipedia.org/wiki/Favicon)
 - [web fonts](http://en.wikipedia.org/wiki/Web_fonts)
-- HTML5's [&lt;audio&gt;](http://en.wikipedia.org/wiki/HTML5_Audio) tag
-- HTML5's [&lt;video&gt;](http://en.wikipedia.org/wiki/HTML5_Video) tag
+- HTML5 [&lt;audio&gt;](http://en.wikipedia.org/wiki/HTML5_Audio) tag
+- HTML5 [&lt;video&gt;](http://en.wikipedia.org/wiki/HTML5_video) tag
