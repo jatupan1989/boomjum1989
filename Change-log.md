@@ -1,3 +1,9 @@
+### 0.2.6
+- Reduced memory usage.
+- Better default blacklist filters when first installing.
+- "object" => "plugin".
+- Plugins are now outright blocked if blacklisted (in addition of being prevented from making web requests.)
+
 ### 0.2.5
 - Fixed bug introduced in 0.2.4 which broke the fetching of remote blacklists.
 - IP addresses can now be properly handled.
