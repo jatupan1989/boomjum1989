@@ -1,7 +1,7 @@
 ### 0.2.6
 - Reduced memory usage.
 - Better default blacklist filters when first installing ("cookie", "plugin" and "frame" are now blacklisted by default, so that if user toggle master switch to whitelist "all", these types of items will still be effectively blacklisted.)
-- "object" => "plugin".
+- In matrix, "object" renamed "plugin".
 - Plugins are now outright blocked if effectively blacklisted (in addition of being prevented from making web requests.)
 - Added project-controlled blacklist, for those domains which should be blacklisted by default but which are not found in remote blacklists.
 
