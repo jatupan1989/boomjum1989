@@ -1,6 +1,6 @@
 ### 0.2.6
 - Reduced memory usage.
-- Better default blacklist filters when first installing.
+- Better default blacklist filters when first installing ("cookie", "plugin" and "frame" are now blacklisted by default, so that if user toggle master switch to whitelist "all", these types of object will still be blacklisted.)
 - "object" => "plugin".
 - Plugins are now outright blocked if blacklisted (in addition of being prevented from making web requests.)
 
