@@ -10,4 +10,6 @@ HTTP Switchboard uses the work of other people:
         - [justdomains](http://dns-bh.sagadc.org/justdomains)
         - [immortal_domains](http://dns-bh.sagadc.org/immortal_domains.txt)
 - Arts:
-    * GNOME Project: [dialog-information-symbolic.svg](https://github.com/GNOME/gnome-icon-theme-symbolic/blob/master/gnome/scalable/status/dialog-information-symbolic.svg)
+    * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme) by [Sam Hewitt](https://github.com/snwh), specifically:
+        - [alarm-symbolic.svg](https://github.com/snwh/moka-icon-theme/blob/master/Moka/scalable/status/alarm-symbolic.svg)
+        - [dialog-information-symbolic.svg](https://github.com/snwh/moka-icon-theme/blob/master/Moka/scalable/status/dialog-information-symbolic.svg)
