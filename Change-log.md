@@ -1,4 +1,5 @@
 ### 0.3.0
+- A bit of work a [documentation](https://github.com/gorhill/httpswitchboard/wiki/Quick-tour), more to come.
 - [Project-maintained blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domain names which I believe should be blacklisted but are
 not found in other blacklists.
 - The menu is organized in four logical groups:
