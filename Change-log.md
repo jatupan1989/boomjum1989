@@ -1,6 +1,6 @@
 ### 0.3.0
 - A bit of work on [documentation](https://github.com/gorhill/httpswitchboard/wiki/Quick-tour), more to come.
-- [Project-maintained blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domain names which I believe should be blacklisted but are
+- Added a [project-maintained blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domain names which I believe should be blacklisted but are
 not found in other blacklists.
 - The menu is organized in four logical groups:
     - First, all the requests directly related to the current page,
@@ -12,7 +12,6 @@ not found in other blacklists.
 - Better default blacklist filters when first installing ("plugin" and "frame" are now blacklisted by default, so that if user toggle master switch to whitelist "all", these types of items will still be effectively blacklisted.)
 - In matrix, "object" is renamed "plugin".
 - Plugins are now outright blocked if effectively blacklisted (in addition of being prevented from making web requests.)
-- Added [project-controlled blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domains which should be blacklisted by default but which are not found in remote blacklists.
 
 ### 0.2.5
 - Fixed bug introduced in 0.2.4 which broke the fetching of remote blacklists.
