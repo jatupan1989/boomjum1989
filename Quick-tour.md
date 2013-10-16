@@ -7,6 +7,7 @@ Description of what is going on in the above snapshot of HTTP Switchboard matrix
 - Dark red means: expressly blacklisted.
 - Dark green means: expressly whitelisted.
 - Pale red and pale green means the cells are graylisted, which means they inherit their blacklist or whitelist status from a cell with a higher precedence.
+- The number in the smaller cells indicate the number of distinct requests for a specific type of items for a specific domain.
 - Precedence hierarchy is as follow, from highest precedence to lowest precedence:
     - Specific type/specific domain, like the 'cookie/radio-canada.ca' cell in the above picture.
     - Any type/specific domain, like the 'facebook.com' cell in the picture above.
