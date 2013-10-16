@@ -14,7 +14,7 @@ I did some tests to compare AdBlock and AdBlock Plus vs HTTP Switchboard. See th
     * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/wep03p6r).
 
 Using out of the box settings for *AdBlock* and *HTTP Switchboard*. Using settings suggested by EFF for
-*AdBlock Plus*. Note that with *HTTP Switchboard8, the user does not need to explicitly change the cookie settings in chromium/chrome (as required with AdBlock Plus), if cookies are blacklisted for a domain, any outbound cookie will be removed, regardless of chromium/chrome owns settings. 
+*AdBlock Plus*. Note that with *HTTP Switchboard*, the user does not need to explicitly change the cookie settings in chromium/chrome (as required with AdBlock Plus), if cookies are blacklisted for a domain, any outbound cookie will be removed, regardless of chromium/chrome owns settings. 
 
 #### In the top left of the matrix, what is "other"?
 So far, here is what I found:
