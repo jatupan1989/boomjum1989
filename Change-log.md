@@ -3,7 +3,7 @@
 - If an external blacklist can't be obtained, use locally cached copy, if any, so that user is not left naked.
 - Latest version of HTTP Switchboard blacklist is always used (as opposed to external blacklists which are cached locally for a week).
 - Added more blacklisted domains to [HTTP Switchboard blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
-- Added button in popup menu to revert all temporary changes to the whitelist/blacklist.
+- Added button in popup menu to revert all temporary changes to the whitelist/blacklist (thus no need to reboot chromium/chrome to reset all fiddling with black and whitelist).
 
 ### 0.3.0
 - A bit of work on [documentation](https://github.com/gorhill/httpswitchboard/wiki/Quick-tour), more to come.
