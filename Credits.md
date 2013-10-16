@@ -16,3 +16,4 @@ HTTP Switchboard uses the work of other people:
     * [Gnome Symbolic Icon Theme](https://git.gnome.org/browse/gnome-icon-theme-symbolic). Specifically:
         - [changes-allow-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/changes-allow-symbolic.svg)
         - [changes-prevent-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/changes-prevent-symbolic.svg)
+        - [go-first-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/go-first-symbolic.svg)
