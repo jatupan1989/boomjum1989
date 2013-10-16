@@ -5,10 +5,15 @@ There is [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobk
 
 The difference is this: if you really care about your privacy, AdBlock or AdBlock+ are not particularly useful. See the differences for yourself when using real web pages:
 
-- AdBlock vs HTTP Switchboard: [edition.cnn.com](http://www.diffchecker.com/flic8v70), [nbcpolitics.nbcnews.com](http://www.diffchecker.com/z9byyjng).
-- AdBlock+ vs HTTP Switchboard: [edition.cnn.com](http://www.diffchecker.com/kyzhtuis), [nbcpolitics.nbcnews.com](http://www.diffchecker.com/ltc7i0pa).
+- AdBlock vs HTTP Switchboard:
+    * [edition.cnn.com](http://www.diffchecker.com/flic8v70)
+    * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/z9byyjng).
+- AdBlock+ vs HTTP Switchboard:
+    * [edition.cnn.com](http://www.diffchecker.com/jxpdhmit)
+    * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/wep03p6r).
 
-(Using out of the box settings for both).
+Using out of the box settings for AdBlock and HTTP Switchbox. Using settings suggested by EFF for
+AdBlock Plus.
 
 #### In the top left of the matrix, what is "other"?
 So far, here is what I found:
