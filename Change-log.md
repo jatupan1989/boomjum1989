@@ -1,3 +1,8 @@
+### 0.3.1
+- Added handling of binary cookies.
+- Added more blacklisted domains to project's own blacklist.
+- Added button in popup menu to revert all temporary changes to the whitelist/blacklist.
+
 ### 0.3.0
 - A bit of work on [documentation](https://github.com/gorhill/httpswitchboard/wiki/Quick-tour), more to come.
 - Added a [project-maintained blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domain names which I believe should be blacklisted but are
