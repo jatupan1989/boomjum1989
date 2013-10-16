@@ -1,5 +1,5 @@
 ### 0.3.1
-- Added handling of binary cookies (Not handling binary cookies was preventing the blocking of cookies on the pages where the binary cookies occurred).
+- Added handling of [binary cookies](http://lists.w3.org/Archives/Public/ietf-http-wg/2013JanMar/0217.html) (Not handling binary cookies was preventing the blocking of cookies on the pages where the binary cookies occurred).
 - Added more blacklisted domains to [HTTP Switchboard blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
 - Added button in popup menu to revert all temporary changes to the whitelist/blacklist.
 
