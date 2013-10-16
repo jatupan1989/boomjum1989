@@ -8,6 +8,7 @@ not found in other blacklists.
     - Third, all the graylisted domains,
     - Fourth, all the blacklisted domains.
 - Major change in behavior: Any change to a cell status in the matrix is **temporary** by default, which means the blacklist/whitelist status of a cell will revert to being graylisted when chromium is rebooted. This encourage users to fiddle without worry with the permissions on the page. The user will have to make an extra click (on the padlock) to permanently blacklist/whitelist a cell. I will soon add a button to force a reset, and a user-configurable timeout, so that the user doesn't not have to reboot chromium.
+- Now using [URI.js](http://medialize.github.io/URI.js/) thus gaining sensible management of second-level domain names and increasing performance overall.
 - Work on performance and reduced memory usage.
 - Better default blacklist filters when first installing ("plugin" and "frame" are now blacklisted by default, so that if user toggle master switch to whitelist "all", these types of items will still be effectively blacklisted.)
 - In matrix, "object" is renamed "plugin".
