@@ -1,6 +1,14 @@
-### 0.2.6
-- Reduced memory usage.
-- Better default blacklist filters when first installing ("cookie", "plugin" and "frame" are now blacklisted by default, so that if user toggle master switch to whitelist "all", these types of items will still be effectively blacklisted.)
+### 0.3.0
+- [Project-maintained blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domain names which I believe should be blacklisted but are
+not found in other blacklists.
+- The menu is organized in four logical groups:
+    - First, all the requests directly related to the current page,
+    - Second, all the whitelisted domains,
+    - Third, all the graylisted domains,
+    - Fourth, all the blacklisted domains.
+- Major change in behavior: Any change to a cell status in the matrix is **temporary** by default, which means the blacklist/whitelist status of a cell will revert to being graylisted when chromium is rebooted. This encourage users to fiddle without worry with the permissions on the page. The user will have to make an extra click (on the padlock) to permanently blacklist/whitelist a cell.
+- Work on performance and reduced memory usage.
+- Better default blacklist filters when first installing ("plugin" and "frame" are now blacklisted by default, so that if user toggle master switch to whitelist "all", these types of items will still be effectively blacklisted.)
 - In matrix, "object" is renamed "plugin".
 - Plugins are now outright blocked if effectively blacklisted (in addition of being prevented from making web requests.)
 - Added [project-controlled blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domains which should be blacklisted by default but which are not found in remote blacklists.
