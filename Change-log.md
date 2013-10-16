@@ -1,5 +1,7 @@
 ### 0.3.1
 - Added handling cookies using [`binaryValue`](http://developer.chrome.com/extensions/webRequest.html#type-HttpHeaders) (Not handling cookies using `binaryValue` was preventing the blocking of cookies on the pages where these cookies occurred).
+- If an external blacklist can't be obtained, use locally cached copy, if any, so that user is not left naked.
+- Latest version of HTTP Switchboard blacklist is always used (as opposed to external blacklists which is cached locally for a week).
 - Added more blacklisted domains to [HTTP Switchboard blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
 - Added button in popup menu to revert all temporary changes to the whitelist/blacklist.
 
