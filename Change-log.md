@@ -1,5 +1,5 @@
 ### 0.3.1
-- Added handling of binary cookies.
+- Added handling of binary cookies (Not handling binary cookies was preventing the blocking of cookies on the pages where the binary cookies occurred).
 - Added more blacklisted domains to project's own blacklist.
 - Added button in popup menu to revert all temporary changes to the whitelist/blacklist.
 
