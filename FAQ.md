@@ -22,3 +22,7 @@ So far, here is what I found:
 - [web fonts](http://en.wikipedia.org/wiki/Web_fonts)
 - HTML5 [&lt;audio&gt;](http://en.wikipedia.org/wiki/HTML5_Audio) tag
 - HTML5 [&lt;video&gt;](http://en.wikipedia.org/wiki/HTML5_video) tag
+
+#### What do you gain out of this?
+
+Nothing, the project is [GPLv3](http://www.gnu.org/licenses/quick-guide-gplv3.html). I am having fun doing this though.
