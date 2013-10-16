@@ -1,1 +1,17 @@
-under construction
+# HTTP Switchboard: Very quick tour
+
+![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/001.png)
+
+Description of what is going on in the above snapshot of HTTP Switchboard matrix:
+
+- Dark red means: expressly blacklisted.
+- Dark green means: expressly whitelisted.
+- Pale red and pale green means the cells are graylisted, which means they inherit their blacklist or whitelist status from a cell with a higher precedence.
+- Precedence hierarchy is as follow, from highest precedence to lowest precedence:
+    - Specific type/specific domain, like the 'cookie/radio-canada.ca' cell in the above picture.
+    - Any type/specific domain, like the 'facebook.com' cell in the picture above.
+    - Specific type/any domain, like the 'image' cell in the picture above.
+    - Any type/any domain, which is essentially the 'master switch'.
+- In the top left corner, the 'all' cell (the "master switch") is dark red, which means: "blacklist all graylisted cells *by default*".
+- At the top, the 'image' cell is dark green, which means: "override the 'master switch' state and whitelist all images *by default*". The little green half-circle on the left of the cell means: "remember my whitelist state next time chromium is launched".
+- On the left, second row, the 'radio-canada.ca' cell is dark green, which means: "override 'master switch' and 'typed' cells states and whitelist everything from 'radio-canada.ca' and its subdomains". Notice there is no little half-circle on this cell, which means the cell will be back to its natural status of graylisted next time chromium is launched.
