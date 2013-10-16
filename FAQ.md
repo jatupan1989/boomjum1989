@@ -9,7 +9,7 @@ I did some tests to compare AdBlock and AdBlock Plus vs HTTP Switchboard. See th
 - AdBlock vs HTTP Switchboard:
     * [edition.cnn.com](http://www.diffchecker.com/flic8v70)
     * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/z9byyjng).
-- AdBlock+ vs HTTP Switchboard:
+- AdBlock Plus (using EFF installation instructions) vs HTTP Switchboard:
     * [edition.cnn.com](http://www.diffchecker.com/jxpdhmit)
     * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/wep03p6r).
 
