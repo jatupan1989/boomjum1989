@@ -1,26 +1,10 @@
-* [What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?](FAQ#what-does-http-switchboard-does-more-than-say-adblock-or-adblock)
+does-more-than-say-adblock-or-adblock)
 * [In the top left of the matrix, what is "other"?](FAQ#in-the-top-left-of-the-matrix-what-is-other)
 * [How can I see the full URL of requests made on a page?](FAQ#how-can-i-see-the-full-url-of-requests-made-on-a-page)
+* [What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?](FAQ#what-does-http-switchboard-
 * [What do you gain out of this?](FAQ#what-do-you-gain-out-of-this)
 
 Under construction.
-
-#### What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?
-
-There is [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom), and there is [AdBlock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb) (which the [EFF advise to install](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)).
-
-If you really care about your privacy, it is good to know what is happening behind a web page, so
-I did some tests to compare AdBlock and AdBlock Plus vs HTTP Switchboard. See the differences for yourself when using real web pages, and make an informed choice:
-
-- AdBlock vs HTTP Switchboard:
-    * [edition.cnn.com](http://www.diffchecker.com/flic8v70)
-    * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/z9byyjng).
-- AdBlock Plus (using EFF installation instructions) vs HTTP Switchboard:
-    * [edition.cnn.com](http://www.diffchecker.com/jxpdhmit)
-    * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/wep03p6r).
-
-Using out of the box settings for *AdBlock* and *HTTP Switchboard*. Using settings suggested by EFF for
-*AdBlock Plus*. Note that with *HTTP Switchboard*, the user does not need to explicitly change the cookie settings in chromium/chrome (as required with AdBlock Plus). If cookies are blacklisted for a domain, any outbound cookie will be removed, regardless of chromium/chrome owns settings. 
 
 #### In the top left of the matrix, what is "other"?
 
@@ -38,6 +22,23 @@ So far, here is what I found:
 - Scroll down to the *Geeky stats* section
 - There you can see the full URL of all requests, blocked or allowed, made by your browser
 - Use the drop-down list to select the stats for a specific page
+
+#### What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?
+
+There is [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom), and there is [AdBlock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb) (which the [EFF advise to install](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online)).
+
+If you really care about your privacy, it is good to know what is happening behind a web page, so
+I did some tests to compare AdBlock and AdBlock Plus vs HTTP Switchboard. See the differences for yourself when using real web pages, and make an informed choice:
+
+- AdBlock vs HTTP Switchboard:
+    * [edition.cnn.com](http://www.diffchecker.com/flic8v70)
+    * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/z9byyjng).
+- AdBlock Plus (using EFF installation instructions) vs HTTP Switchboard:
+    * [edition.cnn.com](http://www.diffchecker.com/jxpdhmit)
+    * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/wep03p6r).
+
+Using out of the box settings for *AdBlock* and *HTTP Switchboard*. Using settings suggested by EFF for
+*AdBlock Plus*. Note that with *HTTP Switchboard*, the user does not need to explicitly change the cookie settings in chromium/chrome (as required with AdBlock Plus). If cookies are blacklisted for a domain, any outbound cookie will be removed, regardless of chromium/chrome owns settings. 
 
 #### What do you gain out of this?
 
