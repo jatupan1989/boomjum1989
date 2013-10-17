@@ -1,3 +1,8 @@
+### 0.3.2
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/12>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/9>
+- Found and fixed a one-time memory leak
+
 ### 0.3.1
 - Added handling cookies using [`binaryValue`](http://developer.chrome.com/extensions/webRequest.html#type-HttpHeaders) (Not handling cookies using `binaryValue` was preventing the blocking of cookies on the pages where these cookies occurred).
 - If an external blacklist can't be obtained, use locally cached copy, if any, so that user is not left naked.
