@@ -1,7 +1,7 @@
-* [What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?](#what-does-http-switchboard-does-more-than-say-adblock-or-adblock)
-* [In the top left of the matrix, what is "other"?](#in-the-top-left-of-the-matrix-what-is-other)
-* [How can I see the full URL of requests made on a page?](#how-can-i-see-the-full-url-of-requests-made-on-a-page)
-* [What do you gain out of this?](#what-do-you-gain-out-of-this)
+* [What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?](#wiki-what-does-http-switchboard-does-more-than-say-adblock-or-adblock)
+* [In the top left of the matrix, what is "other"?](#wiki-in-the-top-left-of-the-matrix-what-is-other)
+* [How can I see the full URL of requests made on a page?](#wiki-how-can-i-see-the-full-url-of-requests-made-on-a-page)
+* [What do you gain out of this?](#wiki-what-do-you-gain-out-of-this)
 
 Under construction.
 
