@@ -1,3 +1,6 @@
+### 0.3.3
+- Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
+
 ### 0.3.2
 - New extension page: "Settings".
 - Cookies can optionally be deleted once accounted for.
