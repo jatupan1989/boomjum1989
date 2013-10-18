@@ -1,4 +1,7 @@
 ### 0.3.2
+- New extension page: "Settings"
+- Cookies can optionally be deleted once accounted
+- Better cookie reporting in the matrix
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/12>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/9>
 - Found and fixed a one-time memory leak
