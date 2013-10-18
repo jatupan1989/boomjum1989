@@ -6,6 +6,10 @@
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/9>
 - Found and fixed a one-time memory leak
 - Fixed `localhost` ending up in read-only blacklist
+- Blacklisted domains added to project's own list (see [file](/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt) for why):
+    * adgear.com
+    * bounceexchange.com
+    * 
 
 ### 0.3.1
 - Added handling cookies using [`binaryValue`](http://developer.chrome.com/extensions/webRequest.html#type-HttpHeaders) (Not handling cookies using `binaryValue` was preventing the blocking of cookies on the pages where these cookies occurred).
