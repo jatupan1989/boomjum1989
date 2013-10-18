@@ -1,5 +1,7 @@
 ### 0.3.3
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
+- More blacklisted domains:
+    * adobetag.com: "Adobe Announces Adobe Tag Manager for the Online Marketing Suite"
 
 ### 0.3.2
 - New extension page: "Settings".
@@ -9,9 +11,9 @@
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/9>.
 - Found and fixed a one-time memory leak.
 - Fixed `localhost` ending up in read-only blacklist.
-- Blacklisted domains added to project's own list (see [file].(/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt) for why):
-    * adgear.com
-    * bounceexchange.com
+- Blacklisted domains added to project's own list:
+    * adgear.com: "AdGear is an online advertising technologies company"
+    * bounceexchange.com: "The BounceX software is tracking all the cursor movements of every visitor in real-time"
 
 ### 0.3.1
 - Added handling cookies using [`binaryValue`](http://developer.chrome.com/extensions/webRequest.html#type-HttpHeaders) (Not handling cookies using `binaryValue` was preventing the blocking of cookies on the pages where these cookies occurred).
