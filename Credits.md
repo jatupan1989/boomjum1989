@@ -14,6 +14,7 @@ HTTP Switchboard uses the work of other people:
     * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme) by [Sam Hewitt](https://github.com/snwh). Specifically:
         - [dialog-information-symbolic.svg](https://github.com/snwh/moka-icon-theme/blob/master/Moka/scalable/status/dialog-information-symbolic.svg)
     * [Gnome Symbolic Icon Theme](https://git.gnome.org/browse/gnome-icon-theme-symbolic). Specifically:
-        - [changes-allow-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/changes-allow-symbolic.svg)
-        - [changes-prevent-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/changes-prevent-symbolic.svg)
-        - [go-first-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/go-first-symbolic.svg)
+        - [changes-allow-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
+        - [changes-prevent-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
+        - [view-refresh-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
+        - [system-run-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
