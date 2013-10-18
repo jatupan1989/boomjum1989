@@ -2,7 +2,7 @@
 
 (I am working on better doc...)
 
-![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/002.png)
+![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/001.png)
 
 Description of what is going on in the above snapshot of HTTP Switchboard matrix:
 
