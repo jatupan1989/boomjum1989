@@ -1,12 +1,12 @@
 ### 0.3.2
-- New extension page: "Settings"
-- Cookies can optionally be deleted once accounted
-- Better cookie reporting in the matrix
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/12>
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/9>
-- Found and fixed a one-time memory leak
-- Fixed `localhost` ending up in read-only blacklist
-- Blacklisted domains added to project's own list (see [file](/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt) for why):
+- New extension page: "Settings".
+- Cookies can optionally be deleted once accounted for.
+- Better cookie reporting in the matrix.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/12>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/9>.
+- Found and fixed a one-time memory leak.
+- Fixed `localhost` ending up in read-only blacklist.
+- Blacklisted domains added to project's own list (see [file].(/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt) for why):
     * adgear.com
     * bounceexchange.com
 
