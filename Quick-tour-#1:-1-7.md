@@ -1,5 +1,7 @@
 # HTTP Switchboard -- Quick tour #1: 1/7
 
+[Next](/)
+
 ![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-001-a.jpg)
 
 (Below text from image is replicated for search engines to find this page for anyone seeking help)
