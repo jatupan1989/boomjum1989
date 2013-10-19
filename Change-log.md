@@ -3,7 +3,13 @@
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
 - Fixed the counting of cookies on the *Info* page.
 - More blacklisted domains:
+    * 2mdn.net: "2mdn.net is a domain used by Doubleclick which is an advertising company..."
+    * adnxs.com: "Adnxs.com is run by AppNexus, a company that provides technology, data and analytics to help companies buy and sell online display advertising" (Ref.: http://www.theguardian.com/technology/2012/apr/23/adnxs-tracking-trackers-cookies-web-monitoring)
     * adobetag.com: "Adobe Announces Adobe Tag Manager for the Online Marketing Suite"
+    * crosspixel.net: "leading provider of high performance audience data and information for the real-time advertising industry"
+    * crsspxl.com: Related to crosspixel.net
+    * mookie1.com: "Specializing in online digital advertising, search marketing"
+    * servebom.com: no home page, seen as 'tracking.servebom.com': good enough for this list
 
 ### 0.3.2
 - New extension page: "Settings".
