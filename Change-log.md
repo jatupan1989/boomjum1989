@@ -8,6 +8,7 @@
     * adobetag.com: "Adobe Announces Adobe Tag Manager for the Online Marketing Suite"
     * crosspixel.net: "leading provider of high performance audience data and information for the real-time advertising industry"
     * crsspxl.com: Related to crosspixel.net
+    * gigya.com: "The tools you need to connect with consumers, harness rich data, and make marketing relevant"
     * mookie1.com: "Specializing in online digital advertising, search marketing"
     * servebom.com: no home page, seen as 'tracking.servebom.com': good enough for this list
 
