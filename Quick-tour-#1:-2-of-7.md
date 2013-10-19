@@ -5,8 +5,7 @@
 ![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-001-b.jpg)
 
 (Below text from image is replicated for search engines to find this page for anyone seeking help)
-- "I just installed HTTP Switchboard, now lets go to **radio-canada.ca** to see the most recent headlines..."
-- "This is the **master switch**"
-- "Out of the box, **images** are permanently whitelisted, **plugins** and **frames** are permanently 
-blacklisted."
-- "Graylisted items"
+- "Hmm... not too bad, **images**, a single **script**, one **other** (font?)"
+- "I will whitelist **radio-canada.ca** so the page can become more interactive -- I suppose that is what the **script** is for"
+- "By default, all changes are temporary, you would need to click the padlock to make them permanent"
+- "By whitelisting **radio-canada.ca**, all graylisted subdomains (**s.radio-canada.ca**, **www.radio-canada.ca**) become whitelisted as well"
