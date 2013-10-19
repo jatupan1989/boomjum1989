@@ -1,6 +1,6 @@
 # HTTP Switchboard -- Quick tour #1: 1/7
 
-[Next](/)
+[Next](Quick-tour-%231%3A-2-of-7)
 
 ![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-001-a.jpg)
 
