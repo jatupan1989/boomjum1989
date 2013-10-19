@@ -1,4 +1,4 @@
-# HTTP Switchboard: Quick tour #1
+# HTTP Switchboard -- Quick tour #1: 1/7
 
 ![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-001-a.jpg)
 
