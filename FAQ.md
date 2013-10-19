@@ -42,4 +42,4 @@ Using out of the box settings for *AdBlock* and *HTTP Switchboard*. Using settin
 
 #### What do you gain out of this?
 
-Nothing, the project is [GPLv3](http://www.gnu.org/licenses/quick-guide-gplv3.html). I am having fun doing this though.
+Nothing, the project is [GPLv3](http://www.gnu.org/licenses/quick-guide-gplv3.html). I am having fun doing this though. Oh, and [this](https://www.gnu.org/philosophy/surveillance-vs-democracy.html)
