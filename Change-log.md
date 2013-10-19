@@ -1,5 +1,6 @@
 ### 0.3.3
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
+- Fixed the counting of cookies on the *Info* page.
 - More blacklisted domains:
     * adobetag.com: "Adobe Announces Adobe Tag Manager for the Online Marketing Suite"
 
