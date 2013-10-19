@@ -4,4 +4,6 @@
 
 Just an example of how HTTP Switchboard helps you. See what HTTP Switchboard blocks for you when you visit <http://www.tomshardware.com>:
 
-![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-002-a.png)
+![www.tomshardware.com: all blocked except images](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-002-a.png)
+
+Note that I can read articles without any problem despite that just images are allowed.
