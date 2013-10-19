@@ -1,4 +1,4 @@
-# HTTP Switchboard -- Quick tour #1: 3/7
+# HTTP Switchboard -- Quick tour #1: 4/7
 
 [Previous](Quick-tour-%231%3A-3-of-7) | [Next](Quick-tour-%231%3A-5-of-7)
 
