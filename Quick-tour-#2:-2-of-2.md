@@ -6,4 +6,4 @@ Heh.
 
 ![www.tomshardware.com: all blocked except images](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-002-b.png)
 
-This is one of the nice feature of HTTP Switchboard: you can see at a glance everything the web page did load or attempted to load.
+This is one of the nice feature of HTTP Switchboard: you can see at a glance everything the web page did load or did attempt to load.
