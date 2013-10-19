@@ -12,6 +12,7 @@ So far, here is what I found:
 - [web fonts](http://en.wikipedia.org/wiki/Web_fonts)
 - HTML5 [&lt;audio&gt;](http://en.wikipedia.org/wiki/HTML5_Audio) tag
 - HTML5 [&lt;video&gt;](http://en.wikipedia.org/wiki/HTML5_video) tag
+- [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) files
 
 #### How can I see the full URL of requests made on a page?
 
