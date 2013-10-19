@@ -1,4 +1,5 @@
 ### 0.3.3
+- Popup menu responsiveness: avoid using slow jQuery.data() if it can avoided, which was the case here.
 - Now reporting the number of cookies effectively removed by HTTP Switchboard (*Info* and *Settings* pages).
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
 - Fixed the counting of cookies on the *Info* page.
