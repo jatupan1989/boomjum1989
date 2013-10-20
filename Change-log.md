@@ -1,9 +1,10 @@
 ### 0.3.3
+- Now reporting the number of cookies effectively removed by HTTP Switchboard (*Info* and *Settings* pages).
 - Further reduced memory footprint and performance improvement.
 - Popup menu responsiveness: avoid using slow jQuery.data() if it can avoided, which was the case here.
-- Now reporting the number of cookies effectively removed by HTTP Switchboard (*Info* and *Settings* pages).
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
 - Fixed the counting of cookies on the *Info* page.
+- Fixed https://github.com/gorhill/httpswitchboard/issues/18
 - More blacklisted domains:
     * 2mdn.net: "2mdn.net is a domain used by Doubleclick which is an advertising company..."
     * adnxs.com: "Adnxs.com is run by AppNexus, a company that provides technology, data and analytics to help companies buy and sell online display advertising" (Ref.: http://www.theguardian.com/technology/2012/apr/23/adnxs-tracking-trackers-cookies-web-monitoring)
