@@ -1,1 +1,2 @@
 - [Quick tour #1](Quick-tour-%231%3A-1-of-7)
+- [Quick tour #2](Quick-tour-%232%3A-1-of-2)
