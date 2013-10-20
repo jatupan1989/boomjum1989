@@ -2,6 +2,8 @@
 
 [Previous](Quick-tour-%231%3A-6-of-7)
 
+Correction to the text in the image: Domains from the preset blacklists **can** be permanently whitelisted, they can't however (as of now) be graylisted.
+
 ![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-001-g.jpg)
 
 (Below text from image is replicated for search engines to find this page for anyone seeking help)
