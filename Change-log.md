@@ -4,6 +4,7 @@
 - Popup menu responsiveness: avoid using slow jQuery.data() if it can avoided, which was the case here.
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
 - Fixed the counting of cookies on the *Info* page.
+- Fixed https://github.com/gorhill/httpswitchboard/issues/19
 - Fixed https://github.com/gorhill/httpswitchboard/issues/18
 - More blacklisted domains:
     * 2mdn.net: "2mdn.net is a domain used by Doubleclick which is an advertising company..."
