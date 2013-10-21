@@ -1,3 +1,6 @@
+### 0.3.4
+- Further reduction of memory footprint and further performance improvement.
+
 ### 0.3.3
 - Now reporting the number of cookies effectively removed by HTTP Switchboard (see *Settings* pages).
 - Further reduced memory footprint and performance improvement.
