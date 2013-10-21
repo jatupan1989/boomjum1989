@@ -1,4 +1,5 @@
 ### 0.3.4
+- New 'Chromium-behind-the-scene' virtual tab catches net requests made by the browser behind the scene and honor the current whitelist/blacklist. You can look at these requests through the "Global info" page: in the "Geeky stats" use the drop-down list to select "http://chromium.behind.the.scene". 
 - Further reduction of memory footprint and further performance improvement.
 
 ### 0.3.3
