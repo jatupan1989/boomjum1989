@@ -1,5 +1,5 @@
 ### 0.3.3
-- Now reporting the number of cookies effectively removed by HTTP Switchboard (*Info* and *Settings* pages).
+- Now reporting the number of cookies effectively removed by HTTP Switchboard (see *Settings* pages).
 - Further reduced memory footprint and performance improvement.
 - Popup menu responsiveness: avoid using slow jQuery.data() if it can be avoided, which was the case here.
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
