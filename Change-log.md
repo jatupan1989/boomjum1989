@@ -1,6 +1,8 @@
 ### 0.3.4
 - New *Chromium-behind-the-scene* virtual tab intercepts net requests made by the browser behind the scene and process these hidden requests against the current whitelist/blacklist. You can look at these requests through the *Global info* page: in the *Geeky stats* section, use the drop-down list to select "http://chromium.behind.the.scene". More information regarding what the browser can send behind the scene is disclosed at [Google Chrome Privacy Whitepaper](http://www.google.com/intl/en/chrome/browser/privacy/whitepaper.html)
 - Further reduction of memory footprint and further performance improvement.
+- More blacklisted domains:
+    * eyereturn.com: "eyeReturn Marketing is the only end-to-end digital advertising platform in the market"
 
 ### 0.3.3
 - Now reporting the number of cookies effectively removed by HTTP Switchboard (see *Settings* pages).
