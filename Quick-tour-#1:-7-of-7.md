@@ -1,5 +1,3 @@
-# HTTP Switchboard -- Quick tour #1: 7/7
-
 [Previous](Quick-tour-%231%3A-6-of-7)
 
 Correction to the text in the image: Domains from the preset blacklists **can** be permanently whitelisted, they can't however (as of now) be graylisted.
