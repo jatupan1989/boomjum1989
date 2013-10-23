@@ -1,6 +1,6 @@
 [Previous](Quick-tour-%231%3A-6-of-7)
 
-Correction to the text in the image: Domains from the preset blacklists **can** be permanently whitelisted, they can't however (as of now) be graylisted.
+Correction to the text in the image: Hostnames from the preset blacklists **can** be permanently whitelisted, they can't however (as of now) be graylisted.
 
 ![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-001-g.jpg)
 
