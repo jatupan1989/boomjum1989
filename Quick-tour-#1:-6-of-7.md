@@ -1,5 +1,3 @@
-# HTTP Switchboard -- Quick tour #1: 6/7
-
 [Previous](Quick-tour-%231%3A-5-of-7) | [Next](Quick-tour-%231%3A-7-of-7)
 
 ![An example](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-001-f.jpg)
