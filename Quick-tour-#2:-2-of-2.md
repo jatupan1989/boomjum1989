@@ -1,5 +1,3 @@
-# HTTP Switchboard -- Quick tour #2: 2/2
-
 [Previous: When all is blocked except **images**](Quick-tour-%232%3A-1-of-2)
 
 Taking one for the cause, I allowed everything, just to see what would happen when not using a **script** blocker. Heh.
