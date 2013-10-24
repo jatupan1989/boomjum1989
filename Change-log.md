@@ -7,6 +7,8 @@
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/21>
 - More blacklisted domains:
     * eyereturn.com: "eyeReturn Marketing is the only end-to-end digital advertising platform in the market"
+    * lduhtrp.net
+    * yceml.net
 
 ### 0.3.3
 - Now reporting the number of cookies effectively removed by HTTP Switchboard (see *Settings* pages).
