@@ -5,6 +5,7 @@
     * Loading blacklists from remote sites is no longer complicated by the fact the user setting *"Process behind-the-scene requests"* could switched on.
     * This saves on local storage space.
 - Further reduction of memory footprint and further performance improvement.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/27>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/26>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/25>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/24>
