@@ -2,7 +2,7 @@
 - New *Chromium-behind-the-scene* virtual tab intercepts net requests made by the browser behind the scene and process these hidden requests against the current whitelist/blacklist. You can look at these requests through the *Global info* page: in the *Geeky stats* section, use the drop-down list to select "http://chromium.behind.the.scene". More information regarding what the browser can send behind the scene is disclosed at [Google Chrome Privacy Whitepaper](http://www.google.com/intl/en/chrome/browser/privacy/whitepaper.html)
 - All third parties blacklists are not copied locally, which brings many advantages:
     * Blacklists are loaded independently of availability of remote sites they sit.
-    * Their loading is no longer complicated by the fact the user setting *Process behind the scene requests*.
+    * Their loading is no longer complicated by the fact the user setting *"Process behind-the-scene requests"*.
     * This saves on local storage space.
 - Further reduction of memory footprint and further performance improvement.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/26>
