@@ -8,6 +8,7 @@
         - Before 0.3.6: *frames* for *arstechnica.net* were whitelisted (through inheritance).
         - After 0.3.5: *frames*  for *arstechnica.net* are blacklisted (through inheritance).
     * In this example, if you really want *frames* for *arstechnica.net* to be whitelisted while keeping the general blacklisting of *frames* (which is good), then you need to expressly and specifically whitelist *frames* for *arstechnica.net*, meaning not relying anymore on inheritance.
+    * Why the change? It's common for drive-by malware to inject `<iframe>` in order to activate themselves (example: <http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/>)
 - **Change in behavior, read carefully!**
     * Clicking on a matrix cell doesn't cycle through black, white and graylist anymore:
         - Click in the upper half of a cell, you will toggle between white and graylist.
