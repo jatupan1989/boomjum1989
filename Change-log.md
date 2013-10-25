@@ -1,4 +1,7 @@
 ### 0.3.5
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/29> (Matrix behavior changed!)
+
+### 0.3.5
 - Further reduction of memory footprint and further performance improvement.
 
 ### 0.3.4
