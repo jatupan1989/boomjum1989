@@ -8,6 +8,14 @@
         - Before 0.3.6: *frames* for *arstechnica.net* were whitelisted (through inheritance).
         - After 0.3.5: *frames*  for *arstechnica.net* are blacklisted (through inheritance).
     * In this example, if you really want *frames* for *arstechnica.net* to be whitelisted while keeping the general blacklisting of *frames* (which is good), then you need to expressly and specifically whitelist *frames* for *arstechnica.net*, meaning not relying anymore on inheritance.
+- Change in behavior, read carefully!
+    * Clicking on a matrix cell doesn't cycle through black, white and graylist anymore:
+        - Click in the upper half of a cell, you will toggle between white and graylist.
+        - Click in the lower half of a cell, you will toggle between black and graylist.
+    * This change addresses what I considered two annoyances:
+        - Annoyance #1: You would have to click more than once on a cell to whitelist.
+        - Annoyance #2: It was difficult to predict what would happen to the cell once clicked.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/22>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/29> (Matrix behavior changed!)
 
 ### 0.3.5
