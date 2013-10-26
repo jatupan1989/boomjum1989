@@ -1,3 +1,6 @@
+### 0.3.9
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/31>
+
 ### 0.3.8
 - Added a switch in the *Settings* page to let the user choose whether to use [**strict blocking**](/gorhill/httpswitchboard/wiki/What-is-"strict-blocking"%3F) (introduced in 0.3.6) or not. Default is `off`. If you like this feature, be sure to turn it on.
 
