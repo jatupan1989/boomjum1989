@@ -1,4 +1,7 @@
 ### 0.3.6
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/30>
+
+### 0.3.6
 - **Change in behavior, read carefully!**
     * Before 0.3.6:
         - A "gray" matrix cell was whitelisted through sole inheritance from an expressly whitelisted hostname, regardless whether the type of request for this "gray" matrix cell was blacklisted.
