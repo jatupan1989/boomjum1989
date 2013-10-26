@@ -16,6 +16,7 @@
     * This change addresses what I considered two annoyances:
         - Annoyance #1: You would have to click more than once on a cell to whitelist.
         - Annoyance #2: It was difficult to predict what would happen to the cell once clicked.
+- More work toward reducing memory footprint and improving performance.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/22>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/29> (Matrix behavior changed!)
 
