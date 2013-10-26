@@ -1,4 +1,4 @@
-### 0.3.6
+### 0.3.7
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/30>
 
 ### 0.3.6
