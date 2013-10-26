@@ -1,5 +1,5 @@
 ### 0.3.8
-- Added a switch in the *Settings* page to let the user choose whether to use **strict blocking* (introduced in 0.3.6) or not.
+- Added a switch in the *Settings* page to let the user choose whether to use **strict blocking** (introduced in 0.3.6) or not. Default is `off`.
 
 ### 0.3.7
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/30>
