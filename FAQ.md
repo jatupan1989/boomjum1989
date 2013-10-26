@@ -1,9 +1,14 @@
 Under construction.
 
+* [What is "strict blocking"?](FAQ#what-is-strict-blocking)
 * [In the top left of the matrix, what is "other"?](FAQ#in-the-top-left-of-the-matrix-what-is-other)
 * [How can I see the full URL of requests made on a page?](FAQ#how-can-i-see-the-full-url-of-requests-made-on-a-page)
 * [What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?](FAQ#what-does-http-switchboard-does-more-than-say-adblock-or-adblock)
 * [What do you gain out of this?](FAQ#what-do-you-gain-out-of-this)
+
+#### What is "strict blocking"?
+
+Here are [snapshots](/gorhill/httpswitchboard/wiki/What-is-%22strict-blocking%22%3F) of the difference between using **strict blocking** or not.
 
 #### In the top left of the matrix, what is "other"?
 
