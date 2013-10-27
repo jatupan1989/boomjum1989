@@ -16,7 +16,7 @@
         - A "gray" matrix cell was whitelisted through sole inheritance from an expressly whitelisted hostname, regardless whether the type of request for this "gray" matrix cell was blacklisted.
     * After 0.3.5, now the rule is more strict:
         - A "gray" matrix cell will be whitelisted through inheritance if and only if **none** of the inherited hostname **and** inherited type of request is expressly blacklisted.
-    * Concretely, using an example: let's posit *frames* are expressly blacklisted, hostname *arstechnica.net* is expressly whitelisted:
+    * Concretely, using [an example](/gorhill/httpswitchboard/wiki/What-is-"strict-blocking"%3F): let's posit *frames* are expressly blacklisted, hostname *arstechnica.net* is expressly whitelisted:
         - Before 0.3.6: *frames* for *arstechnica.net* were whitelisted (through inheritance).
         - After 0.3.5: *frames*  for *arstechnica.net* are blacklisted (through inheritance).
     * In this example, if you really want *frames* for *arstechnica.net* to be whitelisted while keeping the general blacklisting of *frames* (which is good), then you need to expressly and specifically whitelist *frames* for *arstechnica.net*, meaning not relying anymore on inheritance.
