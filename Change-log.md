@@ -1,3 +1,6 @@
+### 0.4.0
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/33>
+
 ### 0.3.9
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/31>
 
