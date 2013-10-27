@@ -21,12 +21,13 @@ So far, here is what I found:
 
 #### How can I see the full URL of requests made on a page?
 
-- Open the popup menu of HTTP Switchboard
-- Click on the *Global info* icon in the top-right corner
+- Open the popup menu of *HTTP Switchboard*
+- Click on the *Stats* icon in the top-right corner
 - *HTTP Switchboard* info page opens
 - Scroll down to the *Geeky stats* section
 - There you can see the full URL of all requests, blocked or allowed, made by your browser
 - Use the drop-down list to select the stats for a specific page
+- Use the checkbox filters to narrow to specific types of request
 
 #### What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?
 
