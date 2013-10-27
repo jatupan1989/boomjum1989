@@ -37,7 +37,7 @@ If you really care about your privacy, it is good to know what is happening behi
 I did some tests to compare AdBlock and AdBlock Plus vs HTTP Switchboard. See the differences for yourself when using real web pages, and make an informed choice:
 
 - AdBlock vs HTTP Switchboard:
-    * [edition.cnn.com](http://www.diffchecker.com/flic8v70)
+    * [edition.cnn.com](http://www.diffchecker.com/flic8v70) (Edit: it appears the diffs are not permanent after all, my original one has been replaced with something else...)
     * [nbcpolitics.nbcnews.com](http://www.diffchecker.com/z9byyjng).
 - AdBlock Plus (using EFF installation instructions) vs HTTP Switchboard:
     * [edition.cnn.com](http://www.diffchecker.com/jxpdhmit)
