@@ -1,6 +1,6 @@
 HTTP Switchboard uses the work of other people:
 
-- A certain *Gumbo* at stackoverlow for his nice [javascript code snippet](http://stackoverflow.com/questions/4003823/javascript-getcookie-functions/4004010#4004010) to correctly parse cookies the right way.
+- ~~A certain *Gumbo* at stackoverlow for his nice [javascript code snippet](http://stackoverflow.com/questions/4003823/javascript-getcookie-functions/4004010#4004010) to correctly parse cookies the right way.~~
 - ~~[Tempo.js](http://twigkit.github.io/tempo/)~~ See <https://github.com/gorhill/httpswitchboard/issues/21>
 - [jQuery](http://jquery.com/)
 - [URI.js](http://medialize.github.io/URI.js/) by [Rodney Rehm](http://rodneyrehm.de/en/).
