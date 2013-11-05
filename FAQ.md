@@ -19,7 +19,7 @@ So far, here is what I found:
 - HTML5 [&lt;video&gt;](http://en.wikipedia.org/wiki/HTML5_video) tag
 - [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) files
 - [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) files
-- I found behind-the-scene request occurrence by chromium: <https://www.google.com/searchdomaincheck?format=url&type=chrome>
+- I found a behind-the-scene request occurrence by chromium: <https://www.google.com/searchdomaincheck?format=url&type=chrome>
 
 #### How can I see the full URL of requests made on a page?
 
