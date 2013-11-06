@@ -1,14 +1,17 @@
+### 0.5.0
+- New feature: per-page permissions.
+
 ### 0.4.0
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/33>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/33>.
 
 ### 0.3.9
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/31>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/31>.
 
 ### 0.3.8
 - Added a switch in the *Settings* page to let the user choose whether to use [**strict blocking**](/gorhill/httpswitchboard/wiki/What-is-"strict-blocking"%3F) (introduced in 0.3.6) or not. Default is `off`. If you like this feature, be sure to turn it on.
 
 ### 0.3.7
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/30>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/30>.
 
 ### 0.3.6
 - **Change in behavior, read carefully!**
@@ -42,11 +45,11 @@
     * Loading blacklists from remote sites is no longer complicated by the fact the user setting *"Process behind-the-scene requests"* could be switched on.
     * This saves on local storage space.
 - Further reduction of memory footprint and further performance improvement.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/27>
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/26>
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/25>
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/24>
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/21>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/27>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/26>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/25>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/24>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/21>.
 - More blacklisted domains:
     * eyereturn.com: "eyeReturn Marketing is the only end-to-end digital advertising platform in the market"
     * lduhtrp.net
@@ -58,8 +61,8 @@
 - Popup menu responsiveness: avoid using slow jQuery.data() if it can be avoided, which was the case here.
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
 - Fixed the counting of cookies on the *Info* page.
-- Fixed https://github.com/gorhill/httpswitchboard/issues/19
-- Fixed https://github.com/gorhill/httpswitchboard/issues/18
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/19>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/18>.
 - More blacklisted domains:
     * 2mdn.net: "2mdn.net is a domain used by Doubleclick which is an advertising company..."
     * adnxs.com: "Adnxs.com is run by AppNexus, a company that provides technology, data and analytics to help companies buy and sell online display advertising" (Ref.: http://www.theguardian.com/technology/2012/apr/23/adnxs-tracking-trackers-cookies-web-monitoring)
