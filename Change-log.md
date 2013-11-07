@@ -1,6 +1,7 @@
 ### 0.5.0
 - New feature: per-page permissions.
 - Extension icon offers a sense of how much is allowed/blocked on the page.
+- Users have now the ability to override the blacklist status of read-only blacklisted entries.
 
 ### 0.4.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/33>.
