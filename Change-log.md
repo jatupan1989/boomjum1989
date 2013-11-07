@@ -1,5 +1,6 @@
 ### 0.5.0
 - New feature: per-page permissions.
+- Extension icon offers a sense of how much is allowed/blocked on the page.
 
 ### 0.4.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/33>.
