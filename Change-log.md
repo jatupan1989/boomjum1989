@@ -1,5 +1,7 @@
 ### 0.5.0
-- New feature: per-page permissions.
+- New feature: per-page permissions. For example, this allows:
+    * Block `facebook.com` globally
+    * Allow `facebook.com` only when visiting `https://www.facebook.com`.
 - Extension icon offers a sense of how much is allowed/blocked on the page.
 - Users have now the ability to override the blacklist status of read-only blacklisted entries.
 
