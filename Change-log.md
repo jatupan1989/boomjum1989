@@ -2,7 +2,7 @@
 - New feature: per-page permissions. For example, this allows:
     * Blacklist hostname `facebook.com` globally,
     * Whitelist hostname `facebook.com` when visiting `https://www.facebook.com`.
-    * Net result: this disables `facebook.com` from tracking (like when you visit a web site in which `facebook.com` has assets embedded), except when visiting a web page on `https://www.facebook.com`.
+    * Net result: this disables `facebook.com` from tracking you (like when you visit a web site in which `facebook.com` has assets embedded), except when visiting a web page on `https://www.facebook.com`.
 - Extension icon offers a sense of how much is allowed/blocked on the page.
 - Users have now the ability to override the blacklist status of read-only blacklisted entries.
 
