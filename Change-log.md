@@ -4,7 +4,8 @@
     * Whitelist hostname `facebook.com` when visiting `https://www.facebook.com`.
     * Net result: this disables `facebook.com` from tracking you (like when you visit a web site in which `facebook.com` has assets embedded), except when visiting a web page on `https://www.facebook.com`.
 - Extension icon offers a sense of how much is allowed/blocked on the page.
-- Users have now the ability to override the blacklist status of read-only blacklisted entries.
+- Users have now the ability to permanently override the blacklist status of read-only blacklisted entries.
+- Added another third-party blacklist: [ad_servers.asp](http://hosts-file.net/ad_servers.asp) from <http://hosts-file.net/>
 
 ### 0.4.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/33>.
