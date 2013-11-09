@@ -1,3 +1,8 @@
+### 0.5.1
+- Implemented deletion of [local storage](http://en.wikipedia.org/wiki/Web_storage) for hostnames which have *cookies* blacklisted.
+- More blacklisted hostnames:
+    * erovinmo.com
+
 ### 0.5.0
 - New feature: per-page permissions. For example, this allows:
     * Blacklist hostname `facebook.com` globally,
@@ -57,7 +62,7 @@
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/25>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/24>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/21>.
-- More blacklisted domains:
+- More blacklisted hostnames:
     * eyereturn.com: "eyeReturn Marketing is the only end-to-end digital advertising platform in the market"
     * lduhtrp.net
     * yceml.net
@@ -70,7 +75,7 @@
 - Fixed the counting of cookies on the *Info* page.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/19>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/18>.
-- More blacklisted domains:
+- More blacklisted hostnames:
     * 2mdn.net: "2mdn.net is a domain used by Doubleclick which is an advertising company..."
     * adnxs.com: "Adnxs.com is run by AppNexus, a company that provides technology, data and analytics to help companies buy and sell online display advertising" (Ref.: http://www.theguardian.com/technology/2012/apr/23/adnxs-tracking-trackers-cookies-web-monitoring)
     * adobetag.com: "Adobe Announces Adobe Tag Manager for the Online Marketing Suite"
@@ -88,7 +93,7 @@
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/9>.
 - Found and fixed a one-time memory leak.
 - Fixed `localhost` ending up in read-only blacklist.
-- Blacklisted domains added to project's own list:
+- Blacklisted hostnames added to project's own list:
     * adgear.com: "AdGear is an online advertising technologies company"
     * bounceexchange.com: "The BounceX software is tracking all the cursor movements of every visitor in real-time"
 
@@ -96,7 +101,7 @@
 - Added handling cookies using [`binaryValue`](http://developer.chrome.com/extensions/webRequest.html#type-HttpHeaders) (Not handling cookies using `binaryValue` was preventing the blocking of cookies on the pages where these cookies occurred).
 - If an external blacklist can't be obtained, use locally cached copy, if any, so that user is not left naked.
 - Latest version of HTTP Switchboard blacklist is always used (as opposed to external blacklists which are cached locally for a week).
-- Added more blacklisted domains to [HTTP Switchboard blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
+- Added more blacklisted hostnames to [HTTP Switchboard blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
 - Added button in popup menu to revert all temporary changes to the whitelist/blacklist (thus no need to reboot chromium/chrome to reset all fiddling with black and whitelist).
 
 ### 0.3.0
@@ -105,9 +110,9 @@
 not found in other blacklists.
 - The menu is organized in four logical groups:
     - First, all the requests directly related to the current page,
-    - Second, all the whitelisted domains,
-    - Third, all the graylisted domains,
-    - Fourth, all the blacklisted domains.
+    - Second, all the whitelisted hostnames,
+    - Third, all the graylisted hostnames,
+    - Fourth, all the blacklisted hostnames.
 - Major change in behavior: Any change to a cell status in the matrix is **temporary** by default, which means the blacklist/whitelist status of a cell will revert to being graylisted when chromium is rebooted. This encourage users to fiddle without worry with the permissions on the page. The user will have to make an extra click (on the padlock) to permanently blacklist/whitelist a cell. I will soon add a button to force a reset, and a user-configurable timeout, so that the user doesn't not have to reboot chromium.
 - Now using [URI.js](http://medialize.github.io/URI.js/) thus gaining sensible management of second-level domain names and increasing performance overall.
 - Work on performance and reduced memory usage.
