@@ -1,5 +1,5 @@
 ### 0.5.1
-- Implemented deletion of [local storage](http://en.wikipedia.org/wiki/Web_storage) for hostnames which have *cookies* blacklisted.
+- Implemented ability to have [local storage](http://en.wikipedia.org/wiki/Web_storage) wiped out for hostnames which have *cookies* blacklisted (see *Settings* page).
 - More blacklisted hostnames:
     * erovinmo.com
 
