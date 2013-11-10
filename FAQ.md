@@ -15,8 +15,20 @@ Typical scenario as an example (inspired from [issue #40](/gorhill/httpswitchboa
 - Click "LISTEN LIVE 1040" on the right.
 - A browser popup window opens (that would be the browser-based player).
 
-The popup menu for HTTPSB is unreachable in the browser-based player window.
+The popup menu for HTTPSB is unreachable in the browser-based player window. This means there is no way to whitelist just what is needed to make the browser-based player work. The problem is not specific to HTTPSB, any extension you have might be crippled by having its popup menu unreachable.
 
+This is why popup browser windows suck. They are rude, they interfere with *your* choices.
+
+Until I find a handsome solution (if any), here is the workaround:
+
+- Copy the URL address in the browser-based player.
+- Open a new tab in the main browser window (the one in which the extension button is not occulted).
+- Paste the URL address in the address bar.
+- The browser-based player will now open in the full window, you can now whitelist appropriately.
+- Once you are satisfied with your careful whitelisting, make sure to persist them using the padlock.
+- Close this tab.
+
+From then on, the browser-based popup-up player will be able to play correctly the content.
 
 #### What is "strict blocking"?
 
