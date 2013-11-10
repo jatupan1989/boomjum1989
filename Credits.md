@@ -12,8 +12,8 @@ HTTP Switchboard uses the work of other people:
         - [immortal_domains](http://dns-bh.sagadc.org/immortal_domains.txt)
     * [hpHosts](http://hosts-file.net): [ad_servers.asp](http://hosts-file.net/?s=Download).
 - Arts:
-    * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme) by [Sam Hewitt](https://github.com/snwh). Specifically:
-        - [dialog-information-symbolic.svg](https://github.com/snwh/moka-icon-theme/blob/master/Moka/scalable/status/dialog-information-symbolic.svg)
+    * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme-symbolic) by [Sam Hewitt](https://github.com/snwh). Specifically:
+        - [dialog-information-symbolic.svg](https://github.com/snwh/moka-icon-theme-symbolic/blob/master/Moka/scalable/status/dialog-information-symbolic.svg)
     * [Gnome Symbolic Icon Theme](https://git.gnome.org/browse/gnome-icon-theme-symbolic). Specifically:
         - [changes-allow-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
         - [changes-prevent-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
