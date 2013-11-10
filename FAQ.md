@@ -1,10 +1,22 @@
 Under construction.
 
+* [Why my browser-based player doesn't play even after whitelisting all](FAQ#why-my-browser-based-player-doesnt-play-even-after-whitelisting-all)
 * [What is "strict blocking"?](FAQ#what-is-strict-blocking)
 * [In the top left of the matrix, what is "other"?](FAQ#in-the-top-left-of-the-matrix-what-is-other)
 * [How can I see the full URL of requests made on a page?](FAQ#how-can-i-see-the-full-url-of-requests-made-on-a-page)
 * [What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?](FAQ#what-does-http-switchboard-does-more-than-say-adblock-or-adblock)
 * [What do you gain out of this?](FAQ#what-do-you-gain-out-of-this)
+
+#### Why my browser-based player doesn't play even after whitelisting all?
+
+Typical scenario as an example (inspired from [issue #40](/gorhill/httpswitchboard/issues/40)):
+
+- Goto <http://www.teamradio.ca>.
+- Click "LISTEN LIVE 1040" on the right.
+- A browser popup window opens (that would be the browser-based player).
+
+The popup menu for HTTPSB is unreachable in the browser-based player window.
+
 
 #### What is "strict blocking"?
 
