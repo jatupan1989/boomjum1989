@@ -8,7 +8,7 @@ Under construction.
 
 #### What is "strict blocking"?
 
-Here are [snapshots](/gorhill/httpswitchboard/wiki/What-is-%22strict-blocking%22%3F) of the difference between using **strict blocking** or not.
+Here are [snapshots](/gorhill/httpswitchboard/wiki/%22Strict-blocking%22-illustrated) of the difference between using **strict blocking** or not.
 
 #### In the top left of the matrix, what is "other"?
 
