@@ -1,6 +1,6 @@
 Under construction.
 
-* [Why my browser-based player doesn't play even after whitelisting all](FAQ#why-my-browser-based-player-doesnt-play-even-after-whitelisting-all)
+* [Why my browser-based popup player doesn't play even after whitelisting all](FAQ#why-my-browser-based-player-doesnt-play-even-after-whitelisting-all)
 * [What is "strict blocking"?](FAQ#what-is-strict-blocking)
 * [In the top left of the matrix, what is "other"?](FAQ#in-the-top-left-of-the-matrix-what-is-other)
 * [How can I see the full URL of requests made on a page?](FAQ#how-can-i-see-the-full-url-of-requests-made-on-a-page)
