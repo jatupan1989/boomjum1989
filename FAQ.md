@@ -30,6 +30,14 @@ Until I find a handsome solution (if any), here is the workaround:
 
 From then on, the browser-based popup-up player will be able to play correctly the content.
 
+Just for information purpose, for the above example specifically, just whitelisting:
+
+- `teamradio.ca`
+- `streamtheworld.com`
+- `plugin` @ `streamtheworld.com`
+
+Solved the problem.
+
 #### What is "strict blocking"?
 
 Here are [snapshots](/gorhill/httpswitchboard/wiki/%22Strict-blocking%22-illustrated) of the difference between using **strict blocking** or not.
