@@ -1,3 +1,6 @@
+### 0.5.2
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/42>
+
 ### 0.5.1
 - Implemented ability to have [local storage](http://en.wikipedia.org/wiki/Web_storage) wiped out for hostnames which have *cookies* blacklisted (see *Settings* page).
 - More [blacklisted hostnames](/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt):
