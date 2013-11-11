@@ -1,5 +1,5 @@
 ### 0.5.3
-- Settings: user can now choose size of text in matrix ([suggested by a user](/gorhill/httpswitchboard/issues/44)).
+- Settings: user can now choose size of text in matrix (as [suggested by a user](/gorhill/httpswitchboard/issues/44)).
 - Popup menu: Blacklisted hostnames section can be collapsed/expanded.
 
 ### 0.5.2
