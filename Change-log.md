@@ -1,14 +1,10 @@
-### 0.5.4
-- Fixed </gorhill/httpswitchboard/issues/51>.
-- Fixed </gorhill/httpswitchboard/issues/50>.
-
 ### 0.5.3
 - Settings: user can now choose size of text in matrix (as [suggested by a user](/gorhill/httpswitchboard/issues/44)).
 - Popup menu: Blacklisted hostnames section can be collapsed/expanded.
 - New Google groups to informally discuss HTTP Switchboard: <https://groups.google.com/forum/?hl=en#!forum/httpsb>.
 
 ### 0.5.2
-- Fixed </gorhill/httpswitchboard/issues/42>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/42>
 
 ### 0.5.1
 - Implemented ability to have [local storage](http://en.wikipedia.org/wiki/Web_storage) wiped out for hostnames which have *cookies* blacklisted (see *Settings* page).
@@ -26,16 +22,16 @@
 - Updated other third-party blacklists to their latest version.
 
 ### 0.4.0
-- Fixed </gorhill/httpswitchboard/issues/33>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/33>.
 
 ### 0.3.9
-- Fixed </gorhill/httpswitchboard/issues/31>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/31>.
 
 ### 0.3.8
 - Added a switch in the *Settings* page to let the user choose whether to use [**strict blocking**](/gorhill/httpswitchboard/wiki/What-is-"strict-blocking"%3F) (introduced in 0.3.6) or not. Default is `off`. If you like this feature, be sure to turn it on.
 
 ### 0.3.7
-- Fixed </gorhill/httpswitchboard/issues/30>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/30>.
 
 ### 0.3.6
 - **Change in behavior, read carefully!**
@@ -56,8 +52,8 @@
         - Annoyance #1: You would have to click more than once on a cell to whitelist.
         - Annoyance #2: It was difficult to predict what would happen to the cell once clicked.
 - More work toward reducing memory footprint and improving performance.
-- Fixed </gorhill/httpswitchboard/issues/22>
-- Fixed </gorhill/httpswitchboard/issues/29> (Matrix behavior changed!)
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/22>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/29> (Matrix behavior changed!)
 
 ### 0.3.5
 - Further reduction of memory footprint and further performance improvement.
@@ -69,11 +65,11 @@
     * Loading blacklists from remote sites is no longer complicated by the fact the user setting *"Process behind-the-scene requests"* could be switched on.
     * This saves on local storage space.
 - Further reduction of memory footprint and further performance improvement.
-- Fixed </gorhill/httpswitchboard/issues/27>.
-- Fixed </gorhill/httpswitchboard/issues/26>.
-- Fixed </gorhill/httpswitchboard/issues/25>.
-- Fixed </gorhill/httpswitchboard/issues/24>.
-- Fixed </gorhill/httpswitchboard/issues/21>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/27>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/26>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/25>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/24>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/21>.
 - More blacklisted hostnames:
     * eyereturn.com: "eyeReturn Marketing is the only end-to-end digital advertising platform in the market"
     * lduhtrp.net
@@ -85,8 +81,8 @@
 - Popup menu responsiveness: avoid using slow jQuery.data() if it can be avoided, which was the case here.
 - Fixed another memory leak issue (forgot to put planned code to purge internal cacher).
 - Fixed the counting of cookies on the *Info* page.
-- Fixed </gorhill/httpswitchboard/issues/19>.
-- Fixed </gorhill/httpswitchboard/issues/18>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/19>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/18>.
 - More blacklisted hostnames:
     * 2mdn.net: "2mdn.net is a domain used by Doubleclick which is an advertising company..."
     * adnxs.com: "Adnxs.com is run by AppNexus, a company that provides technology, data and analytics to help companies buy and sell online display advertising" (Ref.: http://www.theguardian.com/technology/2012/apr/23/adnxs-tracking-trackers-cookies-web-monitoring)
@@ -101,8 +97,8 @@
 - New extension page: "Settings".
 - Cookies can optionally be deleted once accounted for.
 - Better cookie reporting in the matrix.
-- Fixed </gorhill/httpswitchboard/issues/12>.
-- Fixed </gorhill/httpswitchboard/issues/9>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/12>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/9>.
 - Found and fixed a one-time memory leak.
 - Fixed `localhost` ending up in read-only blacklist.
 - Blacklisted hostnames added to project's own list:
@@ -113,12 +109,12 @@
 - Added handling cookies using [`binaryValue`](http://developer.chrome.com/extensions/webRequest.html#type-HttpHeaders) (Not handling cookies using `binaryValue` was preventing the blocking of cookies on the pages where these cookies occurred).
 - If an external blacklist can't be obtained, use locally cached copy, if any, so that user is not left naked.
 - Latest version of HTTP Switchboard blacklist is always used (as opposed to external blacklists which are cached locally for a week).
-- Added more blacklisted hostnames to [HTTP Switchboard blacklist](/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
+- Added more blacklisted hostnames to [HTTP Switchboard blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
 - Added button in popup menu to revert all temporary changes to the whitelist/blacklist (thus no need to reboot chromium/chrome to reset all fiddling with black and whitelist).
 
 ### 0.3.0
-- A bit of work on [documentation](/gorhill/httpswitchboard/wiki/Quick-tour), more to come.
-- Added a [project-maintained blacklist](/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domain names which I believe should be blacklisted but are
+- A bit of work on [documentation](https://github.com/gorhill/httpswitchboard/wiki/Quick-tour), more to come.
+- Added a [project-maintained blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt), for those domain names which I believe should be blacklisted but are
 not found in other blacklists.
 - The menu is organized in four logical groups:
     - First, all the requests directly related to the current page,
@@ -150,7 +146,7 @@ not found in other blacklists.
 ### 0.2.2
 - Remote blacklists will be reloaded from remote servers every 7 days.
 - Started work on options page.
-- Fixed [issue #1](/gorhill/httpswitchboard/issues/1).
+- Fixed [issue #1](https://github.com/gorhill/httpswitchboard/issues/1).
 - <s>Fixed a memory leak</s>.
 
 ### 0.2.1
