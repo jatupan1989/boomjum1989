@@ -1,3 +1,7 @@
+### 0.5.4
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/51>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/50>.
+
 ### 0.5.3
 - Settings: user can now choose size of text in matrix (as [suggested by a user](/gorhill/httpswitchboard/issues/44)).
 - Popup menu: Blacklisted hostnames section can be collapsed/expanded.
