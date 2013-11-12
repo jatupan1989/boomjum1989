@@ -3,8 +3,8 @@
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/50>.
 
 ### 0.5.3
-- Settings: user can now choose size of text in matrix (as [suggested by a user](/gorhill/httpswitchboard/issues/44)).
-- Popup menu: Blacklisted hostnames section can be collapsed/expanded.
+- *Settings*: user can now choose size of text in matrix (as [suggested by a user](/gorhill/httpswitchboard/issues/44)).
+- *Popup menu*: Blacklisted hostnames section can be collapsed/expanded.
 - New Google groups to informally discuss HTTP Switchboard: <https://groups.google.com/forum/?hl=en#!forum/httpsb>.
 
 ### 0.5.2
