@@ -8,6 +8,10 @@ Not everybody is comfortable with this and for [good reasons](https://www.eff.or
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-1.png)
 
-But now what if you want to visit a page on `facebook.com` or if you have an account on `facebook.com`?
+But now what if you want to visit a web page on `facebook.com`. or if you have an account on `facebook.com` which you still want to use?
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-2.png)
+
+This is the dilemma: preventing `facebook.com` from tracking you, while being able to visit web pages on `facebook.com` itself. This is where *HTTP Switchboard's* **per-page permissions** are helpful:
+
+![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-3.png)
