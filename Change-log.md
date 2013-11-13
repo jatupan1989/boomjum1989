@@ -16,7 +16,7 @@
     * erovinmo.com
 
 ### 0.5.0
-- New feature: per-page permissions. For example, this allows:
+- New feature: [per-page permissions](https://github.com/gorhill/httpswitchboard/wiki/Per-page-permissions:-an-example). For example, this allows:
     * Blacklist hostname `facebook.com` globally,
     * Whitelist hostname `facebook.com` when visiting `https://www.facebook.com`.
     * Net result: this disables `facebook.com` from tracking you (like when you visit a web site in which `facebook.com` has assets embedded), except when visiting a web page on `https://www.facebook.com`.
