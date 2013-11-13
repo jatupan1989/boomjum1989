@@ -1,6 +1,6 @@
 *HTTP Switchboard* supports per-page permission. Here is a typical case example to illustrate why per-page permissions are useful, and how to use per-page permissions.
 
-Some hostnames are ubiquitous on the internet.
+Some [hostnames](https://en.wikipedia.org/wiki/Hostname) are ubiquitous on the internet.
 
 For example, assets from `facebook.com` are pulled from countless web pages. Whenever a web page request assets from `facebook.com`, *Facebook*, through its logs, has the ability to use plenty of metadata from your IP (or yourself if you are logged in permanently) to infer a pretty good picture of your browsing habits.
 
