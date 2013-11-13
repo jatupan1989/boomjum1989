@@ -34,4 +34,4 @@ After you have created whitelist permissions specific to `https://www.facebook.c
 
 So *Facebook* is from then on forbidden to log which web pages you are visiting, except when you visit web pages on `https://www.facebook.com`.
 
-You can do the same for other ubiquitous hostnames which serve as assets store for countless web pages (ex. `google.com`), while these hostnames also have web pages providing useful services: "blacklist `google.com` except when I use a web page on `google.com`". Etc. etc.
+You can do the same for other ubiquitous hostnames which serve as assets store for countless web pages (ex. `google.com`), while these hostnames also have web pages providing useful services: "blacklist `google.com` except when I use a web page on `https://www.google`". Etc. etc.
