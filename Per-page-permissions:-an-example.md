@@ -1,4 +1,4 @@
-*HTTP Switchboard* supports per-page permission. Here is a typical case example to illustrate why per-page permissions are useful, and how to use per-page permissions.
+*HTTP Switchboard* supports per-page permissions. Here is a typical case example to illustrate why per-page permissions are useful, and how to use per-page permissions.
 
 Some [hostnames](https://en.wikipedia.org/wiki/Hostname) are ubiquitous on the internet.
 
