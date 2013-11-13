@@ -16,7 +16,7 @@ This is the dilemma: preventing `facebook.com` from tracking you, while being ab
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-3.png)
 
-Here, per-page permissions for `https://www.facebook.com` are created.
+Here, per-page permissions for `https://www.facebook.com` are created. Notice the visual cue: when per-page permissions are active, the top of the pop-up menu is blueish, and the badge on the extension icon is blue.
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-4.png)
 
