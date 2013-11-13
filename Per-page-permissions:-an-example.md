@@ -7,3 +7,7 @@ For example, assets from `facebook.com` are pulled from countless web pages. Whe
 Not everybody is comfortable with this and for [good reasons](https://www.eff.org/deeplinks/2013/04/disconcerting-details-how-facebook-teams-data-brokers-show-you-targeted-ads). If you are not comfortable with this, it is nice to be able to blacklist `facebook.com` using *HTTP Switchboard*:
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-1.png)
+
+But now what if you want to visit a page on `facebook.com` or if you have an account on `facebook.com`?
+
+![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-2.png)
