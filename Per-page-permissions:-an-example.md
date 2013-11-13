@@ -32,4 +32,4 @@ After you have created whitelist permissions specific to `https://www.facebook.c
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-1.png)
 
-So Facebook is from then on forbidden to log which web pages you are visiting, while being able to surf `https://www.facebook.com`.
+So *Facebook* is from then on forbidden to log which web pages you are visiting, while being able to surf `https://www.facebook.com`.
