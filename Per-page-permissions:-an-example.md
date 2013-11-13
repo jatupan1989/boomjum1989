@@ -36,4 +36,4 @@ So *Facebook* is from then on forbidden to log which web pages you are visiting,
 
 You can do the same for other ubiquitous hostnames which serve as assets store for countless web pages (ex. `google.com`), while these hostnames also have web pages providing useful services: "blacklist `google.com` except when I use a web page on `https://www.google.com`". Etc. etc.
 
-<sup>Disclaimer: the author doesn't have a *Facebook* account, and doesn't read *CNN*...</sup>
+<sup>Disclaimer: the author of this article doesn't have a *Facebook* account, and doesn't read *CNN*...</sup>
