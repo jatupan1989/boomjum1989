@@ -26,4 +26,10 @@ The specific permissions created above will *not* apply to `http://www.facebook.
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-5.png)
 
+Per-page permissions must also be padlocked to stick, just like global permissions.
+
+After you have created whitelist permissions specific to `https://www.facebook.com`, `facebook.com` is still blacklisted globally:
+
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-1.png)
+
+So Facebook is from then on forbidden to log which web pages you are visiting, while being able to surf `https://www.facebook.com`.
