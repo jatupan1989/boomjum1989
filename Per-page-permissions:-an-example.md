@@ -20,7 +20,10 @@ Here, per-page permissions for `https://www.facebook.com` are created. Notice th
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-4.png)
 
+Whatever you whitelist/blacklist in per-page permissions mode will apply **strictly** to `https://www.facebook.com` in the above example. Any page which does not start **exactly** with `https://www.facebook.com` will not use the permissions specific to `https://www.facebook.com`.
+
+The specific permissions created above will *not* apply to `http://www.facebook.com`, `https://facebook.com`, `https://www.facebook.net`, etc.
+
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-5.png)
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-1.png)
-
