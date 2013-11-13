@@ -8,7 +8,7 @@ Not everybody is comfortable with this and for [good reasons](https://www.eff.or
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-1.png)
 
-But now what if you want to visit a web page on `facebook.com`. or if you have an account on `facebook.com` which you still want to use?
+But now what if you want to visit a web page on `facebook.com` or if you have an account on `facebook.com` which you still want to use?
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-2.png)
 
