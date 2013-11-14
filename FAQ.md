@@ -1,6 +1,6 @@
 Under construction.
 
-* [Can I whitelist Facebook (or whatever) only when visiting Facebook (or whatever)?](FAQ#Can-I-whitelist-Facebook-or-whatever-only-when-visiting-Facebook-or-whatever)
+* [Can I whitelist Facebook (or whatever) only when visiting Facebook (or whatever)?](FAQ#can-i-whitelist-facebook-or-whatever-only-when-visiting-facebook-or-whatever)
 * [Why my browser-based popup player doesn't play even after whitelisting all?](FAQ#why-my-browser-based-player-doesnt-play-even-after-whitelisting-all)
 * [What is "strict blocking"?](FAQ#what-is-strict-blocking)
 * [In the top left of the matrix, what is "other"?](FAQ#in-the-top-left-of-the-matrix-what-is-other)
