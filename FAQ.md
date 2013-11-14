@@ -1,11 +1,16 @@
 Under construction.
 
+* [Can I whitelist Facebook (or whatever) only when visiting Facebook (or whatever)?](FAQ#Can-I-whitelist-Facebook-or-whatever-only-when-visiting-Facebook-or-whatever)
 * [Why my browser-based popup player doesn't play even after whitelisting all?](FAQ#why-my-browser-based-player-doesnt-play-even-after-whitelisting-all)
 * [What is "strict blocking"?](FAQ#what-is-strict-blocking)
 * [In the top left of the matrix, what is "other"?](FAQ#in-the-top-left-of-the-matrix-what-is-other)
 * [How can I see the full URL of requests made on a page?](FAQ#how-can-i-see-the-full-url-of-requests-made-on-a-page)
 * [What does HTTP Switchboard does more than, say, AdBlock+ or AdBlock?](FAQ#what-does-http-switchboard-does-more-than-say-adblock-or-adblock)
 * [What do you gain out of this?](FAQ#what-do-you-gain-out-of-this)
+
+#### Can I whitelist Facebook (or whatever) only when visiting Facebook (or whatever)?
+
+Yes, using [per-page permissions](https://github.com/gorhill/httpswitchboard/wiki/Per-page-permissions:-an-example).
 
 #### Why my browser-based player doesn't play even after whitelisting all?
 
