@@ -1,3 +1,6 @@
+### 0.5.5
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/53>
+
 ### 0.5.4
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/51>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/50>.
