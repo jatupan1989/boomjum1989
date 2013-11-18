@@ -1,3 +1,6 @@
+### 0.5.7
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/56>.
+
 ### 0.5.6
 - New feature: *Rule manager*.
     * Backup in part or whole your rules.
