@@ -1,5 +1,11 @@
+### 0.5.6
+- New feature: "Rule manager".
+- Reorganized pop-up menu layout to allow for new features without cluttering the UI.
+- Imported contributions from [GuardianMajor](/GuardianMajor) to make "Settings" page slicker.
+- Imported latest version of third-party blacklists.
+
 ### 0.5.5
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/53>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/53>.
 
 ### 0.5.4
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/51>.
