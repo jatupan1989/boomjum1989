@@ -1,5 +1,5 @@
 ### 0.5.6
-- New feature: "Rule manager".
+- New feature: *Rule manager*.
     * Backup in part or whole your rules.
     * Restore in part or whole your rules.
     * Exchange "recipes" with others.
@@ -7,7 +7,7 @@
         - The idea is to make it easy for the geekier to help less geeky people use the absolute minimal set of rules required to make a web page/site work correctly, so that having to whitelist all can be avoided.
     * Consider this new feature early beta, more details to add (delete rules, scopes, etc.) or think through.
 - Reorganized pop-up menu layout to allow for new features without cluttering the UI.
-- Imported contributions from [GuardianMajor](/GuardianMajor) to make "Settings" page slicker.
+- Imported contributions from [GuardianMajor](/GuardianMajor) to make *Settings* page slicker.
 - Imported latest version of [third-party blacklists](/gorhill/httpswitchboard/tree/master/assets/thirdparties).
 
 ### 0.5.5
