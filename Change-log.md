@@ -2,7 +2,7 @@
 - New feature: "Rule manager".
     * Backup in part or whole your rules.
     * Restore in part or whole your rules.
-    * Exchange "recipes" with others. Example: [Youtube, with comments enabled](https://groups.google.com/d/msg/httpsb/hys6JtTGwD8/61HlKY4NlbwJ). The idea is to make it easy for the geekier to help other use minimal set of rules requried to make a web page/site work correctly.
+    * Exchange "recipes" with others. Example: [Youtube, with comments enabled](https://groups.google.com/d/msg/httpsb/hys6JtTGwD8/61HlKY4NlbwJ). The idea is to make it easy for the geekier to help less geeky people use the absolute minimal set of rules required to make a web page/site work correctly, so that having to whitelist all can be avoided.
     * Consider this new feature early beta, more details to add (delete rules, scopes, etc.)
 - Reorganized pop-up menu layout to allow for new features without cluttering the UI.
 - Imported contributions from [GuardianMajor](/GuardianMajor) to make "Settings" page slicker.
