@@ -8,7 +8,7 @@
     * Consider this new feature early beta, more details to add (delete rules, scopes, etc.) or think through.
 - Reorganized pop-up menu layout to allow for new features without cluttering the UI.
 - Imported contributions from [GuardianMajor](/GuardianMajor) to make "Settings" page slicker.
-- Imported latest version of third-party blacklists.
+- Imported latest version of [third-party blacklists](/gorhill/httpswitchboard/tree/master/assets/thirdparties).
 
 ### 0.5.5
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/53>.
