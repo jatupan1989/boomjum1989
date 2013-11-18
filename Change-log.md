@@ -1,5 +1,8 @@
 ### 0.5.6
 - New feature: "Rule manager".
+    * Backup your rules.
+    * Restore your rules.
+    * Exchange "recipe" with others. Example: [Youtube, with comments enabled](https://groups.google.com/d/msg/httpsb/hys6JtTGwD8/61HlKY4NlbwJ)
 - Reorganized pop-up menu layout to allow for new features without cluttering the UI.
 - Imported contributions from [GuardianMajor](/GuardianMajor) to make "Settings" page slicker.
 - Imported latest version of third-party blacklists.
