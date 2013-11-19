@@ -1,5 +1,5 @@
 - [Previous: When all is blocked except **images**](Quick-tour-%232%3A-1-of-3)
-- [Next: It could be worst...](Quick-tour-%232%3A-3-of-3)
+- [Next: Granted, it could be worst...](Quick-tour-%232%3A-3-of-3)
 
 Taking one for the cause, I allowed everything, just to see what would happen when not using a **script** blocker. Heh.
 
