@@ -2,4 +2,4 @@
 
 All this for a mere six-paragraphs article:
 
-![http://www.businessinsider.com/: all this for a six-paragraphs article](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-002-c.png)
+![http://www.businessinsider.com/: all this for a six-paragraphs article](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-002-c.jpg)
