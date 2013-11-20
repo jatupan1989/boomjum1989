@@ -1,3 +1,7 @@
+### 0.5.8
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/60>.
+- Some groundworks to support internationalization.
+
 ### 0.5.7
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/56>.
 
