@@ -2,7 +2,7 @@ HTTP Switchboard uses the work of other people:
 
 - [jQuery](http://jquery.com/)
 - [Bootstrap](http://getbootstrap.com/). Specifically:
-    * [Tooltips](http://getbootstrap.com/javascript/#tooltips)
+    * [Dropdowns](http://getbootstrap.com/javascript/#dropdowns)
 - [URI.js](http://medialize.github.io/URI.js/) by [Rodney Rehm](http://rodneyrehm.de/en/).
 - Blacklists of domain names:
     * [Peter Lowe's blacklist](http://pgl.yoyo.org/as/index.php): [Ad server hostnames for blocking ads](http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext) (you may [contribute](http://pgl.yoyo.org/as/#submit) to it!)
@@ -12,11 +12,7 @@ HTTP Switchboard uses the work of other people:
         - [immortal_domains](http://dns-bh.sagadc.org/immortal_domains.txt)
     * [hpHosts](http://hosts-file.net): [ad_servers.asp](http://hosts-file.net/?s=Download).
 - Arts:
-    * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme-symbolic) by [Sam Hewitt](https://github.com/snwh). Specifically:
-        - [dialog-information-symbolic.svg](https://github.com/snwh/moka-icon-theme-symbolic/blob/master/Moka/scalable/status/dialog-information-symbolic.svg)
-    * [Gnome Symbolic Icon Theme](https://git.gnome.org/browse/gnome-icon-theme-symbolic). Specifically:
-        - [changes-allow-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
-        - [changes-prevent-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
-        - [view-refresh-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
-        - [system-run-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/status/)
-        - [text-x-generic-symbolic.svg](https://git.gnome.org/browse/gnome-icon-theme-symbolic/tree/gnome/scalable/mimetypes/text-x-generic-symbolic.svg)
+    * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme-symbolic) by [Sam Hewitt](https://github.com/snwh). Got and modified as needed some of the icons from this theme.
+    * [Gnome Symbolic Icon Theme](https://git.gnome.org/browse/gnome-icon-theme-symbolic). Got and modified as needed some of the icons from this theme.
+- Specific contributions to project code:
+    * [GuardianMajor](github.com/GuardianMajor): [Collapsible help boxes](/gorhill/httpswitchboard/pull/57) in the *Settings* page.
