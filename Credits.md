@@ -1,4 +1,4 @@
-HTTP Switchboard uses the work of other people:
+HTTP Switchboard also uses the work of other people:
 
 - [jQuery](http://jquery.com/)
 - [Bootstrap](http://getbootstrap.com/). Specifically:
