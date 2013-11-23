@@ -1,4 +1,5 @@
 ### 0.5.9
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/61>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/55>.
 - Updated third-party blacklists to latest versions.
 - More work internally to support internationalization.
