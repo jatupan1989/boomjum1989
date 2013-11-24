@@ -1,7 +1,7 @@
 ### 0.6.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/67>.
 - New blacklisted entry:
-    * `clicktale.com`: "See absolutely everything your visitors do on your webpage ... See their every mouse move, click and keystroke" (!)
+    * `clicktale.com`: "See absolutely everything your visitors do on your webpage ... See their every mouse move, click and keystroke"
 
 ### 0.5.9
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/61>.
