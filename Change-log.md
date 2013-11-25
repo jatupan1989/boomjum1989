@@ -1,5 +1,5 @@
 ### 0.6.1
-- Further fix to <https://github.com/gorhill/httpswitchboard/issues/67>:
+- Further fix to <https://github.com/gorhill/httpswitchboard/issues/55>:
     * Be less strict for when a subdomain can be collapsed:
         - Before: No subdomain could be collapsed if it, or one peer subdomain had at least one explicit block/allow rule in one if its columns.
         - Now: Only a subdomain which has at least one explicit block/allow rule in one of its columns can't be collapsed. Other rule-less peer subdomains are now collapsible.
