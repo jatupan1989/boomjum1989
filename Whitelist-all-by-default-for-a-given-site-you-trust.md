@@ -11,10 +11,13 @@ This is what you would see normally using out-of-the-box permissions (aka rules)
 
 ![Step 1](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-a.png)
 
-Now click the page-scope button in order to create permissions specific to this page:
+Now click the page-scope button in order to create permissions specific to this page (that would be the top-left button):
 
 ![Step 2](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-b.png)
 
+The background of the pop-up menu become blueish: this means you are now in per-scope mode, that is,
+all rules created from now on while on this page will apply *only* to this web site -- <https://vimeo.com>
+in our example.
 
 ![Step 3](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-c.png)
 
