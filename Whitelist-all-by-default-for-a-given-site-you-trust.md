@@ -28,3 +28,6 @@ Now click the "all" cell in the matrix (the top-left one) to turn it dark green,
 Now leave the pop-up menu and let the page reload. Reopen the pop-up menu and see that new web requests
 made by the page were not blocked. The only requests which are still blocked are the ones explicitly
 blacklisted.
+
+Note the same can be done without going into per-page rules, but then this broad whitelisting would apply
+to every pages, not just the one you trust, hence the per-page permission feature.
