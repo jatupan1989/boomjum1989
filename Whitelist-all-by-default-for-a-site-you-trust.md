@@ -1,5 +1,5 @@
 There is a web site you trust completely and you just want to whitelist all by default on
-this web site, rather than hunting exactly for what should be whitelisted. I will use an
+this web site, rather than hunting exactly for what should be whitelisted to make it work smoothly. I will use an
 example to demonstrate how to proceed to whitelist all by default for a site you trust (like,
 say, your bank).
 
