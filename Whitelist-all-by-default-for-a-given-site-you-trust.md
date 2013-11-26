@@ -15,7 +15,7 @@ Now click the page-scope button in order to create permissions specific to this 
 
 ![Step 2](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-b.png)
 
-The background of the pop-up menu become blueish: this means you are now in per-scope mode, that is,
+The background of the pop-up menu become blueish: this means you are now in page-scope mode, that is,
 all rules created from now on while on this page will apply *only* to this web site -- <https://vimeo.com>
 in our example.
 
