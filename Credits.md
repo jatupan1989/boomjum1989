@@ -1,8 +1,5 @@
 HTTP Switchboard also uses the work of other people:
 
-- [jQuery](http://jquery.com/)
-- [Bootstrap](http://getbootstrap.com/). Specifically:
-    * [Dropdowns](http://getbootstrap.com/javascript/#dropdowns)
 - [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
 - [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allows sensible management of domain names
 - Blacklists of domain names:
@@ -12,6 +9,9 @@ HTTP Switchboard also uses the work of other people:
         - [justdomains](http://dns-bh.sagadc.org/justdomains)
         - [immortal_domains](http://dns-bh.sagadc.org/immortal_domains.txt)
     * [hpHosts](http://hosts-file.net): [ad_servers.asp](http://hosts-file.net/?s=Download).
+- [jQuery](http://jquery.com/)
+- [Bootstrap](http://getbootstrap.com/). Specifically:
+    * [Dropdowns](http://getbootstrap.com/javascript/#dropdowns)
 - Arts:
     * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme-symbolic) by [Sam Hewitt](https://github.com/snwh). Got and modified as needed some of the icons from this theme.
     * [Gnome Symbolic Icon Theme](https://git.gnome.org/browse/gnome-icon-theme-symbolic). Got and modified as needed some of the icons from this theme.
