@@ -33,6 +33,6 @@ And this is why HTTPSB encourages users to help each other through the *recipes*
 **Edit:** I thought more about the issue, and it occurred to me and there is a way I could make Chromium/Chrome broad rules fit fine-grained HTTPSB: by using existing page-scoped permissions mechanism. Example: User has existing Chromium/Chrome rule to allow `www.youtube.com`, thus HTTPSB would create the following page-scoped rule:
 
 ```
-https://www,youtube.com
+https://www.youtube.com
     * *
 ```
