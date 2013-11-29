@@ -4,7 +4,7 @@ HTTP Switchboard also uses the work of other people:
 - [Bootstrap](http://getbootstrap.com/). Specifically:
     * [Dropdowns](http://getbootstrap.com/javascript/#dropdowns)
 - [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
-- [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allow sensible management of domain names
+- [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allows sensible management of domain names
 - Blacklists of domain names:
     * [Peter Lowe's blacklist](http://pgl.yoyo.org/as/index.php): [Ad server hostnames for blocking ads](http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext) (you may [contribute](http://pgl.yoyo.org/as/#submit) to it!)
     * [Malware Domain List](http://www.malwaredomainlist.com/): [MalwareDomainList.com Hosts List](http://www.malwaredomainlist.com/hostslist/hosts.txt)
