@@ -30,7 +30,7 @@ And there is no way for HTTPSB to know this. So rather than pretend to do a good
 
 And this is why HTTPSB encourages users to help each other through the *recipes* which can be easily imported/exported from the *Rule manager*. I've posted a couple of these recipes in the [Google group](https://groups.google.com/forum/?hl=en#!forum/httpsb), and I will try to assist as much as I can if you need help into identifying the minimal set of rules necessary to make a web page works properly.
 
-**Edit:** I gave more thought on this, and there is a way I could make Chromium/Chrome broad rules fit fine-grained HTTPSB: by using per-page permissions. Example: User has existing Chromium/Chrome rule to allow `www.youtube.com`, thus HTTPSB would create the following page-scoped rule:
+**Edit:** I thought more about the issue, and it occurred to me and there is a way I could make Chromium/Chrome broad rules fit fine-grained HTTPSB: by using existing page-scoped permissions mechanism. Example: User has existing Chromium/Chrome rule to allow `www.youtube.com`, thus HTTPSB would create the following page-scoped rule:
 
 ```
 https://www,youtube.com
