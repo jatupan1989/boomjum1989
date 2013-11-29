@@ -28,4 +28,4 @@ ytimg.com
 
 And there is no way for HTTP Switchboard to know this. So rather than pretend to do a good job at importing your pre-existing settings, HTTP Switchboard prefers to be honest: it can't import properly Chromium/Chrome's overly broad rules.
 
-And this is why HTTP Switchboard encourages users to help each other through the *recipes* which can be easily imported/exported from the *Rule manager*. I've posted a couple of these recipes in the groups, and I will try to assist as much as I can if you need help into identifying the minimal set of rules necessary to make a web page works properly.
+And this is why HTTP Switchboard encourages users to help each other through the *recipes* which can be easily imported/exported from the *Rule manager*. I've posted a couple of these recipes in the [Google group](https://groups.google.com/forum/?hl=en#!forum/httpsb), and I will try to assist as much as I can if you need help into identifying the minimal set of rules necessary to make a web page works properly.
