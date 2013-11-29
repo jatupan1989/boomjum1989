@@ -36,3 +36,5 @@ And this is why HTTPSB encourages users to help each other through the *recipes*
 https://www.youtube.com
     * *
 ```
+
+The result would not be result exactly in Chromium/Chrome broad exception, as explicitly blacklisted hostnames would not have their script allowed, which is means HTTPSB's mimicry of Chromium/Chrome is better in that it would at least block ad servers, analytics, etc.
