@@ -13,7 +13,7 @@ s0.2mdn.net/*
 ssl.google-analytics.com/*
 ```
 
-Not all of these are really needed for the page to display and behave properly: some are required, some others are not. If HTTP Switchboard was to naively try to blindly copy your pre-existing rule to allow `www.youtube.com`, this would be the result:
+Not all of these are really needed for the page to display and behave properly: some are required, some others are not. If HTTP Switchboard was to naively try to blindly copy your pre-existing rules to allow `www.youtube.com`, this would be the result:
 
 ```
 www.youtube.com/*
