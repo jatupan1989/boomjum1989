@@ -1,4 +1,4 @@
-It does not mess with your settings. That's unfortunate that this is being said sometimes, as it is without basis. It's is pure disinformation (I don't care whether it is willful or not, result is the same).
+It does not mess with your settings. That's unfortunate that this is being said sometimes, as it is without basis.
 
 Your settings are always there after you install *HTTP Switchboard* ("HTTPSB"). Uninstall it, and they will take precedence.
 
