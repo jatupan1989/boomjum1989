@@ -1,4 +1,4 @@
-HTTP Switchboard also uses the work of other people:
+HTTP Switchboard also uses the work of other people. As of v0.6.2:
 
 - [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
 - [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allows sensible management of domain names
