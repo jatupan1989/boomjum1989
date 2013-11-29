@@ -22,8 +22,8 @@ www.youtube.com/*
 And the page would **still** not work despite having transcribed your pre-existing rule into HTTP Switchboard, because for the page to properly display and behave, it also needs these two other rules:
 
 ```
-google.com
-ytimg.com
+google.com/*
+ytimg.com/*
 ```
 
 And there is no way for HTTP Switchboard to know this. So rather than pretend to do a good job at importing your pre-existing settings, HTTP Switchboard prefers to be honest: it can't import properly Chromium/Chrome's overly broad rules.
