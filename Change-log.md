@@ -1,3 +1,6 @@
+### 0.6.2
+- [Planned changes: [IDNA](http://en.wikipedia.org/wiki/Internationalized_domain_name); better [domain name management](https://github.com/gorhill/publicsuffixlist.js), memory footprint/performance work; version française]
+
 ### 0.6.1
 - Further fix to <https://github.com/gorhill/httpswitchboard/issues/55>:
     * Be less strict for when a subdomain can be collapsed:
