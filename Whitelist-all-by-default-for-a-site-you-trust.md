@@ -7,7 +7,7 @@ Suppose I totally trust <https://vimeo.com/> (it's just an example, I actually t
 I want to whitelist all by default for that site, that is, current web requests and whatever
 future web requests the site might make. So here it is:
 
-This is what you would see normally using out-of-the-box permissions (aka rules) of *HTTP Switchboard* ("HTTPSP"):
+This is what you would see normally using out-of-the-box permissions (aka rules) of *HTTP Switchboard* ("HTTPSB"):
 
 ![Step 1](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-a.png)
 
