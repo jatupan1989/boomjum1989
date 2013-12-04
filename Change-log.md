@@ -3,7 +3,7 @@
     * <http://xn--u9jxb009mixgdp9b.jp/>
     * <http://xn--rksmrgs-5wao1o.josefsson.org/>
     * <http://www.xn--kpabt-pra9i.eu/>
-- Now using the complete [Public Suffix List](http://publicsuffix.org/) ("PSL") through [publicsuffixlist.js](https://github.com/gorhill/publicsuffixlist.js) to determine the domain of a specific hostname. Examples:
+- Support for complete [Public Suffix List](http://publicsuffix.org/) ("PSL") through [publicsuffixlist.js](https://github.com/gorhill/publicsuffixlist.js) to determine the domain of a specific hostname. Examples:
     * `googleblog.blogspot.ca` is now reported as a domain (previously `blogspot.ca` was deemed the domain);   
     * `twitter.github.io` is now reported as a domain (previously `github.io` was deemed the domain);
     * `kpbsd.k12.ak.us` is now reported as a domain (previously `ak.us` was deemed the domain);
