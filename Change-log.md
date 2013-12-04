@@ -1,6 +1,6 @@
 ### 0.6.2
 - Support for [Internationalized Domain Name](http://en.wikipedia.org/wiki/Internationalized_domain_name) by using [punycode.js](https://github.com/bestiejs/punycode.js). Examples:
-    * <http://xn--u9jxb009mixgdp9b.jp/>.
+    * <http://xn--u9jxb009mixgdp9b.jp/>
     * <http://xn--rksmrgs-5wao1o.josefsson.org/>
     * <http://www.xn--kpabt-pra9i.eu/>
 - Now using the complete [Public Suffix List](http://publicsuffix.org/) ("PSL") to determine the domain of a specific hostname. Examples:
