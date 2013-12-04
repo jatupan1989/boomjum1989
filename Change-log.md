@@ -12,7 +12,12 @@
 - Ability to adjust the size of the log buffer. Can be set to `0` to reduce memory usage if you have no interest whatsoever in examining details of HTTP traffic.
 - Display filters of logged HTTP traffic in the *Statistics* page are now persisted.
 - Version française entamée.
-- [to complete]
+- Added to HTTPSB's blacklist:
+    * `analytics.edgesuite.net`
+    * `atedra.com`
+    * `clicktale.net`
+    * `everestjs.net`
+    * `everesttech.net`
 
 ### 0.6.1
 - Further fix to <https://github.com/gorhill/httpswitchboard/issues/55>:
