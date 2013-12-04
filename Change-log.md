@@ -1,3 +1,10 @@
+### 0.6.3
+- Context menu entries:
+    * To temporarily whitelist all for domain of ***current page***
+    * To revert temporary permissions
+
+***
+
 ### 0.6.2
 - Support for [Internationalized Domain Name](http://en.wikipedia.org/wiki/Internationalized_domain_name) through [punycode.js](https://github.com/bestiejs/punycode.js). Examples:
     * <http://xn--u9jxb009mixgdp9b.jp/>
@@ -24,16 +31,22 @@
     * <https://github.com/gorhill/httpswitchboard/issues/36>
     * <https://github.com/gorhill/httpswitchboard/issues/28>
 
+***
+
 ### 0.6.1
 - Further fix to <https://github.com/gorhill/httpswitchboard/issues/55>:
     * Be less strict for when a subdomain can be collapsed:
         - Before: No subdomain could be collapsed if it, or one peer subdomain had at least one explicit block/allow rule in one if its columns.
         - Now: Only a subdomain which has at least one explicit block/allow rule in one of its columns can't be collapsed. Other rule-less peer subdomains are now collapsible.
 
+***
+
 ### 0.6.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/67>.
 - New blacklisted entry:
     * `clicktale.com`: "See absolutely everything your visitors do on your webpage ... See their every mouse move, click and keystroke"
+
+***
 
 ### 0.5.9
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/61>.
@@ -41,12 +54,18 @@
 - [Updated](/gorhill/httpswitchboard/commit/8a5af0c5558e357cb0f52f819f0d6eb66a0ae442) third-party blacklists to latest versions.
 - More work internally to support internationalization.
 
+***
+
 ### 0.5.8
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/60>.
 - Some groundwork to support internationalization (volunteer translators are welcomed).
 
+***
+
 ### 0.5.7
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/56>.
+
+***
 
 ### 0.5.6
 - New feature: *Rule manager*.
@@ -60,25 +79,37 @@
 - Imported contributions from [GuardianMajor](/GuardianMajor) to make *Settings* page slicker.
 - Imported latest version of [third-party blacklists](/gorhill/httpswitchboard/tree/master/assets/thirdparties).
 
+***
+
 ### 0.5.5
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/53>.
+
+***
 
 ### 0.5.4
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/51>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/50>.
+
+***
 
 ### 0.5.3
 - *Settings*: user can now choose size of text in matrix (as [suggested by a user](/gorhill/httpswitchboard/issues/44)).
 - *Popup menu*: Blacklisted hostnames section can be collapsed/expanded.
 - New Google groups to informally discuss HTTP Switchboard: <https://groups.google.com/forum/?hl=en#!forum/httpsb>.
 
+***
+
 ### 0.5.2
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/42>
+
+***
 
 ### 0.5.1
 - Implemented ability to have [local storage](http://en.wikipedia.org/wiki/Web_storage) wiped out for hostnames which have *cookies* blacklisted (see *Settings* page).
 - More [blacklisted hostnames](/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt):
     * erovinmo.com
+
+***
 
 ### 0.5.0
 - New feature: [per-page permissions](https://github.com/gorhill/httpswitchboard/wiki/Per-page-permissions:-an-example). For example, this allows:
@@ -90,14 +121,20 @@
 - Added another third-party blacklist: [ad_servers.asp](http://hosts-file.net/ad_servers.asp) from <http://hosts-file.net/>. (So expect more dark red cells at the bottom of the matrix).
 - Updated other third-party blacklists to their latest version.
 
+***
+
 ### 0.4.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/33>.
+
+***
 
 ### 0.3.9
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/31>.
 
 ### 0.3.8
 - Added a switch in the *Settings* page to let the user choose whether to use [**strict blocking**](/gorhill/httpswitchboard/wiki/%22Strict-blocking%22-illustrated) (introduced in 0.3.6) or not. Default is `off`. If you like this feature, be sure to turn it on.
+
+***
 
 ### 0.3.7
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/30>.
@@ -124,8 +161,12 @@
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/22>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/29> (Matrix behavior changed!)
 
+***
+
 ### 0.3.5
 - Further reduction of memory footprint and further performance improvement.
+
+***
 
 ### 0.3.4
 - New *Chromium-behind-the-scene* virtual tab intercepts net requests made by the browser behind the scene and process these hidden requests against the current whitelist/blacklist. You can look at these requests through the *Global info* page: in the *Geeky stats* section, use the drop-down list to select "http://chromium.behind.the.scene". More information regarding what the browser can send behind the scene is disclosed at [Google Chrome Privacy Whitepaper](http://www.google.com/intl/en/chrome/browser/privacy/whitepaper.html)
@@ -143,6 +184,8 @@
     * eyereturn.com: "eyeReturn Marketing is the only end-to-end digital advertising platform in the market"
     * lduhtrp.net
     * yceml.net
+
+***
 
 ### 0.3.3
 - Now reporting the number of cookies effectively removed by HTTP Switchboard (see *Settings* pages).
@@ -162,6 +205,8 @@
     * mookie1.com: "Specializing in online digital advertising, search marketing"
     * servebom.com: no home page, seen as 'tracking.servebom.com': good enough for this list
 
+***
+
 ### 0.3.2
 - New extension page: "Settings".
 - Cookies can optionally be deleted once accounted for.
@@ -174,12 +219,16 @@
     * adgear.com: "AdGear is an online advertising technologies company"
     * bounceexchange.com: "The BounceX software is tracking all the cursor movements of every visitor in real-time"
 
+***
+
 ### 0.3.1
 - Added handling cookies using [`binaryValue`](http://developer.chrome.com/extensions/webRequest.html#type-HttpHeaders) (Not handling cookies using `binaryValue` was preventing the blocking of cookies on the pages where these cookies occurred).
 - If an external blacklist can't be obtained, use locally cached copy, if any, so that user is not left naked.
 - Latest version of HTTP Switchboard blacklist is always used (as opposed to external blacklists which are cached locally for a week).
 - Added more blacklisted hostnames to [HTTP Switchboard blacklist](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb-blacklist.txt).
 - Added button in popup menu to revert all temporary changes to the whitelist/blacklist (thus no need to reboot chromium/chrome to reset all fiddling with black and whitelist).
+
+***
 
 ### 0.3.0
 - A bit of work on [documentation](https://github.com/gorhill/httpswitchboard/wiki/Quick-tour), more to come.
@@ -197,14 +246,20 @@ not found in other blacklists.
 - In matrix, "object" is renamed "plugin".
 - Plugins are now outright blocked if effectively blacklisted (in addition of being prevented from making web requests.)
 
+***
+
 ### 0.2.5
 - Fixed bug introduced in 0.2.4 which broke the fetching of remote blacklists.
 - IP addresses can now be properly handled.
+
+***
 
 ### 0.2.4
 - Show details of remote blacklists being used on info page.
 - Ability to filter stats per web page on info page.
 - Fixed a bug which caused HTTP Switchboard to diagnose there was actual inline scripting on all pages, regardless whether it was really the case.
+
+***
 
 ### 0.2.3
 - Added button in popup menu to easily access info page.
@@ -212,28 +267,40 @@ not found in other blacklists.
 - Fix to address the issue of msn.com disregarding standards (as per RFC1738, '|' must be escaped in a URL, msn.com does not escape '|'... culprit URL found at `http://money.ca.msn.com/`).
 - Fixed memory leak (something to investigate: non visible web pages can still run their JS in chromium?!)
 
+***
+
 ### 0.2.2
 - Remote blacklists will be reloaded from remote servers every 7 days.
 - Started work on options page.
 - Fixed [issue #1](https://github.com/gorhill/httpswitchboard/issues/1).
 - <s>Fixed a memory leak</s>.
 
+***
+
 ### 0.2.1
 - More accurate cookie reporting.
 - Further fine tuning the UI of the popup menu.
+
+***
 
 ### 0.2.0
 - Added ability to whitelist/blacklist cookies.
 - Added [justdomains](http://dns-bh.sagadc.org/justdomains) blacklist from [DNS-BH – Malware Domain Blocklist](http://www.malwaredomains.com/?page_id=1508) (22,850 entries)
 - Ignore fragment in URL when creating/looking URL stats store.
 
+***
+
 ### 0.1.9
 - Extension now loads properly when tabs are already present, and when chromium is launched first time
 - Better display of web requests count in extension icon when count > 999
 
+***
+
 ### 0.1.8
 - Opened popup menu now updates in real-time as net traffic is processed
 - Fine tuning visuals
+
+***
 
 ### 0.1.7
 - Smart reloading of tabs when extension popup menu closed (only if necessary)
@@ -243,9 +310,13 @@ not found in other blacklists.
 - Fixed an issue with &lt;noscript&gt; tags caused by a bug in Chromium (see <https://code.google.com/p/chromium/issues/detail?id=232410>)
 - Fixed code related to some error messages at the console (valid web requests not necessarily matched to a tab, like when the page is pre-rendered -- example: googling for 'wikipedia', wikipedia.org is pre-fetched internally)
 
+***
+
 ### 0.1.6
 - Now block inline script tags on top frame when scripts are blacklisted for this top frame (before, only separate script files where prevented from being loaded/executed). Still need to look into this for subframes.
 - Added [immortal_domains](http://dns-bh.sagadc.org/immortal_domains.txt) blacklist from [DNS-BH – Malware Domain Blocklist](http://www.malwaredomains.com/?page_id=1508) (2,306 entries)
+
+***
 
 ### 0.1.5
 - Added ability to block whole page
@@ -254,8 +325,12 @@ not found in other blacklists.
 - Now using <a href="http://www.google.com/fonts/specimen/Roboto+Condensed">Roboto Condensed font</a>, better suited for the matrix
 - Reworked project structure and code in order to grow better
 
+***
+
 ### 0.1.4
 - Fine tuned local storage
+
+***
 
 ### 0.1.3
 - Using built-in community-built blacklists from:
@@ -264,8 +339,12 @@ not found in other blacklists.
 - Trivial GUI improvements
 - User-defined lists stored format now more similar to third party lists (newline-separated entries)
 
+***
+
 ### 0.1.2
 - Changed name to more accurate "HTTP Switchboard"
+
+***
 
 ### 0.1
 - First version. Rather bare.
