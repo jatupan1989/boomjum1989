@@ -8,7 +8,7 @@
     * `twitter.github.io` is now reported as a domain (prior to v0.6.2, `github.io` was deemed the domain);
     * `kpbsd.k12.ak.us` is now reported as a domain (prior to v0.6.2, `ak.us` was deemed the domain);
     * Etc.
-- Master power switch to completely disengage blocking of everything (beware!), so you don't have to uninstall HTTP Switchboard if for some reasons you don't want to filter anything temporarily (HTTPSB will still continue to log HTTP requests though, so at least you can what you subject yourself to without a blocker.)
+- Master power switch to completely disengage blocking of everything (beware!), so you don't have to uninstall HTTP Switchboard if for some reasons you don't want to filter anything temporarily (HTTPSB will still continue to log HTTP requests though, so at least you can see what you subject yourself to without a blocker.)
 - Ability to adjust the size of the log buffer. Can be set to `0` to reduce memory usage if you have no interest whatsoever in examining details of HTTP traffic.
 - Display filters of logged HTTP traffic in the *Statistics* page are now persisted.
 - Version française entamée.
