@@ -1,9 +1,9 @@
 ### 0.6.2
-- Support for [Internationalized Domain Name](http://en.wikipedia.org/wiki/Internationalized_domain_name) by using [punycode.js](https://github.com/bestiejs/punycode.js). Examples:
+- Support for [Internationalized Domain Name](http://en.wikipedia.org/wiki/Internationalized_domain_name) through [punycode.js](https://github.com/bestiejs/punycode.js). Examples:
     * <http://xn--u9jxb009mixgdp9b.jp/>
     * <http://xn--rksmrgs-5wao1o.josefsson.org/>
     * <http://www.xn--kpabt-pra9i.eu/>
-- Now using the complete [Public Suffix List](http://publicsuffix.org/) ("PSL") thru [publicsuffixlist.js](https://github.com/gorhill/publicsuffixlist.js) to determine the domain of a specific hostname. Examples:
+- Now using the complete [Public Suffix List](http://publicsuffix.org/) ("PSL") through [publicsuffixlist.js](https://github.com/gorhill/publicsuffixlist.js) to determine the domain of a specific hostname. Examples:
     * `googleblog.blogspot.ca` is now reported as a domain (previously `blogspot.ca` was deemed the domain);   
     * `twitter.github.io` is now reported as a domain (previously `github.io` was deemed the domain);
     * `kpbsd.k12.ak.us` is now reported as a domain (previously `ak.us` was deemed the domain);
