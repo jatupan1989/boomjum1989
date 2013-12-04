@@ -8,6 +8,8 @@
     * `twitter.github.io` is now reported as a domain (previously `github.io` was deemed the domain);
     * `kpbsd.k12.ak.us` is now reported as a domain (previously `ak.us` was deemed the domain);
     * Etc.
+- Master power switch to completely disengage filtering, so you don't have to uninstall HTTP Switchboard if for some reasons you don't want to filter anything temporarily (HTTPSB will still continue to log HTTP requests though.)
+- Ability to adjust the size of the log buffer. Can be set to `0` to reduce memory usage if you have no interest whatsoever in examining details of HTTP traffic.
 - Memory footprint/performance work.
 - Version française entamée.
 - [to complete]
