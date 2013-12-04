@@ -1,5 +1,16 @@
 ### 0.6.2
-- [Planned changes: [IDNA](http://en.wikipedia.org/wiki/Internationalized_domain_name); better [domain name management](https://github.com/gorhill/publicsuffixlist.js), memory footprint/performance work; version française]
+- Support for [Internationalized Domain Name](http://en.wikipedia.org/wiki/Internationalized_domain_name) by using [punycode.js](https://github.com/bestiejs/punycode.js). Examples:
+    * <http://xn--u9jxb009mixgdp9b.jp/>.
+    * <http://xn--rksmrgs-5wao1o.josefsson.org/>
+    * <http://www.xn--kpabt-pra9i.eu/>
+- Now using the complete [Public Suffix List](http://publicsuffix.org/) ("PSL") to determine the domain of a specific hostname. Examples:
+    * `googleblog.blogspot.ca` is now reported as a domain (previously `blogspot.ca` was deemed the domain);   
+    * `twitter.github.io` is now reported as a domain (previously `github.io` was deemed the domain);
+    * `kpbsd.k12.ak.us` is now reported as a domain (previously `ak.us` was deemed the domain);
+    * Etc.
+- Memory footprint/performance work.
+- Version française entamée.
+- [to complete]
 
 ### 0.6.1
 - Further fix to <https://github.com/gorhill/httpswitchboard/issues/55>:
