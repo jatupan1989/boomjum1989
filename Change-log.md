@@ -4,9 +4,9 @@
     * <http://xn--rksmrgs-5wao1o.josefsson.org/>
     * <http://www.xn--kpabt-pra9i.eu/>
 - Support for complete [Public Suffix List](http://publicsuffix.org/) ("PSL") through [publicsuffixlist.js](https://github.com/gorhill/publicsuffixlist.js) to determine the domain of a specific hostname. Examples:
-    * `googleblog.blogspot.ca` is now reported as a domain (previously `blogspot.ca` was deemed the domain);   
-    * `twitter.github.io` is now reported as a domain (previously `github.io` was deemed the domain);
-    * `kpbsd.k12.ak.us` is now reported as a domain (previously `ak.us` was deemed the domain);
+    * `googleblog.blogspot.ca` is now reported as a domain (prior to v0.6.2, `blogspot.ca` was deemed the domain);   
+    * `twitter.github.io` is now reported as a domain (prior to v0.6.2, `github.io` was deemed the domain);
+    * `kpbsd.k12.ak.us` is now reported as a domain (prior to v0.6.2, `ak.us` was deemed the domain);
     * Etc.
 - Master power switch to completely disengage filtering, so you don't have to uninstall HTTP Switchboard if for some reasons you don't want to filter anything temporarily (HTTPSB will still continue to log HTTP requests though.)
 - Ability to adjust the size of the log buffer. Can be set to `0` to reduce memory usage if you have no interest whatsoever in examining details of HTTP traffic.
