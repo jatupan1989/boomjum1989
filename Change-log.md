@@ -18,6 +18,11 @@
     * `clicktale.net`
     * `everestjs.net`
     * `everesttech.net`
+- Fixed:
+    * <https://github.com/gorhill/httpswitchboard/issues/54>
+    * <https://github.com/gorhill/httpswitchboard/issues/49>
+    * <https://github.com/gorhill/httpswitchboard/issues/36>
+    * <https://github.com/gorhill/httpswitchboard/issues/28>
 
 ### 0.6.1
 - Further fix to <https://github.com/gorhill/httpswitchboard/issues/55>:
