@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.6.4
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/35> -- Read carefully:
-    * HTTPSB no longer uses Chrome/Chromium settings to block javascript (except for one single rule), because the way Chromium/Chrome's javascript blocker works is incompatible with how HTTPSB works. This means:
+    * HTTPSB no longer uses Chrome/Chromium settings to block javascript (except for two single rules), because the way Chromium/Chrome's javascript blocker works is incompatible with how HTTPSB works. This means:
         - You won't see Chromium/Chrome's "javascript blocked" icon in the omnibar (**do not panic**)
         - Here are some links where you can test whether HTTPSB blocks javascript if you doubt: <https://github.com/gorhill/httpswitchboard/issues/46>;
         - On the positive side, you don't have to care about the initial Chromium/Chrome settings regarding javascript (so no more "IMPORTANT NOTE!" required).
