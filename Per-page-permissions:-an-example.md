@@ -4,7 +4,7 @@ Some [hostnames](https://en.wikipedia.org/wiki/Hostname) are ubiquitous on the i
 
 For example, assets from `facebook.com` are pulled from countless web pages. Whenever a web page request assets from `facebook.com`, *Facebook*, through its logs, has the ability to use plenty of metadata from your IP (or yourself if you are logged in permanently) to infer a pretty good picture of your browsing habits.
 
-Not everybody is comfortable with this and for [good](https://www.eff.org/deeplinks/2013/04/disconcerting-details-how-facebook-teams-data-brokers-show-you-targeted-ads) [reasons](http://www.nytimes.com/2013/06/08/technology/tech-companies-bristling-concede-to-government-surveillance-efforts.html). If you are not comfortable with this, it is nice to be able to blacklist `facebook.com` using *HTTP Switchboard*:
+Not everybody is comfortable with this and for [good](https://www.eff.org/deeplinks/2013/04/disconcerting-details-how-facebook-teams-data-brokers-show-you-targeted-ads) [reasons](http://www.freerepublic.com/focus/f-news/3028819/posts). If you are not comfortable with this, it is nice to be able to blacklist `facebook.com` using *HTTP Switchboard*:
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-1.png)
 
