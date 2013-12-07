@@ -1,5 +1,11 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+### 0.6.5
+- A fix in order to be able to run as an Opera add-on.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/74>
+
+***
+
 ### 0.6.4
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/35> -- Read carefully:
     * HTTPSB no longer uses Chrome/Chromium settings to block inline javascript, because the way Chromium/Chrome's javascript blocker works is incompatible with how HTTPSB works. This means:
