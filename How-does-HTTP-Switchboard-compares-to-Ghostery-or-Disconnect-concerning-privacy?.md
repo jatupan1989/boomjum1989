@@ -13,7 +13,7 @@ The results below are my findings, and they are published in the spirit of infor
 - [HTTP Switchboard](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag)
     * version 0.6.6
     * Out of the box settings: images from everywhere except blacklisted hostnames allowed, all else blocked.
-    * Domain of visited site whitelisted.
+    * Domain of URL of web page whitelisted in the matrix.
 
 - Steps:
     * Browser cache was cleared.
