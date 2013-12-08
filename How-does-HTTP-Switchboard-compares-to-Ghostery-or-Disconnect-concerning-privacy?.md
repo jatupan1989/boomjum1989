@@ -30,29 +30,32 @@ Various random sites tested.
 ### http://www.upworthy.com
 
 #### Ghostery says it blocks
-* ![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
+
+![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
 
 #### Ghostery did allow:
-    - `http://www.google.com`
-    - `http://themes.googleusercontent.com`
-    - `http://fonts.googleapis.com`
-    - `http://platform.twitter.com`
-    - `http://d8rk54i4mohrb.cloudfront.net`
-    - `http://upw-prod-images.global.ssl.fastly.net`
+    http://www.google.com
+    http://themes.googleusercontent.com
+    http://fonts.googleapis.com
+    http://platform.twitter.com
+    http://d8rk54i4mohrb.cloudfront.net
+    http://upw-prod-images.global.ssl.fastly.net
 
 #### Disconnect says it blocks
-* ![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png)
+
+![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png)
 
 #### Disconnect did allow:
-    - `cc.simplereach.com`
-    - `fonts.googleapis.com`
-    - `d8rk54i4mohrb.cloudfront.net`
-    - `upw-prod-images.global.ssl.fastly.net`
+    cc.simplereach.com
+    fonts.googleapis.com
+    d8rk54i4mohrb.cloudfront.net
+    upw-prod-images.global.ssl.fastly.net
 
 #### HTTP Switchboard says it blocks:
-* ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
+
+![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
 
 #### HTTPSB did allow:
-    - `http://upw-prod-images.global.ssl.fastly.net`
+    http://upw-prod-images.global.ssl.fastly.net
 
 ### [a few more results coming]
