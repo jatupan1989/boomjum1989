@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.6.6
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/76>.
-    *  Related: [How does HTTP Switchboard compares to Ghostery concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F)
+    *  Related: [How does HTTP Switchboard compares to Ghostery or Disconnect concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
     * **Important:** stylesheets which are pulled from hostnames which do not match the domain name of the top web page will be reported as "other" in the pop-up menu matrix.
 
 ***
