@@ -62,12 +62,16 @@ Various random sites tested.
 
 | Hostname                             | Ghostery       | Disconnect | HTTPSB |
 | ------------------------------------ |:--------------:|:----------:|:------:|
-| `discussion.guardianapis.com`        | ✔              | ✔          |        |
-| `id.guim.co.uk`                      | ✔              | ✔          |        |
-| `pasteup.guim.co.uk`                 | ✔              |            |        |
-| `resource.guim.co.uk`                | ✔              | ✔          |        |
-| `static.guim.co.uk`                  | ✔              | ✔          |        |
-| `s.ophan.co.uk`                      | ✔              | ✔          |        |
+| `facebook-web-clients.appspot.com`   |                | ✔          |        |
 | `guardian-notifications.appspot.com` | ✔              | ✔          |        |
 | `related-info-hrd.appspot.com`       | ✔              | ✔          |        |
 | `static-serve.appspot.com`           | ✔              | ✔          |        |
+| `cdnjs.cloudflare.com`               |                | ✔          |        |
+| `ajax.googleapis.com`                |                | ✔          |        |
+| `discussion.guardianapis.com`        | ✔              | ✔          |        |
+| `combo.guim.co.uk`                   |                | ✔          |        |
+| `id.guim.co.uk`                      | ✔              | ✔          |        |
+| `pasteup.guim.co.uk`                 | ✔              | ✔          |        |
+| `resource.guim.co.uk`                | ✔              | ✔          |        |
+| `static.guim.co.uk`                  | ✔              | ✔          |        |
+| `s.ophan.co.uk`                      | ✔              | ✔          |        |
