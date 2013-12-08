@@ -37,6 +37,6 @@ Various random sites tested. Results:
 * HTTPSB said:
     - ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
 * HTTPSB  allowed these 3rd parties:
-    - [none]
+    - `http://upw-prod-images.global.ssl.fastly.net/nugget/51e64e70f6cafe8ce0008fb9/web_600_LandfillOrchestra-344e01b0ffbab56659d38f23b5b42e17-344e01b0ffbab56659d38f23b5b42e17.jpg`
 
 ### [a few more results coming]
