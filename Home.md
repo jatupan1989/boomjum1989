@@ -9,7 +9,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * ["I trust this site, I just want to whitelist all for this site"](wiki/Whitelist-all-by-default-for-a-site-you-trust)
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
     * [Why does *HTTP Switchboard* mess with my settings?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-mess-with-my-settings%3F)
-    * [How does HTTP Switchboard compares to Ghostery concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F)
+    * [How does *HTTP Switchboard* compares to *Ghostery* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F)
 - [FAQ](wiki/FAQ)
 - [Current bug/issue list](/gorhill/httpswitchboard/issues?state=open)
 - [Credits](wiki/Credits)
