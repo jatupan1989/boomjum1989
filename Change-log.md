@@ -6,6 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
     * **IMPORTANT:** stylesheets which are pulled from hostnames which do not match the domain name of the top web page will be reported as "other" in the pop-up menu matrix.
         - I realize many web pages which were displaying properly before this last update might now not display properly, but the reason they were displaying properly before is because requests (stylesheet) on which you had no control were made. Now you have full control.
         - Remember: if a web page doesn't display properly, it might be because the requests for stylesheets are blocked. Requests for stylesheet are counted in the "other" column.
+        - Remember: with this update, you are now in full control of your privacy.
 
 ***
 ### 0.6.5
