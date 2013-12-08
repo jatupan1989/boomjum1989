@@ -38,7 +38,7 @@ Various random sites tested.
     - `http://upw-prod-images.global.ssl.fastly.net`
 
 * Disconnect said:
-    - ![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
+    - ![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png)
 * Disconnect did allow requests to reach these 3rd parties:
     - cc.simplereach.com
     - fonts.googleapis.com
