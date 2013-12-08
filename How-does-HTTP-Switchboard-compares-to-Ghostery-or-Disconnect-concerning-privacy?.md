@@ -58,4 +58,15 @@ Various random sites tested.
 #### HTTPSB did allow:
     http://upw-prod-images.global.ssl.fastly.net
 
-### [a few more results coming]
+### A page on http://www.theguardian.com
+
+| Hostname                             | Ghostery       | Disconnect | HTTPSB |
+| ------------------------------------ |:--------------:|:----------:|:------:|
+| `guardian-notifications.appspot.com` |                | ✔          |        |
+| `discussion.guardianapis.com`        |                | ✔          |        |
+| `id.guim.co.uk`                      |                | ✔          |        |
+| `resource.guim.co.uk`                |                | ✔          |        |
+| `static.guim.co.uk`                  |                | ✔          |        |
+| `s.ophan.co.uk`                      |                | ✔          |        |
+| `related-info-hrd.appspot.com`       |                | ✔          |        |
+| `static-serve.appspot.com`           |                | ✔          |        |
