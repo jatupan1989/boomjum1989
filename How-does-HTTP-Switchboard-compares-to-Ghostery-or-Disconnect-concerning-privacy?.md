@@ -27,6 +27,7 @@ Various random sites tested.
 
 ### http://www.upworthy.com
 
+#### Ghostery
 * Ghostery said:
     - ![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
 * Ghostery did allow requests to reach these 3rd parties:
@@ -37,6 +38,7 @@ Various random sites tested.
     - `http://d8rk54i4mohrb.cloudfront.net`
     - `http://upw-prod-images.global.ssl.fastly.net`
 
+#### Disconnect
 * Disconnect said:
     - ![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png)
 * Disconnect did allow requests to reach these 3rd parties:
@@ -45,6 +47,7 @@ Various random sites tested.
     - d8rk54i4mohrb.cloudfront.net
     - upw-prod-images.global.ssl.fastly.net
 
+#### HTTP Switchboard
 * HTTPSB said:
     - ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
 * HTTPSB did allow requests to reach these 3rd parties:
