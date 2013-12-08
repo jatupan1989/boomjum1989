@@ -62,11 +62,12 @@ Various random sites tested.
 
 | Hostname                             | Ghostery       | Disconnect | HTTPSB |
 | ------------------------------------ |:--------------:|:----------:|:------:|
-| `guardian-notifications.appspot.com` |                | ✔          |        |
-| `discussion.guardianapis.com`        |                | ✔          |        |
-| `id.guim.co.uk`                      |                | ✔          |        |
-| `resource.guim.co.uk`                |                | ✔          |        |
-| `static.guim.co.uk`                  |                | ✔          |        |
-| `s.ophan.co.uk`                      |                | ✔          |        |
-| `related-info-hrd.appspot.com`       |                | ✔          |        |
-| `static-serve.appspot.com`           |                | ✔          |        |
+| `discussion.guardianapis.com`        | ✔              | ✔          |        |
+| `id.guim.co.uk`                      | ✔              | ✔          |        |
+| `pasteup.guim.co.uk`                 | ✔              |            |        |
+| `resource.guim.co.uk`                | ✔              | ✔          |        |
+| `static.guim.co.uk`                  | ✔              | ✔          |        |
+| `s.ophan.co.uk`                      | ✔              | ✔          |        |
+| `guardian-notifications.appspot.com` | ✔              | ✔          |        |
+| `related-info-hrd.appspot.com`       | ✔              | ✔          |        |
+| `static-serve.appspot.com`           | ✔              | ✔          |        |
