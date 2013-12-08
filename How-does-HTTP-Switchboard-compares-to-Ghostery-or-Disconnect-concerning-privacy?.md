@@ -27,7 +27,7 @@ The results below are my findings, and they are published in the spirit of infor
 
 ### A page on http://www.theguardian.com
 
-Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.), which domain/subdomains required whitelisting in HTTPSB for the page to display properly (anyways, this domain obviously belongs to *The Guardian*.)
+Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.), which domain/subdomains required whitelisting in HTTPSB for the page to display properly (to meaningfully compare to Ghostery/Disconnect).
 
 | Hostname                                | Ghostery       | Disconnect | HTTPSB |
 | --------------------------------------- |:--------------:|:----------:|:------:|
