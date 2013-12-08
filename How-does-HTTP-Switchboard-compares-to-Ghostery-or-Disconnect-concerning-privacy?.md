@@ -12,7 +12,7 @@ The results below are my findings, and they are published in the spirit of infor
     * Everything is green (["Green = blocked. Grey = not blocked"](https://disconnect.me/disconnect/faq#why-are-some-icons-green-and-some-icons-grey)), and nothing whitelisted.
 - [HTTP Switchboard](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag)
     * version 0.6.6
-    * Out of the box settings.
+    * Out of the box settings: images from everywhere except blacklisted hostnames allowed, all else blocked)
     * Domain of visited site whitelisted.
 
 - Steps:
