@@ -1,4 +1,6 @@
-It is about informed consent.
+A whole lot of web sites pull resources from 3rd parties (examples: `fonts.googleapis.com`, `fonts.googleapis.com`) thus giving these 3rd parties log data telling them that one specific IP address has been visiting one specific website. If you are really concerned with privacy, you might not want that.
+
+The results below are my findings, because I care about informed consent.
 
 Settings:
 - Ghostery
