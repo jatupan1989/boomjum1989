@@ -3,13 +3,14 @@ A whole lot of web sites pull resources from 3rd parties (examples: `themes.goog
 The results below are my findings, and they are published in the spirit of informed consent.
 
 ### Methodology
+
 - [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij)
     * version 5.0.0
     * "Block all", and nothing whitelisted.
 - [Disconnect](https://chrome.google.com/webstore/detail/disconnect/jeoacafpbcihiomhlakheieifhpjdfeo)
     * version 5.10.2
     * Everything is blocked (green), and nothing whitelisted.
-- [HTTPSB](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag)
+- [HTTP Switchboard](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag)
     * version 0.6.6
     * Out of the box settings.
     * Domain of visited site whitelisted.
