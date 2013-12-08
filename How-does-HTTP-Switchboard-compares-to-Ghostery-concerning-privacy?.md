@@ -3,7 +3,7 @@ It is about informed consent.
 Settings:
 - Ghostery
     * version 5.0.0
-    * "block all" and nothing whitelisted.
+    * "Block all", and nothing whitelisted.
 - HTTPSB
     * version 0.6.6
     * Out of the box settings.
@@ -32,8 +32,9 @@ Various sites tested, results:
     - `http://www.google.com/csi?s=csa&v=3&action=pplal&rt=jlt.187,ol.228`
     - `http://www.google.com/csi?s=csa&v=3&action=pjsp&rt=pt.2`
 
+* HTTPSB said:
+    - ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
 * HTTPSB  allowed these 3rd parties:
-
     - [none]
 
 ### [a few more results coming]
