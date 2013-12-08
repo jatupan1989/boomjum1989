@@ -29,20 +29,20 @@ The results below are my findings, and they are published in the spirit of infor
 
 Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.), which domain/subdomains required whitelisting in HTTPSB for the page to display properly (anyways, this domain obviously belongs to *The Guardian*.)
 
-| Hostname                             | Ghostery       | Disconnect | HTTPSB |
-| ------------------------------------ |:--------------:|:----------:|:------:|
-| What is said to be blocked:          | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-httpsb.png) |
-| 3rd parties which were *not* blocked |                |            |        |
-| `facebook-web-clients.appspot.com`   | ✔              | ✔          |        |
-| `guardian-notifications.appspot.com` | ✔              | ✔          |        |
-| `related-info-hrd.appspot.com`       | ✔              | ✔          |        |
-| `static-serve.appspot.com`           | ✔              | ✔          | ✔      |
-| `cdnjs.cloudflare.com`               | ✔              | ✔          |        |
-| `www.google.com`                     | ✔              |            |        |
-| `ajax.googleapis.com`                | ✔              | ✔          |        |
-| `discussion.guardianapis.com`        | ✔              | ✔          |        |
-| `s.ophan.co.uk`                      | ✔              | ✔          |        |
-| `platform.twitter.com`               | ✔              |            |        |
+| Hostname                                | Ghostery       | Disconnect | HTTPSB |
+| --------------------------------------- |:--------------:|:----------:|:------:|
+| What is said to be blocked:             | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-httpsb.png) |
+| 3rd parties which were **not** blocked: |                |            |        |
+| `facebook-web-clients.appspot.com`      | ✔              | ✔          |        |
+| `guardian-notifications.appspot.com`    | ✔              | ✔          |        |
+| `related-info-hrd.appspot.com`          | ✔              | ✔          |        |
+| `static-serve.appspot.com`              | ✔              | ✔          | ✔      |
+| `cdnjs.cloudflare.com`                  | ✔              | ✔          |        |
+| `www.google.com`                        | ✔              |            |        |
+| `ajax.googleapis.com`                   | ✔              | ✔          |        |
+| `discussion.guardianapis.com`           | ✔              | ✔          |        |
+| `s.ophan.co.uk`                         | ✔              | ✔          |        |
+| `platform.twitter.com`                  | ✔              |            |        |
 
 ***
 
@@ -51,7 +51,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | Hostname                                | Ghostery       | Disconnect | HTTPSB |
 | --------------------------------------- |:--------------:|:----------:|:------:|
 | What is said to be blocked:             | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png) |
-| 3rd parties which were *not* blocked    |                |            |        |
+| 3rd parties which were **not** blocked: |                |            |        |
 | `d8rk54i4mohrb.cloudfront.net`          | ✔              | ✔          |        |
 | `upw-prod-images.global.ssl.fastly.net` | ✔              | ✔          | ✔      |
 | `www.google.com`                        | ✔              |            |        |
