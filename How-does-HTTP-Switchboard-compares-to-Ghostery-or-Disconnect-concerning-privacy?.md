@@ -9,7 +9,7 @@ The results below are my findings, and they are published in the spirit of infor
 - [Disconnect](https://chrome.google.com/webstore/detail/disconnect/jeoacafpbcihiomhlakheieifhpjdfeo)
     * version 5.10.2
     * Everything is blocked (green), and nothing whitelisted.
-- [HTTP Switchboard](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag)
+- [HTTPSB](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag)
     * version 0.6.6
     * Out of the box settings.
     * Domain of visited site whitelisted.
