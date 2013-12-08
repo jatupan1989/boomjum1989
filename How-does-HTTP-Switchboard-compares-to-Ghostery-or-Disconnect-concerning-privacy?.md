@@ -46,7 +46,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 ***
 
-### A page on http://http://www.wired.com/
+### A page on http://www.wired.com/
 
 | Hostname                                | Ghostery       | Disconnect | HTTPSB |
 | --------------------------------------- |:--------------:|:----------:|:------:|
