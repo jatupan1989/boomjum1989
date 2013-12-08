@@ -32,4 +32,4 @@ Ghostery allowed these 3rd parties:
 
 HTTPSB  allowed these 3rd parties:
 
-* [nothing]
+* [none]
