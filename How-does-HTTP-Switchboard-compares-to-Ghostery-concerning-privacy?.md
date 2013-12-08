@@ -24,7 +24,7 @@ Various random sites tested.
 
 * Ghostery said:
     - ![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
-* Ghostery did allow requests from these 3rd parties:
+* Ghostery did allow requests to reach these 3rd parties:
     - `http://www.google.com`
     - `http://themes.googleusercontent.com`
     - `http://fonts.googleapis.com`
@@ -34,7 +34,7 @@ Various random sites tested.
 
 * HTTPSB said:
     - ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
-* HTTPSB did allow requests from these 3rd parties:
+* HTTPSB did allow requests to reach these 3rd parties:
     - `http://upw-prod-images.global.ssl.fastly.net`
 
 ### [a few more results coming]
