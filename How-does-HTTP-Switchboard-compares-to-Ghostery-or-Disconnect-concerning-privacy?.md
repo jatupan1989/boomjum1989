@@ -31,6 +31,7 @@ Various random sites tested.
 
 #### Ghostery says it blocks
 * ![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
+
 #### Ghostery did allow:
     - `http://www.google.com`
     - `http://themes.googleusercontent.com`
@@ -41,6 +42,7 @@ Various random sites tested.
 
 #### Disconnect says it blocks
 * ![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png)
+
 #### Disconnect did allow:
     - `cc.simplereach.com`
     - `fonts.googleapis.com`
@@ -49,6 +51,7 @@ Various random sites tested.
 
 #### HTTP Switchboard says it blocks:
 * ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
+
 #### HTTPSB did allow:
     - `http://upw-prod-images.global.ssl.fastly.net`
 
