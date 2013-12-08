@@ -64,7 +64,8 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 | Hostname                             | Ghostery       | Disconnect | HTTPSB |
 | ------------------------------------ |:--------------:|:----------:|:------:|
-| What is said to be blocked           | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-httpsb.png) |
+| What is said to be blocked:          | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-httpsb.png) |
+| What was not blocked:                |                |            |        |
 | `facebook-web-clients.appspot.com`   | ✔              | ✔          |        |
 | `guardian-notifications.appspot.com` | ✔              | ✔          |        |
 | `related-info-hrd.appspot.com`       | ✔              | ✔          |        |
