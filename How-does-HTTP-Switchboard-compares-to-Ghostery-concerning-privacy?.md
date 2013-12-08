@@ -13,6 +13,8 @@ Various sites tested, results:
 
 ### http://www.upworthy.com
 
+Ghostery said:
+* ![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
 Ghostery allowed these 3rd parties:
 * `http://www.google.com/uds/api/ads/3.0/01478b579c57efb8589bd6564832cfea/search.I.js`
 * `http://themes.googleusercontent.com/static/fonts/droidserif/v3/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff`
