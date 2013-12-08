@@ -25,11 +25,13 @@ The results below are my findings, and they are published in the spirit of infor
 
 Various random sites tested.
 
+***
+
 ### http://www.upworthy.com
 
 #### Ghostery says it blocks
 * ![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
-* Ghostery did allow:
+#### Ghostery did allow:
     - `http://www.google.com`
     - `http://themes.googleusercontent.com`
     - `http://fonts.googleapis.com`
@@ -39,7 +41,7 @@ Various random sites tested.
 
 #### Disconnect says it blocks
 * ![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png)
-* Disconnect did allow requests to reach these 3rd parties:
+#### Disconnect did allow:
     - `cc.simplereach.com`
     - `fonts.googleapis.com`
     - `d8rk54i4mohrb.cloudfront.net`
@@ -47,7 +49,7 @@ Various random sites tested.
 
 #### HTTP Switchboard says it blocks:
 * ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
-* HTTPSB did allow requests to reach these 3rd parties:
+#### HTTPSB did allow:
     - `http://upw-prod-images.global.ssl.fastly.net`
 
 ### [a few more results coming]
