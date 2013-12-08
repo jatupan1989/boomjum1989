@@ -75,5 +75,5 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `s.ophan.co.uk`                      | ✔              | ✔          |        |
 | `platform.twitter.com`               | ✔              |            |        |
 
-The only request to a 3rd-party hostname by HTTPSB was for an image -- which are whitelisted by default
+The only request to a 3rd-party hostname by HTTPSB was for a single image -- which are whitelisted by default
 unless the hostname is blacklisted.
