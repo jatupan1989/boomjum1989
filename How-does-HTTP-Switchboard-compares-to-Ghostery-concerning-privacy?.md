@@ -9,7 +9,7 @@ Settings:
     * Out of the box settings.
     * Domain of visited site whitelisted.
 
-Various sites tested:
+Various sites tested, results:
 
 ### http://www.upworthy.com
 
