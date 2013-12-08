@@ -1,7 +1,8 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.6.6
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/76> (related: [How does HTTP Switchboard compares to Ghostery concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F))
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/76>. Related:
+    * [How does HTTP Switchboard compares to Ghostery concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F))
 
 ***
 ### 0.6.5
