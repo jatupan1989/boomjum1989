@@ -60,6 +60,8 @@ Various random sites tested.
 
 ### A page on http://www.theguardian.com
 
+Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.). Anyways, this domain obviously belongs to *The Guardian*.
+
 | Hostname                             | Ghostery       | Disconnect | HTTPSB |
 | ------------------------------------ |:--------------:|:----------:|:------:|
 | `facebook-web-clients.appspot.com`   | ✔              | ✔          |        |
@@ -70,10 +72,5 @@ Various random sites tested.
 | `www.google.com`                     | ✔              |            |        |
 | `ajax.googleapis.com`                | ✔              | ✔          |        |
 | `discussion.guardianapis.com`        | ✔              | ✔          |        |
-| `combo.guim.co.uk`                   | ✔              | ✔          |        |
-| `id.guim.co.uk`                      | ✔              | ✔          |        |
-| `pasteup.guim.co.uk`                 | ✔              | ✔          |        |
-| `resource.guim.co.uk`                | ✔              | ✔          |        |
-| `static.guim.co.uk`                  | ✔              | ✔          |        |
 | `s.ophan.co.uk`                      | ✔              | ✔          |        |
 | `platform.twitter.com`               | ✔              |            |        |
