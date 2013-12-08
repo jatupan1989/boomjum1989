@@ -7,6 +7,7 @@ Settings:
 - HTTPSB
     * version 0.6.6
     * Out of the box settings.
+    * Domain of visited site whitelisted.
 
 Various sites tested:
 
