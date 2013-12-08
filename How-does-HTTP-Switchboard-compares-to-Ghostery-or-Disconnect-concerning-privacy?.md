@@ -23,8 +23,6 @@ The results below are my findings, and they are published in the spirit of infor
 
 ### Results
 
-Various random sites tested.
-
 ***
 
 ### A page on http://www.theguardian.com
