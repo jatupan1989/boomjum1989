@@ -8,7 +8,7 @@ The results below are my findings, and they are published in the spirit of infor
     * "Block all", and nothing whitelisted.
 - [Disconnect](https://chrome.google.com/webstore/detail/disconnect/jeoacafpbcihiomhlakheieifhpjdfeo)
     * version 5.10.2
-    * "Block all", and nothing whitelisted.
+    * Everything is blocked (green), and nothing whitelisted.
 - [HTTP Switchboard](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag)
     * version 0.6.6
     * Out of the box settings.
