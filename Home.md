@@ -7,7 +7,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Why are my rules not restored when I launched Chromium again?](https://github.com/gorhill/httpswitchboard/wiki/Why-are-my-rules-not-restored-when-I-launched-Chromium-again%3F)
     * [Per page permissions: an example](wiki/Per-page-permissions:-an-example)
     * ["I trust this site, I just want to whitelist all for this site"](wiki/Whitelist-all-by-default-for-a-site-you-trust)
-    * ["It is difficult to find the rules required to make [www.example.com] work"](/gorhill/httpswitchboard/wiki/It-is-difficult-to-find-the-rules-required-to-make-%5Bwww.example.com%5D-work)
+    * ["It is difficult to find the rules required to make [www.example.com] work"](/gorhill/httpswitchboard/wiki/Finding-rules-required-to-make-%5Bwww.example.com%5D-work)
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
     * [Why does *HTTP Switchboard* mess with my settings?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-mess-with-my-settings%3F)
     * [How does *HTTP Switchboard* compares to *Ghostery* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F)
