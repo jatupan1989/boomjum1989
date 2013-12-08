@@ -67,10 +67,13 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `facebook-web-clients.appspot.com`   | ✔              | ✔          |        |
 | `guardian-notifications.appspot.com` | ✔              | ✔          |        |
 | `related-info-hrd.appspot.com`       | ✔              | ✔          |        |
-| `static-serve.appspot.com`           | ✔              | ✔          |        |
+| `static-serve.appspot.com`           | ✔              | ✔          | ✔      |
 | `cdnjs.cloudflare.com`               | ✔              | ✔          |        |
 | `www.google.com`                     | ✔              |            |        |
 | `ajax.googleapis.com`                | ✔              | ✔          |        |
 | `discussion.guardianapis.com`        | ✔              | ✔          |        |
 | `s.ophan.co.uk`                      | ✔              | ✔          |        |
 | `platform.twitter.com`               | ✔              |            |        |
+
+The only request to a 3rd-party hostname by HTTPSB was for an image -- which are whitelisted by default
+unless the hostname is blacklisted.
