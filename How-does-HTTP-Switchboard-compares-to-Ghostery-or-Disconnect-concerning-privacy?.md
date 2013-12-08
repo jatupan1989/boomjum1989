@@ -6,6 +6,9 @@ The results below are my findings, and they are published in the spirit of infor
 - Ghostery
     * version 5.0.0
     * "Block all", and nothing whitelisted.
+- Disconnect
+    * version 5.10.2
+    * "Block all", and nothing whitelisted.
 - HTTPSB
     * version 0.6.6
     * Out of the box settings.
@@ -15,6 +18,7 @@ The results below are my findings, and they are published in the spirit of infor
     * Browser cache was cleared.
     * Target web page was forced refresh.
     * Data was pulled from the developer console.
+    * Only `{scheme}://{hostname}` is listed below, often many requests to same hostnames, for various type of data (javascript, font, css, etc.)
 
 ### Results
 
@@ -31,6 +35,14 @@ Various random sites tested.
     - `http://platform.twitter.com`
     - `http://d8rk54i4mohrb.cloudfront.net`
     - `http://upw-prod-images.global.ssl.fastly.net`
+
+* Disconnect said:
+    - 
+* Disconnect did allow requests to reach these 3rd parties:
+    - cc.simplereach.com
+    - fonts.googleapis.com
+    - d8rk54i4mohrb.cloudfront.net
+    - upw-prod-images.global.ssl.fastly.net
 
 * HTTPSB said:
     - ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
