@@ -2,7 +2,7 @@ A whole lot of web sites pull resources from 3rd parties (examples: `themes.goog
 
 The results below are my findings, and they are published in the spirit of informed consent.
 
-Settings:
+### Methodology
 - Ghostery
     * version 5.0.0
     * "Block all", and nothing whitelisted.
@@ -11,7 +11,14 @@ Settings:
     * Out of the box settings.
     * Domain of visited site whitelisted.
 
-Various random sites tested. Results:
+- Steps:
+    * Browser cache was cleared.
+    * Target web page was forced refresh.
+    * Data was pulled from the developer console.
+
+### Results
+
+Various random sites tested.
 
 ### http://www.upworthy.com
 
