@@ -13,7 +13,7 @@ Various sites tested, results:
 
 ### http://www.upworthy.com
 
-Ghostery allowed:
+Ghostery allowed these 3rd parties:
 * `http://www.google.com/uds/api/ads/3.0/01478b579c57efb8589bd6564832cfea/search.I.js`
 * `http://themes.googleusercontent.com/static/fonts/droidserif/v3/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff`
 * `http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff`
@@ -30,6 +30,6 @@ Ghostery allowed:
 * `http://www.google.com/csi?s=csa&v=3&action=pplal&rt=jlt.187,ol.228`
 * `http://www.google.com/csi?s=csa&v=3&action=pjsp&rt=pt.2`
 
-HTTPSB allowed:
+HTTPSB  allowed these 3rd parties:
 
 * [nothing]
