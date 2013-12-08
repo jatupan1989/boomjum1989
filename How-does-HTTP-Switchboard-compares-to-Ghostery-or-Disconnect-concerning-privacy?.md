@@ -18,7 +18,7 @@ The results below are my findings, and they are published in the spirit of infor
 - Steps:
     * Browser cache was cleared.
     * Target web page was forced refresh.
-    * Data was pulled from the developer console.
+    * Data was pulled from the developer console, ignoring domain and subdomains matching URL of web page.
     * Only `{scheme}://{hostname}` is listed below, often many requests to same hostnames, for various type of data (javascript, font, css, etc.)
 
 ### Results
