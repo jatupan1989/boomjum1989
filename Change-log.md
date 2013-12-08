@@ -3,7 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 ### 0.6.5
 - Fix required in order to be able to run as an Opera add-on.
     * In Opera, onBeforeRequest can be called before the URL is bound to tab, thus preventing the blocking of inline javascript.
-    * Maybe the above problem also affected Chromium/Chrome (see <https://github.com/gorhill/httpswitchboard/issues/75>), so I pushed the new version to Chrome web store as well.
+    * Maybe the above problem also affected Chromium/Chrome, so I pushed the new version to Chrome web store as well.
     * Extension has been submitted to Opera add-on collection, it might take a few days before it shows up.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/74>
 
