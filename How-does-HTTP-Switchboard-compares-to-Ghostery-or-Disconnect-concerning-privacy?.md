@@ -27,7 +27,7 @@ Various random sites tested.
 
 ***
 
-### http://www.upworthy.com
+### A page on http://www.upworthy.com
 
 #### Ghostery says it blocks
 
