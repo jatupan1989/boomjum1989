@@ -17,7 +17,7 @@ Various random sites tested. Results:
 
 * Ghostery said:
     - ![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
-* Ghostery did allow these 3rd parties:
+* Ghostery did allow requests from these 3rd parties:
     - `http://www.google.com/uds/api/ads/3.0/01478b579c57efb8589bd6564832cfea/search.I.js`
     - `http://themes.googleusercontent.com/static/fonts/droidserif/v3/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff`
     - `http://themes.googleusercontent.com/static/fonts/sourcesanspro/v6/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff`
@@ -33,6 +33,7 @@ Various random sites tested. Results:
     - `http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Droid+Serif:400,700,400italic,700italic`
     - `http://www.google.com/csi?s=csa&v=3&action=pplal&rt=jlt.187,ol.228`
     - `http://www.google.com/csi?s=csa&v=3&action=pjsp&rt=pt.2`
+    - `http://upw-prod-images.global.ssl.fastly.net/nugget/51e64e70f6cafe8ce0008fb9/web_600_LandfillOrchestra-344e01b0ffbab56659d38f23b5b42e17-344e01b0ffbab56659d38f23b5b42e17.jpg`
 
 * HTTPSB said:
     - ![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
