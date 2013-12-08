@@ -60,7 +60,7 @@ Various random sites tested.
 
 ### A page on http://www.theguardian.com
 
-Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.), which domain/subdomains was also wholly whitelisted in HTTPSB (anyways, this domain obviously belongs to *The Guardian*.)
+Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.), which domain/subdomains required whitelisting in HTTPSB for the page to display properly (anyways, this domain obviously belongs to *The Guardian*.)
 
 | Hostname                             | Ghostery       | Disconnect | HTTPSB |
 | ------------------------------------ |:--------------:|:----------:|:------:|
