@@ -27,7 +27,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
         - Here are some links where you can test whether HTTPSB blocks javascript if you doubt: <https://github.com/gorhill/httpswitchboard/issues/46>.
         - On the positive side, you don't have to care about the initial Chromium/Chrome settings regarding javascript (so no more "IMPORTANT NOTE!" required).
     * How it works (for the technically inclined):
-        - At startup time, HTTPSB creates two rules in Chromium/Chrome to allow javascript from everywhere.
+        - At startup time, HTTPSB creates two rules in Chromium/Chrome to allow javascript from everywhere (**do not panic**).
         - Then when the user opens a web page where inline javascript must be blocked, the following directive is added to the incoming response headers: `Content-Security-Policy: script-src 'none'`. This prevents inline javascript from running on the main page. (More details regarding [Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy/)).
         - For external javascript, this is taken care as it always has been since the beginning, by cancelling the requests to fetch the external resource.
 
