@@ -46,6 +46,33 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 ***
 
+### A page on http://http://www.wired.com/
+
+| Hostname                                | Ghostery       | Disconnect | HTTPSB |
+| --------------------------------------- |:--------------:|:----------:|:------:|
+| What is said to be blocked:             | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-httpsb.png) |
+| 3rd parties which were **not** blocked: |                |            |        |
+| `www.adobetag.com`                      |                | ✔          |        |
+| `dwgyu36up6iuz.cloudfront.net`          | ✔              | ✔          |        |
+| `dnkzzz1hlto79.cloudfront.net`          | ✔              | ✔          |        |
+| `condenastl3cdn.cust.footprint.net`     | ✔              | ✔          |        |
+| `api.cnevids.com`                       | ✔              | ✔          |        |
+| `player.cnevids.com`                    | ✔              | ✔          |        |
+| `fonts.condenast.com`                   | ✔              | ✔          |        |
+| `contextlysiteimages.contextly.com`     | ✔              | ✔          |        |
+| `contextlysitescripts.contextly.com`    | ✔              | ✔          |        |
+| `rest.contextly.com`                    | ✔              | ✔          |        |
+| `fonts.googleapis.com`                  |                | ✔          |        |
+| `themes.googleusercontent.com`          | ✔              |            |        |
+| `a.mobify.com`                          |                | ✔          |        |
+| `cdn.mxpnl.com`                         |                | ✔          |        |
+| `714015.ssl.cf2.rackcdn.com`            | ✔              |            |        |
+| `platform.twitter.com`                  | ✔              |            |        |
+| `p.typekit.net`                         |                | ✔          |        |
+| `www.webmonkey.com`                     | ✔              | ✔          | ✔      |
+
+***
+
 ### A page on http://www.upworthy.com
 
 | Hostname                                | Ghostery       | Disconnect | HTTPSB |
