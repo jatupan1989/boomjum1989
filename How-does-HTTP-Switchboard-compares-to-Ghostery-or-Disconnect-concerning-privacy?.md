@@ -27,36 +27,6 @@ Various random sites tested.
 
 ***
 
-
-#### Ghostery says it blocks
-
-![Ghostery said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png)
-
-#### Ghostery did allow:
-    http://www.google.com
-    http://themes.googleusercontent.com
-    http://fonts.googleapis.com
-    http://platform.twitter.com
-    http://d8rk54i4mohrb.cloudfront.net
-    http://upw-prod-images.global.ssl.fastly.net
-
-#### Disconnect says it blocks
-
-![Disconnect said it blocked all](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png)
-
-#### Disconnect did allow:
-    cc.simplereach.com
-    fonts.googleapis.com
-    d8rk54i4mohrb.cloudfront.net
-    upw-prod-images.global.ssl.fastly.net
-
-#### HTTP Switchboard says it blocks:
-
-![HTTPSB said it blocked these](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png)
-
-#### HTTPSB did allow:
-    http://upw-prod-images.global.ssl.fastly.net
-
 ### A page on http://www.theguardian.com
 
 Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.), which domain/subdomains required whitelisting in HTTPSB for the page to display properly (anyways, this domain obviously belongs to *The Guardian*.)
@@ -76,6 +46,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `s.ophan.co.uk`                      | ✔              | ✔          |        |
 | `platform.twitter.com`               | ✔              |            |        |
 
+***
 
 ### A page on http://www.upworthy.com
 
