@@ -1,5 +1,9 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+### 0.6.6
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/76> (related: [How does HTTP Switchboard compares to Ghostery concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F))
+
+***
 ### 0.6.5
 - Fix required in order to be able to run as an Opera add-on.
     * In Opera, `onBeforeRequest` can be called before the URL is bound to tab, thus preventing the blocking of inline javascript.
