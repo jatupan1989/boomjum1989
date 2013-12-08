@@ -11,7 +11,7 @@ Settings:
     * Out of the box settings.
     * Domain of visited site whitelisted.
 
-Various sites tested, results:
+Various random sites tested. Results:
 
 ### http://www.upworthy.com
 
