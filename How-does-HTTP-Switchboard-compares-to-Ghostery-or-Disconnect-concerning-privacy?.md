@@ -76,6 +76,3 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `discussion.guardianapis.com`        | ✔              | ✔          |        |
 | `s.ophan.co.uk`                      | ✔              | ✔          |        |
 | `platform.twitter.com`               | ✔              |            |        |
-
-The only request to a 3rd-party hostname by HTTPSB was for two images -- which are whitelisted by default
-unless the hostname is blacklisted.
