@@ -10,7 +10,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * ["It is difficult to find the rules required to make [www.example.com] work"](/gorhill/httpswitchboard/wiki/Finding-rules-required-to-make-%5Bwww.example.com%5D-work)
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
     * [Why does *HTTP Switchboard* mess with my settings?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-mess-with-my-settings%3F)
-    * [How does *HTTP Switchboard* compares to *Ghostery* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-concerning-privacy%3F)
+    * [How does *HTTP Switchboard* compares to *Ghostery* or *Disconnect* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
 - [FAQ](wiki/FAQ)
 - [Current bug/issue list](/gorhill/httpswitchboard/issues?state=open)
 - [Credits](wiki/Credits)
