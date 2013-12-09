@@ -1,5 +1,8 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+### 0.6.7
+- First time HTTPSB is installed, request of type "other" are whitelisted by default. This is the best option given the last update in which stylesheets are treated as 'other' for 3rd-party hostnames. Even without this change in v0.6.6, I was leaning toward whitelisting by default the "other" column because it is often used for [web fonts](/gorhill/httpswitchboard/wiki/FAQ#in-the-top-left-of-the-matrix-what-is-other).
+
 ### 0.6.6
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/76>.
     *  Related: [How does HTTP Switchboard compares to Ghostery or Disconnect concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
