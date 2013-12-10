@@ -8,6 +8,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Per page permissions: an example](wiki/Per-page-permissions:-an-example)
     * ["I trust this site, I just want to whitelist all for this site"](wiki/Whitelist-all-by-default-for-a-site-you-trust)
     * ["It is difficult to find the rules required to make [www.example.com] work"](/gorhill/httpswitchboard/wiki/Finding-rules-required-to-make-%5Bwww.example.com%5D-work)
+    * [In the top left of the matrix, what is "other"?](/gorhill/httpswitchboard/wiki/In-the-top-left-of-the-matrix,-what-is-%22other%22%3F)
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
     * [How does *HTTP Switchboard* compares to *Ghostery* or *Disconnect* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
     * [Doesn't HTTPSB add a significant overhead to network traffic?](https://github.com/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F)
