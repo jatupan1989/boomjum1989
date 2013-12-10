@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 
 ### 0.6.8.1
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/85>
+- Fixed ["Sometimes web page reload after closing popup menu even when no change made"](https://github.com/gorhill/httpswitchboard/issues/85)
     * This one was introduced back in [version 0.6.6](/gorhill/httpswitchboard/wiki/Change-log#066) :-(
 
 ### 0.6.8.0
