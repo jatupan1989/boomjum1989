@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 - Added two more third-party blacklists (from now on, newly added third-party blacklists will always be disabled by default):
     * hosts-file.net/hosts.txt (huge!) (from [hpHosts online](http://hosts-file.net/?s=Download))
     * someonewhocares.org/hosts/hosts (from [Dan Pollock](http://someonewhocares.org/hosts/))
-- While at it, simplified/cleaned up legacy code from when third-parties blacklists were downloaded from their remote location.
+- While at it, simplified/cleaned up/improved legacy code from when third-parties blacklists were downloaded from their remote location.
 - New version/revision scheme: a fourth number is now used to denote when third party resources have been updated while extension code wasn't changed.
 - Fixed <https://github.com/gorhill/httpswitchboard/pull/84>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/78>
