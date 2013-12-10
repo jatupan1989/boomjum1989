@@ -15,6 +15,8 @@ The results below are my findings, and they are published in the spirit of infor
     * Out of the box settings: images from everywhere except blacklisted hostnames allowed, all else blocked.
     * Domain of URL of web page whitelisted in the matrix.
 
+Any of the above extension was the only one running at the time of the test, no conflict with other extension can be excused for the results.
+
 - Steps:
     * Browser cache was cleared.
     * Target web page was force-refreshed.
