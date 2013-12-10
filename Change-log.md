@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+
+### 0.6.8.1
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/85>
+    * This one was introduced back in [version 0.6.6]() :-(
+
 ### 0.6.8.0
 - Third-party blacklists can now be selectively enabled/disabled (from the *Statistics* page).
     * So now you are free to browse the web naked if it is your thing.
