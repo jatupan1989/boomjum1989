@@ -2,6 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.6.8.0
 - Third-party blacklists can now be selectively enabled/disabled (from the *Statistics* page).
+- Number of distinct entries in each third-party blacklist is now shown in the *Statistics* page.
 - Added two more third-party blacklists (from now on, newly added third-party blacklists will always be disabled by default):
     * hosts-file.net/hosts.txt (huge!) (from [hpHosts online](http://hosts-file.net/?s=Download))
     * someonewhocares.org/hosts/hosts (from [Dan Pollock](http://someonewhocares.org/hosts/))
