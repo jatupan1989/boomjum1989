@@ -1,5 +1,15 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+### 0.6.8.0
+- Third-party blacklists can now be selectively enabled/disabled.
+- Added two more third-party blacklists (from now on, newly added third-party blacklists will always be disabled by default):
+    * hosts-file.net/hosts.txt (huge!) (from [hpHosts online](http://hosts-file.net/?s=Download))
+    * someonewhocares.org/hosts/hosts (from [Dan Pollock](http://someonewhocares.org/hosts/))
+- While at it, simplified/cleaned up legacy code from when third-parties blacklists were downloaded from their remote location.
+- New version/revision scheme: a fourth number is now used to denote when third parties resources have been updated while extension code wasn't changed.
+- Fixed <https://github.com/gorhill/httpswitchboard/pull/84>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/78>
+
 ### 0.6.7
 -  No change for existing users. First time HTTPSB is installed, requests of type "other" are whitelisted by default. This is the best option given the last update in which stylesheets are treated as 'other' for 3rd-party hostnames. Even without this change in version 0.6.6, I had been leaning toward whitelisting by default the "other" column because it is often used also for [web fonts](/gorhill/httpswitchboard/wiki/FAQ#in-the-top-left-of-the-matrix-what-is-other).
 
