@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 - Added two more third-party blacklists (from now on, newly added third-party blacklists will always be disabled by default):
     * hosts-file.net/hosts.txt (huge!) (from [hpHosts online](http://hosts-file.net/?s=Download))
     * someonewhocares.org/hosts/hosts (from [Dan Pollock](http://someonewhocares.org/hosts/))
-        - Suggested by [this pull requester](https://github.com/ics-forks/httpswitchboard/commit/87e88e86c502cb506626a21752c58deec9989067) (I merged manually)
+        - Suggested by [this pull requester](/ics-forks/httpswitchboard/commit/87e88e86c502cb506626a21752c58deec9989067) (I merged manually)
 - While at it, simplified/cleaned up/improved legacy code from when third-party blacklists were downloaded from their remote location.
 - New version/revision scheme: a fourth number is now used to denote when third party resources have been updated while extension code wasn't changed.
 - Small fixes in blacklist names to ensure a click on a blacklist link will result in the blacklist being loaded in the browser, so that you can see its content.
@@ -128,6 +128,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
     * Consider this new feature early beta, more details to add (delete rules, scopes, etc.) or think through.
 - Reorganized pop-up menu layout to allow for new features without cluttering the UI.
 - Imported contributions from [GuardianMajor](/GuardianMajor) to make *Settings* page slicker.
+    * Originally presented as a [pull request](/gorhill/httpswitchboard/pull/57) (I merged manually)
+
 - Imported latest version of [third-party blacklists](/gorhill/httpswitchboard/tree/master/assets/thirdparties).
 
 ***
