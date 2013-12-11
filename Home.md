@@ -12,6 +12,9 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
     * [How does *HTTP Switchboard* compares to *Ghostery* or *Disconnect* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
     * [Doesn't HTTPSB add a significant overhead to network traffic?](https://github.com/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F)
+- Tools
+    * [Verify that your blocker does what it says it does](http://raymondhill.net/httpsb/har-parser.html)
+    * [Is javascript enabled?](http://raymondhill.net/httpsb/httpsb-test-js-1.html)
 - [FAQ](wiki/FAQ)
 - [Current bug/issue list](/gorhill/httpswitchboard/issues?state=open)
 - [Credits](wiki/Credits)
