@@ -23,6 +23,12 @@ Any of the above extension was the only one running at the time of the test, no 
     * Data was pulled from the developer console, ignoring domain and subdomains matching URL of web page.
     * Only hostname is listed below, often many requests to same hostname, for various type of data (javascript, font, css, etc.)
 
+### Reponses
+
+I will insert here the responses of the owner/developer/etc. of Ghostery/Disconnect to the results below.
+
+- Disconnect: [Response I got in a HackerNews discussion](https://news.ycombinator.com/item?id=6886072).
+
 ### Results
 
 ***
