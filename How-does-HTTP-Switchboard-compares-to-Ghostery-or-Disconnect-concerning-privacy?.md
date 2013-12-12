@@ -2,6 +2,12 @@ A whole lot of web sites pull resources from 3rd parties (examples: `themes.goog
 
 The results below are my findings, and they are published in the spirit of informed consent.
 
+### Notes
+
+Blocking everything is not necessarily a good thing to everybody, as this might break web sites. Some users, less concerned with privacy, prefer to block minimally, others will prefer to pick themselves only what is necessary for a web page to just display properly. It's about choice.
+
+Keep in mind that *HTTP Switchboard*  is somewhat different than the two other extensions, which ones are based on a blacklist which is curated by their respective author. *HTTP Switchboard* blacklists come from [various third-parties](/gorhill/httpswitchboard/wiki/Credits), are extensive, and aside that, you can still block whatever you want ultimately.
+
 ### Methodology
 
 - [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) ("increasing the transparency of your browsing experience and giving you tools to control your privacy online")
