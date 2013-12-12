@@ -8,7 +8,9 @@ HTTP Switchboard also uses the work of other people. As of v0.6.2:
     * [DNS-BH – Malware Domain Blocklist](http://www.malwaredomains.com/?page_id=1508):
         - [justdomains](http://dns-bh.sagadc.org/justdomains)
         - [immortal_domains](http://dns-bh.sagadc.org/immortal_domains.txt)
-    * [hpHosts](http://hosts-file.net): [ad_servers.asp](http://hosts-file.net/?s=Download).
+    * [hpHosts](http://hosts-file.net):
+        - [hosts.txt](http://hosts-file.net/?s=Download).
+        - [ad_servers.asp](http://hosts-file.net/?s=Download).
     * [Dan Pollock's blacklist](http://someonewhocares.org/hosts/)
 - [jQuery](http://jquery.com/)
 - [Bootstrap](http://getbootstrap.com/). Specifically:
