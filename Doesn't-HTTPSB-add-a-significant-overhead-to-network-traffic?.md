@@ -8,10 +8,10 @@ A top priority task in this project is to ensure top performance for this part o
 
 For reference, I also measured the overhead added in `webRequest.onBeforeRequest` handler by two other popular blockers, Ghostery and Disconnect, and here are the results:
 
-| Extension  | `webRequest.onBeforeRequest`: avg time |
+| Extension  | `webRequest.onBeforeRequest` avg time |
 | ---------- |:--------------------------------------:|
 | Disconnect | 0.270 ms                              :|
 | Ghostery   | 3.000 ms                              :|
 | HTTPSB     | 0.090 ms                              :|
 
-This is for the critical request handling code, this doesn't include the lower priority code (i.e. updating extension icon, content scripts, etc.). Now to understand how these overheads can affect the loading of a web page, for exemple imagine a web page with 100 internal requests (commonly above that nowadays), so the total average overhead would be 100 x "avg measured overhead", 27 ms for Disconnect, 300 ms for Ghostery, and 9 ms for HTTPSB.
+This is for the critical request handling code, this doesn't include the lower priority code (i.e. updating extension icon, content scripts, etc.). Now to understand how these overheads can affect the loading of a web page, for exemple imagine a web page with 100 internal requests (commonly above that nowadays), so the total average overhead would be 100 x `webRequest.onBeforeRequest` avg time, 27 ms for Disconnect, 300 ms for Ghostery, and 9 ms for HTTPSB.
