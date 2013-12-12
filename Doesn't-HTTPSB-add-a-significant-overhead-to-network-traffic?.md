@@ -1,6 +1,6 @@
 HTTPSB uses Chromium's [webRequest API](http://developer.chrome.com/extensions/webRequest.html) (more specifically, the `webRequest.onBeforeRequest` handler), which means for every single request, javascript code is executed in order to evaluate whether the request should be allowed or blocked.
 
-Doesn't this javascript code add a significant overhead and slow down the download of web pages?
+Doesn't this javascript code add a significant overhead and slows down the download of web pages?
 
 No.
 
