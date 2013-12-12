@@ -26,7 +26,7 @@ Any of the above extension was the only one running at the time of the test, no 
 - Steps:
     * Browser cache was cleared.
     * Target web page was force-refreshed.
-    * Data was pulled from the developer console, ignoring domain and subdomains matching URL of web page.
+    * Data was pulled from the developer console, ignoring domain and subdomains matching URL of web page. (Since then I wrote [this tool](http://www.raymondhill.net/httpsb/har-parser.html) to quickly parse the results from the console.)
     * Only hostname is listed below, often many requests to same hostname, for various type of data (javascript, font, css, etc.)
 
 ### Reponses
