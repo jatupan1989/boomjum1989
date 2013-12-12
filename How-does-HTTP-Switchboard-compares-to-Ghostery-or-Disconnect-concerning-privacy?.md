@@ -4,7 +4,7 @@ The results below are my findings, and they are published in the spirit of infor
 
 ### Notes
 
-Blocking everything is not necessarily a good thing to everybody, as this might break web sites. Some users, less concerned with privacy, prefer to block minimally, others will prefer to pick themselves only what is necessary for a web page to just display properly. It's about choice.
+Blocking everything is not necessarily a good thing to everybody, as this might break web sites. Some users, less concerned with privacy, prefer to block minimally, others will prefer to pick themselves only what is necessary for a web page to just display properly.
 
 Keep in mind that *HTTP Switchboard*  is somewhat different than the two other extensions, which ones are based on a blacklist which is curated by their respective author. *HTTP Switchboard* blacklists come from [various third-parties](/gorhill/httpswitchboard/wiki/Credits), are extensive, and aside that, you can still block whatever you want ultimately.
 
