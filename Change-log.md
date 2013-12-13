@@ -24,7 +24,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.6.6
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/76>.
-    *  Related: [How does HTTP Switchboard compares to Ghostery or Disconnect concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
     * **IMPORTANT:** stylesheets (`.css` files) which are pulled from hostnames which do not match the domain name of the top web page will be reported as "other" in the pop-up menu matrix.
         - I realize many web pages which were displaying properly before this last update might now not display properly, but the reason they were displaying properly before is because requests (stylesheet) on which you had no control were made. Now you have full control.
         - Remember: if a web page doesn't display properly, it might be because the requests for stylesheets are blocked. Requests for stylesheet are counted in the "other" column. Example, three stylesheets at `cbsistatic.com`:
