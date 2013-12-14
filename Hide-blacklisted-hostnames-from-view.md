@@ -2,6 +2,6 @@ On some web pages, the number of blacklisted hostnames can be quite high. You mi
 
 ![Collapse blacklisted section button](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-collapse-blacklisted.png)
 
-plus "click" equals
+plus click equals
 
 ![Collapsep blacklisted section](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-collapsed-blacklisted.png)
