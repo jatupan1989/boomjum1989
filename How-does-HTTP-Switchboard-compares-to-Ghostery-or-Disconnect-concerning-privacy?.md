@@ -87,6 +87,20 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 ***
 
+### A page on http://www.businessinsider.com
+
+| Hostname                                | Ghostery       | Disconnect | HTTPSB |
+| --------------------------------------- |:--------------:|:----------:|:------:|
+| 3rd parties which were **not** blocked: |                |            |        |
+| code.jquery.com                         | ✔              | ✔          |        |
+| player.ooyala.com                       | ✔              |            |        |
+| ak.sail-horizon.com                     |                | ✔          |        |
+| cdn.sailthru.com                        |                | ✔          |        |
+| cdn.taboola.com                         | ✔              |            |        |
+| netstorage.taboola.com                  | ✔              |            |        |
+
+***
+
 ### A page on http://www.upworthy.com
 
 | Hostname                                | Ghostery       | Disconnect | HTTPSB |
