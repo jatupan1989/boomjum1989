@@ -137,10 +137,11 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | Hostname                                | AdBlock+       | Ghostery       | Disconnect | HTTPSB |
 | --------------------------------------- |:--------------:|:--------------:|:----------:|:------:|
 | 3rd parties which were **not** blocked: |                |                |            |        |
-| `platform.twitter.com                   | ✔              |                |            |        |
 | `s-static.ak.facebook.com`              | ✔              |                |            |        |
 | `static.ak.facebook.com`                | ✔              |                |            |        |
+| `www.facebook.com`                      | ✔              |                |            |        |
 | `connect.facebook.net`                  | ✔              |                |            |        |
+| `static.ak.fbcdn.net`                   | ✔              |                |            |        |
 | `ajax.googleapis.com`                   | ✔              |                |            |        |
 | `code.jquery.com`                       | ✔              | ✔              | ✔          |        |
 | `s.c.lnkd.licdn.com`                    | ✔              |                |            |        |
@@ -153,6 +154,8 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `www.reddit.com`                        | ✔              |                |            |        |
 | `ak.sail-horizon.com`                   | ✔              |                | ✔          |        |
 | `cdn.sailthru.com`                      |                |                | ✔          |        |
+| `cdn.stumble-upon.com`                  | ✔              |                |            |        |
+| `badge.stumbleupon.com`                 | ✔              |                |            |        |
 | `platform.stumbleupon.com`              | ✔              |                |            |        |
 | `cdn.taboola.com`                       | ✔              | ✔              |            |        |
 | `netstorage.taboola.com`                | ✔              | ✔              |            |        |
