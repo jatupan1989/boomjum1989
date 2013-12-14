@@ -58,7 +58,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `s.ophan.co.uk`                         | ✔              | ✔          |        |
 | `platform.twitter.com`                  | ✔              |            |        |
 
-Note: In the case of HTTPSB, there was a hit on `static-serve.appspot.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `static-serve.appspot.com` with a single click in the matrix. This is not possible with the two other blockers.
+<sub>Note: In the case of HTTPSB, there was a hit on `static-serve.appspot.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `static-serve.appspot.com` with a single click in the matrix. This is not possible with the two other blockers.</sub>
 
 ***
 
