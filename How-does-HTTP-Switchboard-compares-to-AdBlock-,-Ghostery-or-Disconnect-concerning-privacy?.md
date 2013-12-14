@@ -180,16 +180,24 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 ### A page on http://www.upworthy.com
 
-| Hostname                                | Ghostery       | Disconnect | HTTPSB |
+| Hostname                                | AdBlock+       | Ghostery       | Disconnect | HTTPSB |
 | --------------------------------------- |:--------------:|:----------:|:------:|
-| What is said to be blocked:             | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png) |
-| 3rd parties which were **not** blocked: |                |            |        |
-| `d8rk54i4mohrb.cloudfront.net`          | ✔              | ✔          |        |
-| `upw-prod-images.global.ssl.fastly.net` | ✔              | ✔          | ✔      |
-| `www.google.com`                        | ✔              |            |        |
-| `fonts.googleapis.com`                  | ✔              | ✔          |        |
-| `themes.googleusercontent.com`          | ✔              |            |        |
-| `cc.simplereach.com`                    |                | ✔          |        |
-| `platform.twitter.com`                  | ✔              |            |        |
+| What is said to be blocked:             |                | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png) |
+| 3rd parties which were **not** blocked: |                |                |            |        |
+| `d8rk54i4mohrb.cloudfront.net`          |                | ✔              | ✔          |        |
+| `www.facebook.com`                      | ✔              |                |            |        |
+| `s-static.ak.facebook.com`              | ✔              |                |            |        |
+| `static.ak.facebook.com`                | ✔              |                |            |        |
+| `connect.facebook.net`                  | ✔              |                |            |        |
+| `upw-prod-images.global.ssl.fastly.net` | ✔              | ✔              | ✔          | ✔      |
+| `static.ak.fbcdn.net`                   | ✔              |                |            |        |
+| `www.google.com`                        | ✔              | ✔              |            |        |
+| `fonts.googleapis.com`                  | ✔              | ✔              | ✔          |        |
+| `www.google-analytics.com`              | ✔              |                |            |        |
+| `themes.googleusercontent.com`          | ✔              | ✔              |            |        |
+| `cc.simplereach.com`                    |                |                | ✔          |        |
+| `platform.twitter.com`                  | ✔              | ✔              |            |        |
+| `www.youtube.com`                       | ✔              |                |            |        |
+| `s.ytimg.com`                           | ✔              |                |            |        |
 
 <sub>Note: In the case of HTTPSB, there was a hit on `upw-prod-images.global.ssl.fastly.net` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `upw-prod-images.global.ssl.fastly.net` with a single click in the matrix. This is not possible with Disconnect and Ghostery. It is possible with AdBlock+ if you don't mind [geeky stuff](https://adblockplus.org/en/filters).</sub>
