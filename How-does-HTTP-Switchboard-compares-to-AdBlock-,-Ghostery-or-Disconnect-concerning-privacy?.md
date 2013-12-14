@@ -181,7 +181,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 ### A page on http://www.upworthy.com
 
 | Hostname                                | AdBlock+       | Ghostery       | Disconnect | HTTPSB |
-| --------------------------------------- |:--------------:|:----------:|:------:|
+| --------------------------------------- |:--------------:|:--------------:|:----------:|:------:|
 | What is said to be blocked:             |                | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-1-httpsb.png) |
 | 3rd parties which were **not** blocked: |                |                |            |        |
 | `d8rk54i4mohrb.cloudfront.net`          |                | ✔              | ✔          |        |
