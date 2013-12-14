@@ -134,15 +134,31 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 ### A page on http://www.businessinsider.com
 
-| Hostname                                | Ghostery       | Disconnect | HTTPSB |
-| --------------------------------------- |:--------------:|:----------:|:------:|
-| 3rd parties which were **not** blocked: |                |            |        |
-| code.jquery.com                         | ✔              | ✔          |        |
-| player.ooyala.com                       | ✔              |            |        |
-| ak.sail-horizon.com                     |                | ✔          |        |
-| cdn.sailthru.com                        |                | ✔          |        |
-| cdn.taboola.com                         | ✔              |            |        |
-| netstorage.taboola.com                  | ✔              |            |        |
+| Hostname                                | AdBlock+       | Ghostery       | Disconnect | HTTPSB |
+| --------------------------------------- |:--------------:|:--------------:|:----------:|:------:|
+| 3rd parties which were **not** blocked: |                |                |            |        |
+| platform.twitter.com                    | ✔              |                |            |        |
+| s-static.ak.facebook.com                | ✔              |                |            |        |
+| static.ak.facebook.com                  | ✔              |                |            |        |
+| connect.facebook.net                    | ✔              |                |            |        |
+| ajax.googleapis.com                     | ✔              |                |            |        |
+| code.jquery.com                         | ✔              | ✔              | ✔          |        |
+| s.c.lnkd.licdn.com                      | ✔              |                |            |        |
+| platform.linkedin.com                   | ✔              |                |            |        |
+| www.linkedin.com                        | ✔              |                |            |        |
+| player.ooyala.com                       | ✔              | ✔              |            |        |
+| assets.pinterest.com                    | ✔              |                |            |        |
+| widgets.pinterest.com                   | ✔              |                |            |        |
+| buttons.reddit.com                      | ✔              |                |            |        |
+| www.reddit.com                          | ✔              |                |            |        |
+| ak.sail-horizon.com                     | ✔              |                | ✔          |        |
+| cdn.sailthru.com                        |                |                | ✔          |        |
+| platform.stumbleupon.com                | ✔              |                |            |        |
+| cdn.taboola.com                         | ✔              | ✔              |            |        |
+| netstorage.taboola.com                  | ✔              | ✔              |            |        |
+| trc.taboola.com                         | ✔              |                |            |        |
+| cdn.api.twitter.com                     | ✔              |                |            |        |
+| platform.twitter.com                    | ✔              |                |            |        |
 
 ***
 
