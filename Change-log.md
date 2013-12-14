@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.6.9.0
-- While you read what follow, I must remind: HTTPSB will *never* allow a cookie to be *sent* if it is not whitelisted, even if the cookie is present in your browser. So deleting cookies from the browser is just a nice option to have, not a necessity if you are using HTTPSB.
+- Before you read what follow, I must remind: HTTPSB will *never* allow a cookie to be *sent* if it is not whitelisted, even if the cookie is present in your browser. So deleting cookies from the browser is just a nice option to have, not a necessity if you are using HTTPSB.
     * You can confirm this by trying [this tool](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php).
 - New user setting: "[ ] Delete non-blocked session cookies [?] minutes after last time they have been used."
     * [Because W3C](http://www.w3.org/2001/tag/2010/09/ClientSideStorage.html): "A session cookie ... is erased when you end the browser session", except that in Chromium, this is [not happening](https://code.google.com/p/chromium/issues/detail?id=128513). This setting lets you make it happening.
