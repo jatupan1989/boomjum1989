@@ -1,5 +1,9 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+### 0.6.9.0
+- New user setting: "[ ] Delete non-blocked session cookies [?] minutes after last time they have been used."
+    * Because W3C: "A session cookie ... is erased when you end the browser session", except that in Chromium, this is [not happening](https://code.google.com/p/chromium/issues/detail?id=128513).
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/79>
 
 ### 0.6.8.1
 - Fixed ["Sometimes web page reload after closing popup menu even when no change made"](https://github.com/gorhill/httpswitchboard/issues/85)
