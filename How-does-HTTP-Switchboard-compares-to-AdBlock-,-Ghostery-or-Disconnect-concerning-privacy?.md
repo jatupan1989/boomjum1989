@@ -165,6 +165,19 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 ***
 
+### A page on http://www.nationaljournal.com/
+
+| Hostname                                | AdBlock+       | Ghostery       | Disconnect | HTTPSB |
+| --------------------------------------- |:--------------:|:--------------:|:----------:|:------:|
+| 3rd parties which were **not** blocked: |                |                |            |        |
+| `admin.brightcove.com`                  | ✔              |                |            |        |
+| `www.facebook.com`                      | ✔              |                |            |        |
+| `static.ak.fbcdn.net`                   | ✔              |                |            |        |
+| `cdn.api.twitter.com`                   | ✔              |                |            |        |
+| `platform.twitter.com`                  | ✔              |                |            |        |
+
+***
+
 ### A page on http://www.upworthy.com
 
 | Hostname                                | Ghostery       | Disconnect | HTTPSB |
