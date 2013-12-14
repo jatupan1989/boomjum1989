@@ -14,7 +14,7 @@ Keep in mind that *HTTP Switchboard*  is somewhat different than the two other e
 
 - [AdBlock Plus](https://chrome.google.com/webstore/detail/adblock-plus-beta/cfhdojbkjhnklbpkdaibdccddilifddb)
     * version 1.6.1
-    * Installed as per [EFF's advices to improve privacy](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online).
+    * Installed as per [EFF's advices to improve privacy](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online) (questionable advice given the results here).
 - [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) ("increasing the transparency of your browsing experience and giving you tools to control your privacy online")
     * version 5.0.0
     * "Block all", and nothing whitelisted.
