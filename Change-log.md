@@ -8,6 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
     * There is no way for HTTPSB to know whether a cookie is used by an extension or a web page in a tab, so if an extension misbehave, it could be because of cookies being deleted under its feet (all cookie manager will potentially interfere, this is not specific to HTTPSB). The fix is to identify and whitelist the hostname of the cookie, or to disable the "Delete blocked cookies" option.
 - Overhaul of cookie management code = robustness and performance enhancement.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/79>
+    * For some web site, there will still be a lot of cookie entries in the log in the *Statistics* page: this is because the site changes the value of cookies very often, it's not because HTTPSB over-report.
 
 ### 0.6.8.1
 - Fixed ["Sometimes web page reload after closing popup menu even when no change made"](https://github.com/gorhill/httpswitchboard/issues/85)
