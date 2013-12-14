@@ -76,7 +76,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `cdn.api.twitter.com`                   | ✔              |                |            |        |
 | `s.c.lnkd.licdn.com`                    | ✔              |                |            |        |
 
-<sub>Note: In the case of HTTPSB, there was a hit on `static-serve.appspot.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `static-serve.appspot.com` with a single click in the matrix. This is not possible with the two other blockers.</sub>
+<sub>Note: In the case of HTTPSB, there was a hit on `static-serve.appspot.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `static-serve.appspot.com` with a single click in the matrix. This is not possible with Disconnect and Ghostery. It is possible with AdBlock+ if you don't mind [geeky stuff](https://adblockplus.org/en/filters).</sub>
 
 ***
 
@@ -128,7 +128,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `p.typekit.net`                         |                |                | ✔          |        |
 | `www.webmonkey.com`                     | ✔              | ✔              | ✔          | ✔      |
 
-<sub>Note: In the case of HTTPSB, there was a hit on `www.webmonkey.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `www.webmonkey.com` with a single click in the matrix. This is not possible with the two other blockers.</sub>
+<sub>Note: In the case of HTTPSB, there was a hit on `www.webmonkey.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `www.webmonkey.com` with a single click in the matrix. This is not possible with Disconnect and Ghostery. It is possible with AdBlock+ if you don't mind [geeky stuff](https://adblockplus.org/en/filters).</sub>
 
 ***
 
@@ -160,4 +160,4 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `cc.simplereach.com`                    |                | ✔          |        |
 | `platform.twitter.com`                  | ✔              |            |        |
 
-<sub>Note: In the case of HTTPSB, there was a hit on `upw-prod-images.global.ssl.fastly.net` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `upw-prod-images.global.ssl.fastly.net` with a single click in the matrix. This is not possible with the two other blockers.</sub>
+<sub>Note: In the case of HTTPSB, there was a hit on `upw-prod-images.global.ssl.fastly.net` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `upw-prod-images.global.ssl.fastly.net` with a single click in the matrix. This is not possible with Disconnect and Ghostery. It is possible with AdBlock+ if you don't mind [geeky stuff](https://adblockplus.org/en/filters).</sub>
