@@ -87,7 +87,7 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 | `p.typekit.net`                         |                | ✔          |        |
 | `www.webmonkey.com`                     | ✔              | ✔          | ✔      |
 
-Note: In the case of HTTPSB, there was a hit on `www.webmonkey.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `www.webmonkey.com` with a single click in the matrix. This is not possible with the two other blockers.
+<sub>Note: In the case of HTTPSB, there was a hit on `www.webmonkey.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `www.webmonkey.com` with a single click in the matrix. This is not possible with the two other blockers.</sub>
 
 ***
 
@@ -119,4 +119,4 @@ Note: In the case of HTTPSB, there was a hit on `www.webmonkey.com` because imag
 | `cc.simplereach.com`                    |                | ✔          |        |
 | `platform.twitter.com`                  | ✔              |            |        |
 
-Note: In the case of HTTPSB, there was a hit on `upw-prod-images.global.ssl.fastly.net` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `upw-prod-images.global.ssl.fastly.net` with a single click in the matrix. This is not possible with the two other blockers.
+<sub>Note: In the case of HTTPSB, there was a hit on `upw-prod-images.global.ssl.fastly.net` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `upw-prod-images.global.ssl.fastly.net` with a single click in the matrix. This is not possible with the two other blockers.</sub>
