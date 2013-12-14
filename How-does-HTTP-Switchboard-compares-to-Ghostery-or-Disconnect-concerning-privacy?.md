@@ -1,0 +1,1 @@
+New page is at [How does HTTP Switchboard compares to AdBlock+, Ghostery or Disconnect concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-AdBlock-%2C-Ghostery-or-Disconnect-concerning-privacy%3F)
