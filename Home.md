@@ -11,8 +11,8 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [In the top left of the matrix, what is "other"?](/gorhill/httpswitchboard/wiki/In-the-top-left-of-the-matrix,-what-is-%22other%22%3F)
     * [Visual pollution: Hide blacklisted hostnames from view](/gorhill/httpswitchboard/wiki/Hide-blacklisted-hostnames-from-view)
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](https://github.com/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
-    * [How does *HTTP Switchboard* compares to *Ghostery* or *Disconnect* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
     * [Doesn't *HTTP Switchboard* add a significant overhead to network traffic?](https://github.com/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F)
+- [How does *HTTP Switchboard* compares to *AdBlock+*, *Ghostery* or *Disconnect* concerning privacy?](https://github.com/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-Ghostery-or-Disconnect-concerning-privacy%3F)
 - Tools
     * [Is execution of javascript blocked?](http://raymondhill.net/httpsb/httpsb-test-js-1.html)
     * [Are cookies blocked?](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php)
