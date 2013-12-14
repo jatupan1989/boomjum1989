@@ -10,6 +10,9 @@ Keep in mind that *HTTP Switchboard*  is somewhat different than the two other e
 
 ### Methodology
 
+- [AdBlock Plus](https://chrome.google.com/webstore/detail/adblock-plus-beta/cfhdojbkjhnklbpkdaibdccddilifddb)
+    * version 1.6.1
+    * Installed as per [EFF's advices to improve privacy](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online).
 - [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) ("increasing the transparency of your browsing experience and giving you tools to control your privacy online")
     * version 5.0.0
     * "Block all", and nothing whitelisted.
@@ -43,20 +46,33 @@ I will insert here the responses of the owner/developer/etc. of Ghostery/Disconn
 
 Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pulled from this domain (stylesheets, etc.), which domain/subdomains required whitelisting in HTTPSB for the page to display properly (to meaningfully compare to Ghostery/Disconnect).
 
-| Hostname                                | Ghostery       | Disconnect | HTTPSB |
-| --------------------------------------- |:--------------:|:----------:|:------:|
-| What is said to be blocked:             | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-httpsb.png) |
-| 3rd parties which were **not** blocked: |                |            |        |
-| `facebook-web-clients.appspot.com`      | ✔              | ✔          |        |
-| `guardian-notifications.appspot.com`    | ✔              | ✔          |        |
-| `related-info-hrd.appspot.com`          | ✔              | ✔          |        |
-| `static-serve.appspot.com`              | ✔              | ✔          | ✔      |
-| `cdnjs.cloudflare.com`                  | ✔              | ✔          |        |
-| `www.google.com`                        | ✔              |            |        |
-| `ajax.googleapis.com`                   | ✔              | ✔          |        |
-| `discussion.guardianapis.com`           | ✔              | ✔          |        |
-| `s.ophan.co.uk`                         | ✔              | ✔          |        |
-| `platform.twitter.com`                  | ✔              |            |        |
+| Hostname                                | AdBlock+       | Ghostery       | Disconnect | HTTPSB |
+| --------------------------------------- |:--------------:|:--------------:|:----------:|:------:|
+| What is said to be blocked:             |                | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-2-httpsb.png) |
+| 3rd parties which were **not** blocked: |                |                |            |        |
+| `s.ophan.co.uk`                         | ✔              | ✔              | ✔          |        |
+| `facebook-web-clients.appspot.com`      | ✔              | ✔              | ✔          |        |
+| `guardian-notifications.appspot.com`    | ✔              | ✔              | ✔          |        |
+| `related-info-hrd.appspot.com`          | ✔              | ✔              | ✔          |        |
+| `static-serve.appspot.com`              | ✔              | ✔              | ✔          | ✔      |
+| `cdnjs.cloudflare.com`                  | ✔              | ✔              | ✔          |        |
+| `graph.facebook.com`                    | ✔              |                |            |        |
+| `clients1.google.com`                   | ✔              |                |            |        |
+| `www.google.com`                        | ✔              | ✔              |            |        |
+| `ajax.googleapis.com`                   | ✔              | ✔              | ✔          |        |
+| `discussion.guardianapis.com`           | ✔              | ✔              | ✔          |        |
+| `p.jwpcdn.com`                          | ✔              |                |            |        |
+| `platform.linkedin.com`                 | ✔              |                |            |        |
+| `www.linkedin.com`                      | ✔              |                |            |        |
+| `images.outbrain.com`                   | ✔              |                |            |        |
+| `odb.outbrain.com`                      | ✔              |                |            |        |
+| `widgets.outbrain.com`                  | ✔              |                |            |        |
+| `platform.twitter.com`                  | ✔              | ✔              |            |        |
+| `s-static.ak.facebook.com`              | ✔              |                |            |        |
+| `static.ak.facebook.com`                | ✔              |                |            |        |
+| `connect.facebook.net`                  | ✔              |                |            |        |
+| `cdn.api.twitter.com`                   | ✔              |                |            |        |
+| `s.c.lnkd.licdn.com`                    | ✔              |                |            |        |
 
 <sub>Note: In the case of HTTPSB, there was a hit on `static-serve.appspot.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `static-serve.appspot.com` with a single click in the matrix. This is not possible with the two other blockers.</sub>
 
