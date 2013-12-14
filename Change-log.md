@@ -4,7 +4,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 - New user setting: "[ ] Delete non-blocked session cookies [?] minutes after last time they have been used."
     * Because W3C: "A session cookie ... is erased when you end the browser session", except that in Chromium, this is [not happening](https://code.google.com/p/chromium/issues/detail?id=128513). This setting let you make it happening.
 - Cookie janitor code is back: this gets rid of any unused cookies from non-whitelisted hostnames which might be present in your browser.
-    * Be aware that some extensions use cookies which are created from hostnames which might not be allowed. For example, LastPass needs cookies from `lastpass.com`, so be sure to whitelist cookies for `lastpass.com`.
+    * Be aware that some extensions use cookies which are created from hostnames which might not be allowed. For example, LastPass needs cookies from `lastpass.com`, so be sure to whitelist cookies for `lastpass.com` (by visiting LastPass web site, so that it will show in HTTPSB matrix).
     * There is no way for HTTPSB to know whether a cookie is used by an extension of a web site, so if an extension misbehave, it could be because of cookies being deleted under its feet. (All cookie manager will potentially interfere, this is not specific to HTTPSB).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/79>
 
