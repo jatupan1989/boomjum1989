@@ -82,28 +82,51 @@ Note: `*.guim.co.uk` not reported as a 3rd-party below, as key resources are pul
 
 ### A page on http://www.wired.com/
 
-| Hostname                                | Ghostery       | Disconnect | HTTPSB |
-| --------------------------------------- |:--------------:|:----------:|:------:|
-| What is said to be blocked:             | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-httpsb.png) |
-| 3rd parties which were **not** blocked: |                |            |        |
-| `www.adobetag.com`                      |                | ✔          |        |
-| `dwgyu36up6iuz.cloudfront.net`          | ✔              | ✔          |        |
-| `dnkzzz1hlto79.cloudfront.net`          | ✔              | ✔          |        |
-| `condenastl3cdn.cust.footprint.net`     | ✔              | ✔          |        |
-| `api.cnevids.com`                       | ✔              | ✔          |        |
-| `player.cnevids.com`                    | ✔              | ✔          |        |
-| `fonts.condenast.com`                   | ✔              | ✔          |        |
-| `contextlysiteimages.contextly.com`     | ✔              | ✔          |        |
-| `contextlysitescripts.contextly.com`    | ✔              | ✔          |        |
-| `rest.contextly.com`                    | ✔              | ✔          |        |
-| `fonts.googleapis.com`                  |                | ✔          |        |
-| `themes.googleusercontent.com`          | ✔              |            |        |
-| `a.mobify.com`                          |                | ✔          |        |
-| `cdn.mxpnl.com`                         |                | ✔          |        |
-| `714015.ssl.cf2.rackcdn.com`            | ✔              |            |        |
-| `platform.twitter.com`                  | ✔              |            |        |
-| `p.typekit.net`                         |                | ✔          |        |
-| `www.webmonkey.com`                     | ✔              | ✔          | ✔      |
+| Hostname                                | AdBlock+       | Ghostery       | Disconnect | HTTPSB |
+| --------------------------------------- |:--------------:|:--------------:|:----------:|:------:|
+| What is said to be blocked:             |                | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-ghostery.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-disconnect.png) | [snapshot](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/privacy-tour-3-httpsb.png) |
+| 3rd parties which were **not** blocked: |                |                |            |        |
+| `www.adobetag.com`                      |                |                | ✔          |        |
+| `admin.brightcove.com`                  | ✔              |                | ✔          |        |
+| `dwgyu36up6iuz.cloudfront.net`          | ✔              | ✔              | ✔          |        |
+| `dnkzzz1hlto79.cloudfront.net`          | ✔              | ✔              | ✔          |        |
+| `condenastl3cdn.cust.footprint.net`     |                | ✔              | ✔          |        |
+| `api.cnevids.com`                       |                | ✔              | ✔          |        |
+| `player.cnevids.com`                    | ✔              | ✔              | ✔          |        |
+| `fonts.condenast.com`                   | ✔              | ✔              | ✔          |        |
+| `contextlysiteimages.contextly.com`     |                | ✔              | ✔          |        |
+| `contextlysitescripts.contextly.com`    |                | ✔              | ✔          |        |
+| `rest.contextly.com`                    |                | ✔              | ✔          |        |
+| `disqus.com`                            | ✔              |                |            |        |
+| `go.disqus.com`                         | ✔              |                |            |        |
+| `juggler.services.disqus.com`           | ✔              |                |            |        |
+| `realtime.services.disqus.com`          | ✔              |                |            |        |
+| `wiredthreatlevel.disqus.com`           | ✔              |                |            |        |
+| `a.disquscdn.com`                       | ✔              |                |            |        |
+| `connect.facebook.net`                  | ✔              |                |            |        |
+| `s-static.ak.facebook.com`              | ✔              |                |            |        |
+| `static.ak.facebook.com`                | ✔              |                |            |        |
+| `condenastl3cdn.cust.footprint.net`     | ✔              |                |            |        |
+| `s.c.lnkd.licdn.com`                    | ✔              |                |            |        |
+| `www.google-analytics.com`              | ✔              |                |            |        |
+| `fonts.googleapis.com`                  |                |                | ✔          |        |
+| `themes.googleusercontent.com`          |                | ✔              |            |        |
+| `platform.linkedin.com`                 | ✔              |                |            |        |
+| `www.linkedin.com`                      | ✔              |                |            |        |
+| `a.mobify.com`                          |                |                | ✔          |        |
+| `cdn.mxpnl.com`                         |                |                | ✔          |        |
+| `images.outbrain.com`                   | ✔              |                |            |        |
+| `odb.outbrain.com`                      | ✔              |                |            |        |
+| `widgets.outbrain.com`                  | ✔              |                |            |        |
+| `assets.pinterest.com`                  | ✔              |                |            |        |
+| `passets.pinterest.com`                 | ✔              |                |            |        |
+| `widgets.pinterest.com`                 | ✔              |                |            |        |
+| `714015.ssl.cf2.rackcdn.com`            |                | ✔              |            |        |
+| `widgets.twimg.com`                     | ✔              |                |            |        |
+| `cdn.api.twitter.com`                   | ✔              |                |            |        |
+| `platform.twitter.com`                  | ✔              | ✔              |            |        |
+| `p.typekit.net`                         |                |                | ✔          |        |
+| `www.webmonkey.com`                     | ✔              | ✔              | ✔          | ✔      |
 
 <sub>Note: In the case of HTTPSB, there was a hit on `www.webmonkey.com` because images are whitelisted by default when using out-of-the-box settings. But users can, if they choose so, block specifically `www.webmonkey.com` with a single click in the matrix. This is not possible with the two other blockers.</sub>
 
