@@ -3,7 +3,7 @@ this web site, rather than hunting exactly for what should be whitelisted to mak
 example to demonstrate how to proceed to whitelist all by default for a site you trust (like,
 say, your bank).
 
-Suppose I totally trust <https://vimeo.com/> (it's just an example, I actually trust nothing), and
+Suppose I totally trust <https://vimeo.com/> (it's just an example...), and
 I want to whitelist all by default for that site, that is, current web requests and whatever
 future web requests the site might make. So here it is:
 
