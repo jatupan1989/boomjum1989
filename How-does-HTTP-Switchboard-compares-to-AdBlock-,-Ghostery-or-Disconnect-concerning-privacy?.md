@@ -6,7 +6,7 @@ The results below are my findings, and they are published in the spirit of infor
 
 ### Notes
 
-A disctinct feature of *HTTP Switchboard* is that it is **also** a script blocker, like *NoScript* on *Firefox*.
+A disctinct feature of *HTTP Switchboard* is that it is **also** a script blocker, like *NoScript* on *Firefox*. Other blockers listed here do not prevent the execution of inline javascript.
 
 Now regarding privacy.
 
