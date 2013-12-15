@@ -1,1 +1,1 @@
-The page has been renamed more accurately ["Per site permission: an example"](Per site permission: an example).
+The page has been renamed more accurately ["Per site permission: an example"](/gorhill/httpswitchboard/wiki/Per-site-permissions:-an-example).
