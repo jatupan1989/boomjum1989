@@ -10,7 +10,7 @@ Under construction.
 
 #### Can I whitelist Facebook (or whatever) only when visiting Facebook (or whatever)?
 
-Yes, using [per-page permissions](https://github.com/gorhill/httpswitchboard/wiki/Per-page-permissions:-an-example).
+Yes, using [per-site permissions](https://github.com/gorhill/httpswitchboard/wiki/Per-site-permissions:-an-example).
 
 #### Why my browser-based player doesn't play even after whitelisting all?
 
