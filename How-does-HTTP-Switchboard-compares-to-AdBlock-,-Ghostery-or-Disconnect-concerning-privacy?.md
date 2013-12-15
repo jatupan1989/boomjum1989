@@ -6,6 +6,10 @@ The results below are my findings, and they are published in the spirit of infor
 
 ### Notes
 
+A disctinct feature of *HTTP Switchboard* is that it is **also** a script blocker, like *NoScript* on *Firefox*.
+
+Now regarding privacy.
+
 Blocking everything is not necessarily a good thing to everybody, as this might break web sites. Some users, less concerned with privacy, prefer to block minimally, others will prefer to pick themselves only what is necessary for a web page to just display properly. *HTTP Switchboard* allows both approach: although it comes out of the box with blocking by default and allowing exceptionally, you can with a single click allow everything by default and block exceptionally.
 
 Keep in mind that *HTTP Switchboard*  is somewhat different than the two other extensions, which ones are based on a blacklist which is curated by their respective author. *HTTP Switchboard* blacklists come from [various selfless third-parties](/gorhill/httpswitchboard/wiki/Credits), are extensive, and aside that, you can still block whatever you want ultimately. Also, *HTTP Switchboard* is a javascript blocker (like [NoScript](http://noscript.net/)), a feature not found in the two other extensions.
