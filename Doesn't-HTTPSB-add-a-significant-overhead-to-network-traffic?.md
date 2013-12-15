@@ -21,7 +21,7 @@ This is for the critical request handling code, this doesn't include the lower p
 
 Now to understand how these overheads can affect the loading of a web page, for example imagine a web page with 300 internal requests (not uncommon nowadays: front page of wired.com is over 300 requests), so the total average overhead would be 300 x `webRequest.onBeforeRequest` avg time, meaning a cumulative overhead of ...
 
-* 63 ms for AdBlock
-* 81 ms for Disconnect
+*  63 ms for AdBlock
+*  81 ms for Disconnect
 * 900 ms for Ghostery
-* 27 ms for HTTPSB.
+*  27 ms for HTTPSB.
