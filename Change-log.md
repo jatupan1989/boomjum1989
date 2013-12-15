@@ -1,8 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.6.9.0
-- Before you read what follow, I must remind: even if a cookie is present in your browser, HTTPSB prevent the cookie from being sent if it is not whitelisted. So deleting cookies from the browser is just a nice option to have, not a necessity if you are using HTTPSB.
-    * You can confirm this by trying [this tool](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php).
+- Overhaul of cookie management code = robustness and performance enhancement.
 - New user setting: "[ ] Delete non-blocked session cookies [?] minutes after last time they have been used."
     * [Because W3C](http://www.w3.org/2001/tag/2010/09/ClientSideStorage.html): "A session cookie ... is erased when you end the browser session", except that in Chromium, this is [not happening](https://code.google.com/p/chromium/issues/detail?id=128513). This setting lets you make it happening.
 - Cookie janitor code is back: this gets rid of any unused cookies from non-whitelisted hostnames which might be present in your browser.
@@ -10,8 +9,10 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
         - For example, LastPass needs cookies from `lastpass.com`, so be sure to whitelist cookies for `lastpass.com` (by visiting LastPass web site, so that you can use HTTPSB matrix).
     * There is no way for HTTPSB to know whether a stale cookie was created by an extension or a web page, so if an extension misbehave, it could be because of cookies being deleted under its feet (all cookie manager will potentially interfere, this is not specific to HTTPSB). The fix is to identify and whitelist the hostname of the cookie, or to disable the "Delete blocked cookies" option.
     * The cookie janitor is easy going though, only non-whitelisted orphan cookies which have been stale for more than two hours will be removed.
-- Overhaul of cookie management code = robustness and performance enhancement.
 - Added tooltip for "other" header in the matrix to help people remember what is in this column.
+- New entries in context menu to quickly access "Rule manager", "Statistics", and "Settings" pages.
+- Improved navigation to extension pages: tab will become active if it is being reused (wasn't working before).
+- Third-party blacklists have been updated to their latest version.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/79>
     * For some web site, there will still be a lot of cookie entries in the log in the *Statistics* page: this is because the site changes the value of cookies very often, it's not because HTTPSB over-report.
 
