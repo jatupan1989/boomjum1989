@@ -19,4 +19,9 @@ For reference, I also measured the overhead added in the `webRequest.onBeforeReq
 
 This is for the critical request handling code, this doesn't include the lower priority code (i.e. updating extension icon, content scripts, etc.). (In HTTPSB this lower priority handling code is minimal as HTTPSB doesn't modify the content of web page -- I don't know about other blockers.)
 
-Now to understand how these overheads can affect the loading of a web page, for exemple imagine a web page with 100 internal requests (commonly above that nowadays), so the total average overhead would be 100 x `webRequest.onBeforeRequest` avg time, meaning 21 ms for AdBlock, 27 ms for Disconnect, 300 ms for Ghostery, and 9 ms for HTTPSB.
+Now to understand how these overheads can affect the loading of a web page, for example imagine a web page with 300 internal requests (not uncommon nowadays: front page of wired.com is over 300 requests), so the total average overhead would be 300 x `webRequest.onBeforeRequest` avg time, meaning a cumulative overhead of ...
+
+* 63 ms for AdBlock
+* 81 ms for Disconnect
+* 900 ms for Ghostery
+* 27 ms for HTTPSB.
