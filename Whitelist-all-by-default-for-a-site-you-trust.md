@@ -11,12 +11,12 @@ This is what you would see normally using out-of-the-box permissions (aka rules)
 
 ![Step 1](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-a.png)
 
-Now click the page-scope button in order to create permissions specific to this page (that would be the top-left button):
+Now click the site-scope button in order to create permissions specific to this web site (that would be the top-left button):
 
 ![Step 2](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-b.png)
 
-The background of the pop-up menu become blueish: this means you are now in page-scope mode, that is,
-all rules created from now on while on this page will apply *only* to this web site (<https://vimeo.com>
+The background of the pop-up menu become blueish: this means you are now in site-scope mode, that is,
+all rules created from now on while on this web site will apply *only* to this web site (<https://vimeo.com>
 in our example).
 
 ![Step 3](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-c.png)
@@ -29,5 +29,5 @@ Now leave the pop-up menu and let the page reload. Reopen the pop-up menu and se
 made by the page were not blocked. The only requests which are still blocked are the ones explicitly
 blacklisted.
 
-Note the same can be done without going into per-page rules, but then this broad whitelisting would apply
-to every pages, not just the one you trust, hence the per-page permission feature.
+Note the same can be done without going into per-site rules, but then this broad whitelisting would apply
+to every pages, not just the one you trust, hence the per-site permission feature.
