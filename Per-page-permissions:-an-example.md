@@ -1,4 +1,4 @@
-*HTTP Switchboard* supports per-page permissions. Here is a typical case example to illustrate why per-page permissions are useful, and how to use per-page permissions.
+*HTTP Switchboard* supports per-web site permissions. Here is a typical case example to illustrate why per-site permissions are useful, and how to use per-site permissions.
 
 Some [hostnames](https://en.wikipedia.org/wiki/Hostname) are ubiquitous on the internet.
 
@@ -12,21 +12,21 @@ But now what if you want to visit a web page on `facebook.com` or if you have an
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-2.png)
 
-This is the dilemma: preventing `facebook.com` from tracking you, while being able to visit web pages on `facebook.com` itself. This is where *HTTP Switchboard's* **per-page permissions** come to the rescue:
+This is the dilemma: preventing `facebook.com` from tracking you, while being able to visit web pages on `facebook.com` itself. This is where *HTTP Switchboard's* **per-site permissions** come to the rescue:
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-3.png)
 
-Here, per-page permissions for `https://www.facebook.com` are created. Notice the visual cue: when per-page permissions are active, the top of the pop-up menu is blueish, and the badge on the extension icon is blue.
+Here, per-site permissions for `https://www.facebook.com` are created. Notice the visual cue: when per-site permissions are active, the top of the pop-up menu is blueish, and the badge on the extension icon is blue.
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-4.png)
 
-Whatever you whitelist/blacklist in per-page permissions mode will apply **strictly** to `https://www.facebook.com` in the above example. Any page which does not start **exactly** with `https://www.facebook.com` will not use the permissions specific to `https://www.facebook.com`.
+Whatever you whitelist/blacklist in per-site permissions mode will apply **strictly** to `https://www.facebook.com` in the above example. Any web page URL which does not start **exactly** with `https://www.facebook.com` will not use the permissions specific to `https://www.facebook.com`.
 
 The specific permissions created above will *not* apply to `http://www.facebook.com`, `https://facebook.com`, `https://www.facebook.net`, etc.
 
 ![`facebook.com` blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/per-permission-facebook-5.png)
 
-Per-page permissions must also be padlocked to stick, just like global permissions.
+Per-site permissions must also be padlocked to stick, just like global permissions.
 
 After you have created whitelist permissions specific to `https://www.facebook.com`, `facebook.com` is still blacklisted globally:
 
