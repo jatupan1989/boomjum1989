@@ -1,0 +1,1 @@
+The page has been renamed more accurately ["Per site permission: an example"](Per site permission: an example).
