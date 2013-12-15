@@ -1,3 +1,5 @@
+Recipes to import in *Rule manager*.
+
 ### Google account login
 
     https%3A%2F%2Faccounts.google.com%0A%09w
