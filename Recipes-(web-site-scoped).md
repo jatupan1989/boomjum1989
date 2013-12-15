@@ -1,4 +1,4 @@
-Recipes to import in *Rule manager*.
+Recipes to import in *Rule manager*. More will be added over time.
 
 The following recipe are all web site-scoped. For example, the permissions for the "Google Plus" recipe apply only while you are on a web page which URL starts with `https://plus.google.com`. On any other web page, the rules won't apply, meaning `plus.google.com` would be blocked, unless you have your own existing rules which whitelist `plus.google.com`.
 
