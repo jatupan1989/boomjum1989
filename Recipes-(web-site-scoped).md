@@ -1,4 +1,4 @@
-Recipes to import in *Rule manager*.
+Recipes to import in *Rule manager*. The following recipe are all web site-scoped. For example, the permissions for the "Google Plus" recipe apply only while you are on a web page which URL starts with `https://plus.google.com`. On any other web page, the rules won't apply, meaning `plus.google.com` would be blocked, unless you have your own existing rules which whitelist `plus.google.com`.
 
 ### Google account login
 
@@ -40,9 +40,9 @@ For https://www.youtube.com :
     deo.com%0A%09blacklist%0A%09%09object%20
     *%0A%09%09sub_frame%20*%0A%09%09*%20*%0A
 
-### Facebook blocked everywhere except `facebook.com`
+### Facebook
 
-For https://www.facebook.com :
+For https://www.facebook.com:
 
     https%3A%2F%2Fwww.facebook.com%0A%09whit
     elist%0A%09%09*%20akamaihd.net%0A%09%09*
