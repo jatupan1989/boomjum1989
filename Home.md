@@ -11,7 +11,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [In the top left of the matrix, what is "other"?](/gorhill/httpswitchboard/wiki/In-the-top-left-of-the-matrix,-what-is-%22other%22%3F)
     * [Visual pollution: Hide blacklisted hostnames from view](/gorhill/httpswitchboard/wiki/Hide-blacklisted-hostnames-from-view)
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
-- [Recipes (web site scoped)](/gorhill/httpswitchboard/wiki/Recipes-(web-site-scoped) )
+- [Recipes (web site scoped)](/gorhill/httpswitchboard/wiki/Recipes-%28web-site-scoped%29)
 - [How does *HTTP Switchboard* compares to *AdBlock+*, *Ghostery* or *Disconnect* concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-AdBlock-%2C-Ghostery-or-Disconnect-concerning-privacy%3F)
 - [Doesn't *HTTP Switchboard* add a significant overhead to network traffic?](/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F)
 - Tools
