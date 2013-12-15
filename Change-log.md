@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 - Cookie janitor code is back: this gets rid of any unused cookies from non-whitelisted hostnames which might be present in your browser.
     * Be aware that some extensions use cookies which are created from hostnames which might not have been whitelisted.
         - For example, LastPass needs cookies from `lastpass.com`, so be sure to whitelist cookies for `lastpass.com` (by visiting LastPass web site, so that you can use HTTPSB matrix).
-    * There is no way for HTTPSB to know whether a cookie is used by an extension or a web page in a tab, so if an extension misbehave, it could be because of cookies being deleted under its feet (all cookie manager will potentially interfere, this is not specific to HTTPSB). The fix is to identify and whitelist the hostname of the cookie, or to disable the "Delete blocked cookies" option.
+    * There is no way for HTTPSB to know whether a stale cookie was created by an extension or a web page, so if an extension misbehave, it could be because of cookies being deleted under its feet (all cookie manager will potentially interfere, this is not specific to HTTPSB). The fix is to identify and whitelist the hostname of the cookie, or to disable the "Delete blocked cookies" option.
     * The cookie janitor is easy going though, only non-whitelisted orphan cookies which have been stale for more than two hours will be removed.
 - Overhaul of cookie management code = robustness and performance enhancement.
 - Added tooltip for "other" header in the matrix to help people remember what is in this column.
