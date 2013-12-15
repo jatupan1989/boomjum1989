@@ -2,6 +2,8 @@ Recipes to import in *Rule manager*.
 
 ### Google account login
 
+Works for everywhere you need to login into a Google service:
+
     https%3A%2F%2Faccounts.google.com%0A%09w
     hitelist%0A%09%09*%20google.ca%0A%09%09*
     %20google.com%0A%09%09*%20googleusercont
@@ -13,6 +15,8 @@ Recipes to import in *Rule manager*.
 
 ### Google Plus
 
+For https://plus.google.com :
+
     https%3A%2F%2Fplus.google.com%0A%09white
     list%0A%09%09*%20gstatic.com%0A%09%09*%2
     0google.com%0A%09%09image%20*%0A%09black
@@ -21,7 +25,7 @@ Recipes to import in *Rule manager*.
 
 ### Youtube, with comments enabled
 
-For https://www.youtube.com *only*:
+For https://www.youtube.com :
 
     https%3A%2F%2Fwww.youtube.com%0A%09white
     list%0A%09%09xmlhttprequest%20googleapis
@@ -37,6 +41,8 @@ For https://www.youtube.com *only*:
     *%0A%09%09sub_frame%20*%0A%09%09*%20*%0A
 
 ### Facebook blocked everywhere except `facebook.com`
+
+For https://www.facebook.com :
 
     https%3A%2F%2Fwww.facebook.com%0A%09whit
     elist%0A%09%09*%20akamaihd.net%0A%09%09*
