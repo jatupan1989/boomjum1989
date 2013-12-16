@@ -2,18 +2,12 @@ Recipes to import in *Rule manager*. More will be added over time.
 
 The following recipes are all web site-scoped. For example, the permissions for the "Google Plus" recipe apply only while you are on a web page which URL starts with `https://plus.google.com`. On any other web page, the rules won't apply, meaning `plus.google.com` would be blocked, unless you have your own existing rules which whitelist `plus.google.com`.
 
-### Google account login
+### Google account login (updated 2013-12-16)
 
 Works for everywhere you need to login into a Google service:
 
     https%3A%2F%2Faccounts.google.com%0A%09w
-    hitelist%0A%09%09*%20google.ca%0A%09%09*
-    %20google.com%0A%09%09*%20googleusercont
-    ent.com%0A%09%09*%20youtube.com%0A%09%09
-    image%20*%0A%09%09sub_frame%20google.com
-    %0A%09%09sub_frame%20youtube.com%0A%09bl
-    acklist%0A%09%09object%20*%0A%09%09sub_f
-    rame%20*%0A%09%09*%20*%0A
+    hitelist%0A%09%09*%20*%0A
 
 ### Google Plus
 
