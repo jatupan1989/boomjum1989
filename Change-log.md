@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
         - Stylesheets
         - Web fonts (these are no longer reported in the "other" column)
     * Adding a new column required that I revisited the visuals of the matrix, due to limited horizontal space.
-        - Especially, the visual for the "permanent" status of a cell has changed in order to take up less horizontal space. It is somewhat more subtle, but we get used to it. (Spent hours trying to figure the best visual, and this was the result.)
+        - Especially, the visual for the "permanent" status of a cell has changed in order to take up less horizontal space. It is somewhat more subtle, but we get used to it. (Spent hours trying to figure the best visual, and nothing else I tried worked IMO.)
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/91>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/87>
 
