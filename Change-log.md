@@ -7,6 +7,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
         - Web fonts (these are no longer reported in the "other" column)
     * Adding a new column required that I revisited the visuals of the matrix, due to limited horizontal space.
         - Especially, the visual for the "permanent" status of a cell has changed in order to take up less horizontal space. It is somewhat more subtle, but we get used to it. (Spent hours trying to figure the best visual, and nothing else I tried worked IMO.)
+    * Result is that now important stylesheet requests are no longer buried in the obscure "other" column.
+        - I decided to also report web fonts in the "css" column, as these contribute, just like stylesheets, to the appearance of web pages.
+    * The "css" column will default to being whitelisted (just like images).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/91>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/87>
 
