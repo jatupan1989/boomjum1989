@@ -1,5 +1,17 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+### 0.7.0.0
+- **Important**: UI change (as per [issue #87](/gorhill/httpswitchboard/issues/87)):
+    * A new column has been added in the matrix: "css", which acts on/reports:
+        - Stylesheets
+        - Web fonts (these are no longer reported in the "other" column)
+    * Adding a new column required that I revisited the visuals of the matrix, due to limited horizontal space.
+        - Especially, the visual for the "permanent" status of a cell has changed in order to take up less horizontal space. It is somewhat more subtle, but we get used to it. (Spent hours trying to figure the best visual, and this was the result.)
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/91>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/87>
+
+***
+
 ### 0.6.9.0
 - Overhaul of cookie management code = robustness and performance enhancement.
 - New user setting: "[ ] Delete non-blocked session cookies [?] minutes after last time they have been used."
@@ -17,9 +29,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/79>
     * For some web site, there will still be a lot of cookie entries in the log in the *Statistics* page: this is because the site changes the value of cookies very often, it's not because HTTPSB over-report.
 
+***
+
 ### 0.6.8.1
 - Fixed ["Sometimes web page reload after closing popup menu even when no change made"](https://github.com/gorhill/httpswitchboard/issues/85)
     * This one was introduced back in [version 0.6.6](/gorhill/httpswitchboard/wiki/Change-log#066) :-(
+
+***
 
 ### 0.6.8.0
 - Third-party blacklists can now be selectively enabled/disabled (from the *Statistics* page).
@@ -35,8 +51,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 - Merged pull request <https://github.com/gorhill/httpswitchboard/pull/84>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/78>
 
+***
+
 ### 0.6.7
 -  No change for existing users. First time HTTPSB is installed, requests of type "other" are whitelisted by default. This is the best option given the last update in which stylesheets are treated as 'other' for 3rd-party hostnames. Even without this change in version 0.6.6, I had been leaning toward whitelisting by default the "other" column because it is often used also for [web fonts](/gorhill/httpswitchboard/wiki/FAQ#in-the-top-left-of-the-matrix-what-is-other).
+
+***
 
 ### 0.6.6
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/76>.
@@ -47,6 +67,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
         - Remember: with this update, you are now in control of your privacy: you choose where your browser is allowed to connect.
 
 ***
+
 ### 0.6.5
 - Fix required in order to be able to run as an Opera add-on.
     * In Opera, `onBeforeRequest` can be called before the URL is bound to tab, thus preventing the blocking of inline javascript.
