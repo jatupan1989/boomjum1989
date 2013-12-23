@@ -1,4 +1,4 @@
-For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
+For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
 ### 0.7.1.0
 - **Important**: UI change:
