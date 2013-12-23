@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
     * You can lock down the status of all cells in the matrix using the single padlock button at the top.
     * Using the single padlock button at the top won't affect temporary rules which are not currently displayed in the matrix. Only the rules which are present in the current matrix will be locked down.
 - Better scoping, now three scope levels:
-    * Global: no change, as before
+    * Global: no change, as before.
     * Domain: new. Example: `https://*.google.com`.
         - This will take care of a lot of pain when creating rules for those domain names which offer many various services. Best example is `google.com`. I don't want to be tracked by `google.com` (not whitelisted globally), but I do want `google.com` and associated subdomains to be whitelisted when visiting one of its subdomains.
         - Creating a per-site ruleset for `https://plus.google.com`, `https://support.google.com`, `https://translate.google.com`, etc. was a real burden.
