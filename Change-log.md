@@ -1,5 +1,11 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
+### 0.7.1.0
+- Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
+    * This simplifies styling a lot: size, colour, etc. through CSS.
+
+***
+
 ### 0.7.0.0
 - **Important**: UI change (as per [issue #87](/gorhill/httpswitchboard/issues/87)):
     * A new column has been added in the matrix: "css", which acts on/reports:
