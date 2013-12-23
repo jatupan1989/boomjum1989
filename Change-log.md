@@ -24,7 +24,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Blocking formerly unblocked requests won't result in a page reload, *except* for scripts (because they need to be disabled).
     * So for example, if I block previously unblocked images, there is no need to reload the page, as the already loaded images are not affecting the page's behavior, just its look.
 - Page can be force-reloaded from the popup menu.
-    * This means you can now apply you changes without closing the popup menu.
+    * This means you can now apply your changes without closing the popup menu.
 - Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
     * This simplifies styling a lot: size, colour, etc. through CSS.
 
