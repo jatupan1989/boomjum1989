@@ -8,6 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 - Better scoping, now three scope levels:
     * Global: no change, as before
     * Domain: new. Example: `https://*.google.com`.
+        - This will take care of a lot of pain when creating rules for those domain names which offer many various services. Best example is `google.com`. I don't want to be tracked by `google.com` (not whitelisted globally), but I do want `google.com` and associated subdomains to be whitelisted when visiting one of its subdomains. Creating a per-site ruleset for `https://plus.google.com`, `https://support.google.com`, `https://translate.google.com`, etc. was a real burden. Now I can create one per-domain ruleset, `https://*.google.com`, to take care of all the previous per-site ruleset.
     * Site: no change, as before. Example: `https://plus.google.com`.
     * Scoping is now temporary by default. Use top padlock button to make it permanent. This opens the door to this interesting feature:
         - Auto site-scope temporarily (request from a user, thought it was a good idea). Will see if I include this in this release.
