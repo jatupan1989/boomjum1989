@@ -9,6 +9,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
     * Global: no change, as before
     * Domain: new. Example: `https://*.google.com`.
     * Site: no change, as before. Example: `https://plus.google.com`.
+    * Scoping is now temporary by default. Use top padlock button to make it permanent. This opens the door to this interesting feature:
+        - Auto site-scope temporarily (request from a user, thought it was a good idea). Will see if I include this in this release.
 - Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
     * This simplifies styling a lot: size, colour, etc. through CSS.
 
