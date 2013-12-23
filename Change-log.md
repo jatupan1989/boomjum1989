@@ -17,6 +17,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Scoping is now temporary by default. Use top padlock button to make it permanent.
         - This opens the door to this interesting feature: Auto site-scope temporarily ([request from a user](https://github.com/gorhill/httpswitchboard/issues/43#issuecomment-29162723), thought it was a good idea). Will see if I include this in this release.
     * Scope lookup at request eval time is now smarter: Example: If visiting `http://facebook.com`, per-site ruleset `https://facebook.com` will be used. However, the reverse is not true.
+- Smarter smart reload:
+    * Blocking formerly unblocked requests won't result in a page reload, *except* for scripts (because they need to be disabled).
+    * So for example, if I block previously unblocked images, there is no need to reload the page, as the already loaded images are not affecting the page's behavior, just its look.
 - Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
     * This simplifies styling a lot: size, colour, etc. through CSS.
 
