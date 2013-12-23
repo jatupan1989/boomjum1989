@@ -14,8 +14,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
         - Creating a per-site ruleset for `https://plus.google.com`, `https://support.google.com`, `https://translate.google.com`, etc. was a real burden.
         - Now I can create one per-domain ruleset, `https://*.google.com`, to take care of all the previous per-site rulesets.
     * Site: no change, as before. Example: `https://plus.google.com`.
-    * Scoping is now temporary by default. Use top padlock button to make it permanent. This opens the door to this interesting feature:
-        - Auto site-scope temporarily (request from a user, thought it was a good idea). Will see if I include this in this release.
+    * Scoping is now temporary by default. Use top padlock button to make it permanent.
+        - This opens the door to this interesting feature: Auto site-scope temporarily ([request from a user](https://github.com/gorhill/httpswitchboard/issues/43#issuecomment-29162723), thought it was a good idea). Will see if I include this in this release.
     * Scope lookup at request eval time is now smarter: Example: If visiting `http://facebook.com`, per-site ruleset `https://facebook.com` will be used. However, the reverse is not true.
 - Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
     * This simplifies styling a lot: size, colour, etc. through CSS.
