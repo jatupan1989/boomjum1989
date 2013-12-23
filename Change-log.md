@@ -2,6 +2,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
 
 ### 0.7.1.0
 - **Important**: UI change:
+    * ![UI changes](http://www.raymondhill.net/httpsb/img/v0.7.1.0-screenshot-1.png)
+- Locking down the status of a matrix cell:
     * The padlock icons used to lock down a cell status are gone.
     * You can lock down the status of all cells in the matrix using the single padlock button at the top.
     * Using the single padlock button at the top won't affect temporary rules which are not currently displayed in the matrix. Only the rules which are present in the current matrix will be locked down.
