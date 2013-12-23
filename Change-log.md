@@ -5,6 +5,10 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
     * The padlock icons used to lock down a cell status are gone.
     * You can lock down the status of all cells in the matrix using the single padlock button at the top.
     * Using the single padlock button at the top won't affect temporary rules which are not currently displayed in the matrix. Only the rules which are visible in the matrix will be locked down.
+- Better scoping, now three scope levels:
+    * Global: no change, as before
+    * Domain: new. Example: `https://*.google.com`.
+    * Site: no change, as before. Example: `https://plus.google.com`.
 - Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
     * This simplifies styling a lot: size, colour, etc. through CSS.
 
