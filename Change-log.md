@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.7.1.0
 - **Important**: UI change:
-    * ![UI changes](http://www.raymondhill.net/httpsb/img/v0.7.1.0-screenshot-1.png)
+    * ![UI changes](http://www.raymondhill.net/httpsb/img/v0.7.1.0-screenshot-2.png)
 - Locking down the status of a matrix cell:
     * The padlock icons used to lock down a cell status are gone.
     * You can lock down the status of all cells in the matrix using the single padlock button at the top.
