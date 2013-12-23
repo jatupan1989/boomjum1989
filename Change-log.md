@@ -12,7 +12,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below.
     * Site: no change, as before. Example: `https://plus.google.com`.
     * Scoping is now temporary by default. Use top padlock button to make it permanent. This opens the door to this interesting feature:
         - Auto site-scope temporarily (request from a user, thought it was a good idea). Will see if I include this in this release.
-    * Scope selection is now smarter: Example: If visiting `http://facebook.com`, per-site ruleset `https://facebook.com` will be used. However, the reverse is not true.
+    * Scope lookup at request eval time is now smarter: Example: If visiting `http://facebook.com`, per-site ruleset `https://facebook.com` will be used. However, the reverse is not true.
 - Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
     * This simplifies styling a lot: size, colour, etc. through CSS.
 
