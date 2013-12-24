@@ -56,3 +56,6 @@ A quick overview of the matrix:
 - The left-most column lets you control the hostnames which are to be allowed/denied.
 - The top-left cell lets you control all the other cells in the matrix.
     * A click on that single cell allows you to whitelist or blacklist all the cells in the matrix -- **except** those cells which are assigned an explicit rule.
+    * This cell affects the status of graylisted cells in the top row and the left-most column.
+    * In turn, the cells in the top row affect the status of graylisted cells under them.
+    * In turn, the cells in the left-most column affect the status of graylisted cells on their right.
