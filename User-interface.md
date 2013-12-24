@@ -1,5 +1,17 @@
 [under construction]
 
+### Badge
+![Extension badge](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-badge-1.png)
+
+The green/red coloured areas in the icon give an overview of how many requests were allowed (green) versus how many were blocked.
+
+The number in the icon represents the total number of *distinct* requests made -- successfully or not -- by the web page. Blocked or allowed requests are counted the same.
+
+The background color of the number indicates the current scope being in effect.
+    - Black: global scope.
+    - Dark blue: domain-level scope.
+    - Light blue: site-level scope.
+
 ### Matrix toolbar
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-1.png)
