@@ -49,7 +49,7 @@ A quick overview of the matrix:
     * Pale green means the whitelist status is inherited from another higher precedence cell in the matrix.
 - A reddish cell (pale or dark) represents a request to block.
     * Dark red means there is an explicit blacklist rule assigned to the cell.
-    * Pale red cell means the blacklist status is inherited from another higher precedence cell in the matrix.
+    * Pale red means the blacklist status is inherited from another higher precedence cell in the matrix.
 - A pale green or pale red cell is also referred to as being *graylisted*.
     * A graylisted cell always inherit its whitelist or blacklist status from an higher precedence cell.
 - The top row lets you control the types of request which are to be allowed/denied.
