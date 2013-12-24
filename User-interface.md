@@ -51,6 +51,7 @@ A quick overview of the matrix:
     * Dark red means there is an explicit blacklist rule assigned to the cell.
     * Pale red cell means the blacklist status is inherited from another higher precedence cell in the matrix.
 - A pale green or pale red cell is also referred to as being *graylisted*.
+    * A graylisted cell always inherit its whitelist or blacklist status from an higher precedence cell.
 - The top row lets you control the types of request which are to be allowed/denied.
 - The left-most column lets you control the hostnames which are to be allowed/denied.
 - The top-left cell lets you control all the other cells in the matrix.
