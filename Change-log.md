@@ -27,6 +27,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * This means you can now apply and see the result of your changes without having to close the popup menu.
 - Now using [Font Awesome](http://fontawesome.io/) instead of PNG icons wherever possible.
     * This simplifies styling a lot: size, colour, etc. through CSS.
+- Fixed:
+    * <https://github.com/gorhill/httpswitchboard/issues/96>
+    * <https://github.com/gorhill/httpswitchboard/issues/95>
+    * <https://github.com/gorhill/httpswitchboard/issues/94>
+    * <https://github.com/gorhill/httpswitchboard/issues/90>
+    * <https://github.com/gorhill/httpswitchboard/issues/23>
 
 ***
 
