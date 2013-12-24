@@ -40,3 +40,10 @@ From left to right:
 ### Matrix
 
 ![Matrix: the "all" cell](https://raw.github.com/gorhill/httpswitchboard/fe5030c69e2185d703a1313fcd9d25444c4b209c/doc/img/popupmenu-matrix-all-1.gif)
+
+A quick overview of the matrix:
+- The matrix is made of cells.
+- A greenish cell (pale or dark) represent a request to allow.
+- A reddish cell (pale or dark) represent a request to block.
+- The top row allows you to control which type of requests are to be allowed/denied.
+- The left-most column allows you to control the hostnamesfor which requests are to be allowed/denied.
