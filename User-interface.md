@@ -9,9 +9,9 @@ The number in the icon represents the total number of *distinct* requests made -
 
 The background color of the number indicates the current scope being in effect:
 
-    - Black: global scope.
-    - Dark blue: domain-level scope.
-    - Light blue: site-level scope.
+- Black: global scope.
+- Dark blue: domain-level scope.
+- Light blue: site-level scope.
 
 ### Matrix toolbar
 
