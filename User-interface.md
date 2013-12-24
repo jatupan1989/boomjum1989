@@ -36,4 +36,7 @@ From left to right:
 * Revert all rules.
     - Clicking this button will cause all temporary rules to be wiped out. Only the permanent rules will be active in the matrix.
 * Last button is to bring up more options, which are explained below.
-    
+
+### Matrix
+
+![Matrix: the "all" cell](https://raw.github.com/gorhill/httpswitchboard/fe5030c69e2185d703a1313fcd9d25444c4b209c/doc/img/popupmenu-matrix-all-1.gif)
