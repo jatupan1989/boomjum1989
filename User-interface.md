@@ -45,5 +45,5 @@ A quick overview of the matrix:
 - The matrix is made of cells.
 - A greenish cell (pale or dark) represent a request to allow.
 - A reddish cell (pale or dark) represent a request to block.
-- The top row allows you to control which type of requests are to be allowed/denied.
-- The left-most column allows you to control the hostnamesfor which requests are to be allowed/denied.
+- The top row lets you control the types of request which are to be allowed/denied.
+- The left-most column lets you control the hostnames which are to be allowed/denied.
