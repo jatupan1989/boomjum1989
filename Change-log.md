@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.7.1.1
 - Updated third-party preset blacklists to their latest version.
-- Made [Dan Pollock's blacklist](http://someonewhocares.org/hosts/) active by default for new install (it was off by default).
+- Made [Dan Pollock's blacklist](http://someonewhocares.org/hosts/) active by default for a new install (it was off by default).
     * It's a high quality blacklist, carefully maintained, it deserves to be used out of the box.
 
 ### 0.7.1.0
