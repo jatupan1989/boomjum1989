@@ -12,8 +12,8 @@ From left to right:
         * Site-level scope. Example: `https://www.facebook.com`. Rules at site-level scope will apply to web pages which match *exactly* the name of the scope, including the scheme.
     - An example for the use of scopes: block `facebook.com` globally, but allow `facebook.com` when visiting `https://www.facebook.com`. This is useful to prevent those ubiquitous servers from tracking you, unless you explicitly visit them.
     - Another example: to enforce the use of a secure scheme for a web site. If you create a scope `https://www.google.com` along with specific rules, these rules will *not* apply of the visited web page is `http://www.google.com`.
-* Padlock: all changes in the matrix are temporary by default. This applies to scope selection as well.
-    - For any changes to be permanent, you need to click the padlock.
+* Padlock: For any changes to be permanent, you need to click the padlock.
+    - All changes in the matrix are temporary by default. This applies to scope selection as well.
     - Don't be scared to experiment with whitelisting, blacklisting or graylisting. It's all temporary.
     - When you are satisfied with the state of the matrix, make the scope/rules permanent by clicking the padlock.
 * Force a reload the web page.
