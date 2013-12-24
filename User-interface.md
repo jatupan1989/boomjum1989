@@ -43,6 +43,7 @@ From left to right:
 
 A quick overview of the matrix:
 - The matrix is made of cells.
+    * Each cell is bound to a hostname, a type of request, or both.
 - A greenish cell (pale or dark) represents a request to allow.
     * A dark green cell means there is an explicit whitelist rule assign to it.
     * A pale green cell means its whitelist status is inherit from another higher precedence cell in the matrix.
