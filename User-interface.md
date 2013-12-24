@@ -18,4 +18,5 @@ From left to right:
     - For any changes to be permanent, you need to click the padlock.
 * Force a reload the web page. The web page will reload if needed when you close the popup menu, but you can force a reload while the popup menu is opened in order to see the effects of your changes.
 * Revert all rules. Clicking this button will cause all temporary rules to be wiped out. Only the permanent rules will be active in the matrix.
+* Last button is to bring up more options, which are explained below.
     
