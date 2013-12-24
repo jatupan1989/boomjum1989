@@ -45,12 +45,12 @@ A quick overview of the matrix:
 - The matrix is made of cells.
     * Each cell is bound to a hostname, a type of request, or both.
 - A greenish cell (pale or dark) represents a request to allow.
-    * A dark green cell means there is an explicit whitelist rule assign to it.
-    * A pale green cell means its whitelist status is inherit from another higher precedence cell in the matrix.
+    * Dark green means there is an explicit whitelist rule assign to the cell.
+    * Pale green means the whitelist status is inherit from another higher precedence cell in the matrix.
 - A reddish cell (pale or dark) represents a request to block.
-    * A dark red cell means there is an explicit blacklist rule assign to it.
-    * A pale red cell means its blacklist status is inherit from another higher precedence cell in the matrix.
+    * Dark red means there is an explicit blacklist rule assign to the cell.
+    * Pale red cell means the blacklist status is inherit from another higher precedence cell in the matrix.
 - The top row lets you control the types of request which are to be allowed/denied.
 - The left-most column lets you control the hostnames which are to be allowed/denied.
 - The top-left cell lets you control all the other cells in the matrix.
-    * So a click on that single cell allows you to whitelist or blacklist all the cells in the matrix -- **except** those cells which are assigned an explicit rule.
+    * A click on that single cell allows you to whitelist or blacklist all the cells in the matrix -- **except** those cells which are assigned an explicit rule.
