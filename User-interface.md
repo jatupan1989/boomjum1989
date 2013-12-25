@@ -72,5 +72,8 @@ A quick overview of the matrix:
 
 ![A blacklisted cell](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-4.png)
 
-[Above] A blacklisted cell. In this example, this means "everything from `arstechnica.com` will be blocked, *including* the main frame". The cell is dark red because it has an explicit blacklist rule attached to it. The blacklist status of this cell will affect cells with lower precedence in the matrix.
+[Above] A blacklisted cell. In this example, this means "everything from `arstechnica.com` will be blocked, *including* the main frame". The cell is dark red because it has an explicit blacklist rule attached to it. The blacklist status of this cell will affect graylisted cells with lower precedence in the matrix.
 
+![A whitelisted cell](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-3.png)
+
+[Above] A whitelisted cell. In this example, this means "everything from `arstechnica.com` will be allowed". The cell is dark green because it has an explicit whitelist rule attached to it. The whitelist status of this cell will affect graylisted cells with lower precedence in the matrix.
