@@ -92,4 +92,4 @@ The permanent status of a cell (if any) appears in the top-left corner of the ce
 
 ![A permanently whitelisted cell which is temporarly graylisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-6.png)
 
-[Above] A permanently whitelisted cell in which is temporarily graylisted. Remember, the effective status of a cell is the temporary status: all requests are evaluated against the temporary (effective) status.
+[Above] A permanently whitelisted cell which is temporarily graylisted. Remember, the effective status of a cell is its temporary status: all requests are evaluated against the temporary (effective) status.
