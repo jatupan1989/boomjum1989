@@ -100,7 +100,7 @@ The permanent status of a cell (if any) appears in the top-left corner of the ce
 
 [Above] A permanently whitelisted cell which is temporarily blacklisted. Again, the temporary status is the one against which requests are evaluated, this means that all requests which destination is `arstechnica.com` will be blocked.
 
-Once you have fiddled enough and want to clear temporary status for all cells to their natural permanent status, you click the "revert" icon in the toolbar:
+Once you have fiddled enough and want to clear temporary status for all cells to their natural permanent status, you click the "revert" icon in the toolbar (it's an eraser in case you wonder):
 
 ![A whitelisted cell](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-tools-revert-1.png)
 
