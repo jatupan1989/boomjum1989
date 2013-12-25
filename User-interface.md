@@ -93,3 +93,8 @@ The permanent status of a cell (if any) appears in the top-left corner of the ce
 ![A permanently whitelisted cell which is temporarly graylisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-6.png)
 
 [Above] A permanently whitelisted cell which is temporarily graylisted. Remember, the effective status of a cell is its temporary status: all requests are evaluated against the temporary (effective) status.
+
+![A permanently whitelisted cell which is temporarly blacklisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-7.png)
+
+[Above] A permanently whitelisted cell which is temporarily blacklisted. Again, the temporary status is the one against which requests are evaluated, this means that all requests which destination is `arstechnica.com` will be blocked.
+
