@@ -29,8 +29,8 @@ made by the page were not blocked. The only requests which are still blocked are
 blacklisted.
 
 Note the same can be done without going into site-level scope, but then this broad whitelisting would apply
-globally, i.e. to every pages, not just the one you trust, hence the usefulness of the site-level scope feature in this case.
+globally, i.e. to every page, not just the one you trust, hence the usefulness of the site-level scope feature in this case.
 
-Keep in mind that when default is all being whitelisted, this means you need to blacklist selectively (as opposed to default blacklist-all-whitelist-selectively), so if after whitelisting all there is something you don't like in the matrix, you will have to selectively blacklist it. Example:
+Keep in mind that when default is all being whitelisted, this means you need to blacklist selectively (as opposed to default blacklist-all/whitelist-selectively), so if after whitelisting all there is something you don't like in the matrix, you will have to selectively blacklist it. Example:
 
 ![Step 5](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-e.png)
