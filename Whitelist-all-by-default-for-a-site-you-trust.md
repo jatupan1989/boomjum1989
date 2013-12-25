@@ -20,7 +20,7 @@ While in site-level scope, all rules created from now on while on this web site 
 
 ![Step 3](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-c.png)
 
-Now click the "all" cell in the matrix (the top-left one) to turn it dark green, which means "whitelist all" by default. All the cells in the matrix which do not have explicit permissions (whether *allow* or *block*) will toggle state according to the *all* cell. Don't forget to lock the matrix state by clicking on the padlock tool at the top..
+Now click the "all" cell in the matrix (the top-left one) to turn it dark green, which means "whitelist all" by default. All the cells in the matrix which do not have explicit permissions (whether *allow* or *block*) will toggle state according to the *all* cell. Don't forget to lock the matrix state by clicking on the padlock tool at the top.
 
 ![Step 4](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-d.png)
 
