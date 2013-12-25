@@ -12,7 +12,7 @@ This is what you would see normally using out-of-the-box permissions (aka rules)
 
 ![Step 1](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-a.png)
 
-Now click the site-scope button in order to create permissions specific to this web site (that would be the top-left button):
+Now click the scope button and select the site-level scope in order to create permissions specific to this web site (that would be the top-left button):
 
 ![Step 2](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-b.png)
 
