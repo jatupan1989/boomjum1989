@@ -24,17 +24,14 @@ For https://plus.google.com :
 For https://www.youtube.com :
 
     https%3A%2F%2Fwww.youtube.com%0A%09white
-    list%0A%09%09xmlhttprequest%20googleapis
-    .com%0A%09%09sub_frame%20googleapis.com%
-    0A%09%09*%20google.com%0A%09%09*%20youtu
-    be.com%0A%09%09*%20ytimg.com%0A%09%09ima
-    ge%20*%0A%09%09object%20googlevideo.com%
-    0A%09%09object%20youtube.com%0A%09%09obj
-    ect%20ytimg.com%0A%09%09sub_frame%20acco
-    unts.google.com%0A%09%09sub_frame%20goog
-    le.com%0A%09%09xmlhttprequest%20googlevi
-    deo.com%0A%09blacklist%0A%09%09object%20
-    *%0A%09%09sub_frame%20*%0A%09%09*%20*%0A
+    list%0A%09%09*%20plus.googleapis.com%0A%
+    09%09*%20google.com%0A%09%09*%20googlevi
+    deo.com%0A%09%09*%20youtube.com%0A%09%09
+    *%20ytimg.com%0A%09%09image%20*%0A%09%09
+    sub_frame%20accounts.google.com%0A%09%09
+    sub_frame%20googleapis.com%0A%09%09xmlht
+    tprequest%20googleapis.com%0A%09blacklis
+    t%0A%09%09*%20*%0A
 
 ### Facebook
 
