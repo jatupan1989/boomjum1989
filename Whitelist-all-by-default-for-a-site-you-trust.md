@@ -16,9 +16,7 @@ Now click the scope button and select the site-level scope in order to create pe
 
 ![Step 2](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-b.png)
 
-The background of the pop-up menu become blueish: this means you are now in site-scope mode, that is,
-all rules created from now on while on this web site will apply *only* to this web site (<https://vimeo.com>
-in our example).
+While in site-level scope, all rules created from now on while on this web site will apply *only* to this web site (<https://vimeo.com> in our example).
 
 ![Step 3](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/quicktour-003-c.png)
 
