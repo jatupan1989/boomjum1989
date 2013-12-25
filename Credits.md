@@ -16,7 +16,6 @@ HTTP Switchboard also uses the work of other people. As of v0.6.2:
 - [Bootstrap](http://getbootstrap.com/). Specifically:
     * [Dropdowns](http://getbootstrap.com/javascript/#dropdowns)
 - Arts:
-    * [Moka Icon Theme](https://github.com/snwh/moka-icon-theme-symbolic) by [Sam Hewitt](https://github.com/snwh). Got and modified as needed some of the icons from this theme.
-    * [Gnome Symbolic Icon Theme](https://git.gnome.org/browse/gnome-icon-theme-symbolic). Got and modified as needed some of the icons from this theme.
+    * [Font Awesome](http://fontawesome.io/), for the various icons throughout.
 - Specific contributions to project code:
     * [GuardianMajor](github.com/GuardianMajor): [Collapsible help boxes](/gorhill/httpswitchboard/pull/57) in the *Settings* page.
