@@ -1,6 +1,7 @@
 There is a web site you trust completely and you just want to whitelist all by default on
-this web site, rather than hunting exactly for what should be whitelisted to make it work smoothly. I will use an
-example to demonstrate how to proceed to whitelist all by default for a site you trust (like,
+this web site, rather than hunting exactly for what should be whitelisted to make it work smoothly. "Whitelisting by default" means all current and future requests will be allowed (a feature many NoScript users wish they had: ["Why must I "Temporarily allow all this page" REPEATEDLY?"](http://forums.informaction.com/viewtopic.php?f=7&t=8309))
+
+I will use an example to demonstrate how to proceed to whitelist all by default for a site you trust (like,
 say, your bank).
 
 Suppose I totally trust <https://vimeo.com/> (it's just an example...), and
