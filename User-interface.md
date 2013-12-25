@@ -108,4 +108,4 @@ Which means the above cell, used as an example, will go back to its natural (per
 
 ![A permanently whitelisted cell in its default state](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-5.png)
 
-By the way, a cell without the top-left permanent indicator means that is persisted status is graylisted (the natural state of cells).
+By the way, a cell without the top-left permanent indicator means that its persisted status is graylisted (the natural state of cells).
