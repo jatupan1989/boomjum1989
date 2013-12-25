@@ -4,6 +4,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [User interface](/gorhill/httpswitchboard/wiki/User-interface) (recommended reading)
         - [The badge](/gorhill/httpswitchboard/wiki/The-badge)
+        - [The matrix toolbar](/gorhill/httpswitchboard/wiki/The-matrix-toolbar)
     * [Quick tour #1](wiki/Quick-tour-%231%3A-1-of-7) (out-of-date)
     * [Quick tour #2](wiki/Quick-tour-%232%3A-1-of-3) (out-of-date)
     * [Why are my rules not restored when I launched Chromium again?](https://github.com/gorhill/httpswitchboard/wiki/Why-are-my-rules-not-restored-when-I-launched-Chromium-again%3F)
