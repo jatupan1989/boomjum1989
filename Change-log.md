@@ -31,7 +31,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Scope lookup at request eval time is now smarter: Example: If visiting `https://facebook.com`, per-site ruleset `http://facebook.com` will be used if it exists. However, the reverse is not true.
 - **New feature**: Auto-whitelisting of the domain of the visited web page. Default is off. Go to <i>Settings...</i> page to turn it on.
     * I personally advise against, but some people really want it. So be it.
-    * A reminder: blocking by default prevent [that kind of problem](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/).
+    * A reminder: blocking `frame` by default prevent [that kind of problem](http://arstechnica.com/security/2013/10/hackers-compromise-official-php-website-infect-visitors-with-malware/).
 - Smarter smart reload:
     * Blocking formerly unblocked requests won't result in a page reload, *except* for scripts (because they need to be disabled).
     * So for example, if I block previously unblocked images, there is no need to reload the page, as the already loaded images are not affecting the page's behavior, just its look.
