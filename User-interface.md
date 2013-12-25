@@ -59,3 +59,8 @@ A quick overview of the matrix:
     * This cell affects the status of graylisted cells in the top row and the left-most column.
     * In turn, the cells in the top row affect the status of graylisted cells under them.
     * In turn, the cells in the left-most column affect the status of graylisted cells on their right.
+
+### Matrix cells
+
+- ![Graylisted cell](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-1.png) : A graylisted cell. In this example, this means "everything from `arstechnica.com` will be blocked". The cell is pale red because it doesn't have an explicit rule attached to it, it inherit its blacklist status from a higher precedence cell in the matrix.
+-
