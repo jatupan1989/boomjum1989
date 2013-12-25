@@ -90,6 +90,8 @@ The permanent status of a cell (if any) appears in the top-left corner of the ce
 
 [Above] A permanently whitelisted cell in its default state. This means the temporary status of the cell is explicitly whitelisted, which reflects its permanent status.
 
+**Important note**: When you click the padlock tool, **all cells in the matrix** will have their state persisted using their current temporary status. This also applies to the scope cell at the top.
+
 ![A permanently whitelisted cell which is temporarly graylisted](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-matrix-cell-6.png)
 
 [Above] A permanently whitelisted cell which is temporarily graylisted. Remember, the effective status of a cell is its temporary status: all requests are evaluated against the temporary (effective) status.
