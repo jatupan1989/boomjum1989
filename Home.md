@@ -28,6 +28,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Verify that your blocker does what it says it does](http://raymondhill.net/httpsb/har-parser.html)
     * [EFF's Panopticlick](https://panopticlick.eff.org/index.php?action=log)
     * [Anonymity test](http://ip-check.info/?lang=en)
+    * [www.canyoutrackme.com](http://www.canyoutrackme.com/)
     * [All sort of tracking cookies](http://samy.pl/evercookie/)
 - [FAQ](wiki/FAQ)
 - [Current bug/issue list](/gorhill/httpswitchboard/issues?state=open)
