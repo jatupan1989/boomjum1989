@@ -38,7 +38,7 @@ For https://www.youtube.com :
     tprequest%20googleapis.com%0A%09blacklis
     t%0A%09%09*%20*%0A
 
-### Facebook
+### Facebook (without an account)
 
 For https://www.facebook.com:
 
@@ -51,3 +51,45 @@ For https://www.facebook.com:
     *%0A*%0A%09blacklist%0A%09%09*%20faceboo
     k.com%0A%09%09*%20facebook.net%0A%09%09*
     %20fbcdn.net%0A
+
+### Facebook (with an account) (from ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738))
+
+For https://www.facebook.com:
+
+    https%3A%2F%2Fwww.facebook.com%0A%09whit
+    elist%0A%09%09cookie%20facebook.com%0A%0
+    9%09image%20akamaihd.net%0A%09%09image%2
+    0d.agkn.com%0A%09%09image%20pixel.facebo
+    ok.com%0A%09%09image%20www.facebook.com%
+    0A%09%09image%20xx.fbcdn.net%0A%09%09oth
+    er%20fbstatic-a.akamaihd.net%0A%09%09scr
+    ipt%20fbstatic-a.akamaihd.net%0A%09%09sc
+    ript%20www.facebook.com%0A%09%09styleshe
+    et%20fbstatic-a.akamaihd.net%0A%09%09sub
+    _frame%20www.facebook.com%0A%09%09xmlhtt
+    prequest%203-p-13-prn1.channel.facebook.
+    com%0A%09%09xmlhttprequest%205-p-13-prn1
+    .channel.facebook.com%0A%09%09xmlhttpreq
+    uest%20channel.facebook.com%0A%09%09xmlh
+    ttprequest%20upload.facebook.com%0A%09%0
+    9xmlhttprequest%20www.facebook.com%0A%09
+    blacklist%0A%09%09cookie%20channel.faceb
+    ook.com%0A%09%09other%20*%0A%09%09*%20*%
+    0A%09graylist%0A%09%09*%20pixel.facebook
+    .com%0A
+
+### Gmail without the ads (from ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738))
+
+    https%3A%2F%2Fmail.google.com%0A%09white
+    list%0A%09%09image%20googleusercontent.c
+    om%0A%09%09image%20chatenabled.mail.goog
+    le.com%0A%09%09image%20www.google.com%0A
+    %09%09image%20mail.google.com%0A%09%09xm
+    lhttprequest%20mail.google.com%0A%09%09i
+    mage%20mail-attachment.googleusercontent
+    .com%0A%09%09sub_frame%20mail.google.com
+    %0A%09%09script%20mail.google.com%0A%09%
+    09cookie%20google.com%0A%09blacklist%0A%
+    09%09*%20googleadservices.com%0A%09%09*%
+    20chatenabled.mail.google.com%0A%09%09co
+    okie%20*%0A%09%09*%20*%0A
