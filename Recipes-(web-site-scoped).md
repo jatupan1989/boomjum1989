@@ -4,7 +4,7 @@ The following recipes are all web site-scoped. For example, the permissions for 
 
 ### Google account login (updated 2013-12-24)
 
-Works for everywhere you need to login into a Google service:
+Works for everywhere you need to login into a Google service through <https://accounts.google.com>:
 
     https%3A%2F%2Faccounts.google.com%0A%09w
     hitelist%0A%09%09sub_frame%20youtube.com
@@ -16,7 +16,7 @@ Works for everywhere you need to login into a Google service:
 
 ### Google Plus
 
-For https://plus.google.com :
+For <https://plus.google.com>:
 
     https%3A%2F%2Fplus.google.com%0A%09white
     list%0A%09%09*%20gstatic.com%0A%09%09*%2
@@ -26,7 +26,7 @@ For https://plus.google.com :
 
 ### Youtube, with comments enabled (updated 2013-12-24)
 
-For https://www.youtube.com :
+For <https://www.youtube.com>:
 
     https%3A%2F%2Fwww.youtube.com%0A%09white
     list%0A%09%09*%20plus.googleapis.com%0A%
@@ -40,7 +40,7 @@ For https://www.youtube.com :
 
 ### Facebook (without an account)
 
-For https://www.facebook.com:
+For <https://www.facebook.com>:
 
     https%3A%2F%2Fwww.facebook.com%0A%09whit
     elist%0A%09%09*%20akamaihd.net%0A%09%09*
@@ -56,7 +56,7 @@ For https://www.facebook.com:
 
 From ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
 
-For https://www.facebook.com:
+For <https://www.facebook.com>:
 
     https%3A%2F%2Fwww.facebook.com%0A%09whit
     elist%0A%09%09cookie%20facebook.com%0A%0
@@ -83,6 +83,8 @@ For https://www.facebook.com:
 ### Gmail without the ads
 
 From ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
+
+For <https://mail.google.com>:
 
     https%3A%2F%2Fmail.google.com%0A%09white
     list%0A%09%09image%20googleusercontent.c
