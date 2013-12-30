@@ -12,7 +12,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - All scopes and rules will be deleted (you must confirm).
     - To mark a scope or rule for deletion, click on the item.
     - As before, you can import/export rules.
-- Regarding <https://github.com/gorhill/httpswitchboard/issues/104>: I can't fully test the problem there as this requires OSX, and I have no access to a Mac. Any assistance in debugging on OSX is welcomed. I did take care of a problem on Windows-based Yandex browser though, whereas the layout of the toolbar at the top was broken.
+- Regarding <https://github.com/gorhill/httpswitchboard/issues/104>: I can't fully test the problem there as this requires OSX, and I have no access to a Mac. Any assistance in debugging on OSX is welcomed. I did take care of a problem on Windows-based Yandex browser though, whereas the layout of the toolbar at the top was broken, resulting in the extension becoming rather unusable.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/103>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/102>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/101>
