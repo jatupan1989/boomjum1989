@@ -13,8 +13,6 @@ HTTP Switchboard also uses the work of other people. As of v0.6.2:
         - [ad_servers.asp](http://hosts-file.net/?s=Download).
     * [Dan Pollock's blacklist](http://someonewhocares.org/hosts/)
 - [jQuery](http://jquery.com/)
-- [Bootstrap](http://getbootstrap.com/). Specifically:
-    * [Dropdowns](http://getbootstrap.com/javascript/#dropdowns)
 - Arts:
     * [Font Awesome](http://fontawesome.io/), for the various icons throughout.
 - Specific contributions to project code:
