@@ -1,5 +1,23 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.2.0
+- Completed the Rule manager. Three new buttons at the top:
+    * "Commit All":
+        - All temporary scopes and rules will become permanent.
+        - All scopes and rules marked for deletion will be deleted.
+    * "Revert All":
+        - All temporary scopes and rules will be removed.
+        - All scopes and rules marked for deletion will be unmarked.
+    - "Remove All":
+        - All scopes and rules will be deleted (you must confirm).
+    - To mark a scope or rule for deletion, click on the item.
+    - As before, you can import/export rules.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/103>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/102>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/101>
+
+***
+
 ### 0.7.1.2
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/98>
 
