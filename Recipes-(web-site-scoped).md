@@ -54,7 +54,7 @@ For <https://www.facebook.com>:
 
 ### Facebook (with an account)
 
-From ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
+Credit to ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
 
 For <https://www.facebook.com>:
 
@@ -82,7 +82,7 @@ For <https://www.facebook.com>:
 
 ### Gmail without the ads
 
-From ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
+Credit to ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
 
 For <https://mail.google.com>:
 
