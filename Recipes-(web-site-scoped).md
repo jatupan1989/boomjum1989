@@ -52,7 +52,9 @@ For https://www.facebook.com:
     k.com%0A%09%09*%20facebook.net%0A%09%09*
     %20fbcdn.net%0A
 
-### Facebook (with an account) (from ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738))
+### Facebook (with an account)
+
+From ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
 
 For https://www.facebook.com:
 
@@ -78,7 +80,9 @@ For https://www.facebook.com:
     0A%09graylist%0A%09%09*%20pixel.facebook
     .com%0A
 
-### Gmail without the ads (from ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738))
+### Gmail without the ads
+
+From ["Hungry Man" @ www.wilderssecurity.com](http://www.wilderssecurity.com/showthread.php?p=2322738#post2322738).
 
     https%3A%2F%2Fmail.google.com%0A%09white
     list%0A%09%09image%20googleusercontent.c
