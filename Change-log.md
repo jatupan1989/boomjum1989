@@ -11,6 +11,11 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
             * If `bar.com` is whitelisted, the referer information is NOT removed
         - `www.foo.com` requests an image from `images.foo.com`
             * the referer information is NOT removed
+- The list of preset blacklists has been moved from the *Statistics* page to the *Settings* page.
+    * Because really, these are settings.
+- Two new counters added to the *Statistics* page (in order to make you feel good about using *HTTP Switchboard*):
+    * Number of foiled [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie) headers
+    * Number of foiled [HTTP referer](https://en.wikipedia.org/wiki/HTTP_referer) headers
 
 ***
 
