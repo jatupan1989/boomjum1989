@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - The domain name of the referer is different than the domain name of the request.
         - The hostname of the request is not whitelisted.
     * For example, let's say:
-        - `www.foo.com` requests an image from `bar.com`
+        - `www.foo.com` requests an image from `images.bar.com`
             * If `bar.com` is not whitelisted, the referer information is removed
             * If `bar.com` is whitelisted, the referer information is NOT removed
         - `www.foo.com` requests an image from `images.foo.com`
