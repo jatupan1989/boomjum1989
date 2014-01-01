@@ -1,5 +1,19 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.3.0
+- New option in *Settings* page: "Remove third-party HTTP referer information for non-whitelisted hostname".
+    * The [HTTP referer](https://en.wikipedia.org/wiki/HTTP_referer) is a potential threat to privacy. This option allows to have the HTTP referer header removed when these two conditions are met:
+        - The domain name of the referer is different than the domain name of the request.
+        - The hostname of the request is not whitelisted.
+    * For example, let's say:
+        - `www.foo.com` requests an image from `bar.com`
+            * If `bar.com` is not whitelisted, the referer information is removed
+            * If `bar.com` is whitelisted, the referer information is NOT removed
+        - `www.foo.com` requests an image from `images.foo.com`
+            * the referer information is NOT removed
+
+***
+
 ### 0.7.2.0
 - Completed the Rule manager. Three new buttons at the top:
     * "Commit All":
