@@ -1,5 +1,9 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.3.1
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/111>
+    * Slight change in behavior of drop down menus in extension popup.
+
 ### 0.7.3.0
 - **New privacy option**: In *Settings* page, "Remove third-party HTTP referer information for non-whitelisted hostname".
     * The [HTTP referer](https://en.wikipedia.org/wiki/HTTP_referer) is a potential threat to privacy. This option allows to have the HTTP referer header removed when these two conditions are met:
