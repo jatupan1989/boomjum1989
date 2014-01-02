@@ -5,6 +5,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * This is to take care of those trackers which use browser cache tricks to track you:
         - [Preventing Web Tracking via the Browser Cache](https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache)
         - [Cookieless cookies](http://lucb1e.com/rp/cookielesscookies/)
+    * To implement this feature a new permission is required: ["browsingData"](http://developer.chrome.com/extensions/browsingData.html).
+    * Since a new permission is required, I believe your browser might ask you to confirm the updating of the extension.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/97>
 
 ***
