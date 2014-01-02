@@ -1,5 +1,14 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.4.0
+- **New setting**: "Clear browser cache every [x] minutes."
+    * This is to take care of those trackers which use browser cache tricks to track you:
+        - [Preventing Web Tracking via the Browser Cache](https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache)
+        - [Cookieless cookies](http://lucb1e.com/rp/cookielesscookies/)
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/97>
+
+***
+
 ### 0.7.3.1
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/111>
     * Slight change in behavior of drop down menus in extension popup.
