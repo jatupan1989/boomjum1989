@@ -15,3 +15,5 @@ This feature allows the user to whitelist or blacklist a whole group of cell wit
             * Specific type and specific subdomain names
 
 Any explicit whitelist or blacklist status of a cell will cascade down through inheritance to the **graylisted** cells in the next level. Ultimately, this means that it is possible to control all the cells in the matrix with just the top-left `all` cell.
+
+[to do: many animated GIF to illustrate the above]
