@@ -5,7 +5,7 @@ When *HTTP Switchboard* is installed and active, if you look at *Chromium Settin
 
 **Do not panic.**
 
-HTTPSB uses a different and more reliable mechanism than other blockers on the Chromium platform to enforce the blocking of javascript. There are two ways in which javascript must be blocked:
+HTTPSB uses a different and more reliable mechanism than other blockers (at the time of writing) on the Chromium platform to enforce the blocking of javascript. There are two ways in which javascript must be blocked:
 
 - External javascript
 - Inline javascript
