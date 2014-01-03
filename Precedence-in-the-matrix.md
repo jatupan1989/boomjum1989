@@ -20,8 +20,8 @@ Now if you've understood the above tree list, you may have noticed that a single
 
 !["Strict blocking" on and off](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/strict-blocking.gif)
 
-- "Strict blocking" disabled: The status of the hostname has precedence over the type in deciding the inherited status of a cell.
-- "Strict blocking" enabled: A cell will be whitelisted *only* if both the hostname and the type are not blacklisted.
+- "Strict blocking" disabled: the hostname has precedence over the type, meaning if the hostname is whitelisted, the cell will inherit whitelist status even if the type is blacklisted.
+- "Strict blocking" enabled: both the hostname and type have same precedence, meaning both must be whitelisted for the cell to inherit whitelist status.
 
 "Strict blocking" is strongly recommended for security conscious users.
 
