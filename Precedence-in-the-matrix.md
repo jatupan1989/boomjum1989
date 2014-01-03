@@ -9,7 +9,7 @@ This feature allows the user to whitelist or blacklist a whole group of cell wit
         - Specific type and specific domain names
             * Specific type and specific subdomain names
     * Domain name cells ("wikipedia.org", "facebook.com", "wired.com", etc.)
-        - Specific type and specific domain names
-            * Specific type and specific subdomain names
         - Subdomain name cells ("en.wikipedia.org", "www.facebook.com", "video.wired.com", etc.)
+            * Specific type and specific subdomain names
+        - Specific type and specific domain names
             * Specific type and specific subdomain names
