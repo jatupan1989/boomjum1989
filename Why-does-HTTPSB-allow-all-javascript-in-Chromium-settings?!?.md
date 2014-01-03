@@ -18,3 +18,6 @@ Usually javascript blockers on the Chromium platform use (or try to) the [conten
 
 To complicate the matter further, whether javascript is blocked or allowed in HTTPSB may depend on the scope of the rules (ex.: "allow javascript from `facebook.com` only when visiting `https://www.facebook.com`"), in which case the built-in whitelist/blacklist mechanism in Chromium just doesn't work.
 
+So HTTPSB had to find another way to block javascript, and this mechanism is the [*Content Security Policy*](http://en.wikipedia.org/wiki/Content_Security_Policy) directive to control whether javascript can run on any particular page. It is a very reliable mechanism and it fits perfectly HTTPSB model of selectively allowing/blocking javascript depending on the scope.
+
+However the *Content Security Policy* directive works by assuming that when the directive is not present, javascript is allowed to run by default. Hence to enforce this definition, HTTPSB has to be sure that all javascript is allowed to run by default and to bypass any existing rules by the users which could interfere with the definition of *Content Security Policy* directive.
