@@ -3,7 +3,9 @@ When *HTTP Switchboard* is installed and active, if you look at *Chromium Settin
 - `http://*    allow`
 - `https://*   allow`
 
-**Do not panic.** HTTPSB uses a different and more reliable mechanism than other blockers on the Chromium platform to enforce the blocking of javascript. There are two ways in which javascript must be blocked:
+**Do not panic.**
+
+HTTPSB uses a different and more reliable mechanism than other blockers on the Chromium platform to enforce the blocking of javascript. There are two ways in which javascript must be blocked:
 
 - Inline javascript
 - External javascript
