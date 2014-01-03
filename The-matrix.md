@@ -13,6 +13,7 @@ A quick overview of the matrix:
     * A graylisted cell always inherit its whitelist or blacklist status from an higher precedence cell.
 - The top row lets you control the types of request which are to be allowed/denied.
 - The left-most column lets you control the hostnames which are to be allowed/denied.
+    * If a nostname is blacklisted (dark red), requests for top web pages for that hostname will be cancelled, which means nothing will download from that hostname since the top web page contains everything else.
 - The top-left cell lets you control all the other cells in the matrix.
     * A click on that single cell allows you to whitelist or blacklist all the cells in the matrix -- **except** those cells which are explicitly white or blacklisted.
     * This cell affects the status of graylisted cells in the top row and the left-most column.
