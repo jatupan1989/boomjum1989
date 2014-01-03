@@ -16,7 +16,9 @@ This feature allows the user to whitelist or blacklist a whole group of cell wit
 
 Any explicit whitelist or blacklist status of a cell will cascade down through inheritance to the **graylisted** cells in the next level. Ultimately, this means that it is possible to control all the cells in the matrix with just the top-left `all` cell.
 
-Now if you've understood the above tree list, you may have noticed that a single graylisted cell in the middle of the matrix may inherit from two different ancestors: the hostnames (left column) or the type (top row). It is up to the user to choose how this double inheritance works by disabling or enabling "strict blocking (on the *Settings* page).
+Now if you've understood the above tree list, you may have noticed that a single graylisted cell in the middle of the matrix may inherit from two different ancestors: the hostnames (left column) or the type (top row). It is up to the user to choose how this double inheritance works by disabling or enabling "strict blocking (on the *Settings* page):
 
+- "Strict blocking" disabled: The status of the hostname has precedence over the type in deciding the inherited status of a cell.
+- "Strict blocking" enabled: A cell will be whitelisted *only* if both the hostname and the type are not blacklisted.
 
 [to do: many animated GIF to illustrate the above]
