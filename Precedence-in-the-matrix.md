@@ -1,4 +1,4 @@
-A defining feature of *HTTP Switchboard* is the precedence/graylisting/inheritance concept in the matrix.
+The defining features of *HTTP Switchboard* are the precedence/graylisting/inheritance concepts in the matrix.
 
 A "graylisted" matrix cell (pale green or pale red) means the cell inherits its allow or block status from a higher precedence cell in the matrix.
 
