@@ -25,4 +25,4 @@ Now if you've understood the above tree list, you may have noticed that a single
 
 "Strict blocking" is strongly recommended for security conscious users.
 
-[to do: many animated GIF to illustrate the above]
+[to do: many animated GIF to illustrate all the cases of inheritance]
