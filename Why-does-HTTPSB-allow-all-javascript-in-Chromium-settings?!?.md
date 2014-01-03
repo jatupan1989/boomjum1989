@@ -7,10 +7,10 @@ When *HTTP Switchboard* is installed and active, if you look at *Chromium Settin
 
 HTTPSB uses a different and more reliable mechanism than other blockers on the Chromium platform to enforce the blocking of javascript. There are two ways in which javascript must be blocked:
 
-- Inline javascript
 - External javascript
+- Inline javascript
 
-For external javascript, this is trivial with the Chromium platform using the [webRequest API](http://developer.chrome.com/extensions/webRequest.html) to prevent the downloading of javascript files.
+For external javascript, this is trivial with the Chromium platform using the [webRequest API](http://developer.chrome.com/extensions/webRequest.html) to prevent the downloading of javascript files. If the file is not downloaded, obviously the javascript content can not be executed.
 
 For inline javascript however, it is a bit more complicated.
 
