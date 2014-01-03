@@ -14,7 +14,7 @@ For external javascript, this is trivial with the Chromium platform using the [w
 
 For inline javascript however, it is a bit more complicated.
 
-Usually javascript blockers on the Chromium platform use (or try to) the [contentSettings API](http://developer.chrome.com/extensions/contentSettings.html), but this has proven challenging as the calls to create/delete rules in order to block javascript are not synchronous, meaning they take effect at some point in the future. This is problematic when it comes to block inline javascript.
+Usually javascript blockers on the Chromium platform use (or try to) the [contentSettings API](http://developer.chrome.com/extensions/contentSettings.html), but this has proven challenging as the calls to create/delete rules in order to allow/block javascript are not synchronous, meaning they take effect at some point in the future. This is problematic when it comes to block inline javascript.
 
 To complicate the matter further, whether javascript is blocked or allowed in HTTPSB may depend on the scope of the rules (ex.: "allow javascript from `facebook.com` only when visiting `https://www.facebook.com`"), in which case the built-in whitelist/blacklist mechanism in Chromium just doesn't work.
 
