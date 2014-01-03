@@ -9,10 +9,10 @@ This feature allows the user to whitelist or blacklist a whole group of cell wit
         - Specific type and specific domain names (i.e. `css`/`wikipedia.org`, `img`/`wired.com`, etc.)
             * Specific type and specific subdomain names (i.e. `css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
     * Domain name cells (i.e. `wikipedia.org`, `facebook.com`, `wired.com`, etc.)
+        - Specific type and specific domain names (i.e. `css`/`wikipedia.org`, `img`/`wired.com`, etc.)
+            * Specific type and specific subdomain names (i.e. `css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
         - Subdomain name cells (i.e. `en.wikipedia.org`, `www.facebook.com`, `video.wired.com`, etc.)
-            * Specific type and specific subdomain names
-        - Specific type and specific domain names
-            * Specific type and specific subdomain names
+            * Specific type and specific subdomain names (i.e. `css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
 
 Any explicit whitelist or blacklist status of a cell will cascade down through inheritance to the **graylisted** cells in the next level. Ultimately, this means that it is possible to control all the cells in the matrix with just the top-left `all` cell.
 
