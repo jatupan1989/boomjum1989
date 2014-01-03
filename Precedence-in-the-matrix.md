@@ -18,6 +18,8 @@ Any explicit whitelist or blacklist status of a cell will cascade down through i
 
 Now if you've understood the above tree list, you may have noticed that a single graylisted cell in the middle of the matrix may inherit from two different ancestors: the hostnames (left column) or the type (top row). It is up to the user to choose how this double inheritance works by disabling or enabling "strict blocking (on the *Settings* page):
 
+!["Strict blocking" on and off](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/strict-blocking.gif)
+
 - "Strict blocking" disabled: The status of the hostname has precedence over the type in deciding the inherited status of a cell.
 - "Strict blocking" enabled: A cell will be whitelisted *only* if both the hostname and the type are not blacklisted.
 
