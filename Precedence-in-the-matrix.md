@@ -21,4 +21,6 @@ Now if you've understood the above tree list, you may have noticed that a single
 - "Strict blocking" disabled: The status of the hostname has precedence over the type in deciding the inherited status of a cell.
 - "Strict blocking" enabled: A cell will be whitelisted *only* if both the hostname and the type are not blacklisted.
 
+"Strict blocking" is strongly recommended for security conscious users.
+
 [to do: many animated GIF to illustrate the above]
