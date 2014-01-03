@@ -5,11 +5,11 @@ A "graylisted" matrix cell (pale green or pale red) means the cell inherits its 
 This feature allows the user to whitelist or blacklist a whole group of cell with a single click on a higher precedence cell in the matrix. Here is the tree list of precedence/inheritance of the matrix, from highest to lowest:
 
 - The `all` cell (top-left corner of the matrix)
-    * Types cells (`cookie`, `css`, `img`, etc.)
-        - Specific type and specific domain names (`css`/`wikipedia.org`, `img`/`wired.com`, etc.)
-            * Specific type and specific subdomain names (`css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
-    * Domain name cells (`wikipedia.org`, `facebook.com`, `wired.com`, etc.)
-        - Subdomain name cells (`en.wikipedia.org`, `www.facebook.com`, `video.wired.com`, etc.)
+    * Types cells (i.e. `cookie`, `css`, `img`, etc.)
+        - Specific type and specific domain names (i.e. `css`/`wikipedia.org`, `img`/`wired.com`, etc.)
+            * Specific type and specific subdomain names (i.e. `css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
+    * Domain name cells (i.e. `wikipedia.org`, `facebook.com`, `wired.com`, etc.)
+        - Subdomain name cells (i.e. `en.wikipedia.org`, `www.facebook.com`, `video.wired.com`, etc.)
             * Specific type and specific subdomain names
         - Specific type and specific domain names
             * Specific type and specific subdomain names
