@@ -6,11 +6,11 @@ This feature allows the user to whitelist or blacklist a whole group of cell wit
 
 - The `all` cell (top-left corner of the matrix)
     * Types cells (i.e. `cookie`, `css`, `img`, etc.)
-        - Specific type and specific domain names (i.e. `css``wikipedia.org`, `img`/`wired.com`, etc.)
-            * Specific type and specific subdomain names (i.e. `css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
+        - Specific type and specific domain names (i.e. `css``wikipedia.org`, `img``wired.com`, etc.)
+            * Specific type and specific subdomain names (i.e. `css``en.wikipedia.org`, `script``www.facebook.com`, etc.)
     * Domain name cells (i.e. `wikipedia.org`, `facebook.com`, `wired.com`, etc.)
-        - Specific type and specific domain names (i.e. `css`/`wikipedia.org`, `img`/`wired.com`, etc.)
-            * Specific type and specific subdomain names (i.e. `css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
+        - Specific type and specific domain names (i.e. `css``wikipedia.org`, `img``wired.com`, etc.)
+            * Specific type and specific subdomain names (i.e. `css``en.wikipedia.org`, `script``www.facebook.com`, etc.)
         - Subdomain name cells (i.e. `en.wikipedia.org`, `www.facebook.com`, `video.wired.com`, etc.)
             * Specific type and specific subdomain names (i.e. `css`/`en.wikipedia.org`, `script`/`www.facebook.com`, etc.)
 
