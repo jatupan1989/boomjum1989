@@ -2,7 +2,7 @@ A defining feature of *HTTP Switchboard* is the precedence/graylisting/inheritan
 
 A "graylisted" matrix cell (pale green or pale red) means the cell inherits its allow or block status from a higher precedence cell in the matrix.
 
-This feature allows the user to whitelist or blacklist a whole group of cell with a single click on a higher precedence cell in the matrix. Here is the tree list of precedence/inheritance of the matrix:
+This feature allows the user to whitelist or blacklist a whole group of cell with a single click on a higher precedence cell in the matrix. Here is the tree list of precedence/inheritance of the matrix, from highest to lowest:
 
 - The `all` cell (top-left corner of the matrix)
     * Types cells (`cookie`, `css`, `img`, etc.)
