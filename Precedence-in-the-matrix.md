@@ -7,5 +7,9 @@ This feature allows the user to whitelist or blacklist a whole group of cell wit
 - The "all" cell (top-left corner of the matrix)
     * Types cells ("cookie", "css", "img", etc.)
         - Specific type and specific domain names
+            * Specific type and specific subdomain names
     * Domain name cells ("wikipedia.org", "facebook.com", "wired.com", etc.)
+        - Specific type and specific domain names
+            * Specific type and specific subdomain names
         - Subdomain name cells ("en.wikipedia.org", "www.facebook.com", "video.wired.com", etc.)
+            * Specific type and specific subdomain names
