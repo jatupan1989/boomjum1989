@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
 ### 0.7.4.1
-- German translation under work, thanks to [tlu1024](https://github.com/tlu1024):
+- German translation ongoing, thanks to [tlu1024](https://github.com/tlu1024):
     * <https://github.com/gorhill/httpswitchboard/issues/123>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/116>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/110>
