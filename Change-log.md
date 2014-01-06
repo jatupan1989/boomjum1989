@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - All third-party blacklists have been updated to their last version.
     * Note that `assets/thirdparties/hosts-file.net/hosts.txt` [has grown from ~240,000 to ~350,000](http://hphosts.blogspot.ca/2014/01/hphosts-updated-04012014.html) (this list is not enabled out of the box, but if you enabled it, expect more memory consumed by HTTPSB with this latest version).
     * Note that 9,290 hostnames [were delisted](http://www.malwaredomains.com/?p=3504) from `assets/thirdparties/mirror1.malwaredomains.com/files/justdomains`. This will save memory in HTTPSB.
-    * For further details at what changed in the preset blacklists, [see the diffs](/gorhill/httpswitchboard/commit/1e870fdc646aaa01b93579fa160a88497138abfd).
+    * For further details of what changed in the preset blacklists, [see the diffs](/gorhill/httpswitchboard/commit/1e870fdc646aaa01b93579fa160a88497138abfd).
 
 ***
 
