@@ -5,6 +5,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * <https://github.com/gorhill/httpswitchboard/issues/123>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/116>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/110>
+- All third-party blacklists have been updated to their last version.
+    * In particular, note that `assets/thirdparties/hosts-file.net/hosts.txt` has grown from ~240,000 to ~350,000 (this list is not enabled out of the box, but if you enabled it, expect more memory consumed by HTTPSB with this latest version).
 
 ***
 
