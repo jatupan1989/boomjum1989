@@ -1,5 +1,14 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.4.2
+- More work done on translation by volunteers:
+    * Deutsch von [tlu1024](https://github.com/tlu1024)
+    * Français par [tailHey](https://github.com/tailHey)
+- `plugin` column is no longer blacklisted by default for first install. **It is strongly advised** that users enable "Click to play" for plugins in their Chromium-based browser settings.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/125>
+
+***
+
 ### 0.7.4.1
 - German translation ongoing, thanks to [tlu1024](https://github.com/tlu1024):
     * <https://github.com/gorhill/httpswitchboard/issues/123>
