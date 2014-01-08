@@ -10,4 +10,4 @@ So regarding behind-the-scene requests, the following statement is very importan
 
 **Behind-the-scene requests may or may not actually be related to one of the URL addresses appearing in one of the opened tabs.**
 
-So if after thorough investigation you really can't associat a particular behind-the-scene request with one of the URL addresses of one of the opened tabs, then you probably made a convincing case that the particular behind-the-scene request was really expressly made by the browser behind the scene.
+So if after thorough investigation you really can't associate a particular behind-the-scene request with one of the URL addresses of one of the opened tabs, then you probably made a convincing case that the particular behind-the-scene request was really expressly made by the browser behind the scene.
