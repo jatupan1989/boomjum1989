@@ -18,6 +18,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * ["It is difficult to find the rules required to make [www.example.com] work"](/gorhill/httpswitchboard/wiki/Finding-rules-required-to-make-%5Bwww.example.com%5D-work)
     * [In the top left of the matrix, what is "other"?](/gorhill/httpswitchboard/wiki/In-the-top-left-of-the-matrix,-what-is-%22other%22%3F)
     * [Visual pollution: Hide blacklisted hostnames from view](/gorhill/httpswitchboard/wiki/Hide-blacklisted-hostnames-from-view)
+    * [Behind-the-scene requests](https://github.com/gorhill/httpswitchboard/wiki/Behind-the-scene-requests)
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
 - [Recipes (web site-scoped)](/gorhill/httpswitchboard/wiki/Recipes-%28web-site-scoped%29)
 - [How does *HTTP Switchboard* compares to *AdBlock+*, *Ghostery* or *Disconnect* concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-AdBlock-%2C-Ghostery-or-Disconnect-concerning-privacy%3F)
