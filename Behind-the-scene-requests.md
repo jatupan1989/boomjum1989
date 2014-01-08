@@ -4,5 +4,4 @@ Whenever a request is made, the browser will pass the request to HTTPSB and wait
 
 Sometimes the tab id value is such that it tells the extension that the request originated from no opened tab. HTTPSB calls these requests "behind-the-scene" requests, since they cannot be bound to any particular web pages.
 
-
-
+Now these behind-the-scene requests **may** actually be related to one of the opened tab, but for some reason the browser didn't give this information. It is my experience on Chromium that requests for [favicon](http://en.wikipedia.org/wiki/Favicon) objects are made and no tab id information is provided for these requests, which means HTTPSB has no choice but to report these requests as being behind-the-scene, even though they are obviously related to one of the web page opened in one of the tab.
