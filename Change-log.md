@@ -3,7 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.7.5.0
 - **New feature**: Ability to use the matrix on behind-the-scene requests.
     * Since the matrix reflects the network traffic of a web page, in order to access the matrix for behind-the-scene requests I had to pick a web page to allow for this.
-    * The web page picked is the *Statistics* page. So if you go to the *Statistics* page, HTTPSB's popup menu will show the matrix populated from behind-the-scene requests.
+    * The web page picked is the *Statistics* page. So if you go to the *Statistics* page, HTTPSB's popup menu will show the matrix populated according to behind-the-scene requests.
     * A default scope called "http://chromium-behind-the-scene is created by default for behind-the-scene rules.
     * **Important read to prevent any misunderstanding**: [Behind-the-scene requests](https://github.com/gorhill/httpswitchboard/wiki/Behind-the-scene-requests)
 
