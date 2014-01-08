@@ -8,7 +8,7 @@ Now these behind-the-scene requests **may** actually be related to one of the op
 
 So regarding behind-the-scene requests, the following statement is very important before you make any conclusion on a particular behind-the-scene request you encounter:
 
-**Behind-the-scene requests may or may not actually be related to one of the URL addresses appearing in one of the opened tabs.**
+**Behind-the-scene requests may or may not be actually related to one of the URL addresses appearing in one of the opened tabs.**
 
 So if after thorough investigation you really can't associate a particular behind-the-scene request with one of the URL addresses of one of the opened tabs, then you probably made a convincing case that the particular behind-the-scene request was really expressly made by the browser behind the scene, **or** by one of the extensions installed in the browser.
 
