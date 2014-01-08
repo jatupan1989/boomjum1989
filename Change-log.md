@@ -6,6 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * The web page picked is the *Statistics* page. So if you go to the *Statistics* page, HTTPSB's popup menu will show the matrix populated according to behind-the-scene requests.
     * A default scope called `http://chromium-behind-the-scene` is created by default for behind-the-scene rules.
     * **Important read to prevent any misunderstanding**: [Behind-the-scene requests](https://github.com/gorhill/httpswitchboard/wiki/Behind-the-scene-requests)
+    * Remember, any whitelist/blacklist rules in the matrix for behind-the-scene requests will apply **only** if the option "Process behind-the-scene requests" is enabled.
 
 ***
 
