@@ -17,3 +17,6 @@ HTTP Switchboard also uses the work of other people. As of v0.6.2:
     * [Font Awesome](http://fontawesome.io/), for the various icons throughout.
 - Specific contributions to project code:
     * [GuardianMajor](github.com/GuardianMajor): [Collapsible help boxes](/gorhill/httpswitchboard/pull/57) in the *Settings* page.
+- Translations:
+    * Français: [tailHey](https://github.com/tailHey)
+    * Deutsch: [tlu1024](https://github.com/tlu1024)
