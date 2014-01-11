@@ -32,7 +32,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Anonymity test](http://ip-check.info/?lang=en)
     * [www.canyoutrackme.com](http://www.canyoutrackme.com/)
     * [All sort of tracking cookies](http://samy.pl/evercookie/)
-    * [Chromium net internals](chrome://net-internals/)
+    * Chromium net internals: `chrome://net-internals/` (paste in address bar)
 - [FAQ](wiki/FAQ)
 - [Current bug/issue list](/gorhill/httpswitchboard/issues?state=open)
 - [Credits](wiki/Credits)
