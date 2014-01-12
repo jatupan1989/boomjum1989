@@ -13,6 +13,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Whitelist `google.com` in one page in global scope.
         - Many other pages reload because they were also requesting resources from `google.com`.
         - If you sandbox the rules to only one web site, adding or removing rules will only affect web pages of the same web site.
+    * Therefore auto-creating temporary scope for every page you visit enhance security.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/124>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/119>.
