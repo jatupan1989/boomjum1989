@@ -2,6 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.7.6.0
 
+- **New feature**: Auto-create site-level scope (enable from *Settings* page)
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/124>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/119>.
