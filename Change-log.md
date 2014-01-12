@@ -1,5 +1,14 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.6.0
+
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/124>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/119>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/105>.
+
+***
+
 ### 0.7.5.0
 - **New feature**: Ability to use the matrix on behind-the-scene requests ([issue #122](/gorhill/httpswitchboard/issues/122)).
     * Since the matrix reflects the network traffic of a web page, in order to access the matrix for behind-the-scene requests I had to pick a web page to allow for this.
