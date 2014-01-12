@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * When a user creates a site-level scope, he effectively sandboxes the whitelist/blacklist rules to apply only to web pages matching that scope.
     * Example of how this feature works (assuming out of the box settings):
         - Visit `http://techcrunch.com/`.
-        - Temporary site-level scope `https://www.google.com` automatically created.
+        - **Temporary site-level scope `https://www.google.com` automatically created**.
         - Whitelist "all" (top-left cell).
         - This very permissive rule would be unthinkable for security conscious users, however, in this case it applies **only** for the web page which URL address matches `http://techcrunch.com/`.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
