@@ -4,7 +4,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 - **New feature**: Auto-create temporary site-level scope (enable from *Settings* page)
     * When a user creates a site-level scope, he effectively sandboxes the whitelist/blacklist rules to apply only to web pages matching that scope.
-        - Sandboxing rules limit the reach of these rules to only the web sites for which there exists a site-level scope.
     * Example (assuming out of the box settings):
         - Visit `http://techcrunch.com/`.
         - Temporary site-level scope `https://www.google.com` automatically created.
