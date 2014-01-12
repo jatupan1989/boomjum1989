@@ -17,8 +17,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Keep in mind the site-level scope created is **temporary**, unless you persist it (padlock).
     * Turning on the auto-creation of site-level scopes is pointless if you use HTTPSB in a whitelist-all/block-exceptionally mode.
 - **Feature change**: The "process behind-the-scene" option on the *Settings* page has now another meaning (though closely related to the old one):
-    * Checked: the "all" cell of the behind-the-scene matrix will be blacklisted.
-    * Unchecked: the "all" cell of the behind-the-scene matrix will be whitelisted.
+    * Checked: the "all" cell of the [behind-the-scene](/gorhill/httpswitchboard/wiki/Behind-the-scene-requests) matrix will be blacklisted.
+    * Unchecked: the "all" cell of the [behind-the-scene](/gorhill/httpswitchboard/wiki/Behind-the-scene-requests) matrix will be whitelisted.
     * Remember, the state of the "all" cells determines the state of graylisted immediate descendant cells in the matrix.
 - The behind-the-scene matrix can be accessed from any of HTTPSB web page, not just the *Statistics* page.
 - Added another third-party list of blocked hosts: <http://winhelp2002.mvps.org/hosts.txt> (turned off by default).
