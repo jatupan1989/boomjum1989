@@ -13,3 +13,5 @@ So regarding behind-the-scene requests, the following statement is very importan
 So if after thorough investigation you really can't associate a particular behind-the-scene request with one of the URL addresses of one of the opened tabs, then you probably made a convincing case that the particular behind-the-scene request was really expressly made by the browser behind the scene, **or** by one of the extensions installed in the browser.
 
 Keep this caveat in mind when you draw conclusions based on what HTTPSB reports as behind-the-scene requests.
+
+**You can access the matrix for behind-the-scene requests by clicking the extension icon while on one of the HTTPSB pages: *Settings*, *Statistics*, *Rule manager*.**
