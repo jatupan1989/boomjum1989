@@ -15,6 +15,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - If you sandbox the rules to only one web site, adding or removing rules will only affect web pages of the same web site.
     * Therefore, auto-creating temporary scope for every page you visit enhance security and convenience.
     * Keep in mind the site-level scope created is **temporary**, unless you persist it (padlock).
+    * Using the auto-creation of site-level scope feature is not very useful if you use HTTPSB in a whitelist-all/block-exceptionally mode.
 - The behind-the-scene matrix can be accessed from any of HTTPSB web page, not just the *Statistics* page.
 - Added another third-party list of blocked hosts: <http://winhelp2002.mvps.org/hosts.txt> (turned off by default).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
