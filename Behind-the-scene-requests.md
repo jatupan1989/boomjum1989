@@ -14,6 +14,8 @@ So if after thorough investigation you really can't associate a particular behin
 
 Keep this caveat in mind when you draw conclusions based on what HTTPSB reports as behind-the-scene requests.
 
-**You can access the matrix for behind-the-scene requests by clicking the extension icon while on one of the HTTPSB pages, i.e. *Settings*, *Statistics*, *Rule manager*:**
+**Starting version 0.7.6.0, you can access the matrix for behind-the-scene requests by clicking the extension icon while on one of the HTTPSB pages, i.e. *Settings*, *Statistics*, *Rule manager*:**
 
 ![Matrix example for behind-the-scene requests](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/behind-the-scene-matrix-generic-example-1.gif)
+
+You can completely choose how behind-the-scene requests are filtered: allow all by default, block all by default, or selectively allow/block with your choices.
