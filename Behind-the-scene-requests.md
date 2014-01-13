@@ -24,4 +24,4 @@ Out of the box, the matrix for behind-the-scene requests is in allow-all mode, i
 
 From there you can choose to block selectively or wholly, while keeping in mind that Chromium-based browsers may use behind-the-scene requests in the course of their normal operation, and also keep in mind extensions may also perform their own net requests which appear as behind-the-scene requests to HTTPSB.
 
-If you choose to block wholly or partially behind-the-scene requests, you are responsible for any negative resulting side-effects. For example, if you block requests which are used by the browser to update or install extensions, please don't blame the HTTPSB for actually preventing the update or installation of extensions.
+If you choose to block wholly or partially behind-the-scene requests, you are responsible for any potentially negative side-effects. For example, if you block requests which are used by the browser to update or install extensions, please don't blame the HTTPSB for actually preventing the update or installation of extensions.
