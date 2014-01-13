@@ -17,7 +17,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Keep in mind the site-level scope created is **temporary**, unless you persist it (padlock).
         - Currently planning a future option to flush temporary scopes and rules after *x* minutes of being unused, in order to avoid runtime bloat of temporary scopes/rules.
     * Turning on the auto-creation of site-level scopes is pointless if you use HTTPSB in a allow-all/block-exceptionally mode.
-- The behind-the-scene matrix can be accessed from any of HTTPSB web page, not just the *Statistics* page.
+- The behind-the-scene matrix can now be accessed from any of HTTPSB web page, not just the *Statistics* page.
 - Added another third-party list of blocked hosts: <http://winhelp2002.mvps.org/hosts.txt> (turned off by default).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/137>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
