@@ -23,7 +23,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * For existing installations, if "Process behind-the-scene HTTP requests" was...
         - Not checked: matrix is set to allow-all mode.
         - Checked: matrix is set to block-all mode.
-        - The above is true **only** if HTTPSB concludes the user had not yet fiddled with the matrix.
+        - However, HTTPSB will leave the matrix unchanged if it concludes the user has fiddled with it.
 - The behind-the-scene matrix can now be accessed from any of HTTPSB web page, not just the *Statistics* page.
 - Added another third-party list of blocked hosts: <http://winhelp2002.mvps.org/hosts.txt> (turned off by default).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/137>.
