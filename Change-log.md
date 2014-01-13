@@ -18,6 +18,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Turning on the auto-creation of site-level scopes is pointless if you use HTTPSB in a whitelist-all/block-exceptionally mode.
 - The behind-the-scene matrix can be accessed from any of HTTPSB web page, not just the *Statistics* page.
 - Added another third-party list of blocked hosts: <http://winhelp2002.mvps.org/hosts.txt> (turned off by default).
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/137>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/124>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/119>.
