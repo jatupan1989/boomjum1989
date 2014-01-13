@@ -17,6 +17,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Keep in mind the site-level scope created is **temporary**, unless you persist it (padlock).
         - Currently planning a future option to flush temporary scopes and rules after *x* minutes of being unused, in order to avoid runtime bloat of temporary scopes/rules.
     * Turning on the auto-creation of site-level scopes is pointless if you use HTTPSB in a allow-all/block-exceptionally mode.
+- **Feature changed**: The "Process behind-the-scene HTTP requests" checkbox in the *Settings* page is gone:
+    * Users will now have to use the matrix to tell HTTPSB how to filter behind-the-scene requests
+    * For first time installations, the matrix for behind-the-scene requests is in allow-all mode.
+    * For existing installations, if "Process behind-the-scene HTTP requests" was...
+        - Not checked: matrix is set to allow-all mode.
+        - Checked: matrix is set to block-all mode.
+        - The above is true **only** if HTTPSB concludes the user had not yet fiddled with the matrix.
 - The behind-the-scene matrix can now be accessed from any of HTTPSB web page, not just the *Statistics* page.
 - Added another third-party list of blocked hosts: <http://winhelp2002.mvps.org/hosts.txt> (turned off by default).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/137>.
