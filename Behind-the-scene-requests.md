@@ -14,4 +14,4 @@ So if after thorough investigation you really can't associate a particular behin
 
 Keep this caveat in mind when you draw conclusions based on what HTTPSB reports as behind-the-scene requests.
 
-**You can access the matrix for behind-the-scene requests by clicking the extension icon while on one of the HTTPSB pages: *Settings*, *Statistics*, *Rule manager*.**
+**You can access the matrix for behind-the-scene requests by clicking the extension icon while on one of the HTTPSB pages: *Settings*, *Statistics*, *Rule manager***
