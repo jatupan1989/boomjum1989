@@ -1,0 +1,3 @@
+This page is to ensure we have consistent definitions for various concepts in *HTTP Switchboard*, in order to help understanding, and to facilitate volunteer translators.
+
+...
