@@ -24,7 +24,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Not checked: BtSR matrix is set to allow-all mode.
         - Checked: BtSR matrix is set to block-all mode.
         - However, HTTPSB will leave the BtSR matrix unchanged if it concludes the user has fiddled with it.
-- The behind-the-scene matrix can now be accessed from any of HTTPSB web page, not just the *Statistics* page.
+- The behind-the-scene matrix can now be accessed from any of HTTPSB web pages, not just the *Statistics* page.
 - Added another third-party list of blocked hosts: <http://winhelp2002.mvps.org/hosts.txt> (turned off by default).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/137>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/126>.
