@@ -9,6 +9,8 @@ A matrix scope tells HTTPSB which set of rules to use when visiting a particular
 - Site-level scope (example: `http://arstechnica.com`)
     * Rules in a site-level scope apply only to web pages which URL match the hostname of the page.
 
+Out of the box, there are two scopes in HTTPSB: the global scope (`*`), and the behind-the-scene scope (`http://chromium-behind-the-scene`).
+
 For any web page you visit, you can pick create a narrower scope for that web page, or use the default global scope.
 
 ### Global scope
