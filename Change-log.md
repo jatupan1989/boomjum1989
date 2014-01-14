@@ -15,7 +15,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - If you sandbox the rules to only one web site, adding or removing rules will only affect web pages of the same web site.
     * Therefore, auto-creating temporary scope for every page you visit enhance security and convenience (this enhances security as long as you don't start to whitelist "all" on *every* web page you visit...)
     * Keep in mind the site-level scope created is **temporary**, unless you persist it (padlock).
-        - Currently planning a future option to flush temporary scopes and rules after *x* minutes of being unused, in order to avoid runtime bloat of temporary scopes/rules.
+        - Currently planning a future option to flush *temporary* scopes and rules after *x* minutes of being unused, in order to avoid runtime bloat of temporary scopes/rules.
     * Turning on the auto-creation of site-level scopes is pointless if you use HTTPSB in a allow-all/block-exceptionally mode.
 - **Feature change**: The "Process behind-the-scene HTTP requests" checkbox in the *Settings* page is gone:
     * Users will now have to use the matrix to tell HTTPSB how to filter behind-the-scene requests ("BtSR").
