@@ -34,6 +34,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * The fix is to copy whatever rules from global (and possibly domain-level) scope which is relevant to the newly created scope. Here is the logic of the copy-rules algorithm:
         - Copy whitelist rules **only** if they are relevant to the web page for which a scope is newly created.
         - Cope all blacklist and graylist rules.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/73>
 
 ***
 
