@@ -6,7 +6,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
         - [The badge](/gorhill/httpswitchboard/wiki/The-badge)
         - [The matrix toolbar](/gorhill/httpswitchboard/wiki/The-matrix-toolbar)
         - [The matrix](/gorhill/httpswitchboard/wiki/The-matrix)
-        - [The matrix scope](/gorhill/httpswitchboard/wiki/The-matrix-scope) (coming)
+        - [The matrix scope](/gorhill/httpswitchboard/wiki/The-matrix-scope) (under construction)
         - [The matrix cells](/gorhill/httpswitchboard/wiki/The-matrix-cells)
         - [Precedence in the matrix](/gorhill/httpswitchboard/wiki/Precedence-in-the-matrix) (under construction)
     * [Quick tour #1](wiki/Quick-tour-%231%3A-1-of-7) (out-of-date)
