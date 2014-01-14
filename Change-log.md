@@ -5,10 +5,10 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - **New feature**: Auto-create temporary site-level scope (disabled by default, enable from *Settings* page)
     * When a user creates a site-level scope, he effectively sandboxes the whitelist/blacklist rules to apply only to web pages matching that scope.
     * Example of how this feature works (assuming out of the box settings):
-        - Visit `techcrunch.com`.
-        - **Temporary site-level scope `http://techcrunch.com/` automatically created**.
-        - Just for demonstration purpose: Whitelist "all" (top-left cell):
-            * This very permissive (temporary) rule would make security conscious users uneasy, however, in this case it applies **only** to web pages which URL address starts with `http://techcrunch.com/`.
+        - Visit `http://www.theguardian.com/world/2014/jan/10/stephen-colbert-nsa-linked-privacy-firm-rsa`.
+        - **Temporary site-level scope `http://www.theguardian.com` automatically created**.
+        - Just for demonstration purpose, let's say you are in a hurry and so you whitelist "all" (top-left cell) in order to be able to post a comment:
+            * This very permissive (temporary) rule would make security conscious users uneasy, however, in this case it applies **only** to web pages which URL address starts with `http://www.theguardian.com`.
     * Another virtuous side-effect of sandboxing ruleset using site-level scopes (or to a lesser extent domain-level scopes) is to minimize the spurious reloading of other pages when you change rules for one page. Example:
         - Whitelist `twitter.com` in one page in global scope.
         - Many other pages reload because they were also requesting resources from `twitter.com` (a typically ubiquitous hostname from which resources are pulled from countless web pages).
