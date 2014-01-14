@@ -13,7 +13,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Whitelist `twitter.com` in one page in global scope.
         - Many other pages reload because they were also requesting resources from `twitter.com` (a typically ubiquitous hostname from which resources are pulled from countless web pages).
         - If you sandbox the rules to only one web site, adding or removing rules will only affect web pages of the same web site.
-    * Therefore, auto-creating temporary scope for every page you visit enhance security and convenience (this enhances as long as you don't start to whitelist "all" on *every* web page you visit...)
+    * Therefore, auto-creating temporary scope for every page you visit enhance security and convenience (this enhances security as long as you don't start to whitelist "all" on *every* web page you visit...)
     * Keep in mind the site-level scope created is **temporary**, unless you persist it (padlock).
         - Currently planning a future option to flush temporary scopes and rules after *x* minutes of being unused, in order to avoid runtime bloat of temporary scopes/rules.
     * Turning on the auto-creation of site-level scopes is pointless if you use HTTPSB in a allow-all/block-exceptionally mode.
