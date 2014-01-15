@@ -1,6 +1,6 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
-### 0.7.?.?
+### 0.7.7.0
 
 - Redirects are now reported in the matrix of the landing page.
     * Redirects are recognizabled by a group of domain/subdomains in the matrix for which all the cells are empty.
