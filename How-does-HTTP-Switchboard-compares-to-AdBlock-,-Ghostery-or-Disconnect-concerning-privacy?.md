@@ -43,6 +43,7 @@ Any of the above extension was the only one running at the time of the test, no 
 I will insert here the responses of the owner/developer/etc. of Ghostery/Disconnect to the results below.
 
 - Disconnect: [Response I got in a Hacker News discussion](https://news.ycombinator.com/item?id=6886072).
+- Ghostery: Admittedly a much more comprehensive study: [Which Extension Protects Better?](http://www.areweprivateyet.com/).
 
 ### Results
 
