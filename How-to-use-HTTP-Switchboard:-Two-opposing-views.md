@@ -4,7 +4,7 @@ One important thing to remember though, whatever the approach you use, the prese
 
 ## The block-all/allow-exceptionally approach
 
-![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.png)
+![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.gif)
 
 This is the out-of-the-box settings:
 - All is blocked by default (through the blacklisting of the `all` cell).
@@ -30,7 +30,7 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 
 ## The allow-all/block-exceptionally approach
 
-![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.png)
+![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.gif)
 
 - All is allowed by default (through the whitelisting of the `all` cell).
 - Preset blocked hosts are blacklisted.
