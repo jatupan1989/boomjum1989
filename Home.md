@@ -9,6 +9,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
         - [The matrix scope](/gorhill/httpswitchboard/wiki/The-matrix-scope) (under construction)
         - [The matrix cells](/gorhill/httpswitchboard/wiki/The-matrix-cells)
         - [Precedence in the matrix](/gorhill/httpswitchboard/wiki/Precedence-in-the-matrix) (under construction)
+    * [How to use HTTP Switchboard: Two opposing views]()
     * [Quick tour #1](wiki/Quick-tour-%231%3A-1-of-7) (out-of-date)
     * [Quick tour #2](wiki/Quick-tour-%232%3A-1-of-3) (out-of-date)
     * [Why are my rules not restored when I launched Chromium again?](https://github.com/gorhill/httpswitchboard/wiki/Why-are-my-rules-not-restored-when-I-launched-Chromium-again%3F)
