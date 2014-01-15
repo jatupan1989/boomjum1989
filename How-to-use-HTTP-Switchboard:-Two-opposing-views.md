@@ -34,5 +34,7 @@ Advantages:
 - Web pages are more likely to render and/or behave as they were designed to.
 
 Disadvantages:
-- Security is greatly diminished.
-- Privacy is greatly diminished.
+- Security is greatly diminished. Mitigation:
+    * The preset lists of blocked hosts.
+- Privacy is greatly diminished. Mitigation:
+    * The preset lists of blocked hosts.
