@@ -1,5 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.6.1
+
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/145>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/141>.
+
+***
+
 ### 0.7.6.0
 
 - **New feature**: Auto-create temporary site-level scope (disabled by default, enable from *Settings* page)
