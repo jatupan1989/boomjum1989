@@ -32,7 +32,8 @@ Disadvantages:
 
 Advantages:
 - Web pages are more likely to render and/or behave as they were designed to.
-- You see all the crap you are being served when not blocking (actually, it's worst because there are still the preset lists of blocked hosts which are still blocking more crap).
+- An informed and more aware surfer:
+    * You see all the crap you are being served when not blocking (actually, it's worst because there are still the preset lists of blocked hosts which are still blocking more crap).
 
 Disadvantages:
 - Security is greatly diminished. Mitigation:
