@@ -3,7 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.7.?.?
 
 - Redirects are now reported in the matrix of the landing page.
-    * Redirects are recognizabled by a hostname in the matrix for which the whole row of cells are all empty.
+    * Redirects are recognizabled by a group of domain/subdomains in the matrix for which all the cells are empty.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/112>
 
 ***
