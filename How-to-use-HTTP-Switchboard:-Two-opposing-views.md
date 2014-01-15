@@ -23,6 +23,11 @@ Disadvantages:
     * Geeky users can help less geeky users through the easy exchange of recipes.
     * (Future?) An easy accessible library of common useful recipes which can be applied with one click.
 
+Useful Chromium settings with block-all/allow-exceptionally philosophy:
+
+- Cookies set to "Keep local data only until I quit my browser"
+- Plugins set to "Click to play"
+
 ## The allow-all/block-exceptionally approach
 
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.png)
