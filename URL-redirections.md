@@ -6,8 +6,10 @@ URL redirections are recognizable in the matrix from domain name entries for whi
 
 ![matrix](https://raw2.github.com/gorhill/httpswitchboard/3cd5eacc40de0c344494bfcc5eb62cfcfffbafa1/doc/img/redirection-example-1-matrix.png)
 
-Notice that all cells from `ecosia.org` **and** related subdomains are empty. This is the telltale sign that the current page was the result of a redirect from a request to `ecosia.org` in this example.
+Notice that all cells from `ecosia.org` **and** related subdomains are empty. This is a good hint that the current page was the result of a redirect from a request to third-party (from the point of view of the viewed page) `ecosia.org` in this example.
 
 The log of requests will also provide a clue about the URL redirection:
 
 ![log](https://raw2.github.com/gorhill/httpswitchboard/3cd5eacc40de0c344494bfcc5eb62cfcfffbafa1/doc/img/redirection-example-1-log.png)
+
+Notice that it *may* happen that a web page is so bare that it does not request any external resource, in which case all the cells for such a page would also be empty, however this is rather rare.
