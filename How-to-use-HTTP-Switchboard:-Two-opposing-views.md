@@ -7,7 +7,7 @@ One important thing to remember though, whatever the approach you use, the prese
 ![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.png)
 
 This is the out-of-the-box settings:
-- All is blocked by default (by means of the `all` cell being blacklisted).
+- All is blocked by default (through the blacklisting of the `all` cell).
 - CSS and images are whitelisted.
 - Frames are blacklisted.
 - Preset blocked hosts are blacklisted.
@@ -27,7 +27,7 @@ Disadvantages:
 
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.png)
 
-- All is allowed by default (by means of the `all` cell being whitelisted).
+- All is allowed by default (through the whitelisting of the `all` cell).
 - Preset blocked hosts are blacklisted.
 
 Advantages:
