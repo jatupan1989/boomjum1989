@@ -6,7 +6,7 @@ One important thing to remember though, whatever the approach you use, the prese
 
 ![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.png)
 
-This is the out-of-the-box setting:
+This is the out-of-the-box settings:
 - All is blocked by default (by means of the `all` cell being blacklisted).
 - CSS and images are whitelisted.
 - Frames are blacklisted.
