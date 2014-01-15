@@ -1,6 +1,6 @@
 Starting with version 0.7.7.0, URL redirections are now reported in the matrix.
 
-There was an outstanding issue ([#112](/gorhill/httpswitchboard/issues/112)) in order to figure a way to report URL redirections, but the [Window Resizer](http://chrisbalt.com/blog/2013/12/20/link-hijacking-through-chrome-extensions-and-other-security-risks.html) saga reminded me this important to address the issue sooner than later.
+There was an outstanding issue ([#112](/gorhill/httpswitchboard/issues/112)) in order to figure a way to report URL redirections, but the [Window Resizer](http://chrisbalt.com/blog/2013/12/20/link-hijacking-through-chrome-extensions-and-other-security-risks.html) saga reminded me this was important to address the issue sooner than later.
 
 URL redirections are recognizable in the matrix from domain name entries for which all cells are empty. An example using the above-mentioned Window Resizer link high-jacking (search term in `google.com` was "deception"):
 
