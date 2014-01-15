@@ -2,7 +2,7 @@ There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is 
 
 One important thing to remember though, whatever the approach you use, the preset lists of blocked hosts can still be used to block the ad servers, trackers, malware, nuisance, etc. of the internet.
 
-### The block-all/allow-exceptionally approach
+## The block-all/allow-exceptionally approach
 
 ![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.png)
 
@@ -20,7 +20,7 @@ Disadvantages:
 - Web pages are less likely to render and behave as they were designed to.
 - It might be difficult, even a challenge, to find what needs to be whitelisted in order to make a web page render and behave as one wish.
 
-### The allow-all/block-exceptionally approach
+## The allow-all/block-exceptionally approach
 
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.png)
 
