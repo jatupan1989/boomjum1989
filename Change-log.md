@@ -1,5 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated before the latest version is released.
 
+### 0.7.?.?
+
+- Redirects are now reported in the matrix of the landing page.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/112>
+
+***
+
 ### 0.7.6.1
 
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/145>.
