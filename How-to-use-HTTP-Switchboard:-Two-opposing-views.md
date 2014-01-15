@@ -12,14 +12,13 @@ This is the out-of-the-box setting:
 - Frames are blacklisted.
 - Preset blocked hosts are blacklisted.
 
-...
+Advantages:
+- Security is greatly enhanced.
+- Privacy is greatly enhanced.
 
-- Advantages:
-    * Security is greatly enhanced.
-    * Privacy is greatly enhanced.
-- Disadvantages:
-    * Web pages are less likely to render and behave as they were designed to.
-    * It might be difficult, even a challenge, to find what needs to be whitelisted in order to make a web page render and behave as one wish.
+Disadvantages:
+- Web pages are less likely to render and behave as they were designed to.
+- It might be difficult, even a challenge, to find what needs to be whitelisted in order to make a web page render and behave as one wish.
 
 ### The allow-all/block-exceptionally approach
 
@@ -28,10 +27,9 @@ This is the out-of-the-box setting:
 - All is allowed by default (by means of the `all` cell being whitelisted).
 - Preset blocked hosts are blacklisted.
 
-...
+Advantages:
+- Web pages are more likely to render and behave as they were designed to.
 
-- Advantages:
-    * Web pages are more likely to render and behave as they were designed to.
-- Disadvantages:
-    * Security is greatly diminished.
-    * Privacy is greatly diminished.
+Disadvantages:
+- Security is greatly diminished.
+- Privacy is greatly diminished.
