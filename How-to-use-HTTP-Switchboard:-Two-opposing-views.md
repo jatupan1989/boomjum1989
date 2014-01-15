@@ -17,6 +17,7 @@ This is the out-of-the-box setting:
     * Privacy is greatly enhanced.
 - Disadvantages:
     * Web pages are less likely to render and behave as they were designed to.
+    * It might be difficult, even a challenge, to find what needs to be whitelisted in order to make a web page render and behave as one wish.
 
 ### The allow-all/block-exceptionally approach
 
