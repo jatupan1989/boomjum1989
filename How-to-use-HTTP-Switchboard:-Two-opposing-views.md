@@ -1,4 +1,4 @@
-There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is everything in between and beyond. basically, your choice.
+There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is everything in between and beyond. Basically: your choice.
 
 ### The block-all/allow-exceptionally approach
 
