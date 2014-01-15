@@ -30,6 +30,7 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 
 - Cookies set to "Keep local data only until I quit my browser"
 - Plugins set to "Click to play"
+- See further privacy enhancing settings in the *Settings* page.
 
 ## The allow-all/block-exceptionally approach
 
