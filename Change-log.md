@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.7.7.0
 
-- [URL redirections](http://en.wikipedia.org/wiki/URL_redirection) are now reported in the matrix of the landing page.
+- [URL redirections](https://github.com/gorhill/httpswitchboard/wiki/URL-redirections) are now reported in the matrix of the landing page.
     * URL redirections are recognizabled by a group of domain/subdomains in the matrix for which all the cells are empty.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/112>
 
