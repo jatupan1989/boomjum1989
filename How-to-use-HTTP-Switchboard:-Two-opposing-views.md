@@ -21,6 +21,7 @@ Disadvantages:
 - Sometimes it might be difficult, even a challenge, to find what needs to be whitelisted in order to make a web page render and/or behave properly.
 
 Mitigation to disadvantages:
+- Quite commonly, the content of the page can still be read properly.
 - A site-level scope can be used to restrict an allow all/block exceptionally mode to a web site.
 - Geeky users can help less geeky users through the easy exchange of recipes.
 - (Future?) An easy accessible library of common useful recipes which can be applied with one click.
