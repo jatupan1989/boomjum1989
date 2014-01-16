@@ -47,6 +47,7 @@ Advantages:
 Disadvantages:
 - Security is greatly diminished.
 - Privacy is greatly diminished.
+- Web pages take longer to fully download.
 
 Mitigation to disadvantages:
 - The preset lists of blocked hosts.
