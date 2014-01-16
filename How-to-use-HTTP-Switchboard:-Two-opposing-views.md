@@ -2,7 +2,7 @@ There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is 
 
 One important thing to remember though, regardless of the approach you choose, the preset lists of blocked hosts is useful to block the ad servers, trackers, malware, nuisance, etc. of the internet.
 
-## Quick notes for less geeky users
+### Quick notes for less geeky users
 
 Less geeky users users shouldn't bother trying to figure which cells in the middle of the matrix need to be whitelisted or blacklisted. These cells are really more suited to geekier users and even then, exceptionally: their original purpose was to be mostly informative ("how many requests for a given type of data from a given hostname?")
 
