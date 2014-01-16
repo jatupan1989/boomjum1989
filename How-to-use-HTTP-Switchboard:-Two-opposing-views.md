@@ -15,6 +15,7 @@ This is the out-of-the-box settings:
 Advantages:
 - Security is greatly enhanced.
 - Privacy is greatly enhanced.
+- Use less network bandwidth (web pages download faster)
 
 Disadvantages:
 - Web pages are less likely to render and/or behave as they were designed to.
@@ -47,7 +48,7 @@ Advantages:
 Disadvantages:
 - Security is greatly diminished.
 - Privacy is greatly diminished.
-- Web pages take longer to fully download.
+- Use more network bandwidth (web pages download slower)
 
 Mitigation to disadvantages:
 - The preset lists of blocked hosts.
