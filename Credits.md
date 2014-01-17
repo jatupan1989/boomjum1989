@@ -5,6 +5,7 @@ HTTP Switchboard also uses the work of other people. As of v0.7.6.1:
     * Deutsch: [tlu1024](https://github.com/tlu1024)
 - Specific contributions to project code:
     * [GuardianMajor](github.com/GuardianMajor): [Collapsible help boxes](/gorhill/httpswitchboard/pull/57) in the *Settings* page.
+- [All people who took time to report issues](/gorhill/httpswitchboard/issues).
 - Third-parties:
     * [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
     * [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allows sensible management of domain names
