@@ -14,6 +14,8 @@ Blocking everything is not necessarily a good thing to everybody, as this might 
 
 Keep in mind that *HTTP Switchboard*  is somewhat different than the two other extensions, which ones are based on a blacklist which is curated by their respective author. *HTTP Switchboard* blacklists come from [various selfless third-parties](/gorhill/httpswitchboard/wiki/Credits), are extensive, and aside that, you can still block whatever you want ultimately. Also, *HTTP Switchboard* is a javascript blocker (like [NoScript](http://noscript.net/)), a feature not found in the three other extensions.
 
+Edit: Since version 0.6.6, a new column has been added in the matrix, the `css` column, which comes whitelisted out of the box. This would likely cause *HTTP Switchboard* to hit more 3rd-party hosts, as the `css` column is also used to filter web fonts. I plan to redo the tests.
+
 ### Methodology
 
 - [AdBlock Plus](https://chrome.google.com/webstore/detail/adblock-plus-beta/cfhdojbkjhnklbpkdaibdccddilifddb)
