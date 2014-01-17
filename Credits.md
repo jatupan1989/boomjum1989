@@ -1,7 +1,13 @@
 HTTP Switchboard also uses the work of other people. As of v0.6.2:
 
-- [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
-- [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allows sensible management of domain names
+- Translations:
+    * Français: [tailHey](https://github.com/tailHey)
+    * Deutsch: [tlu1024](https://github.com/tlu1024)
+- Specific contributions to project code:
+    * [GuardianMajor](github.com/GuardianMajor): [Collapsible help boxes](/gorhill/httpswitchboard/pull/57) in the *Settings* page.
+- Third-parties:
+    * [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
+    * [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allows sensible management of domain names
 - Blacklists of host names:
     * [Peter Lowe's blacklist](http://pgl.yoyo.org/as/index.php): [Ad server hostnames for blocking ads](http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext) (you may [contribute](http://pgl.yoyo.org/as/#submit) to it!)
     * [Malware Domain List](http://www.malwaredomainlist.com/): [MalwareDomainList.com Hosts List](http://www.malwaredomainlist.com/hostslist/hosts.txt)
@@ -15,8 +21,3 @@ HTTP Switchboard also uses the work of other people. As of v0.6.2:
 - [jQuery](http://jquery.com/)
 - Arts:
     * [Font Awesome](http://fontawesome.io/), for the various icons throughout.
-- Specific contributions to project code:
-    * [GuardianMajor](github.com/GuardianMajor): [Collapsible help boxes](/gorhill/httpswitchboard/pull/57) in the *Settings* page.
-- Translations:
-    * Français: [tailHey](https://github.com/tailHey)
-    * Deutsch: [tlu1024](https://github.com/tlu1024)
