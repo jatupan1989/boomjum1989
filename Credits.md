@@ -19,5 +19,6 @@ HTTP Switchboard also uses the work of other people. As of v0.6.2:
         - [hosts.txt](http://hosts-file.net/?s=Download).
         - [ad_servers.asp](http://hosts-file.net/?s=Download).
     * [Dan Pollock's blacklist](http://someonewhocares.org/hosts/)
+    * [MVPS HOSTS](http://winhelp2002.mvps.org/hosts.htm)
 - Arts:
     * [Font Awesome](http://fontawesome.io/), for the various icons throughout.
