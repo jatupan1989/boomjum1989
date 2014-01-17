@@ -12,4 +12,8 @@ The log of requests will also provide a clue about the URL redirection:
 
 ![log](https://raw2.github.com/gorhill/httpswitchboard/3cd5eacc40de0c344494bfcc5eb62cfcfffbafa1/doc/img/redirection-example-1-log.png)
 
+### Important notes
+
 Notice that it *may* happen that a web page is so bare that it does not request any external resource, in which case all the cells for such a page would also be empty, however this is rather rare.
+
+Also, until [issue #93](https://github.com/gorhill/httpswitchboard/issues/93) is fixed, there can be occurrences of all cells being empty for a whole domain and associated subdomains due to objects from cache not be reported in the matrix.
