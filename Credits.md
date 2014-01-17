@@ -1,4 +1,4 @@
-HTTP Switchboard also uses the work of other people. As of v0.6.2:
+HTTP Switchboard also uses the work of other people. As of v0.7.6.1:
 
 - Translations:
     * Français: [tailHey](https://github.com/tailHey)
