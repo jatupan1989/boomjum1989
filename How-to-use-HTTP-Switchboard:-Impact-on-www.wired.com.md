@@ -3,7 +3,7 @@
 | Block-all / allow-exceptionally: 2 | 0 | 0 | 43 | 746,853 |
 | Allow-all / block-exceptionally: 20 | 39 | 19 | 113 | 5,598,730 |
 | Block nothing: 60 | 180 | 55 | 175 | 6,138,468 |
-| <h3>Details</h3> |
+| <h4>Details</h4> |
 | <h4>Block-all / allow-exceptionally</h4> |
 | 2 | 0 | 0 | 43 | 746,853 |
 | howto.wired.com | | | 3 | 55,996 |
