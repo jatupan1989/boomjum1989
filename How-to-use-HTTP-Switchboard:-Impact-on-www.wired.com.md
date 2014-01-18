@@ -5,9 +5,7 @@
 | 2 | 0 | 0 | 43 | 746,853 |
 | howto.wired.com | | | 3 | 55,996 |
 | www.wired.com | | | 40 |690,857 |
-
-#### Allow-all/block-exceptionally mode
-
+| Allow-all/block-exceptionally mode |
 | hostname     | Cookie sent  | javascript   | images       | bandwidth    |
 | ------------:| ------------:| ------------:| ------------:| ------------:|
 | 20 | 39 | 19 | 113 | 5,598,730 |
