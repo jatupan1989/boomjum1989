@@ -1,11 +1,11 @@
 | hostnames | cookies sent | javascript | images | bandwidth |
 | ---:| ---:| ---:| ---:| ---:|
-| **Block-all/allow-exceptionally mode** |
+| **Block-all / allow-exceptionally mode** |
 | 2 | 0 | 0 | 43 | 746,853 |
 | howto.wired.com | | | 3 | 55,996 |
 | www.wired.com | | | 40 |690,857 |
 | &nbsp; |
-| **Allow-all/block-exceptionally mode** |
+| **Allow-all / block-exceptionally mode** |
 | 20 | 39 | 19 | 113 | 5,598,730 |
 | api.cnevids.com |  |  |  | 4,527 |
 | player.cnevids.com | 1 | 1 |  | 11,617 |
