@@ -9,6 +9,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/158>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/150>
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/148>
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/139>
+    * Chromium-behind-the-scene scope has its own section in the *Rule manager* page.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/112>
 
 ***
