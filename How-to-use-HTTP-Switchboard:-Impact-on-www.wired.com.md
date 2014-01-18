@@ -1,6 +1,6 @@
 #### Block-all/allow-exceptionally mode
 
-| hostname     | Cookie sent  | javascript   | images       | bandwidth    |
+| hostnames     | cookies sent  | javascript   | images       | bandwidth    |
 | ------------:| ------------:| ------------:| ------------:| ------------:|
 | **Block-all/allow-exceptionally mode** |
 | 2 | 0 | 0 | 43 | 746,853 |
