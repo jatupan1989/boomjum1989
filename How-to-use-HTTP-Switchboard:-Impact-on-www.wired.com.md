@@ -4,6 +4,7 @@
 | 2 | 0 | 0 | 43 | 746,853 |
 | howto.wired.com | | | 3 | 55,996 |
 | www.wired.com | | | 40 |690,857 |
+| |
 | **Allow-all/block-exceptionally mode** |
 | 20 | 39 | 19 | 113 | 5,598,730 |
 | api.cnevids.com |  |  |  | 4,527 |
@@ -26,6 +27,7 @@
 | connect.facebook.net |  | 1 |  | 56,634 |
 | cdn.api.twitter.com | 1 | 1 |  | 1,955 |
 | condenastl3cdn.cust.footprint.net |  |  |  | 2,142,690 |
+| |
 | **Block nothing** |
 | Total: 60 | 180 | 55 | 175 | 6,138,468 |
 | load.s3.amazonaws.com |  |  | 1 | 897 |
