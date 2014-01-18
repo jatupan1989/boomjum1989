@@ -1,5 +1,3 @@
-#### Block-all/allow-exceptionally mode
-
 | hostnames | cookies sent | javascript | images | bandwidth |
 | ---:| ---:| ---:| ---:| ---:|
 | **Block-all/allow-exceptionally mode** |
