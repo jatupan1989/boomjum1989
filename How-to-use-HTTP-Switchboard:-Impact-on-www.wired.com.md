@@ -29,7 +29,7 @@
 | condenastl3cdn.cust.footprint.net |  |  |  | 2,142,690 |
 | |
 | **Block nothing** |
-| Total: 60 | 180 | 55 | 175 | 6,138,468 |
+| 60 | 180 | 55 | 175 | 6,138,468 |
 | load.s3.amazonaws.com |  |  | 1 | 897 |
 | condeconsumermarketing.112.2o7.net | 1 |  | 2 | 3,998 |
 | cdn.adnxs.com | 3 | 1 |  | 1,559 |
