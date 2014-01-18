@@ -27,7 +27,7 @@
 | connect.facebook.net |  | 1 |  | 56,634 |
 | cdn.api.twitter.com | 1 | 1 |  | 1,955 |
 | condenastl3cdn.cust.footprint.net |  |  |  | 2,142,690 |
-| - |
+| &nbsp; |
 | **Block nothing** |
 | 60 | 180 | 55 | 175 | 6,138,468 |
 | load.s3.amazonaws.com |  |  | 1 | 897 |
