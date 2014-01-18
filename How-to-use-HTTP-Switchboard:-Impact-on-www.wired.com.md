@@ -1,7 +1,7 @@
 #### Block-all/allow-exceptionally mode
 
-| hostnames     | cookies sent  | javascript   | images       | bandwidth    |
-| ------------:| ------------:| ------------:| ------------:| ------------:|
+| hostnames | cookies sent | javascript | images | bandwidth |
+| ---:| ---:| ---:| ---:| ---:|
 | **Block-all/allow-exceptionally mode** |
 | 2 | 0 | 0 | 43 | 746,853 |
 | howto.wired.com | | | 3 | 55,996 |
