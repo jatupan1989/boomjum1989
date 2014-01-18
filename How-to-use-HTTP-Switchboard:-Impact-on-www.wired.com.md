@@ -6,7 +6,6 @@
 | <h4>Block-all / allow-exceptionally</h4> |
 | howto.wired.com | | | 3 | 55,996 |
 | www.wired.com | | | 40 |690,857 |
-| &nbsp; |
 | <h4>Allow-all / block-exceptionally</h4> |
 | api.cnevids.com |  |  |  | 4,527 |
 | player.cnevids.com | 1 | 1 |  | 11,617 |
@@ -28,7 +27,6 @@
 | connect.facebook.net |  | 1 |  | 56,634 |
 | cdn.api.twitter.com | 1 | 1 |  | 1,955 |
 | condenastl3cdn.cust.footprint.net |  |  |  | 2,142,690 |
-| &nbsp; |
 | <h4>Block nothing</h4> |
 | load.s3.amazonaws.com |  |  | 1 | 897 |
 | condeconsumermarketing.112.2o7.net | 1 |  | 2 | 3,998 |
