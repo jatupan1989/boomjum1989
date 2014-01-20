@@ -1,5 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.7.7.1
+Added `aad73c550c.se` to [httpsb-blacklist.txt](/gorhill/httpswitchboard/blob/f92b98cccd3b7f3278d3e6a59b5be48f45f2fb21/assets/httpsb-blacklist.txt): Related to `adrotator.se`
+Fixed <https://github.com/gorhill/httpswitchboard/issues/163>.
+Fixed <https://github.com/gorhill/httpswitchboard/issues/162>.
+
+***
+
 ### 0.7.7.0
 
 - URL redirections are now reported in the matrix of the landing page.
