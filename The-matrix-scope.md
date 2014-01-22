@@ -18,3 +18,21 @@ For any web page you visit, you can pick create a narrower scope for that web pa
 ### Domain-level scope
 
 ### Site-level scope
+
+### Scope precedence
+
+There is a scope precedence in HTTPSB. If one scope doesn't exist, a scope with lower precedence is then tried, etc until global scope is reached.
+
+If one visits `https://www.example.com`, the precedence is:
+
+    https://www.example.com
+    http://www.example.com
+    https://*.example.com
+    http://*.example.com
+    *
+
+If one visit `http://www.example.com`:
+
+    http://www.example.com
+    http://*.example.com
+    *
