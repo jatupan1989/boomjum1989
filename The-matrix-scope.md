@@ -11,7 +11,9 @@ A matrix scope tells HTTPSB which set of rules to use when visiting a particular
 
 Out of the box, there are two scopes in HTTPSB: the global scope (`*`), and the behind-the-scene scope (`http://chromium-behind-the-scene`).
 
-For any web page you visit, you can pick create a narrower scope for that web page, or use the default global scope.
+For any web page you visit, you can create a narrower scope for that web page, or use the default global scope.
+
+Just to avoid any confusion in the context of this doc, "domain name" is different than "site name". For example, `example.com` is a domain name, whereas `www.example.com` and `forums.example.com` are site names.
 
 ### Global scope
 
