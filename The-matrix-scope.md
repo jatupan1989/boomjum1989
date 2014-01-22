@@ -15,7 +15,9 @@ For any web page you visit, you can pick create a narrower scope for that web pa
 
 ### Global scope
 
-The global scope is identified with the `∗` glyph. A rule in global scope will apply to any web site, except where a narrower scope exists for that site.
+The global scope is identified with the `∗` glyph.
+
+Rules in global scope will apply to any web site, except where a narrower scope exists for that site.
 
 ### Domain-level scope
 
