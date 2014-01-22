@@ -21,7 +21,7 @@ For any web page you visit, you can pick create a narrower scope for that web pa
 
 ### Scope precedence
 
-There is a scope precedence in HTTPSB. If one scope doesn't exist, a scope with lower precedence is then tried, etc until global scope is reached.
+There is a scope precedence in HTTPSB. If one scope doesn't exist, a scope with lower precedence is then tried, until global scope is reached.
 
 If one visits `https://www.example.com`, the precedence is:
 
