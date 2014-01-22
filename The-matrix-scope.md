@@ -54,3 +54,5 @@ If one visit `http://www.example.com`:
     http://www.example.com
     http://*.example.com
     *
+
+The scope precedence above is based on the premise that a user will typically have more restrictive rules for an unencrypted connection than its encrypted counterpart. Thus it is ok to have more restrictive rules being used for an encrypted connection, but not ok to have less restrictive rules being used for an unencrypted connection.
