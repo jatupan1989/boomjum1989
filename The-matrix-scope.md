@@ -19,6 +19,10 @@ The global scope is identified with the `∗` glyph. A rule in global scope will
 
 ### Domain-level scope
 
+Rules in domain-level scope will apply *only* to web sites which share the same domain as the scope domain.
+
+For example, all rules in domain-level scope `http://∗.example.com` will apply to `http://www.example.com`, http://forums.example.com`, `http://where.am.i.example.com`, etc.
+
 ### Site-level scope
 
 ### Scope precedence
