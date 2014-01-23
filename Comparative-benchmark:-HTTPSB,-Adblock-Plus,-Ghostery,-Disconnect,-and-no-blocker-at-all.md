@@ -1,4 +1,13 @@
-HTTPSB out of the box
+... | HTTPSB OotB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
+--- | --- | --- | --- | --- | --- | ---
+Bandwidth | 16,018,841 | 12,049,602 | 21,609,353 | 21,858,245 | 22,756,202 | 26,020,235
+Requests allowed (network + cache) | 1,293 (1,290 + 3) | 993 (983 + 10) | 1,781 (1,771 + 10) | 1,831 (1,798 + 33) | 1,972 (1,949 + 24) | 2,925 (2,788 + 137)
+Requests blocked |
+Hosts (1st + 3rd party) |
+Scripts (1st + 3rd party) |
+Outbound cookies (1st + 3rd party) |
+
+HTTPSB OotB
 Bandwidth: 16,018,841 bytes
 Requests allowed (network + cache): 1,293 (1,290 + 3)
 Requests blocked: 18
