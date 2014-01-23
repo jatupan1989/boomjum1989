@@ -5,7 +5,11 @@ Notes:
 - Both HTTPSB and Adblock+ were set to use *Fanboy Complete List*.
 - Ghostery and Disconnect were set in their respective equivalent of "Block all trackers" mode.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
-- Keep in mind: A user can not add/remove filters from Ghostery and Disconnect, while there is no restriction to add/remove filters from HTTPSB and Adblock+. HTTPSB and Adblock differs though in how easy it is to add/remove filters (Adblock+ = geeky, HTTPSB = easy), and the granularity of their filters (Adblock+ = finer grained, HTTPSB = hostname/type of request).
+- Keep in mind:
+    * A user can not add/remove filters from Ghostery and Disconnect.
+    * A user can add/remove filters from HTTPSB and Adblock+. Where these two differ:
+        - How easy it is to add/remove filters: Adblock+ = geeky, HTTPSB = easy.
+        - The granularity of their filters: Adblock+ = finer grained, HTTPSB = hostname/type of request.
 
 ### January 22, 2014
  | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
