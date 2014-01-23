@@ -3,7 +3,7 @@ See Notes and Methodology appear after benchmark results.
 The results emphasize 3rd-party requests, as these are, I believe, a key statistics when it comes to gauge privacy matters. The rationale being that the more a user push data from 3rd parties (a mere net request _is_ pushing data) -- typically without the user being aware -- the larger the footprint of leaked metadata. It is difficult for a user to appreciate how much metadata is leaked to 3rd parties when visiting a web page, as requests to 3rd-party agents are not easy to see, let alone easy to act upon. This is where _HTTP Switchboard_ will help you the most.
 
 #### January 22, 2014
-- Note: The benchmark will be rerun today, as a mistake creeped in for the results currently shown here: because the way it works, HTTPSB extension needs to be restarted when testing between "HTTPSB OOB" and "HTTPSB AA/BX". Currently, the number of 3rd-party hosts should be significantly lower.
+- Note: The benchmark will be rerun today, as a mistake creeped in for the results currently shown here: because the way it works, HTTPSB extension needs to be restarted when testing between "HTTPSB OOB" and "HTTPSB AA/BX". Currently, the number of 3rd-party hosts should be significantly lower for "HTTPSB OOB".
 - Note: the "Requests" row will be revised to show only network requests, but split in "3rd-party / all" figures.
 
  | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
