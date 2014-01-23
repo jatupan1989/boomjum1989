@@ -31,7 +31,8 @@ Cookies: **3rd party**/all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62 |
         - How easy it is to add/remove filters: Adblock+ = [geeky](https://adblockplus.org/en/filters), HTTPSB = easy.
         - The granularity of their filters: Adblock+ = coarse- to fine-grained, HTTPSB = hostname/type of request (firewall-like).
 - HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
-- I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time (keeping in mind contents of benchmarked web pages will obviously change).
+- I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time.
+    * Keep in mind contents of benchmarked web pages will obviously change, so results are meaningful when compared to each other within the same benchmark.
 
 ### Methodology
 
