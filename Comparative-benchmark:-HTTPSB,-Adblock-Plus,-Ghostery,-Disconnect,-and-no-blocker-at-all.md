@@ -1,6 +1,8 @@
 Notes:
 - "HTTPSB OotB" means *HTTP Switchboard* with out-of-the-box settings.
 - "HTTPSB AA/BX" means *HTTP Switchboard* in allow-all/block-exceptionally mode, with out-of-the-box preset blacklists.
+- Both HTTPSB and Adblock+ were set to use *Fanboy Complete List*.
+- Ghostery and Disconnect were set in their respective equivalent of "Block all trackers" mode.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 
 ### January 22, 2014
