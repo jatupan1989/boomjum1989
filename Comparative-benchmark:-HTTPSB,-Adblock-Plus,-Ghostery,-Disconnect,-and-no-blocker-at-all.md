@@ -3,6 +3,7 @@ Notes:
 - "HTTPSB AA/BX" means *HTTP Switchboard* in allow-all/block-exceptionally mode, with out-of-the-box preset blacklists.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 
+### January 22, 2014
 ... | HTTPSB OotB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
 --- | ---:| ---:| ---:| ---:| ---:| ---:
 Bandwidth | 16,018,841 | 12,049,602 | 21,609,353 | 21,858,245 | 22,756,202 | 26,020,235
