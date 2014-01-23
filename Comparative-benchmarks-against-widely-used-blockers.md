@@ -11,7 +11,7 @@ Cookies: **3rd party** / all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62
 
 ### Notes
 - "HTTPSB OOB" means *HTTP Switchboard* with out-of-the-box settings.
-- "HTTPSB AA/BX" means *HTTP Switchboard* in allow-all/block-exceptionally mode, with out-of-the-box preset blacklists.
+- "HTTPSB AA/BX" means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
 - "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
 - Both HTTPSB and Adblock+ were set to use *Fanboy Complete List*.
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
