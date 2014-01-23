@@ -26,7 +26,7 @@ Cookies: **3rd party** / all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62
 
 ### Methodology
 
-Benchmarks were done using [*Browser session benchmark*.](https://github.com/gorhill/sessbench). The script used is:
+Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench). The script used is:
 ```
 repeat 5
 clear cache
