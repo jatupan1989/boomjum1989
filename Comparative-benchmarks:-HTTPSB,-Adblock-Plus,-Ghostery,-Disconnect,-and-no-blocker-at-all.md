@@ -23,3 +23,27 @@ Requests allowed<br>(network + cache) | 1,293<br>(1,290 + 3) | 993<br>(983 + 10)
 Hosts: **3rd-party** / all | **53** / 80 | **76** / 118 | **97** / 158 | **110** / 167 | **174** / 282 | **198** / 324 | **525** / 597
 Scripts: **3rd party** / all | **0** / 0 | **121** / 204 | **150** / 256 | **174** / 282 | **198** / 324 | **524** / 670
 Cookies: **3rd party** / all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62 | **15** / 75 | **212** / 277
+
+### Methodology
+
+Benchmarks were done using [*Browser session benchmark*.](https://github.com/gorhill/sessbench). The script used is:
+```
+repeat 5
+clear cache
+clear cookies
+http://news.yahoo.com/
+http://www.huffingtonpost.com/
+http://www.cnn.com/
+http://news.google.com/
+http://www.nytimes.com/
+http://www.foxnews.com/
+http://www.theguardian.com/
+http://www.nbcnews.com/
+http://www.dailymail.co.uk/
+http://www.usatoday.com/
+http://www.washingtonpost.com/
+http://www.wsj.com/
+http://www.abcnews.go.com/
+http://news.bbc.co.uk/
+http://www.latimes.com/
+```
