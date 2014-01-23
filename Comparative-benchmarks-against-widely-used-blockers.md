@@ -1,7 +1,7 @@
 See Notes and Methodology appear after benchmark results.
 
 #### January 22, 2014
-Note: the "Requests" row will be revised to show only network requests, but split in 3rd-part / all figures.
+Note: the "Requests" row will be revised to show only network requests, but split in "3rd-party / all" figures.
 
  | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
 --- | ---:| ---:| ---:| ---:| ---:| ---:
