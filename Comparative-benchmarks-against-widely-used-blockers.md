@@ -26,6 +26,7 @@ Cookies: **3rd party**/all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62 |
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 - Keep in mind:
     * A user can not add/remove filters from Ghostery and Disconnect.
+        - Correct me if I am wrong.
     * A user can add/remove filters from HTTPSB and Adblock+. Where these two differ:
         - How easy it is to add/remove filters: Adblock+ = [geeky](https://adblockplus.org/en/filters), HTTPSB = easy.
         - The granularity of their filters: Adblock+ = coarse- to fine-grained, HTTPSB = hostname/type of request (firewall-like).
