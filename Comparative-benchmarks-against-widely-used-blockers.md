@@ -5,6 +5,7 @@ Notes:
 - Both HTTPSB and Adblock+ were set to use *Fanboy Complete List*.
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
 - The latest version of all blockers was used on the day of the benchmark.
+- "3rd-party" means in the strictest sense, meanings if domain name of request differs from domain of page URL, the request is deemed 3rd-party.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 - Keep in mind:
     * A user can not add/remove filters from Ghostery and Disconnect.
