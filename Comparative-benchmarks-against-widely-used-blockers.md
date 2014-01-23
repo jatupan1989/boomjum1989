@@ -15,7 +15,7 @@ Cookies: **3rd party** / all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62
 - "HTTPSB OOB" means *HTTP Switchboard* with [out-of-the-box settings](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach).
 - "HTTPSB AA/BX" means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
 - "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
-- Both HTTPSB and Adblock+ were set to use *Fanboy Complete List*.
+- Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
 - The latest version of all blockers was used on the day of the benchmark.
 - "3rd-party" means in the strictest sense, meanings if domain name of request differs from domain of page URL, the request is deemed 3rd-party.
