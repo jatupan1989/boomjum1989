@@ -24,7 +24,7 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 - "HTTPSB AA/BX" means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
 - "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
 - Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
-    * **Important note**: HTTPSB extract _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
+    * **Important note**: HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
 - The latest version of all blockers was used on the day of the benchmark.
 - "3rd-party" in the strictest sense, meanings if the domain name of a request differs from the domain of a page URL address, the request is deemed 3rd-party.
