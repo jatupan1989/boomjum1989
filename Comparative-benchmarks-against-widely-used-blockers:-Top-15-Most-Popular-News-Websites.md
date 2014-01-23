@@ -4,9 +4,7 @@ The results emphasize 3rd-party requests, as these are, I believe, a key statist
 
 In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** / _total count_".
 
-#### January 22, 2014
-
-**IMPORTANT**: I just found out that the number of 3rd-party hosts is over-reported from what really happens, I will redo the benchmark and post correct results ASAP. Turns out the code which was counting 1st/3rd party requests was being executed even for blocked requests.
+#### January 23, 2014
 
 |               | HTTPSB OOB        | Adblock+          | Ghostery          | HTTPSB AA/BX      | Disconnect        | No blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
