@@ -18,7 +18,7 @@ Cookies: **3rd party** / all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62
 - Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
 - The latest version of all blockers was used on the day of the benchmark.
-- "3rd-party" in the strictest sense, meanings if domain name of request differs from domain of page URL, the request is deemed 3rd-party.
+- "3rd-party" in the strictest sense, meanings if the domain name of a request differs from the domain of a page URL address, the request is deemed 3rd-party.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 - Keep in mind:
     * A user can not add/remove filters from Ghostery and Disconnect.
