@@ -4,6 +4,7 @@ Notes:
 - "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
 - Both HTTPSB and Adblock+ were set to use *Fanboy Complete List*.
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
+- The latest version of all blockers was used on the day of the benchmark.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 - Keep in mind:
     * A user can not add/remove filters from Ghostery and Disconnect.
