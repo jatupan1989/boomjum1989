@@ -12,7 +12,8 @@ Notes:
         - How easy it is to add/remove filters: Adblock+ = geeky, HTTPSB = easy.
         - The granularity of their filters: Adblock+ = finer grained, HTTPSB = hostname/type of request.
 - HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
-- I will repeat the benchmark (see methodology at the bottom of the page) once in a while and add results here in order to show consistentcy of results.
+- I will repeat the benchmark once in a while and add results here in order to show consistentcy of results.
+- See methodology at the bottom of the page.
 
 #### January 22, 2014
  | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
