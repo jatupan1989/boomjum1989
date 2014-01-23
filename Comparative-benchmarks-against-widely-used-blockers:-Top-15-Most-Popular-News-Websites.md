@@ -21,10 +21,6 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 - "HTTPSB OOB" means *HTTP Switchboard* with [out-of-the-box settings](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach).
 - "HTTPSB AA/BX" means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
 - "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
-- Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
-    * **Important note**: HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
-- [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
-- The latest version of all blockers was used on the day of the benchmark.
 - "3rd-party" in the strictest sense, meanings if the domain name of a request differs from the domain of a page URL address, the request is deemed 3rd-party.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 - Keep in mind:
@@ -38,6 +34,11 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
     * Keep in mind contents of benchmarked web pages will obviously change, so results are meaningful when compared to each other within the same benchmark.
 
 ### Methodology
+
+- Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
+    * **Important note**: HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
+- [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
+- The latest version of all blockers was used on the day of the benchmark.
 
 Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench). The script used is:
 ```
