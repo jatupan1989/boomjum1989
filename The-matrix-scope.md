@@ -23,11 +23,11 @@ Rules in global scope will apply to any web site, except where a narrower scope 
 
 ### Domain-level scope
 
+Domain-level scopes are narrower than global scope, but broader than site-level scopes.
+
 Rules in domain-level scope will apply *only* to web sites which domain matches the domain of the scope.
 
-Domain-level scopes are narrower than global scope, but broader than site-level scopes. Rules in a domain-level scope will apply only to all websites matching the domain name of the scope.
-
-For example, all rules in domain-level scope `http://∗.example.com` will apply to `http://www.example.com`, http://forums.example.com`, `http://where.am.i.example.com`, etc.
+For example, all rules in domain-level scope `http://∗.example.com` will apply to `http://www.example.com`, `http://forums.example.com`, `http://where.am.i.example.com`, etc.
 
 ### Site-level scope
 
