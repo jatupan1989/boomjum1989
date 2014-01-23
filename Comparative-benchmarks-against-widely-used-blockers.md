@@ -56,3 +56,5 @@ http://www.abcnews.go.com/
 http://news.bbc.co.uk/
 http://www.latimes.com/
 ```
+
+List taken from [Top 15 Most Popular News Websites | January 2014](http://www.ebizmba.com/articles/news-websites).
