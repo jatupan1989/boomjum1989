@@ -10,7 +10,7 @@ Scripts: **3rd party** / all | **0** / 0 | **121** / 204 | **150** / 256 | **174
 Cookies: **3rd party** / all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62 | **15** / 75 | **212** / 277
 
 ### Notes
-- "HTTPSB OOB" means *HTTP Switchboard* with out-of-the-box settings.
+- "HTTPSB OOB" means *HTTP Switchboard* with [out-of-the-box settings](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach).
 - "HTTPSB AA/BX" means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
 - "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
 - Both HTTPSB and Adblock+ were set to use *Fanboy Complete List*.
