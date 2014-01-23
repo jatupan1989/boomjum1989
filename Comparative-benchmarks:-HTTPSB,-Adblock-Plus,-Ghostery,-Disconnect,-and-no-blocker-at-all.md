@@ -10,6 +10,7 @@ Notes:
     * A user can add/remove filters from HTTPSB and Adblock+. Where these two differ:
         - How easy it is to add/remove filters: Adblock+ = geeky, HTTPSB = easy.
         - The granularity of their filters: Adblock+ = finer grained, HTTPSB = hostname/type of request.
+- HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
 
 ### January 22, 2014
  | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
