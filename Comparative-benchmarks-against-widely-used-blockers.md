@@ -23,8 +23,8 @@ Cookies: **3rd party** / all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62
 - Keep in mind:
     * A user can not add/remove filters from Ghostery and Disconnect.
     * A user can add/remove filters from HTTPSB and Adblock+. Where these two differ:
-        - How easy it is to add/remove filters: Adblock+ = geeky, HTTPSB = easy.
-        - The granularity of their filters: Adblock+ = finer grained, HTTPSB = hostname/type of request.
+        - How easy it is to add/remove filters: Adblock+ = [geeky](https://adblockplus.org/en/filters), HTTPSB = easy.
+        - The granularity of their filters: Adblock+ = coarse- to fine-grained, HTTPSB = hostname/type of request.
 - HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
 - I will repeat the benchmark once in a while and add results here in order to show consistentcy of results.
 - See methodology at the bottom of the page.
