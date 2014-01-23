@@ -1,6 +1,8 @@
 See Notes and Methodology appear after benchmark results.
 
 #### January 22, 2014
+Note: the "Requests" row will be revised to show only network requests, but split in 3rd-part / all figures.
+
  | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
 --- | ---:| ---:| ---:| ---:| ---:| ---:
 Bandwidth | 16,018,841 | 12,049,602 | 21,609,353 | 21,858,245 | 22,756,202 | 26,020,235
