@@ -35,7 +35,7 @@ Rules in domain-level scope will apply *only* to web sites which hostname matche
 
 Site-level scopes are the most narrow of all level of scopes. Rules in a site-level scope will apply only to *one* single web site.
 
-For example, all rules in domain-level scope `http://∗.example.com` will apply to `http://www.example.com`, http://forums.example.com`, `http://where.am.i.example.com`, etc.
+For example, all rules in site-level scope `http://example.com` will apply to `http://example.com` only, and not to `http://forums.example.com` or `http://www.example.com`.
 
 ### Scope precedence
 
