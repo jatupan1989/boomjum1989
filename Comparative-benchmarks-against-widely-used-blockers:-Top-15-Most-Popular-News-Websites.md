@@ -8,14 +8,14 @@ In the table, results reported as "_x_ / _n_" means "3rd-party / total".
 
 **IMPORTANT**: I just found out that the number of 3rd-party hosts is over-reported from what really happens, I will redo the benchmark and post correct results ASAP. Turns out the code which was counting 1st/3rd party requests was being executed even for blocked requests.
 
-|               | HTTPSB OOB      | Adblock+        | Ghostery        | HTTPSB AA/BX    | Disconnect      | No blocker
-| ------------- | -------------- :| -------------- :| -------------- :| -------------- :| -------------- :| -------------- :
-| URLs visited  |              15 |              15 |              15 |              15 |              15 |  
-| Bandwidth     |      17,955,495 |      12,762,008 |      24,289,750 |      23,701,438 |      24,032,170 |      
-| Net requests  | **680** / 1,321 |   **581** / 872 | **928** / 1,817 | **943** / 1,826 |   1,014 / 1,954 |  
-| Domains       |     **21** / 22 |     **38** / 39 |     **49** / 50 |     **65** / 66 |         81 / 82 |   
-| Hosts         |     **47** / 76 |    **65** / 110 |    **94** / 161 |   **113** / 179 |       144 / 219 |   
-| Scripts       |       **0** / 0 |   **106** / 180 |   **133** / 257 |   **154** / 286 |       188 / 326 |   
+|               | HTTPSB OOB      | Adblock+        | Ghostery        | HTTPSB AA/BX    | Disconnect      | No blocker |
+| ------------- | -------------- :| -------------- :| -------------- :| -------------- :| -------------- :| -------------- : |
+| URLs visited  |              15 |              15 |              15 |              15 |              15 |   |
+| Bandwidth     |      17,955,495 |      12,762,008 |      24,289,750 |      23,701,438 |      24,032,170 |       |
+| Net requests  | **680** / 1,321 |   **581** / 872 | **928** / 1,817 | **943** / 1,826 |   1,014 / 1,954 |   |
+| Domains       |     **21** / 22 |     **38** / 39 |     **49** / 50 |     **65** / 66 |         81 / 82 |    |
+| Hosts         |     **47** / 76 |    **65** / 110 |    **94** / 161 |   **113** / 179 |       144 / 219 |    |
+| Scripts       |       **0** / 0 |   **106** / 180 |   **133** / 257 |   **154** / 286 |       188 / 326 |    |
 | Cookies       |       **0** / 0 |      **0** / 22 |      **2** / 46 |      **8** / 60 |                 |   
 
 ### Notes
