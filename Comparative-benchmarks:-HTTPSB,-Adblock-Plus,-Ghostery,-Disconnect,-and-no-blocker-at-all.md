@@ -13,7 +13,7 @@ Notes:
         - The granularity of their filters: Adblock+ = finer grained, HTTPSB = hostname/type of request.
 - HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
 
-### January 22, 2014
+## January 22, 2014
  | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
 --- | ---:| ---:| ---:| ---:| ---:| ---:
 Bandwidth | 16,018,841 | 12,049,602 | 21,609,353 | 21,858,245 | 22,756,202 | 26,020,235
