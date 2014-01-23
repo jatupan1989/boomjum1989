@@ -16,7 +16,7 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 | Domains       |     **21** / 22 |     **38** / 39 |     **49** / 50 |     **65** / 66 |         81 / 82 |     **358** / 359 |
 | Hosts         |     **47** / 76 |    **65** / 110 |    **94** / 161 |   **113** / 179 |       144 / 219 |     **527** / 604 |
 | Scripts       |       **0** / 0 |   **106** / 180 |   **133** / 257 |   **154** / 286 |       188 / 326 |     **419** / 560 |
-| Cookies       |       **0** / 0 |      **0** / 22 |      **2** / 46 |      **8** / 60 |                 |     **205** / 279 |
+| Cookies       |       **0** / 0 |      **0** / 22 |      **2** / 46 |      **8** / 60 |        -        |     **205** / 279 |
 
 ### Notes
 - This benchmark runs on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
