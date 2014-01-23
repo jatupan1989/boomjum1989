@@ -2,19 +2,21 @@ Notes and Methodology appear after benchmark results.
 
 The results emphasize 3rd-party requests, as these are, I believe, a key statistics when it comes to gauge privacy matters. The rationale being that the more a user push data from 3rd parties (a mere net request _is_ pushing data) -- typically without the user being aware -- the larger the footprint of leaked metadata. It is difficult for a user to appreciate how much metadata is leaked to 3rd parties when visiting a web page, as requests to 3rd-party agents are not easy to see, let alone easy to act upon. This is where _HTTP Switchboard_ will help you the most.
 
+In the table, results reported as "_x_ / _n_" means "3rd-party / total".
+
 #### January 22, 2014
 
 **IMPORTANT**: I just found out that the number of 3rd-party hosts is over-reported from what really happens, I will redo the benchmark and post correct results ASAP. Turns out the code which was counting 1st/3rd party requests was being executed even for blocked requests.
 
-Note: the "Requests" row will be revised to show only network requests, but split in "3rd-party / all" figures.
-
- | HTTPSB OOB | Adblock+ | Ghostery | HTTPSB AA/BX | Disconnect | No blocker
---- | ---:| ---:| ---:| ---:| ---:| ---:
-Bandwidth | 16,018,841 | 12,049,602 | 21,609,353 | 21,858,245 | 22,756,202 | 26,020,235
-Requests allowed<br>(network + cache) | 1,293<br>(1,290 + 3) | 993<br>(983 + 10) | 1,781<br>(1,771 + 10) | 1,831<br>(1,798 + 33) | 1,972<br>(1,949 + 24) | 2,925<br>(2,788 + 137)
-Hosts: **3rd-party**/all | **53** / 80 | **76** / 118 | **97** / 158 | **110** / 167 | **174** / 282 | **198** / 324 | **525** / 597
-Scripts: **3rd party**/all | **0** / 0 | **121** / 204 | **150** / 256 | **174** / 282 | **198** / 324 | **524** / 670
-Cookies: **3rd party**/all | **0** / 0 | **3** / 26 | **9** / 46 | **16** / 62 | **15** / 75 | **212** / 277
+              | HTTPSB OOB      | Adblock+        | Ghostery        | HTTPSB AA/BX    | Disconnect      | No blocker
+------------- | -------------- :| -------------- :| -------------- :| -------------- :| -------------- :| -------------- :
+URLs visited  |              15 |              15 |              15 |              15 |              15 |
+Bandwidth     |      17,955,495 |      12,762,008 |      24,289,750 |      23,701,438 |      24,032,170 |      
+Net requests  | **680** / 1,321 |   **581** / 872 | **928** / 1,817 | **943** / 1,826 |   1,014 / 1,954 |  
+Domains       |     **21** / 22 |     **38** / 39 |     **49** / 50 |     **65** / 66 |         81 / 82 |   
+Hosts         |     **47** / 76 |    **65** / 110 |    **94** / 161 |   **113** / 179 |       144 / 219 |   
+Scripts       |       **0** / 0 |   **106** / 180 |   **133** / 257 |   **154** / 286 |       188 / 326 |   
+Cookies       |       **0** / 0 |      **0** / 22 |      **2** / 46 |      **8** / 60 |                 |   
 
 ### Notes
 - This benchmark runs on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
