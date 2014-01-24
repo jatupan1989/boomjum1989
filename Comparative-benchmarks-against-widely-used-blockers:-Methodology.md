@@ -1,5 +1,6 @@
 ### Methodology
 
+- The benchmarks are run on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
 - Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
     * **Important note**: HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
