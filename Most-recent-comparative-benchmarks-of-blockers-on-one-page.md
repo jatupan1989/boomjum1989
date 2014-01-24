@@ -1,4 +1,4 @@
-| | | | | | | |
+| &nbsp; | | | | | | |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
 | **Top 15 Most Popular News Websites** |
 |               | HTTPSB<sup>OOB</sup> | Ghostery          | Adblock+          | HTTPSB<sup>AA/BX</sup> | Disconnect        | No blocker        |
