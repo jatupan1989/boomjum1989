@@ -46,6 +46,7 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 
 Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench). The script used is:
 ```
+wait 3
 repeat 5
 clear cache
 clear cookies
