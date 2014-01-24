@@ -3,8 +3,16 @@
 Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench).
 
 - The benchmarks are run on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
-- Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
-    * **Important note**: HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
+- Adblock+:
+    * _Allow some non-intrusive advertising_ was disabled
+    * Filter lists used:
+        - [EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)
+        - [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
+- HTTPSB<sup>OOB</sup> and HTTPSB<sup>AA/BX</sup>:
+    * Blacklists used:
+        - [coming...]
+        - [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
+            * HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
 - The latest version of all blockers was used on the day of the benchmark.
 - Chrome *Settings* / *Privacy* / *Content Settings* / *Plug-ins* => "Click to play" was selected.
