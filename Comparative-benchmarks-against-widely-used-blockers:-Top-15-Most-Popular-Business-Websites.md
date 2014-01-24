@@ -15,6 +15,9 @@ The values are averages of aggregated results of the 15 web page visited over 5 
 | Net requests  |     **418** / 750 |    **663** /1,287 |   **615** / 1,224 |   **740** / 1,390 |   **804** / 1,510 | **1,757** / 2,505 |
 | Bandwidth     |         9,846,856 |        18,016,101 |        17,645,598 |        19,989,297 |        18,944,959 |        23,437,021 |
 
+### See also
+- [Top 15 Most Popular News Websites](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites)
+
 ### Notes
 - _HTTPSB<sup>OOB</sup>_ means *HTTP Switchboard* with [out-of-the-box settings](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach).
 - _HTTPSB<sup>AA/BX</sup>_ means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
