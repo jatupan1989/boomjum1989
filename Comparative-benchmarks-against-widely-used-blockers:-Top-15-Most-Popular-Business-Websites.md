@@ -6,7 +6,7 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 
 #### January 24, 2014
 
-|               | HTTPSB OOB        | Ghostery          | Adblock+          | HTTPSB AA/BX      | Disconnect        | No blocker        |
+|               | HTTPSB<sup>OOB</sup> | Ghostery          | Adblock+          | HTTPSB<sup>AA/BX</sup> | Disconnect        | No blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
 | URLs visited  |                15 |                15 |                15 |                15 |                15 |                15 |
 | Domains       |       **18** / 19 |       **52** / 53 |       **60** / 61 |       **82** / 83 |     **105** / 106 |     **430** / 431 |
