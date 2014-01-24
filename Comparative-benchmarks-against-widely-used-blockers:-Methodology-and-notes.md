@@ -1,0 +1,25 @@
+### Methodology
+
+- The benchmarks are run on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
+- Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
+    * **Important note**: HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
+- [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
+- The latest version of all blockers was used on the day of the benchmark.
+- Chrome *Settings* / *Privacy* / *Content Settings* / *Plug-ins* => "Click to play" was selected.
+- Chrome *Settings* / *Privacy* / *Content Settings* / *JavaScript* => "Allow all sites to run JavaScript" was selected.
+
+Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench).
+
+### Notes
+- "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
+- "3rd-party" in the strictest sense, meanings if the domain name of a request differs from the domain of a page URL address, the request is deemed 3rd-party.
+- "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
+- Keep in mind:
+    * A user can not add new filters in Ghostery or Disconnect.
+        - Correct me if I am wrong.
+    * A user can add new filters in HTTPSB and Adblock+. Where these two differ:
+        - How easy it is to add/remove filters: Adblock+ = [geeky](https://adblockplus.org/en/filters), HTTPSB = easy (just click on a cell in the matrix).
+        - The granularity of their filters: Adblock+ = coarse- to fine-grained, HTTPSB = hostname/type of request (firewall-like).
+- HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
+- I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time.
+    * Keep in mind contents of benchmarked web pages will obviously change, so results are meaningful when compared to each other within the same benchmark.
