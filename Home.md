@@ -1,4 +1,4 @@
-Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag), [Opera web store](https://addons.opera.com/en-gb/extensions/), or if you don't care visiting proprietary web stores, [install manually](https://github.com/gorhill/httpswitchboard/tree/master/dist). To file for issues/bugs/suggestions, go [here](https://github.com/gorhill/httpswitchboard/issues).
+Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag), [Opera web store](https://addons.opera.com/en-gb/extensions/details/http-switchboard/), or if you don't care visiting proprietary web stores, [install manually](https://github.com/gorhill/httpswitchboard/tree/master/dist). To file for issues/bugs/suggestions, go [here](https://github.com/gorhill/httpswitchboard/issues).
 
 - [Change log](wiki/Change-log)
 - [Credits](wiki/Credits)
