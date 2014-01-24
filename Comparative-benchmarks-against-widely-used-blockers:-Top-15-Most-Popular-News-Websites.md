@@ -24,10 +24,10 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 - "3rd-party" in the strictest sense, meanings if the domain name of a request differs from the domain of a page URL address, the request is deemed 3rd-party.
 - "Cookies" means outbound cookies, i.e. cookies reaching a remote host. These are the cookies which really matter with regard to privacy.
 - Keep in mind:
-    * A user can not add/remove filters from Ghostery and Disconnect.
+    * A user can not add new filters in Ghostery or Disconnect.
         - Correct me if I am wrong.
-    * A user can add/remove filters from HTTPSB and Adblock+. Where these two differ:
-        - How easy it is to add/remove filters: Adblock+ = [geeky](https://adblockplus.org/en/filters), HTTPSB = easy.
+    * A user can add new filters in HTTPSB and Adblock+. Where these two differ:
+        - How easy it is to add/remove filters: Adblock+ = [geeky](https://adblockplus.org/en/filters), HTTPSB = easy (just click on a cell in the matrix).
         - The granularity of their filters: Adblock+ = coarse- to fine-grained, HTTPSB = hostname/type of request (firewall-like).
 - HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
 - I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time.
