@@ -6,7 +6,7 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 
 #### January 24, 2014
 
-<sup>Note: Benchmarks were done again due to Adblock+ results being erroneous due to unexpected side-effects showing up when ADB+ is active (the pages were deemed fully loaded way too soon for unknown reasons). I did not investigate in depth why this happens, I just made sure the benchmarker was hardened again these unexpected conditions.</sup>
+<sup>Note: Benchmarks were done again as Adblock+ results were found to be erroneous due to unexpected side-effects showing up when ADB+ is active (the pages were deemed fully loaded way too soon for unknown reasons). I did not investigate in depth why this happens, I just made sure the benchmarker was hardened again these unexpected conditions.</sup>
 
 |               | HTTPSB OOB        | Ghostery          | Adblock+          | HTTPSB AA/BX      | Disconnect        | No blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
