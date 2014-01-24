@@ -1,5 +1,7 @@
 ### Methodology
 
+Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench).
+
 - The benchmarks are run on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
 - Both HTTPSB and Adblock+ were set to use [*Fanboy Ultimate List*](http://www.fanboy.co.nz/filters.html).
     * **Important note**: HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
@@ -7,8 +9,6 @@
 - The latest version of all blockers was used on the day of the benchmark.
 - Chrome *Settings* / *Privacy* / *Content Settings* / *Plug-ins* => "Click to play" was selected.
 - Chrome *Settings* / *Privacy* / *Content Settings* / *JavaScript* => "Allow all sites to run JavaScript" was selected.
-
-Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench).
 
 ### Notes
 - "Adblock+" means [*Adblock Plus*](https://adblockplus.org/).
