@@ -9,6 +9,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
         - [The matrix](/gorhill/httpswitchboard/wiki/The-matrix)
         - [The matrix scope](/gorhill/httpswitchboard/wiki/The-matrix-scope) (under construction)
         - [The matrix cells](/gorhill/httpswitchboard/wiki/The-matrix-cells)
+        - [Most recent results on one page](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Most-recent-results-on-one-page)
         - [Precedence in the matrix](/gorhill/httpswitchboard/wiki/Precedence-in-the-matrix) (under construction)
     * [How to use HTTP Switchboard: Two opposing views](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views)
         - [Example: Impact on www.wired.com](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Impact-on-www.wired.com)
