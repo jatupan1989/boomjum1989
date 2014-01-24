@@ -19,8 +19,8 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 | Bandwidth     |        16,114,826 |        26,095,444 |        26,406,718 |        26,594,165 |       27,388,244  |        30,381,427 |
 
 ### Notes
-- "HTTPSB OOB" means *HTTP Switchboard* with [out-of-the-box settings](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach).
-- "HTTPSB AA/BX" means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
+- "HTTPSB<sup>OOB</sup>" means *HTTP Switchboard* with [out-of-the-box settings](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach).
+- "HTTPSB<sup>AA/BX</sup>" means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
 
 ### Methodology
 Benchmarks were done using [*Browser session benchmark*](https://github.com/gorhill/sessbench). The script used is:
