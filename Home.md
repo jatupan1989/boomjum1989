@@ -14,6 +14,8 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
         - [Example: Impact on www.wired.com](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Impact-on-www.wired.com)
     * Comparative benchmarks against widely used blockers
         - [Top 15 Most Popular News Websites](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites)
+        - [Top 15 Most Popular Business Websites](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-Business-Websites)
+        - [Methodology and notes](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Methodology-and-notes)
     * [Quick tour #1](wiki/Quick-tour-%231%3A-1-of-7) (out-of-date)
     * [Quick tour #2](wiki/Quick-tour-%232%3A-1-of-3) (out-of-date)
     * [Why are my rules not restored when I launched Chromium again?](https://github.com/gorhill/httpswitchboard/wiki/Why-are-my-rules-not-restored-when-I-launched-Chromium-again%3F)
