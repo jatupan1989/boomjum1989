@@ -1,3 +1,10 @@
+The results emphasize 3rd-party requests, as these are, I believe, a key statistics when it comes to gauge privacy matters. The rationale being that the more a user push data to more 3rd parties (a mere net request _is_ pushing data) -- typically without the user being aware -- the larger the footprint of leaked metadata. It is difficult for a user to appreciate how much metadata is leaked to 3rd parties when visiting a web page, as requests to 3rd-party agents are not easy to see, let alone easy to act upon. This is where _HTTP Switchboard_ will help you the most.
+
+The values are averages of aggregated results of the 15 web page visited over 5 runs. In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** / _total count_".
+
+The most important figure in my opinion with regard to privacy is the 3rd-party _Domain_ count.
+
+
 | &nbsp; | | | | | | |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
 | [**Top 15 Most Popular<br> News Websites**](/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) |
