@@ -6,15 +6,17 @@ In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** 
 
 #### January 23, 2014
 
+Note: January 24, 2014: The result for ADP+ must be dismissed. I found out there is something unorthodox going on with ADB+ which causes the benchmark to report erroneous results. I am investigating to figure exactly why a page error is fired for each page loaded while ADP+ is active, possibly explaining the low bandwidth and the overall better stats than a full-fledged blocker as HTTPSB OOB.
+
 |               | HTTPSB OOB        | Adblock+          | Ghostery          | HTTPSB AA/BX      | Disconnect        | No blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
 | URLs visited  |                15 |                15 |                15 |                15 |                15 |                15 |
-| Bandwidth     |        16,916,647 |        13,493,969 |        22,335,009 |        22,870,980 |        23,885,933 |        27,133,906 |
-| Net requests  |   **659** / 1,321 |     **573** / 925 |   **929** / 1,774 |   **965** / 1,802 |   **985** / 1,936 | **1,848** / 2,790 |
-| Domains       |       **24** / 25 |       **39** / 40 |       **51** / 52 |       **62** / 63 |       **81** / 82 |     **358** / 359 |
-| Hosts         |       **54** / 83 |      **73** / 119 |      **96** / 160 |     **109** / 172 |     **136** / 211 |     **527** / 604 |
-| Scripts       |         **0** / 0 |      **87** / 172 |     **138** / 251 |     **155** / 274 |     **187** / 325 |     **419** / 560 |
-| Cookies       |         **0** / 0 |        **1** / 24 |        **6** / 45 |       **11** / 61 |       **13** / 77 |     **205** / 279 |
+| Bandwidth     |        16,916,647 |    ~~13,493,969~~ |        22,335,009 |        22,870,980 |        23,885,933 |        27,133,906 |
+| Net requests  |   **659** / 1,321 | ~~**573** / 925~~ |   **929** / 1,774 |   **965** / 1,802 |   **985** / 1,936 | **1,848** / 2,790 |
+| Domains       |       **24** / 25 |   ~~**39** / 40~~ |       **51** / 52 |       **62** / 63 |       **81** / 82 |     **358** / 359 |
+| Hosts         |       **54** / 83 |  ~~**73** / 119~~ |      **96** / 160 |     **109** / 172 |     **136** / 211 |     **527** / 604 |
+| Scripts       |         **0** / 0 |  ~~**87** / 172~~ |     **138** / 251 |     **155** / 274 |     **187** / 325 |     **419** / 560 |
+| Cookies       |         **0** / 0 |    ~~**1** / 24~~ |        **6** / 45 |       **11** / 61 |       **13** / 77 |     **205** / 279 |
 
 ### Notes
 - This benchmark runs on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
