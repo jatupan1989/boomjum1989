@@ -7,7 +7,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 
 | &nbsp; | | | | | | |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
-| [**Top 15 Most Popular<br> News Websites**](/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) |
+| [**Top 15 Most Popular<br> News Websites**](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) |
 |               | HTTPSB<sup>OOB</sup> | Ghostery          | Adblock+          | HTTPSB<sup>AA/BX</sup> | Disconnect        | No blocker        |
 | Domains       |       **24** / 25 |       **54** / 55 |       **59** / 60 |       **69** / 70 |       **91** / 92 |     **476** / 477 |
 | Hosts         |       **55** / 82 |     **109** / 183 |     **107** / 169 |     **126** / 200 |     **157** / 240 |     **693** / 785 |
