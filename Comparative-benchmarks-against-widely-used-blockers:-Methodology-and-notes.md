@@ -10,7 +10,7 @@ Benchmarks were done using [*Browser session benchmark*](https://github.com/gorh
         - [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
 - HTTPSB<sup>OOB</sup> and HTTPSB<sup>AA/BX</sup>:
     * Blacklists used:
-        - [coming...]
+        - Out-of-the-box blacklists
         - [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
             * HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.
 - [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
