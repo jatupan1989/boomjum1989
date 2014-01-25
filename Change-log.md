@@ -12,7 +12,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * [Adblock+ EasyPrivacy](https://easylist-downloads.adblockplus.org/easyprivacy.txt)
     * [Fanboy's Annoyance List](https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt)
     * [Fanboy's Enhanced Tracking List](http://www.fanboy.co.nz/enhancedstats.txt)
-    * **Important note:** HTTPSB extract and use only filters which correspond to blocking an entire domain from these lists, since HTTPSB doesn't support finer granularity beyond `type of request`/`hostname`.
+    * **Important note:** HTTPSB extracts and uses **ONLY** filters which correspond to blocking an entire domain from these lists, since HTTPSB doesn't support finer granularity beyond `type of request`/`hostname`.
 
 ***
 
