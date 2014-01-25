@@ -17,6 +17,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * [Fanboy's Enhanced Tracking List](http://www.fanboy.co.nz/enhancedstats.txt)
     * **Important note:** HTTPSB extracts and uses **ONLY** filters which correspond to blocking an entire domain from the Adblock-filter lists, since HTTPSB doesn't support finer granularity beyond `type of request`/`hostname`.
     * Added [block-facebook.txt](https://github.com/gorhill/httpswitchboard/blob/master/assets/httpsb/block-facebook.txt) for those who do not want Facebook to have the ability to track them.
+        - Since preset blocked hosts are omnipresent (they are seen by all scopes), it is more convenient and efficient to block Facebook using such a preset list.
 
 ***
 
