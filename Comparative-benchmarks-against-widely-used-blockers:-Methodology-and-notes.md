@@ -42,5 +42,4 @@ Keep in mind:
     * Adblock doesn't prevent the execution of inline javascript.
     * HTTPSB<sup>OOB</sup> breaks a lot of sites, because it allows only images and stylesheets, and block everything else (javascript, cookies, etc.)
 
-I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time.
-- Keep in mind contents of benchmarked web pages will obviously change, so results are meaningful when compared to each other within the same benchmark.
+I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time. Keep in mind contents of benchmarked web pages will obviously change, so results are meaningful when compared to each other within the same benchmark.
