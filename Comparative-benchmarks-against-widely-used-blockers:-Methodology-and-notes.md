@@ -40,6 +40,8 @@ Keep in mind:
     * The granularity of their filters: Adblock+ = coarse- to fine-grained, HTTPSB = hostname/type of request (firewall-like).
     * With Adblock+ it is not possible to completely block *all* requests to an entire web site (see [Why was "Site blocking" removed?](https://web.archive.org/web/20111206122411/https://adblockplus.org/en/faq_features#siteblock)), meaning that even if you create an Adblock filter to block, say, `evil.com`, there will still be a request made to `evil.com` if you try to open a web page from `evil.com`.
     * Adblock doesn't prevent the execution of inline javascript.
-    * HTTPSB<sup>OOB</sup> breaks a lot of sites, because it allows only images and stylesheets, and block everything else (javascript, cookies, etc.)
+    * HTTPSB<sup>OOB</sup> breaks a lot of sites, because it allows only images and stylesheets, and block everything else (javascript, cookies, etc.) Thus:
+        -  HTTPSB<sup>OOB</sup> is rather for the more geeky users.
+        -  HTTPSB<sup>AA/BX</sup> is more comparable to other blockers mentioned here.
 
 I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time. Keep in mind contents of benchmarked web pages will obviously change, so results are meaningful when compared to each other within the same benchmark.
