@@ -1,5 +1,21 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.7.8.0
+- **New feature** (beta): Preset recipes available from the popup menu. HTTPSB will display all relevant recipes give the state of the matrix. Clicking on a recipe will import its rules in order to enable a specific feature on a web page.
+    * For example, for a web page with an embedded -- but blocked -- Youtube video, the popup will offer the import of a "Youtube" recipe which should enable the embedded video to play properly.
+    * Consider this feature beta.
+    * There are very few preset recipes for now but I do hope more will be contributed by the community, for the benefit of the community. Pul requests for useful recipes will be greatly appreciated.
+    * I will work to add more useful recipes and make quick minor updates in the coming days to make these available.
+    * It is a convenient feature for everybody, but primary motivation is to help less geeky user to not give up on the extension.
+- Added new preset lists of blocked hosts:
+    * [Adblock+ EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)
+    * [Adblock+ EasyPrivacy](https://easylist-downloads.adblockplus.org/easyprivacy.txt)
+    * [Fanboy's Annoyance List](https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt)
+    * [Fanboy's Enhanced Tracking List](http://www.fanboy.co.nz/enhancedstats.txt)
+    * **Important note:** HTTPSB extract and use only filters which correspond to blocking an entire domain from these lists, since HTTPSB doesn't support finer granularity beyond `type of request`/`hostname`.
+
+***
+
 ### 0.7.7.1
 - Added `aad73c550c.se` to [httpsb-blacklist.txt](/gorhill/httpswitchboard/blob/f92b98cccd3b7f3278d3e6a59b5be48f45f2fb21/assets/httpsb-blacklist.txt): Related to `adrotator.se`
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/163>.
