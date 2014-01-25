@@ -28,7 +28,8 @@ Benchmarks were done using [*Browser session benchmark*](https://github.com/gorh
     * A user can add new filters in HTTPSB and Adblock+. Where these two differ:
         - How easy it is to add/remove filters: Adblock+ = [geeky](https://adblockplus.org/en/filters), HTTPSB = easy (just click on a cell in the matrix).
         - The granularity of their filters: Adblock+ = coarse- to fine-grained, HTTPSB = hostname/type of request (firewall-like).
-        - With Adblock+ it is not possible to literally block an entire web site (see [Why was "Site blocking" removed?](https://web.archive.org/web/20111206122411/https://adblockplus.org/en/faq_features#siteblock)), meaning that even if you create an Adblock filter to block, say, `evil.com`, there will still be a request made to `evil.com` if you try to open a web page from `evil.com`.
+        - With Adblock+ it is not possible to completely block *all* requests to an entire web site (see [Why was "Site blocking" removed?](https://web.archive.org/web/20111206122411/https://adblockplus.org/en/faq_features#siteblock)), meaning that even if you create an Adblock filter to block, say, `evil.com`, there will still be a request made to `evil.com` if you try to open a web page from `evil.com`.
+        - Adblock doesn't prevent the execution of inline javascript.
 - HTTPSB, Adblock+ and Disconnect are all [GPL](http://en.wikipedia.org/wiki/GNU_General_Public_License).
 - I will repeat the benchmark once in a while and add results here in order to show consistentcy of results over time.
     * Keep in mind contents of benchmarked web pages will obviously change, so results are meaningful when compared to each other within the same benchmark.
