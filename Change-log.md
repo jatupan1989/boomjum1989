@@ -4,7 +4,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - **New feature** (beta): Preset recipes available from the popup menu. HTTPSB will display all relevant recipes give the state of the matrix. Clicking on a recipe will import its rules in order to enable a specific feature on a web page.
     * For example, for a web page with an embedded -- but blocked -- Youtube video, the popup will offer the import of a "Youtube" recipe which should enable the embedded video to play properly.
     * Consider this feature beta.
-    * There are very few preset recipes for now but I do hope more will be contributed by the community, for the benefit of the community. Pul requests for useful recipes will be greatly appreciated.
+    * There are very few preset recipes for now but I do hope more will be contributed by the community, for the benefit of the community.
+        - Pull requests for useful recipes will be greatly appreciated.
+    * Currently, only recipes available: Youtube, Vimeo, Disqus (for their embedded instances).
     * I will work to add more useful recipes and make quick minor updates in the coming days to make these available.
     * It is a convenient feature for everybody, but primary motivation is to help less geeky user to not give up on the extension.
 - Added new preset lists of blocked hosts:
