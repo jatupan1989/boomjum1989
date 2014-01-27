@@ -5,6 +5,10 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     - This takes care of [issue #165](/gorhill/httpswitchboard/issues/165).
     - The transition from old scopes to new scopes is all taken care.
     - If you want to enforce `https` vs `http`, I recommend installing [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp).
+Fixed <https://github.com/gorhill/httpswitchboard/issues/170>.
+Fixed <https://github.com/gorhill/httpswitchboard/issues/169>.
+Fixed <https://github.com/gorhill/httpswitchboard/issues/168>.
+Fixed <https://github.com/gorhill/httpswitchboard/issues/165>.
 
 ### 0.7.8.0
 - **New feature** (beta): Preset recipes available from the popup menu. HTTPSB will display all relevant recipes given the state of the matrix. Clicking on a recipe will import its rules in order to enable a specific feature on a web page.
