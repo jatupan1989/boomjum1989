@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.7.9.0
-- **Important change**: The scheme (or "protocol") is now ignored in a scope definition. A scope is now defined solely by its hostname for site-level scopes or domain name for domain-level scopes. For example, a scope for `www.example.com` will no longer be defined as `http://www.example.com` or `https://www.example.com`, but just by `www.example.com`, i.e. the scheme is ignored. Having two flavors for the same site- or domain-level scopes was just confusing and unmanageable for the users (it was for me, so imagine for users), and was actually broken in the UI itself.
+- **Important change**: The scheme (or "protocol") is now ignored in a scope definition. A scope is now defined solely by its hostname for site-level scopes or domain name for domain-level scopes. For example, a scope for `www.example.com` will no longer be defined as `http://www.example.com` or `https://www.example.com`, but just by `www.example.com`, i.e. the scheme is ignored. Having two flavors for the same site- or domain-level scope was just confusing and unmanageable for the users (it was for me, so imagine for users), and was actually broken in the UI itself.
     - This takes care of [issue #165](/gorhill/httpswitchboard/issues/165).
     - The transition from old scopes to new scopes is all taken care.
     - If you want to enforce `https` vs `http`, I recommend installing [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp).
