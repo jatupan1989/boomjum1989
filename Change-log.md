@@ -1,5 +1,11 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.7.9.0
+- **Important change**: Scheme (or "protocol") are now ignored in scopes. A scope is now defined solely by its hostname for site-level scopes or domain name for domain-level scopes. For example, a scope for `www.example.com` will no longer be defined as `http://www.example.com` or `https://www.example.com`, but just by `www.example.com`, i.e. the scheme is ignored. Having two flavors for the same site- or domain-level scopes was just confusing and unmanageable for the users (it was for me, so imagine for users), and was actually broken in the UI itself.
+    - This takes care of [issue #165](/gorhill/httpswitchboard/issues/165).
+    - The transition from old scopes to new scopes is all taken care.
+    - If you want to enforce `https` vs `http`, I recommend installing [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp).
+
 ### 0.7.8.0
 - **New feature** (beta): Preset recipes available from the popup menu. HTTPSB will display all relevant recipes given the state of the matrix. Clicking on a recipe will import its rules in order to enable a specific feature on a web page.
     * For example, for a web page with an embedded -- but blocked -- Youtube video, the popup will offer the import of a "Youtube" recipe which should enable the embedded video to play properly.
