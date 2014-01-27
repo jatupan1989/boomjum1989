@@ -5,6 +5,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     - This takes care of [issue #165](/gorhill/httpswitchboard/issues/165).
     - The transition from old scopes to new scopes is all taken care.
     - If you want to enforce `https` vs `http`, I recommend installing [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp).
+- Added a few more preset recipes:
+    * Brightcove as 3rd-party.
+    * Instagram as 3rd-party.
+    * Vine as 3rd-party.
+    * Huffington Post as 1st-party.
+    * Youtube as 1st-party (no login yet though, will work on this).
 Fixed <https://github.com/gorhill/httpswitchboard/issues/170>.
 Fixed <https://github.com/gorhill/httpswitchboard/issues/169>.
 Fixed <https://github.com/gorhill/httpswitchboard/issues/168>.
