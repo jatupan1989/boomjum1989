@@ -9,7 +9,8 @@ HTTP Switchboard ("HTTPSB") requires the following permissions to work properly:
         "webNavigation",
         "webRequest",
         "webRequestBlocking",
-        "<all_urls>"
+        "http://*/*",
+        "https://*/*"
     ],
 
 * **browsingData**: to allow [clearing the browser cache](http://developer.chrome.com/extensions/browsingData.html#method-removeCache).
@@ -21,4 +22,4 @@ HTTP Switchboard ("HTTPSB") requires the following permissions to work properly:
 * **webNavigation**: to listen to [onBeforeNavigate](http://developer.chrome.com/extensions/webNavigation.html#event-onBeforeNavigate) events in order to set up HTTPSB's internal data structure for a specific web page.
 * **webRequest**: to allow intercepting all requests in order to inspect them.
 * **webRequestBlocking**: to be able to block a request if the object of the request is blacklisted.
-* `<all_urls>`: to be able to inspect traffic for all URLs (necessary in order to decide whether a block directive should be enforced).
+* `http://*/*` & `https://*/*`: to be able to inspect HTTP net requests for all URLs (necessary in order to decide whether a block directive should be enforced).
