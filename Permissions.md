@@ -13,7 +13,7 @@ HTTP Switchboard ("HTTPSB") requires the following permissions to work properly:
     ],
 
 * **browsingData**: to allow [clearing the browser cache](http://developer.chrome.com/extensions/browsingData.html#method-removeCache).
-* **contentSettings**: to enable javascript all web pages so that the `Content-Security-Policy: script-src 'none'` header directive can properly disable javascript.
+* **contentSettings**: to [enable javascript](http://developer.chrome.com/extensions/contentSettings.html#property-javascript) for all web pages so that the `Content-Security-Policy: script-src 'none'` header directive can properly disable javascript.
 * **contextMenu**: to insert HTTPSB often-used commands in the context menu.
 * **cookies**: to allow the removal of blocked cookies.
 * **storage**: to store your own whitelist/blacklist domains/objects.
