@@ -1,11 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.7.9.1
+- More preset recipes added.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/172>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/171>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/160>.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/157>.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/157>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/157>:
+    * The storage usage can now be seen in the _Statistics_ page, at the top.
 
 ***
 
