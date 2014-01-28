@@ -1,5 +1,14 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.7.9.1
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/172>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/171>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/160>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/157>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/157>.
+
+***
+
 ### 0.7.9.0
 - **Important change**: The scheme (or "protocol") is now ignored in a scope definition. A scope is now defined solely by its hostname for site-level scopes or domain name for domain-level scopes. For example, a scope for `www.example.com` will no longer be defined as `http://www.example.com` or `https://www.example.com`, but just by `www.example.com`, i.e. the scheme is ignored. Having two flavors for the same site- or domain-level scope was just confusing and unmanageable for the users (it was for me, so imagine for users), and was actually broken in the UI itself.
     - This takes care of [issue #165](/gorhill/httpswitchboard/issues/165).
@@ -15,6 +24,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/169>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/168>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/165>.
+
+***
 
 ### 0.7.8.0
 - **New feature** (beta): Preset recipes available from the popup menu. HTTPSB will display all relevant recipes given the state of the matrix. Clicking on a recipe will import its rules in order to enable a specific feature on a web page.
