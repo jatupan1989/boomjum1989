@@ -3,7 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.7.9.2
 - **Emergency fix**: Due to latest changes regarding scopes, a portion of code which was not revised caused HTTPSB to fall into allow-all/block-exceptionally mode.
     * More technically, that piece of code was to whitelist all requests from behind-the-scene scope if the scope was not found. With latest changes, the behind-the-scene scope was indeed never found, and because of this the whitelist-all default rule for behind-the-scene scope was created in the global scope.
-- **If you were working in [block-all/allow-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach), please do click the "all" matrix cell to toggle it back to red (if ever it is now green), and lock the change.**
+- **If you were working in [block-all/allow-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach), please do click the "all" matrix cell to toggle it back to red (if ever it is now green as in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach)), and lock the change.**
 - Sorry. The changes re. scopes was a big change, and I failed to revise this one portion of code.
 
 ### 0.7.9.1
