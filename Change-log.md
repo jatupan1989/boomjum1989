@@ -36,7 +36,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.7.8.0
-- **New feature** (beta): Preset recipes available from the popup menu. HTTPSB will display all relevant recipes given the state of the matrix. Clicking on a recipe will import its rules in order to enable a specific feature on a web page.
+- **New feature** (beta): Preset recipes available from the popup menu. HTTPSB will display all relevant recipes given the state of the matrix. Clicking on a recipe will import its rules in order to enable a specific feature on a web page:
+    * ![Preset recipes](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-preset-recipes-generic-1.png)
     * For example, for a web page with an embedded -- but blocked -- Youtube video, the popup will offer the import of a "Youtube" recipe which should enable the embedded video to play properly.
     * Consider this feature beta.
     * There are very few preset recipes for now but I do hope more will be contributed by the community, for the benefit of the community.
