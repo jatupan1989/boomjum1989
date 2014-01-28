@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.7.9.2
+- Emergency fix: Due to latest changes regarding scopes, a portion of code which was not revised caused HTTPSB to fall into allow-all/block-exceptionally mode.
+    * More technically, that piece of code was to whitelist all requests from behind-the-scene scope if the scope was not found. With latest changes, the behind-the-scene scope was indeed not found, and the whitelist-all default rule for behind-the-scene scope was created in the wrong scope.
+- Sorry. The changes re. scopes was a big change, and I failed to revise this one portion of code.
+
 ### 0.7.9.1
 - More 1st- and 3rd-party [preset recipes](/gorhill/httpswitchboard/blob/master/assets/httpsb/presets.txt) added.
     * While at it, I made the preset recipes popup sticky, i.e. user can click multiple preset recipes without the popup closing after clicking on a single preset.
