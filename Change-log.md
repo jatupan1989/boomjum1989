@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.7.9.2
-- Emergency fix: Due to latest changes regarding scopes, a portion of code which was not revised caused HTTPSB to fall into allow-all/block-exceptionally mode.
+- **Emergency fix**: Due to latest changes regarding scopes, a portion of code which was not revised caused HTTPSB to fall into allow-all/block-exceptionally mode.
     * More technically, that piece of code was to whitelist all requests from behind-the-scene scope if the scope was not found. With latest changes, the behind-the-scene scope was indeed not found, and the whitelist-all default rule for behind-the-scene scope was created in the wrong scope.
 - Sorry. The changes re. scopes was a big change, and I failed to revise this one portion of code.
 
