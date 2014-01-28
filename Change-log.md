@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.7.9.1
-- More preset recipes added.
+- More [preset recipes](/gorhill/httpswitchboard/blob/master/assets/httpsb/presets.txt) added.
     * While at it, I made the preset recipes popup sticky, i.e. user can click multiple preset recipes without the popup closing after clicking on a preset.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/172>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/171>.
