@@ -52,7 +52,8 @@ To remove *all* temporary rules, including those not appearing in the current ma
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-7.png)
 
 Force a reload the web page.
-- The web page will reload if needed when you close the popup menu, but you can force a reload while the popup menu is opened in order to see the effects of your changes.
+
+The web page will reload **only** if needed when you close the popup menu, but you can force a reload while the popup menu is opened in order to see the effects of your changes.
 
 ### Rule manager, Statistics, Settings, etc.
 
