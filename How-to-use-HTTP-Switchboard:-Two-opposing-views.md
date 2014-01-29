@@ -22,7 +22,7 @@ Advantages:
 - Security is greatly enhanced.
     * External and inline scripts won't execute (contrary to commonly held belief, inline scripting can be disabled in Chromium).
 - Privacy is greatly enhanced.
-- Use less network bandwidth (web pages download faster)
+- Use less network bandwidth ([web pages download faster](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Most-recent-results-on-one-page))
 
 Disadvantages:
 - Web pages are less likely to render and/or behave as they were designed to.
