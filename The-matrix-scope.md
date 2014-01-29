@@ -33,7 +33,7 @@ For example, all rules in domain-level scope `∗.example.com` will apply to `ww
 
 ### Site-level scope
 
-Rules in domain-level scope will apply *only* to web sites which hostname matches exactly the hostname of the scope.
+Rules in site-level scope will apply *only* to web sites which hostname matches exactly the hostname of the scope.
 
 Site-level scopes are the most narrow of all level of scopes. Rules in a site-level scope will apply only to *one* single web site.
 
