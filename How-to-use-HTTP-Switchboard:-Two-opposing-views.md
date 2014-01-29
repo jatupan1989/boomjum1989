@@ -20,6 +20,7 @@ This is the out-of-the-box settings:
 
 Advantages:
 - Security is greatly enhanced.
+    * Inline javascript won't execute (contrary to commonly held belief, inline scripting can be disabled in Chromium).
 - Privacy is greatly enhanced.
 - Use less network bandwidth (web pages download faster)
 
