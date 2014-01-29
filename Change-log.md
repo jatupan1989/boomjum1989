@@ -1,5 +1,14 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.7.9.3
+- Opera requires that Youtube works out-of-the-box:
+    * A site-level scope for Youtube is created at _install_ time.
+    * I decided to do this for all flavor of Chromium, not just Opera.
+- Small improvements to the _Remove all_ function in _Rule manager_:
+    * No longer remove whitelisting of `css` and `image` rules in global scope (if they exist): that was a bit radical (users who really want these gone are just two clicks away at most from really removing all rules.)
+    * Scopes are completely flushed from memory. They used to hang around ready to be brought back to life, which is nice when playing with the scope menu in the popup, but not nice when user expects a clean slate when using _Remove all_.
+- So mainly this version was to pass Opera store review process (Youtube must work at first install), I don't plan to release this one to the Chrome store, as I want to wait for a fix to [issue #166](/gorhill/httpswitchboard/issues/166).
+
 ### 0.7.9.2
 - **Emergency fix**: Due to latest changes regarding scopes, a portion of code which was not revised caused HTTPSB to fall into allow-all/block-exceptionally mode.
     * More technically, that piece of code was to whitelist all requests from behind-the-scene scope if the scope was not found. With latest changes, the behind-the-scene scope was indeed never found, and because of this the whitelist-all default rule for behind-the-scene scope was created in the global scope.
