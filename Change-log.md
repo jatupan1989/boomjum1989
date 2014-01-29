@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * A site-level scope for Youtube is created at _install_ time.
     * I decided to do this for all flavors of Chromium, not just Opera.
 - Small improvements to the _Remove all_ function in _Rule manager_:
-    * No longer remove whitelisting of `css` and `image` rules in global scope (if they exist): that was a bit radical (users who really want these gone are just two clicks away at most from really removing all rules.)
+    * No longer remove whitelisting of `css` and `image` rules in global scope (if they exist): that was a bit radical (users who really want these gone are just two clicks away at most from literally removing all rules.)
     * Scopes are completely flushed from memory. They used to hang around ready to be brought back to life, which is nice when playing with the scope menu in the popup, but not nice when user expects a clean slate after using _Remove all_.
         - This was most confusing for users who checked the _Auto create temporary site-level scope_ option.
 - So mainly this version was to pass Opera store review process (Youtube must work at first install), I don't plan to release this one to the Chrome store, as I want to wait for a fix to [issue #166](/gorhill/httpswitchboard/issues/166).
