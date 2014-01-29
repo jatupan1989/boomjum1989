@@ -2,18 +2,21 @@
 
 ### The scope selector
 
-The scope selector let you choose where the rules you create apply, or where they are removed from. There are three scope levels: global, domain-level, and site-level scope.
+The scope selector let you choose where the rules you create apply. There are three scope levels: global, domain-level, and site-level scope.
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-2.png)
 
-- Default is global scope: `*`. In global scope mode, rules apply to all web pages, except those which match a narrower scope.
-- Other scopes:
-    * Domain-level scope.
-        - Example: `https://*.google.com`. Rules at domain-level scope will apply to web pages which match the scope, including the scheme (`https` or `http`), except if for web pages which match an even narrower scope.
-    * Site-level scope.
-        - Example: `https://www.facebook.com`. Rules at site-level scope will apply to web pages which match *exactly* the name of the scope, including the scheme.
-- An example for the use of scopes: block `facebook.com` globally, but allow `facebook.com` when visiting `https://www.facebook.com`. This is useful to prevent those ubiquitous servers from tracking you, unless you explicitly visit them.
-- Another example: to enforce the use of a secure scheme for a web site. If you create a scope `https://www.google.com` along with specific rules, these rules will *not* apply if the visited web page is `http://www.google.com`.
+Default is global scope: `*`. In global scope mode, rules apply to all web pages, except those which match a narrower scope.
+
+Other scopes:
+* Domain-level scope.
+    - Example: `https://*.google.com`. Rules at domain-level scope will apply to web pages which match the scope, including the scheme (`https` or `http`), except if for web pages which match an even narrower scope.
+* Site-level scope.
+    - Example: `https://www.facebook.com`. Rules at site-level scope will apply to web pages which match *exactly* the name of the scope, including the scheme.
+
+An example for the use of scopes: block `facebook.com` globally, but allow `facebook.com` when visiting `https://www.facebook.com`. This is useful to prevent those ubiquitous servers from tracking you, unless you explicitly visit them.
+
+Another example: to enforce the use of a secure scheme for a web site. If you create a scope `https://www.google.com` along with specific rules, these rules will *not* apply if the visited web page is `http://www.google.com`.
 
 ### Persist temporary rules
 
