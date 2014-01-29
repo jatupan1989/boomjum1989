@@ -1,7 +1,5 @@
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-1.png)
 
-* Last button is to bring up more options, which are explained below.
-
 ### The scope selector
 
 The scope selector let you choose where the rules apply. There are three scope levels: global, domain-level scope, and site-level scope.
@@ -41,5 +39,8 @@ Clicking this button will cause all temporary rules to be wiped out. Only the pe
 Force a reload the web page.
 - The web page will reload if needed when you close the popup menu, but you can force a reload while the popup menu is opened in order to see the effects of your changes.
 
+### Rule manager, Statistics, Settings, etc.
+
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-8.png)
 
+Last button is to bring up more options, which are explained below.
