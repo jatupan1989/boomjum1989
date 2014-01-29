@@ -2,14 +2,16 @@ A matrix scope tells HTTPSB which set of rules to use when visiting a particular
 
 ![Scopes](https://raw2.github.com/gorhill/httpswitchboard/b80b342b153c0921feef9f9d0b700942bed80aff/doc/img/about-scopes-1.png)
 
-- Global scope -- identified as `*` (this scope is always present)
-    * All rules in the global scope apply to all web pages for which no narrower scope exists.
-- Domain-level scope (example above: `http://*.arstechnica.com`)
-    * Rules in a domain-level scope apply only to web pages which URL match the domain of the page.
-- Site-level scope (example: `http://arstechnica.com`)
-    * Rules in a site-level scope apply only to web pages which URL match the hostname of the page.
+Global scope -- identified as `*` (this scope is always present):
+- All rules in the global scope apply to all web pages for which no narrower scope exists.
 
-Out of the box, there are two scopes in HTTPSB: the global scope (`*`), and the behind-the-scene scope (`http://chromium-behind-the-scene`).
+Domain-level scope (example above: `*.arstechnica.com`):
+- Rules in a domain-level scope apply only to web pages which URL match the domain of the page.
+
+Site-level scope (example: `arstechnica.com`)
+- Rules in a site-level scope apply only to web pages which URL match the hostname of the page.
+
+Out of the box, there are two scopes in HTTPSB: the global scope (`*`), and the behind-the-scene scope (`chromium-behind-the-scene`).
 
 For any web page you visit, you can create a narrower scope for that web page, or use the default global scope.
 
@@ -27,7 +29,7 @@ Domain-level scopes are narrower than global scope, but broader than site-level 
 
 Rules in domain-level scope will apply *only* to web sites which domain matches the domain of the scope.
 
-For example, all rules in domain-level scope `http://∗.example.com` will apply to `http://www.example.com`, `http://forums.example.com`, `http://where.am.i.example.com`, etc.
+For example, all rules in domain-level scope `∗.example.com` will apply to `www.example.com`, `forums.example.com`, `where.am.i.example.com`, etc.
 
 ### Site-level scope
 
@@ -35,24 +37,14 @@ Rules in domain-level scope will apply *only* to web sites which hostname matche
 
 Site-level scopes are the most narrow of all level of scopes. Rules in a site-level scope will apply only to *one* single web site.
 
-For example, all rules in site-level scope `http://example.com` will apply to `http://example.com` only, and not to `http://forums.example.com` or `http://www.example.com`.
+For example, all rules in site-level scope `example.com` will apply to `example.com` only, and not to `forums.example.com` or `www.example.com`.
 
 ### Scope precedence
 
 There is a scope precedence in HTTPSB. If one scope doesn't exist, a scope with lower precedence is then tried, until global scope is reached.
 
-If one visits `https://www.example.com`, the precedence is:
+If one visits `www.example.com`, the precedence is:
 
-    https://www.example.com
-    http://www.example.com
-    https://*.example.com
-    http://*.example.com
+    www.example.com
+    *.example.com
     *
-
-If one visit `http://www.example.com`:
-
-    http://www.example.com
-    http://*.example.com
-    *
-
-The scope precedence above is based on the premise that a user will typically have more restrictive rules for an unencrypted connection than its encrypted counterpart. Thus it is ok to have more restrictive rules being used for an encrypted connection, but not ok to have less restrictive rules being used for an unencrypted connection.
