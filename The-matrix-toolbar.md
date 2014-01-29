@@ -24,7 +24,9 @@ Padlock: for any changes to be permanent, you need to click the padlock.
 - Don't be scared to experiment with whitelisting, blacklisting or graylisting. It's all temporary.
 - When you are satisfied with the state of the matrix, make the scope/rules permanent by clicking the padlock.
 
-### The preset recipes menu
+### The preset recipes
+
+Starting with version 0.7.8.0, preset recipes were introduced in order to assist the user to easily apply the proper rules to the matrix in order to "unbreak" a web site.
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-4.png)
 
