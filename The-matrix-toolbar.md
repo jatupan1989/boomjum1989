@@ -2,19 +2,23 @@
 
 ### The scope selector
 
-The scope selector let you choose where the rules you create apply. There are three scope levels: global, domain-level, and site-level scope.
+The scope selector let you choose where the rules you create apply.
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-2.png)
 
-Default is global scope: `*`. In global scope mode, rules apply to all web pages, except those which match a narrower scope.
+There are three scope levels: global, domain-level, and site-level scope.
 
-Domain-level scope.
+Default is currently global scope: `*`. In global scope mode, rules apply to all web pages, except those which match a narrower scope.
+
+Domain-level scope:
 - Example: `*.google.com`. Rules at domain-level scope will apply to web pages which match the scope, except if for web pages which match an even narrower scope.
 
-Site-level scope.
+Site-level scope:
 - Example: `www.facebook.com`. Rules at site-level scope will apply to web pages which match *exactly* the name of the scope, including the scheme.
 
 An example for the use of scopes: block `facebook.com` globally, but allow `facebook.com` when visiting `www.facebook.com`. This is useful to prevent those ubiquitous servers from tracking you, unless you explicitly visit them.
+
+More on scopes: [The matrix scope](/gorhill/httpswitchboard/wiki/The-matrix-scope).
 
 ### Persist temporary rules
 
