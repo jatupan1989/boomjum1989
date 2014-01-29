@@ -60,3 +60,5 @@ The web page will reload **only** if needed when you close the popup menu, but y
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-8.png)
 
 Last button is to bring up more options, which are explained elsewhere.
+
+The _On/Off_ button allows to quickly disengage HTTPSB filtering. The extension will still record and report requests, but it won't block anything.
