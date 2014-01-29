@@ -2,7 +2,7 @@
 
 ### The scope selector
 
-The scope selector let you choose where the rules apply. There are three scope levels: global, domain-level scope, and site-level scope.
+The scope selector let you choose where the rules you create apply, or where they are removed from. There are three scope levels: global, domain-level, and site-level scope.
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-2.png)
 
