@@ -40,6 +40,8 @@ Clicking this button will cause all temporary rules to be wiped out. Only the pe
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-6.png)
 
+### Force reload the web page
+
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-7.png)
 
 Force a reload the web page.
