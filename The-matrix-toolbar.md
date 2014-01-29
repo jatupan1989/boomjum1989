@@ -43,4 +43,4 @@ Force a reload the web page.
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-8.png)
 
-Last button is to bring up more options, which are explained below.
+Last button is to bring up more options, which are explained elsewhere.
