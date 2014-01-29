@@ -61,4 +61,4 @@ The web page will reload **only** if needed when you close the popup menu, but y
 
 Last button is to bring up more options, which are explained elsewhere.
 
-The _On/Off_ button allows to quickly disengage HTTPSB filtering. The extension will still record and report requests, but it won't block anything.
+The _On/off_ button allows to quickly disengage HTTPSB filtering. The extension will still record and report requests, but it won't block anything.
