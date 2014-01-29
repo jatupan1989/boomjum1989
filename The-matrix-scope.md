@@ -11,7 +11,7 @@ Domain-level scope (example above: `*.arstechnica.com`):
 Site-level scope (example: `arstechnica.com`)
 - Rules in a site-level scope apply only to web pages which URL match the hostname of the page.
 
-Out of the box, there are two scopes in HTTPSB: the global scope (`*`), and the behind-the-scene scope (`chromium-behind-the-scene`).
+Out of the box, there are two scopes in HTTPSB: the global scope (`*`), and the [behind-the-scene](/gorhill/httpswitchboard/wiki/Behind-the-scene-requests) scope (`chromium-behind-the-scene`).
 
 For any web page you visit, you can create a narrower scope for that web page, or use the default global scope.
 
