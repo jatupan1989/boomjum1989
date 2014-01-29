@@ -19,3 +19,22 @@ From left to right:
 * Revert all rules.
     - Clicking this button will cause all temporary rules to be wiped out. Only the permanent rules will be active in the matrix.
 * Last button is to bring up more options, which are explained below.
+
+![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-2.png)
+
+![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-3.png)
+
+
+![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-4.png)
+
+
+![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-5.png)
+
+
+![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-6.png)
+
+![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-7.png)
+
+
+![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-8.png)
+
