@@ -33,15 +33,19 @@ Starting with version 0.7.8.0, preset recipes were introduced in order to assist
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-4.png)
 
+The feature is still beta, and of course writing preset recipes take time. Evebtually there will be enough preset recipes out to assist less geeky users of the extension.
+
 ### Remove temporary rules from current matrix
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-5.png)
 
-Clicking this button will cause all temporary rules to be wiped out. Only the permanent rules will be active in the matrix.
+Clicking this button will cause all temporary rules to be wiped out. Only the permanent rules will be active in the matrix. (Note that prior to version 0.7.9.4, this icon was to remove *all* temporary scopes and rules.)
 
 ### Remove all temporary rules
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-6.png)
+
+To remove *all* temporary rules, including those not appearing in the current matrix, click this icon.
 
 ### Force reload the web page
 
