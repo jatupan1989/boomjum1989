@@ -5,6 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * _Remove all_ is now _Mark all for deletion_
     * New buttons: _Backup to file_ and _Restore from file_.
 - The preset recipes button now has a badge showing the number of matching preset recipes.
+- More internal work on preset recipes.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/175>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/174>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/166>.
