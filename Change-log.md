@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.0.0
-Changes in _Rule manager_:
+- Changes in _Rule manager_:
     * _Remove all_ is now _Mark all for deletion_
     * New buttons: _Backup to file_ and _Restore from file_.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/175>.
