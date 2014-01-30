@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.0.0
 - Changes in _Rule manager_:
-    * _Remove all_ is now _Mark all for deletion_
+    * _Remove all_ is now _Mark all for deletion_.
     * New buttons: _Backup to file_ and _Restore from file_.
 - The preset recipes button now has a badge showing the number of matching preset recipes.
 - More internal work on preset recipes.
