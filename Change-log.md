@@ -1,5 +1,15 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.0.0
+Changes in _Rule manager_:
+    * _Remove all_ is now _Mark all for deletion_
+    * New buttons: _Backup to file_ and _Restore from file_.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/175>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/174>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/166>.
+
+***
+
 ### 0.7.9.3
 - Opera requires that Youtube works out-of-the-box:
     * A site-level scope for Youtube is created at _install_ time.
@@ -10,12 +20,16 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - This was most confusing for users who checked the _Auto create temporary site-level scope_ option.
 - So mainly this version was to pass Opera store review process (Youtube must work at first install), I don't plan to release this one to the Chrome store, as I want to wait for a fix to [issue #166](/gorhill/httpswitchboard/issues/166).
 
+***
+
 ### 0.7.9.2
 - **Emergency fix**: Due to latest changes regarding scopes, a portion of code which was not revised caused HTTPSB to fall into allow-all/block-exceptionally mode.
     * More technically, that piece of code was to whitelist all requests from behind-the-scene scope if the scope was not found. With latest changes, the behind-the-scene scope was indeed never found, and because of this the whitelist-all default rule for behind-the-scene scope was created in the global scope.
 - **If you were working in [block-all/allow-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach), please do click the "all" matrix cell to toggle it back to red** (if ever it is now green as in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach)), **and lock the change.**
     * Also, you may want to check your [behind-the-scene matrix](/gorhill/httpswitchboard/wiki/Behind-the-scene-requests): Out-of-the-box, this matrix is in allow-all/block-exceptionally mode, so as to not interfere with the browser operation and other installed extensions. If you never changed the behind-the-scene matrix from its out-of-the-box default and you find that it is currently in block-all/allow-exceptionally mode, reset it to its original state by clicking the "all" matrix cell to turn it green, than lock the matrix.
 - Sorry. The changes re. scopes was a big change, and I failed to revise this one portion of code.
+
+***
 
 ### 0.7.9.1
 - More 1st- and 3rd-party [preset recipes](/gorhill/httpswitchboard/blob/master/assets/httpsb/presets.txt) added.
