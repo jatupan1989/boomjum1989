@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * New buttons: _Backup to file_ and _Restore from file_.
 - Changes in extension popup:
     * The "preset recipes" button now has a badge showing the number of matching preset recipes.
-    * A button has been added to take care of remove all temporary rules.
+    * A button has been added to take over the task of removing all temporary rules.
     * The function of the existing button has changed to "revert temporary rules **for current scope**".
 - More internal work on preset recipes.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/175>.
