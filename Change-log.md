@@ -4,7 +4,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Changes in _Rule manager_:
     * **Remove all** is now **Mark all for deletion**.
     * **Mark all for deletion** will preserve out-of-the-box rules if these still exists.
-    * New buttons: **Backup to file** and **Restore from file**, operate on the content of the _Recipe_ text area (so you can export a single recipe or all of them).
+    * New buttons: **Backup to file** and **Restore from file**, operate on the content of the _Recipe_ text area (so you can backup a single recipe or all of them).
         - **Restore from file** does not replace existing rules, it adds on top of existing rules.
 - Changes in extension popup:
     * The "preset recipes" button now has a badge showing the number of matching preset recipes.
