@@ -3,7 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.0.0
 - Changes in _Rule manager_:
     * **Remove all** is now **Mark all for deletion**.
-    * **Mark all for deletion** will act as a "restore out-of-the-box rules" if out-of-the-box rules still exists.
+    * **Mark all for deletion** will preserve out-of-the-box rules if these still exists.
     * New buttons: **Backup to file** and **Restore from file**.
 - Changes in extension popup:
     * The "preset recipes" button now has a badge showing the number of matching preset recipes.
