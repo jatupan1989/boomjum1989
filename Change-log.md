@@ -11,6 +11,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * A button has been added to take over the task of removing all temporary rules.
     * The function of the existing button has changed to "revert temporary rules **for current scope**".
 - More internal work on preset recipes.
+    * File format is YAML-compliant: benefits: future-proofing, syntax highlighting.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/177>:
     * Thanks to [my-password-is-password](/my-password-is-password) for his [pull request](/gorhill/httpswitchboard/pull/180).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/176>.
