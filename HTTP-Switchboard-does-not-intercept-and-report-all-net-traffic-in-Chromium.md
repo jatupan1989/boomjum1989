@@ -11,3 +11,9 @@ At launch:
     qe-in-f95.1e100.net
 
 It appears the above requests are made _before_ HTTPSB is up and running, so there is nothing HTTPSB can do about these. I don't know what the above requests are about. Somebody with more net-fu skills could probably make sense of these. In any case, being aware that these connections are made upon launching your browser is a first step into informed consent.
+
+After launch, when HTTPSB is up and running:
+
+    clients?.google.com
+
+Where _?_ is a single digit. It occurs roughly every two hours. Probably related to this: [content::ResourceRequestInfo::IsSensitiveURL](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/browser/extensions/api/web_request/web_request_permissions.cc&q=IsSensitiveURL&sq=package:chromium&l=24)
