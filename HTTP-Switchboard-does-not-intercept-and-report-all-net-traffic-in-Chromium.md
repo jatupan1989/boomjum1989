@@ -16,4 +16,4 @@ After launch, when HTTPSB is up and running:
 
     clients?.google.com
 
-Where "?" is a single digit. It occurs roughly every two hours. Probably related to this: [content::ResourceRequestInfo::IsSensitiveURL](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/browser/extensions/api/web_request/web_request_permissions.cc&q=IsSensitiveURL&sq=package:chromium&l=24)
+Where "?" is a single digit. It occurs roughly every two hours. Probably related to this: [content::ResourceRequestInfo::IsSensitiveURL](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/browser/extensions/api/web_request/web_request_permissions.cc&sq=package:chromium&l=24)?
