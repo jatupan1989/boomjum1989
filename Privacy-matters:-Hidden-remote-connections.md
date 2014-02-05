@@ -17,6 +17,11 @@ At start, if "_Settings_/_Languages_/_Offer to translate pages that aren't in a 
 translate.googleapis.com
 ```
 
+When visiting the "_Settings_" page, regardless of whether "_Settings_/_Languages_/_Offer to translate pages that aren't in a language that I read_" is enabled or disabled:
+```
+translate.googleapis.com
+```
+
 ### Chrome 32 / Windows
 
 At start, and then regularly:
