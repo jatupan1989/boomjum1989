@@ -35,5 +35,5 @@ server-54-230-38-186.jfk1.r.cloudfront.net:49504
 
 At start:
 ```
-updates.opera.com
+autoupdate.opera.com
 ```
