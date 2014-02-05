@@ -6,7 +6,7 @@ The remote connections were collated after having disabled **everything** which 
 
 ### Chromium 31 / Linux
 
-At start:
+At start, and then regularly:
 
 ```
 [gibberish].1e100.net         # seems to correspond to "clients[?].google.com"
