@@ -49,7 +49,7 @@ autoupdate.geo.opera.com
 
 Sometimes at start (related to "_Settings_/_Start page_/_Preload Discover contents_"?):
 ```
-[gibberish].jfk1.r.cloudfront.net:49504
+[gibberish].jfk1.r.cloudfront.net
 ```
 
 Sometimes at start but less often, seemingly related to "_Settings_/_Search_/_Manage search engines..._":
