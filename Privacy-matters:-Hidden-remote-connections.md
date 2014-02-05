@@ -21,20 +21,22 @@ Apparently, the above `clients[?].google.com` hostname translates into `[gibberi
 ### Opera 19 / Windows
 
 Sometimes at start:
-
 ```
 [gibberish].1e100.net
 origin.any.bing.com
 205.251.242.54                # amazon.com
 [gibberish].yahoo.com
-server-54-230-38-186.jfk1.r.cloudfront.net:49504
-server-204-246-169-157.jfk1.r.cloudfront.net:49523
 ```
 
 Above appears to be related to listed "search engines" in _Settings_ / _Search_.
 
-Always at start:
+At start, if _Settings_ / _Start page_ / _Preload Discover contents_ is enabled:
+```
+server-54-230-38-186.jfk1.r.cloudfront.net:49504
+server-204-246-169-157.jfk1.r.cloudfront.net:49523
+```
 
+Always at start:
 ```
 autoupdate.opera.com
 ```
