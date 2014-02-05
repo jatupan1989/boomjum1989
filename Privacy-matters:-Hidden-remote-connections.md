@@ -20,8 +20,20 @@ Apparently, the above `clients[?].google.com` hostname translates into `[gibberi
 
 ### Opera 19 / Windows
 
-At start:
+#### "Preload Discover contents" enabled
 
+At start:
+```
+[gibberish].1e100.net
+origin.any.bing.com
+205.251.242.54                # amazon.com
+[gibberish].yahoo.com
+[gibberish].cloudfront.net
+```
+
+#### "Preload Discover contents" disabled
+
+At start:
 ```
 updates.opera.com
 ```
