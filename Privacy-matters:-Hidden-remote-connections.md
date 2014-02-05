@@ -47,9 +47,9 @@ At start:
 autoupdate.geo.opera.com
 ```
 
-Sometimes at start (related to "_Settings_/_Start page_/_Preload Discover contents_"?):
+Sometimes at start (might be related to above `autoupdate.geo.opera.com`):
 ```
-[gibberish].jfk1.r.cloudfront.net
+[gibberish].cloudfront.net
 ```
 
 Sometimes at start but less often, seemingly related to "_Settings_/_Search_/_Manage search engines..._":
