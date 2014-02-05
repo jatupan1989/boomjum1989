@@ -20,9 +20,8 @@ Apparently, the above `clients[?].google.com` hostname translates into `[gibberi
 
 ### Opera 19 / Windows
 
-#### "Preload Discover contents" enabled
+Sometimes, at start:
 
-At start:
 ```
 [gibberish].1e100.net
 origin.any.bing.com
@@ -32,9 +31,10 @@ server-54-230-38-186.jfk1.r.cloudfront.net:49504
 server-204-246-169-157.jfk1.r.cloudfront.net:49523
 ```
 
-#### "Preload Discover contents" disabled
+Above appears to be related to listed "search engines" in _Settings_ / _Search_.
 
-At start:
+Always:
+
 ```
 autoupdate.opera.com
 ```
