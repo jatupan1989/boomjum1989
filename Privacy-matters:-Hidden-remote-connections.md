@@ -32,8 +32,7 @@ Above appears to be related to listed "search engines" in _Settings_ / _Search_.
 
 At start, if _Settings_ / _Start page_ / _Preload Discover contents_ is enabled:
 ```
-server-54-230-38-186.jfk1.r.cloudfront.net:49504
-server-204-246-169-157.jfk1.r.cloudfront.net:49523
+[gibberish].jfk1.r.cloudfront.net:49504
 ```
 
 Always at start:
