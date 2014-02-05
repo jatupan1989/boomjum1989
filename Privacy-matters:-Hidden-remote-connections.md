@@ -6,8 +6,12 @@ The remote connections were collated after having disabled **everything** which 
 
 ### Chromium 31 / Linux
 
-[list of remote servers]
+At start:
 
+```
+[gibberish].1e100.net         # seems to correspond to "clients[?].google.com"
+translate.googleapis.com
+```
 ### Chrome 32 / Windows
 
 At start, and then regularly:
