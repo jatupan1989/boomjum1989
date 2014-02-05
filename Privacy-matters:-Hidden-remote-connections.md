@@ -14,11 +14,19 @@ At start, and then regularly:
 
 ```
 clients[?].google.com
+[gibberish].1e100.net
 ```
 
 Apparently, the above `clients[?].google.com` hostname translates into `[gibberish].1e100.net` utlimately. `1e100.net` is Google.
 
 ### Opera 19 / Windows
 
-[list of remote servers]
+At start:
 
+```
+[gibberish].1e100.net
+origin.any.bing.com
+205.251.242.54
+[gibberish].yahoo.com
+[gibberish].cloudfront.net
+```
