@@ -2,12 +2,17 @@ _HTTP Switchboard_ uses the [chrome.webRequest API](http://developer.chrome.com/
 
 These requests are not merely behind-the-scene (which are reported by HTTPSB), they are also unavailable to extensions, which means it is even more difficult for a user to be aware of these. So here are lists of all the connections which have been found to be hidden from user view, i.e. which can't even be reported as behind-the-scene requests by HTTPSB.
 
-### Chromium
+The remote connections were collated after having disabled **everything** which can be reasonably disabled by a user in order to prevent as much those hidden remote connections.
 
+### Chromium 31 / Linux
 
+[list of remote servers]
 
-### Chrome
+### Chrome 32 / Windows
 
+[list of remote servers]
 
+### Opera 19 / Windows
 
-### Opera
+[list of remote servers]
+
