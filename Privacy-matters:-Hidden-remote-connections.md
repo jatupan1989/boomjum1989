@@ -10,6 +10,8 @@ The remote connections were collated after having disabled **everything** which 
 
 ### Chrome 32 / Windows
 
+At start, and then regularly:
+
 ```
 clients[?].google.com
 ```
