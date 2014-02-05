@@ -42,7 +42,7 @@ translate.googleapis.com
 
 ### Opera 19 / Windows
 
-Always at start:
+At start:
 ```
 autoupdate.geo.opera.com
 ```
