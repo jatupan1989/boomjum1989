@@ -10,7 +10,11 @@ The remote connections were collated after having disabled **everything** which 
 
 ### Chrome 32 / Windows
 
-[list of remote servers]
+```
+clients[?].google.com
+```
+
+Apparently, the above `clients[?].google.com` hostname translates into `[gibberish].1e100.net` utlimately. `1e100.net` is Google.
 
 ### Opera 19 / Windows
 
