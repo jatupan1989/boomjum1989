@@ -23,9 +23,5 @@ Apparently, the above `clients[?].google.com` hostname translates into `[gibberi
 At start:
 
 ```
-[gibberish].1e100.net
-origin.any.bing.com
-205.251.242.54                # amazon.com
-[gibberish].yahoo.com
-[gibberish].cloudfront.net
+updates.opera.com
 ```
