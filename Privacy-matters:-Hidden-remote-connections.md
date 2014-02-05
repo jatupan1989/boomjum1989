@@ -4,7 +4,7 @@ These requests are not merely behind-the-scene (which are reported by HTTPSB), t
 
 The remote connections were collated after having disabled **everything** which can be reasonably disabled by a user in order to prevent as much those hidden remote connections. Only the `about:blank` page was opened after browser was launched, and only HTTPSB extension installed locally was present.
 
-### Chromium 31 / Linux
+### Chromium 31 + HTTPSB / Linux
 
 At start, and then regularly:
 
@@ -22,7 +22,7 @@ When visiting the "_Settings_" page, regardless of whether "_Settings_/_Language
 translate.googleapis.com
 ```
 
-### Chrome 32 / Windows
+### Chrome 32 + HTTPSB / Windows
 
 At start, and then regularly:
 
@@ -40,7 +40,7 @@ When visiting the "_Settings_" page, regardless of whether "_Settings_/_Language
 translate.googleapis.com
 ```
 
-### Opera 19 / Windows
+### Opera 19 + HTTPSB / Windows
 
 At start:
 ```
@@ -58,4 +58,14 @@ Sometimes at start but less often, seemingly related to "_Settings_/_Search_/_Ma
 origin.any.bing.com
 205.251.242.54                # amazon.com
 [gibberish].yahoo.com
+```
+
+### Firefox 26 + NoScript / Linux Mint
+
+For reference purpose.
+
+At start:
+```
+ocsp.godaddy.com.akadns.net
+secure.informaction.com
 ```
