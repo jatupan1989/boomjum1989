@@ -25,7 +25,7 @@ Always at start:
 autoupdate.opera.com
 ```
 
-Sometimes at start (related to "_Settings_/_Start page_/_Preload Discover contents_"?):
+Sometimes at start (speculatively related to "_Settings_/_Start page_/_Preload Discover contents_"?):
 ```
 [gibberish].jfk1.r.cloudfront.net:49504
 ```
