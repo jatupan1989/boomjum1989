@@ -25,15 +25,15 @@ Always at start:
 autoupdate.opera.com
 ```
 
-Sometimes at start, seemingly related to "_Settings_/_Search_/_Manage search engines..._":
+Sometimes at start (related to "_Settings_/_Start page_/_Preload Discover contents_"?):
+```
+[gibberish].jfk1.r.cloudfront.net:49504
+```
+
+Sometimes at start but less often, seemingly related to "_Settings_/_Search_/_Manage search engines..._":
 ```
 [gibberish].1e100.net         # google.com
 origin.any.bing.com
 205.251.242.54                # amazon.com
 [gibberish].yahoo.com
-```
-
-Sometimes at start (related to "_Settings_/_Start page_/_Preload Discover contents_"?):
-```
-[gibberish].jfk1.r.cloudfront.net:49504
 ```
