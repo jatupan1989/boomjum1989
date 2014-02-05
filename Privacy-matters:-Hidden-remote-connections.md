@@ -25,7 +25,7 @@ Always at start:
 autoupdate.opera.com
 ```
 
-Sometimes at start, seemingly related to _Settings_ / _Search_ / _Manage search engines..._:
+Sometimes at start, seemingly related to "_Settings_ / _Search_ / _Manage search engines..._":
 ```
 [gibberish].1e100.net         # google.com
 origin.any.bing.com
@@ -33,7 +33,7 @@ origin.any.bing.com
 [gibberish].yahoo.com
 ```
 
-At start, if _Settings_ / _Start page_ / _Preload Discover contents_ is enabled:
+At start, related to "_Settings_ / _Start page_ / _Preload Discover contents_" ?:
 ```
 [gibberish].jfk1.r.cloudfront.net:49504
 ```
