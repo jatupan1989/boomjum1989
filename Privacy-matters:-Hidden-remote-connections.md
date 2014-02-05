@@ -20,7 +20,7 @@ Apparently, the above `clients[?].google.com` hostname translates into `[gibberi
 
 ### Opera 19 / Windows
 
-Sometimes, at start:
+Sometimes at start:
 
 ```
 [gibberish].1e100.net
@@ -33,7 +33,7 @@ server-204-246-169-157.jfk1.r.cloudfront.net:49523
 
 Above appears to be related to listed "search engines" in _Settings_ / _Search_.
 
-Always:
+Always at start:
 
 ```
 autoupdate.opera.com
