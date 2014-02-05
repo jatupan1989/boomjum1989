@@ -24,7 +24,6 @@ At start, and then regularly:
 ```
 [gibberish].1e100.net         # seems to correspond to "clients[?].google.com"
 ```
-Apparently, the above `clients[?].google.com` hostname translates into `[gibberish].1e100.net` utlimately. `1e100.net` is Google.
 
 At start, if "_Settings_/_Languages_/_Offer to translate pages that aren't in a language that I read_" is enabled:
 ```
