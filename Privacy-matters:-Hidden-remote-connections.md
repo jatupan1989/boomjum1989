@@ -13,8 +13,7 @@ The remote connections were collated after having disabled **everything** which 
 At start, and then regularly:
 
 ```
-clients[?].google.com
-[gibberish].1e100.net
+[gibberish].1e100.net # seems to correspond to "clients[?].google.com"
 ```
 
 Apparently, the above `clients[?].google.com` hostname translates into `[gibberish].1e100.net` utlimately. `1e100.net` is Google.
