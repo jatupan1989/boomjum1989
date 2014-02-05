@@ -25,7 +25,7 @@ Always at start:
 autoupdate.opera.com
 ```
 
-Sometimes at start, related to listed "search engines" in _Settings_ / _Search_:
+Sometimes at start, seemingly related to _Settings_ / _Search_ / _Manage search engines..._:
 ```
 [gibberish].1e100.net
 origin.any.bing.com
