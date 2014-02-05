@@ -26,7 +26,7 @@ Apparently, the above `clients[?].google.com` hostname translates into `[gibberi
 
 Always at start:
 ```
-autoupdate.opera.com
+autoupdate.geo.opera.com
 ```
 
 Sometimes at start (related to "_Settings_/_Start page_/_Preload Discover contents_"?):
