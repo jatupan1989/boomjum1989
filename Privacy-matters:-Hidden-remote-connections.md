@@ -20,7 +20,12 @@ Apparently, the above `clients[?].google.com` hostname translates into `[gibberi
 
 ### Opera 19 / Windows
 
-Sometimes at start:
+Always at start:
+```
+autoupdate.opera.com
+```
+
+Sometimes at start, related to listed "search engines" in _Settings_ / _Search_:
 ```
 [gibberish].1e100.net
 origin.any.bing.com
@@ -28,14 +33,7 @@ origin.any.bing.com
 [gibberish].yahoo.com
 ```
 
-Above appears to be related to listed "search engines" in _Settings_ / _Search_.
-
 At start, if _Settings_ / _Start page_ / _Preload Discover contents_ is enabled:
 ```
 [gibberish].jfk1.r.cloudfront.net:49504
-```
-
-Always at start:
-```
-autoupdate.opera.com
 ```
