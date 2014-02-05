@@ -29,6 +29,7 @@ origin.any.bing.com
 205.251.242.54                # amazon.com
 [gibberish].yahoo.com
 server-54-230-38-186.jfk1.r.cloudfront.net:49504
+server-204-246-169-157.jfk1.r.cloudfront.net:49523
 ```
 
 #### "Preload Discover contents" disabled
