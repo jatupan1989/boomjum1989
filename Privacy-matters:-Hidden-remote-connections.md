@@ -12,12 +12,12 @@ At start, and then regularly:
 [gibberish].1e100.net         # seems to correspond to "clients[?].google.com"
 ```
 
-At start, if "_Settings_/_Languages_/_Offer to translate pages that aren't in a language that I read_" is enabled:
+At start, if "_Settings_/_Languages_/_Offer to translate pages that..._" is enabled:
 ```
 translate.googleapis.com
 ```
 
-When visiting the "_Settings_" page, regardless of whether "_Settings_/_Languages_/_Offer to translate pages that aren't in a language that I read_" is enabled or disabled:
+When visiting the "_Settings_" page, regardless of whether "_Settings_/_Languages_/_Offer to translate pages that..._" is enabled or disabled:
 ```
 translate.googleapis.com
 ```
