@@ -14,7 +14,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * File format is YAML-compliant. Benefits: future-proofing, syntax highlighting.
     * Internally, preset recipes can now be composite.
         - For example, "Google Groups with account" is a composite of "Google Groups" (to "unbreak" Google groups) and "Google Account" (to "unbreak" logging into your Google account.)
-    * All 1st-party recipes are now scoped, and this will always be the only accepted practice for 1st-party recipes.
+    * All 1st-party recipes are now scoped, and this will be the only accepted practice for 1st-party recipes.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/177>:
     * Thanks to [my-password-is-password](/my-password-is-password) for his [pull request](/gorhill/httpswitchboard/pull/180).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/186>.
