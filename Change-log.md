@@ -14,6 +14,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * File format is YAML-compliant. Benefits: future-proofing, syntax highlighting.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/177>:
     * Thanks to [my-password-is-password](/my-password-is-password) for his [pull request](/gorhill/httpswitchboard/pull/180).
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/186>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/176>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/175>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/174>.
