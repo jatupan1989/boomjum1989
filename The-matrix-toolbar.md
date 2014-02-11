@@ -37,7 +37,7 @@ Starting with version 0.7.8.0, preset recipes were introduced in order to assist
 
 The feature is still beta, and of course writing preset recipes take time. Evebtually there will be enough preset recipes out to assist less geeky users of the extension.
 
-### Remove temporary rules from current matrix
+### Remove temporary rules from current scope
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-5.png)
 
