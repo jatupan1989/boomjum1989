@@ -9,7 +9,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Changes in extension popup:
     * The "preset recipes" button now has a badge showing the number of matching preset recipes.
     * A [button has been added](/gorhill/httpswitchboard/wiki/The-matrix-toolbar#wiki-remove-all-temporary-rules) to take over the task of removing all temporary rules.
-    * The function of [the existing button](/gorhill/httpswitchboard/wiki/The-matrix-toolbar#wiki-remove-temporary-rules-from-current-matrix) has changed to "revert temporary rules **for current scope**".
+    * The function of [the existing button](/gorhill/httpswitchboard/wiki/The-matrix-toolbar#wiki-remove-temporary-rules-from-current-scope) has changed to "revert temporary rules **for current scope**".
 - More internal work on preset recipes (bringing the feature out of beta status is the goal).
     * File format is YAML-compliant. Benefits: future-proofing, syntax highlighting.
     * Internally, preset recipes can now be composite.
