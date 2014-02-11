@@ -8,8 +8,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - **Restore from file** does not replace existing rules, it _adds_ on top of existing rules.
 - Changes in extension popup:
     * The "preset recipes" button now has a badge showing the number of matching preset recipes.
-    * A button has been added to take over the task of removing all temporary rules.
-    * The function of the existing button has changed to "revert temporary rules **for current scope**".
+    * A [button has been added](/gorhill/httpswitchboard/wiki/The-matrix-toolbar#wiki-remove-all-temporary-rules) to take over the task of removing all temporary rules.
+    * The function of [the existing button](/gorhill/httpswitchboard/wiki/The-matrix-toolbar#wiki-remove-temporary-rules-from-current-matrix) has changed to "revert temporary rules **for current scope**".
 - More internal work on preset recipes (bringing the feature out of beta status is the goal).
     * File format is YAML-compliant. Benefits: future-proofing, syntax highlighting.
     * Internally, preset recipes can now be composite.
