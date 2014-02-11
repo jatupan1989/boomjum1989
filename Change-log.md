@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.0.1
-- Replace all preset recipes for Google various services with one single preset recipes which "unbreak" all Google various services.
+- Replaced all preset recipes for Google various services with one single preset recipes which "unbreak" all Google various services.
     * Turns out, it's just way too much time-consuming to try and create specific set of rules for each specific Google service.
     * At least, it is scoped, so Google servers won't be pinged when not on a Google-linked web page.
 
