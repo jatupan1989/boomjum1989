@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * **Remove all** is now **Mark all for deletion**, whereas you now need to click _Commit all_ to confirm deleting all rules.
     * New button: **Reset to factory** = reset to out-of-the box rules.
     * New buttons: **Backup to file** and **Restore from file**, operate on the content of the _Recipe_ text area (so you can backup a single recipe or all of them).
-        - **Restore from file** does not replace existing rules, it adds on top of existing rules.
+        - **Restore from file** does not replace existing rules, it _adds_ on top of existing rules.
 - Changes in extension popup:
     * The "preset recipes" button now has a badge showing the number of matching preset recipes.
     * A button has been added to take over the task of removing all temporary rules.
