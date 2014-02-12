@@ -14,6 +14,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * New button: **Reset to factory** = reset to out-of-the box rules.
     * New buttons: **Backup to file** and **Restore from file**, operate on the content of the _Recipe_ text area (so you can backup a single recipe or all of them).
         - **Restore from file** does not replace existing rules, it _adds_ on top of existing rules.
+        - **Backup to file** requires a new permission for the extension ("Manage your downloads").
 - Changes in extension popup:
     * The "preset recipes" button now has a badge showing the number of matching preset recipes.
     * A [button has been added](/gorhill/httpswitchboard/wiki/The-matrix-toolbar#wiki-remove-all-temporary-rules) to take over the task of removing all temporary rules.
