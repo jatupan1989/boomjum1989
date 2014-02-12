@@ -1,6 +1,7 @@
 Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-switchboard/mghdpehejfekicfjcdbfofhcmnjhgaag), [Opera web store](https://addons.opera.com/en-gb/extensions/details/http-switchboard/), or if you don't care visiting proprietary web stores, [install manually](https://github.com/gorhill/httpswitchboard/tree/master/dist). To file for issues/bugs/suggestions, go [here](https://github.com/gorhill/httpswitchboard/issues).
 
 - [Change log](wiki/Change-log)
+- [Permissions](wiki/Permissions)
 - [Credits](wiki/Credits)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * User interface (recommended reading)
@@ -47,4 +48,3 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * Chromium net internals: `chrome://net-internals/` (paste in address bar)
 - [FAQ](wiki/FAQ)
 - [Current bug/issue list](/gorhill/httpswitchboard/issues?state=open)
-- [Permissions](wiki/Permissions)
