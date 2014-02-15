@@ -1,7 +1,11 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
-### 0.8.0.1
+### 0.8.1.0
+- 
 
+***
+
+### 0.8.0.1
 - Replaced all preset recipes for Google various services with one single preset recipes which "unbreak" all Google various services.
     * Turns out, it's just way too much time-consuming to try and create specific set of rules for _each_ specific Google service.
     * At least, it is scoped, so Google servers won't be pinged when not on a Google-owned web page.
@@ -10,7 +14,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.8.0.0
-
 - Changes in _Rule manager_:
     * **Remove all** is now **Mark all for deletion**, whereas you now need to click _Commit all_ to confirm deleting all rules.
     * New button: **Reset to factory** = reset to out-of-the box rules.
