@@ -6,6 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - "Ubiquitous" because these rules apply in all scopes.
     * The former _Rule manager_ page has been renamed _Scoped rules_.
 - Users can now supply their own list of ubiquitous blacklisted hosts (go to _Ubiquitous rules_ tab in the dashboard).
+    * This fixes one half of [issue #152](/gorhill/httpswitchboard/issues/152), the other half being "ubiquitous whitelisted hosts".
 
 ***
 
