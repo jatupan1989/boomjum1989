@@ -7,6 +7,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * The former _Rule manager_ page has been renamed _Scoped rules_.
 - Users can now supply their own list of ubiquitous blacklisted hosts (go to _Ubiquitous rules_ tab in the dashboard).
     * This fixes one half of [issue #152](/gorhill/httpswitchboard/issues/152), the other half being "ubiquitous whitelisted hosts".
+    * The project's mini-blacklist [block-facebook.txt](/gorhill/httpswitchboard/blob/master/assets/httpsb/block-facebook.txt) is gone. If you were using it, just enter the following hostnames in your user list:
+        - `facebook.com`
+        - `facebook.net`
+        - `fbcdn.net`
+        - `fbstatic-a.akamaihd.net`
+        - `facebook-web-clients.appspot.com`
 
 ***
 
