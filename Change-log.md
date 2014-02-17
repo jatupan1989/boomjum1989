@@ -4,7 +4,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Redesigned extension pages: All extension pages are now accessible through tabs on a single dashboard page ([issue #129](/gorhill/httpswitchboard/issues/129)).
     * The list of third-party preset blocked hosts has moved to the _Ubiquitous rules_ tab.
     * The former _Rule manager_ page has been renamed _Scoped rules_.
-- Users can now supply their own list of ubiquitous blocked hosts (go to _Ubiquitous rules_ tab in the dashboard).
+- Users can now supply their own list of ubiquitous blacklisted hosts (go to _Ubiquitous rules_ tab in the dashboard).
 
 ***
 
