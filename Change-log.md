@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Currently quota set at maximum of 24 MB, because the size of the content of [asset directory](/gorhill/httpswitchboard/tree/master/assets) (which an updated version will eventually be stored in the sandboxed file system) is roughly 17 MB.
     * This is needed in order to allow users to provide their own ubiquitous list of blacklisted hosts.
     * This is also required for the upcoming feature which will allow users to update themselves the various data used by HTTPSB without having to wait a new version of HTTPSB:
-        - Third-party blacklists.
+        - [Third-party blacklists](https://github.com/gorhill/httpswitchboard/tree/master/assets/thirdparties).
         - [Preset recipes](/gorhill/httpswitchboard/tree/master/assets/httpsb).
         - [Mozilla's Public Suffix List](http://publicsuffix.org/list/).
 - Redesigned extension pages: All extension pages are now accessible through tabs on a single dashboard page ([issue #129](/gorhill/httpswitchboard/issues/129)).
