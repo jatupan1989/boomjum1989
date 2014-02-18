@@ -1,6 +1,13 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.1.0
+- *New permission required:* "unlimitedStorage".
+    * This is needed in order to allow users to provide their own ubiquitous list of blacklisted hosts.
+    * This is also required for the upcoming feature which will allow users to update themselves the various data used by HTTPSB without having to wait a new version of HTTPSB:
+        - Third-party blacklists.
+        - Preset recipes.
+        - Mozilla's Public Suffix List.
+    * Currently the extension asks for only 16 MB to Chromium.
 - Redesigned extension pages: All extension pages are now accessible through tabs on a single dashboard page ([issue #129](/gorhill/httpswitchboard/issues/129)).
     * The list of third-party preset blocked hosts has moved to the _Ubiquitous rules_ tab.
         - "Ubiquitous" because these rules apply in all scopes.
