@@ -2,7 +2,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.1.0
 - **New permission required:** "unlimitedStorage".
-    * This permission gives an extension access to a virtual, sandboxed file system (currently quota set at maximum of 24 MB).
+    * This permission gives an extension access to a virtual, sandboxed file system.
+        - Currently quota set at maximum of 24 MB, because the size of the content of [asset directory](/gorhill/httpswitchboard/tree/master/assets) (which an updated version will eventually be stored in the sandboxed file system) is roughly 17 MB.
     * This is needed in order to allow users to provide their own ubiquitous list of blacklisted hosts.
     * This is also required for the upcoming feature which will allow users to update themselves the various data used by HTTPSB without having to wait a new version of HTTPSB:
         - Third-party blacklists.
