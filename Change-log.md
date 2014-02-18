@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * This is also required for the upcoming feature which will allow users to update themselves the various data used by HTTPSB without having to wait a new version of HTTPSB:
         - Third-party blacklists.
         - Preset recipes.
-        - Mozilla's Public Suffix List.
+        - [Mozilla's Public Suffix List](http://publicsuffix.org/list/).
 - Redesigned extension pages: All extension pages are now accessible through tabs on a single dashboard page ([issue #129](/gorhill/httpswitchboard/issues/129)).
     * The list of third-party preset blocked hosts has moved to the _Ubiquitous rules_ tab.
         - "Ubiquitous" because these rules apply in all scopes.
