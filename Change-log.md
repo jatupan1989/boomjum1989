@@ -29,6 +29,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.8.0.0
+- **New permission required:** "downloads":
+    * Required to give the user the ability to backup their scoped rules to a file on their computer.
 - Changes in _Rule manager_:
     * **Remove all** is now **Mark all for deletion**, whereas you now need to click _Commit all_ to confirm deleting all rules.
     * New button: **Reset to factory** = reset to out-of-the box rules.
