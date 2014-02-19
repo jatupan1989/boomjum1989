@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.1.1
+- Minor revision: The mini pop-up menu in the pop-up of the extension giving access to _Rule manager_, _Settings_, _Documentation_ and _On/off_ buttons has been removed and the buttons are now directly accessible in the extension pop-up toolbar.
+
+***
+
 ### 0.8.1.0
 - **New permission required:** ["unlimitedStorage"](https://developer.chrome.com/extensions/declare_permissions#unlimitedStorage).
     * This permission gives an extension access to a virtual, sandboxed file system.
