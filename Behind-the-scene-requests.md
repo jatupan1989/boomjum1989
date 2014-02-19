@@ -2,7 +2,9 @@
 
 ***
 
-**Update (February 19, 2014):** It has been noticed that with Chromium v32, the number of behind-the-scene requests is higher than with the previous version of Chromium. It appears that, for some reasons, the [chrome.webRequest API](http://developer.chrome.com/extensions/webRequest) often fails to properly bind many requests to the tab where they originate. There is not much HTTPSB can do to fix this as the problem is completely within the browser. In particular, this may often break HTTPSB's "preset recipes" feature if you set your behind-the-scene matrix in block-all mode (out-of-the-box setting is allow-all/block-exceptionally). The workaround is obviously to set your behind-the-scene matrix in allow-all/block-exceptionally mode.
+**Update (February 19, 2014):** It has been noticed that with Chromium v32, the number of behind-the-scene requests is higher than with the previous version of Chromium. It appears that, for some reasons, the [chrome.webRequest API](http://developer.chrome.com/extensions/webRequest) often fails to properly bind many requests to the tab where they originate. There is not much HTTPSB can do to fix this as the problem is completely within the browser. In particular, this may often break HTTPSB's "preset recipes" feature if you set your behind-the-scene matrix in block-all mode (out-of-the-box setting is allow-all/block-exceptionally). The workaround is obviously to set your behind-the-scene matrix in allow-all/block-exceptionally mode, or set your behind-the-scene matrix as follow:
+
+![Unwarranted behind-the-scene requests](https://raw2.github.com/gorhill/httpswitchboard/blob/master/doc/img/chromium-v32-bts-requests.png)
 
 ***
 
