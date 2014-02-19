@@ -3,10 +3,10 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.1.0
 - **New permission required:** ["unlimitedStorage"](https://developer.chrome.com/extensions/declare_permissions#unlimitedStorage).
     * This permission gives an extension access to a virtual, sandboxed file system.
-        - Currently quota set at [maximum of 24 MB](https://github.com/gorhill/httpswitchboard/blob/master/js/assets.js#L55), because the size of the content of [assets directory](/gorhill/httpswitchboard/tree/master/assets) (updated versions of files in this directory will eventually be stored in the sandboxed file system) is roughly 17 MB.
+        - Currently quota set at [maximum of 24 MB](/gorhill/httpswitchboard/blob/master/js/assets.js#L55), because the size of the content of [assets directory](/gorhill/httpswitchboard/tree/master/assets) (updated versions of files in this directory will eventually be stored in the sandboxed file system) is roughly 17 MB.
     * This is needed in order to allow users to provide their own ubiquitous list of blacklisted hosts.
     * This is also required for the upcoming feature which will allow users to update themselves the various data used by HTTPSB without having to wait a new version of HTTPSB:
-        - [Third-party blacklists](https://github.com/gorhill/httpswitchboard/tree/master/assets/thirdparties).
+        - [Third-party blacklists](/gorhill/httpswitchboard/tree/master/assets/thirdparties).
         - [Preset recipes](/gorhill/httpswitchboard/tree/master/assets/httpsb).
         - [Mozilla's Public Suffix List](http://publicsuffix.org/list/).
 - Redesigned extension pages: All extension pages are now accessible through tabs on a single dashboard page ([issue #129](/gorhill/httpswitchboard/issues/129)).
@@ -14,10 +14,10 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - "Ubiquitous" because these rules apply in all scopes.
     * The former _Rule manager_ page has been renamed _Scoped rules_.
 - Users can now supply their own list of ubiquitous blacklisted hosts (go to _Ubiquitous rules_ tab in the dashboard).
-    * This fixes one half of [issue #152](/gorhill/httpswitchboard/issues/152), the other half being "ubiquitous whitelisted hosts".
+    * This fixes one half of [issue #152](/gorhill/httpswitchboard/issues/152), the other half being ["ubiquitous whitelisted hosts"](/gorhill/httpswitchboard/issues/115).
     * The project's mini-blacklist `assets/httpsb/block-facebook.txt` is gone. If you were using it, just enter the [content of the file](https://raw2.github.com/gorhill/httpswitchboard/master/assets/httpsb/block-facebook.txt) in your user list.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/181>.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/129>.
+- Fixed </gorhill/httpswitchboard/issues/181>.
+- Fixed </gorhill/httpswitchboard/issues/129>.
 
 ***
 
