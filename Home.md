@@ -38,7 +38,9 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [Doesn't *HTTP Switchboard* add a significant overhead to network traffic?](/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F)
 - [Why does *HTTP Switchboard* conflict with AdBlock+?](/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-conflict-with-AdBlock-%3F)
 - Tools
-    * [Is execution of javascript blocked?](http://raymondhill.net/httpsb/httpsb-test-js-1.html)
+    * Is execution of javascript blocked?
+        - <http://www.wilderssecurity.com/showpost.php?p=2287519&postcount=245>
+        - <http://raymondhill.net/httpsb/httpsb-test-js-1.html>
     * [Are cookies blocked?](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php)
     * [Verify that your blocker does what it says it does](http://raymondhill.net/httpsb/har-parser.html)
     * [EFF's Panopticlick](https://panopticlick.eff.org/index.php?action=log)
