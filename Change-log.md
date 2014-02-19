@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.1.0
-- **New permission required:** "unlimitedStorage".
+- **New permission required:** ["unlimitedStorage".](https://developer.chrome.com/extensions/declare_permissions#unlimitedStorage).
     * This permission gives an extension access to a virtual, sandboxed file system.
         - Currently quota set at [maximum of 24 MB](https://github.com/gorhill/httpswitchboard/blob/master/js/assets.js#L55), because the size of the content of [assets directory](/gorhill/httpswitchboard/tree/master/assets) (updated versions of files in this directory will eventually be stored in the sandboxed file system) is roughly 17 MB.
     * This is needed in order to allow users to provide their own ubiquitous list of blacklisted hosts.
