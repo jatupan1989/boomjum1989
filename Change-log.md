@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.1.3
+- Workaround for Yandex's improper rendering of float element in toolbar of extension pop-up.
+
+***
+
 ### 0.8.1.2
 - Fixed auto-whitelisting of Youtube at install time for Opera 19.
 
