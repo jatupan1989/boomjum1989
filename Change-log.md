@@ -2,6 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.2.0
 - New option in _Settings_ page to enable/disable smart auto-reload (as per [issue #94](/gorhill/httpswitchboard/issues/94)). Enabled by default.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/193>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/192>.
 - Addressed <https://github.com/gorhill/httpswitchboard/issues/191>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/94>.
