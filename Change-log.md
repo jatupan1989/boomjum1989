@@ -2,6 +2,11 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.2.1
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/191>
+    * First two definitions:
+        - "Tabless HTTP requests" are requests which do not originate from any particular tab: these are known as behind-the-scene requests.
+        - "Orphan HTTP requests" are requests originating from a valid tab, but with a page URL which is not handled by HTTPSB, i.e. `opera://startpage/`, or whatever else similar which may come in the future.
+    * Orphan HTTP requests are now categorized as behind-the-scene requests.
+        - Before the fix, these requests were evaluated against the global scope, but unfortunately they could not be reported in any matrix.
 
 ***
 
