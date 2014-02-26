@@ -4,6 +4,17 @@ The values are averages of aggregated results of the 15 web page visited over 5 
 
 The most important figure in my opinion with regard to privacy is the 3rd-party _Domain_ count.
 
+#### February 26, 2014
+
+|               | HTTPSB<sup>OOB</sup> | Ghostery       | Adblock+          | HTTPSB<sup>AA/BX</sup> | Disconnect   | No blocker        |
+| ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
+| Domains       |       **21** / 22 |       **48** / 49 |       **53** / 54 |       **60** / 61 |       **87** / 88 |     **412** / 413 |
+| Hosts         |       **49** / 78 |      **98** / 165 |      **96** / 152 |     **110** / 174 |     **153** / 232 |     **609** / 697 |
+| Scripts       |         **0** / 0 |     **176** / 291 |     **175** / 280 |     **188** / 302 |     **252** / 392 |     **525** / 677 |
+| Cookies       |         **0** / 0 |        **5** / 48 |        **2** / 35 |        **8** / 57 |       **16** / 85 |     **231** / 316 |
+| Net requests  |   **630** / 1,229 |   **965** / 1,794 |   **920** / 1,698 |   **941** / 1,728 | **1,063** / 2,018 | **2,120** / 3,048 |
+| Bandwidth     |        16,342,053 |        26,502,113 |        26,714,512 |        25,757,391 |        27,950,492 |        31,282,722 |
+
 #### January 24, 2014
 
 |               | HTTPSB<sup>OOB</sup> | Ghostery          | Adblock+          | HTTPSB<sup>AA/BX</sup> | Disconnect        | No blocker        |
