@@ -15,6 +15,8 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 | Net requests  |   **630** / 1,229 |   **941** / 1,710 |   **965** / 1,794 |   **920** / 1,698 | **1,063** / 2,018 | **2,120** / 3,048 |
 | Bandwidth     |        16,342,053 |        26,603,582 |        26,502,113 |        26,714,512 |        27,950,492 |        31,282,722 |
 
+HTTP Switchboard version 0.8.3.0: Now all preset lists of blocked hosts are enabled by defaul, except of for the huge `assets/thirdparties/hosts-file.net/hosts.txt`.
+
 #### January 24, 2014
 
 |               | HTTPSB<sup>OOB</sup> | Ghostery          | Adblock+          | HTTPSB<sup>AA/BX</sup> | Disconnect        | No blocker        |
