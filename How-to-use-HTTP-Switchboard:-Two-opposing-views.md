@@ -32,7 +32,7 @@ Mitigation to disadvantages:
 - Quite commonly, the content of the page can still be read properly.
 - A site-level scope can be used to restrict an allow all/block exceptionally mode to a web site.
 - Geeky users can help less geeky users through the easy exchange of recipes (see *Rule manager*).
-- (Future?) An easy accessible library of common useful recipes which can be applied with one click.
+- (~~Future?~~ Present) An easy accessible library of common useful recipes which can be applied with one click.
 - The preset recipe feature introduced in [0.7.8.0](https://github.com/gorhill/httpswitchboard/wiki/Change-log#wiki-0780).
 
 Useful Chromium settings with block-all/allow-exceptionally philosophy:
