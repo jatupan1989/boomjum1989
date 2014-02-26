@@ -38,6 +38,7 @@ Mitigation to disadvantages:
 Useful Chromium settings with block-all/allow-exceptionally philosophy:
 
 - Cookies set to "Keep local data only until I quit my browser"
+    * You can un-check "Block third-party cookies and site data" and use HTTPSB to control 3rd-party cookies.
 - Plugins set to "Click to play"
 - See further privacy enhancing settings in the *Settings* page.
 
