@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.3.0
+- Reduced memory footprint.
+
+***
+
 ### 0.8.2.1
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/191>
     * First two definitions:
