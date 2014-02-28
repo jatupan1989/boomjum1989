@@ -2,8 +2,9 @@ The results emphasize 3rd-party requests, as these are, I believe, a key statist
 
 The values are averages of aggregated results of the 15 web page visited over 5 runs. In the table, a result reported as "**_x_** / _n_" means "**_3rd-party count_** / _total count_".
 
-The most important figure in my opinion with regard to privacy is the 3rd-party _Domain_ count. Click on the links in the table for more details about a specific benchmark.
+The most important figure in my opinion with regard to privacy is the 3rd-party _Domain_ count, hence the ordering for left-to-right using the 3rd-party domain count figures.
 
+Click on the links in the table for more details about a specific benchmark.
 
 | &nbsp; | | | | | | |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
