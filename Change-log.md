@@ -3,6 +3,10 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.3.0
 - Assets used by HTTPSB can now be updated without having to wait for a new release of the extension.
     * From the _About_ tab of the extension's _Dashboard_.
+    * "Assets" refers to:
+        - Preset ubiquitous blacklists.
+        - Preset recipes.
+        - [Public Suffix List](http://publicsuffix.org/list/).
 - Reduced memory footprint.
 
 ***
