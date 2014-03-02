@@ -46,12 +46,12 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.gif)
 
 - All is allowed by default (through the whitelisting of the `all` cell).
-- Preset blocked hosts are blacklisted.
+- Preset blocked hosts are still blacklisted (because their own blacklist rule has precedence over the whitelist rule of the `all` cell).
 
 Advantages:
 - Web pages are more likely to render and/or behave as they were designed to.
 - An informed and more aware user:
-    * You see all the crap you are being served when not blocking (actually, it's worst because there are still the preset lists of blocked hosts which are still blocking more crap).
+    * You see all the crap you are being served when not blocking (actually, it would be worst if it wasn't of the preset lists of blocked hosts which are still blocking more crap).
 
 Disadvantages:
 - Security is greatly diminished.
