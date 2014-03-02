@@ -45,7 +45,7 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.gif)
 
-- All is allowed by default (through the whitelisting of the `all` cell).
+- All is allowed by default (through the whitelisting of the `all` cell and the un-blacklisting of the `frame` cell).
 - Preset blocked hosts are still blacklisted (because their own blacklist rule has precedence over the whitelist rule of the `all` cell).
 
 Advantages:
