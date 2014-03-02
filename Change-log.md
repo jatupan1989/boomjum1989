@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Preset recipes.
         - [Public Suffix List](http://publicsuffix.org/list/).
 - Significantly reduced memory footprint.
-    * Not that there wasn't any memory leak, just that for this release, I chose to spend more time on code revision and refactoring instead of features  -- a necessary recurring task in order to ensure the code doesn't drift too far away from sanity -- and I could put to test some ideas I was entertaining since a long time.
+    * Not that there wasn't any memory leak, just that for this release, I chose to spend more time on code revision and refactoring instead of just features  -- a necessary recurring task in order to ensure the code doesn't drift too far away from sanity -- and I could put to test some ideas I was entertaining since a long time.
 
 ***
 
