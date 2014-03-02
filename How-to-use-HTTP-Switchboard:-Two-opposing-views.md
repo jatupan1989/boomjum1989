@@ -51,7 +51,7 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 Advantages:
 - Web pages are more likely to render and/or behave as they were designed to.
 - An informed and more aware user:
-    * You see all the crap you are being served when not blocking (actually, it would be worst if it wasn't of the preset lists of blocked hosts which are still blocking more crap).
+    * You see all the crap you are being served when not blocking (actually, it would be worst if it wasn't of the preset lists of blocked hosts which are preventing more bloat and nuisance from coming to life).
 
 Disadvantages:
 - Security is greatly diminished.
