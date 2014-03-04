@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Not all ABP complex filters are parsed:
         - Those with [options](https://adblockplus.org/en/filters#options) are currently ignored (working on it, as time permit).
         - Those with [regular expressions](https://adblockplus.org/en/filters#regexps) are currently ignored (probably will support partially, i.e. `*` only): these are rare instances and their use is discouraged anyway).
-        - Filters used to [hide elements](https://adblockplus.org/en/filters#elemhide) are ignored (undecided whether I will ever implement).
+        - Filters used to [hide elements](https://adblockplus.org/en/filters#elemhide) are ignored (undecided whether I will ever implement since it requires modifying the DOM).
         - Filters used allow ["acceptable ads"](https://adblockplus.org/en/acceptable-ads) are ignored (will never implement).
 ***
 
