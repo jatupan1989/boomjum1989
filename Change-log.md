@@ -10,6 +10,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Those with [regular expressions](https://adblockplus.org/en/filters#regexps) are currently ignored (probably will support partially, i.e. `*` only): these are rare instances and their use is discouraged anyway).
         - Filters used to [hide elements](https://adblockplus.org/en/filters#elemhide) are ignored (undecided whether I will ever implement since it requires modifying the DOM).
         - Filters used allow ["acceptable ads"](https://adblockplus.org/en/acceptable-ads) are ignored (will never implement).
+    * No code was borrowed from ABP, and no code was inspired by ABP's code. I actually didn't want to look at ABP code before starting, in order to keep "blank slate" mind with regard to how best implement this with regard to performance and memory footprint.
 
 ***
 
