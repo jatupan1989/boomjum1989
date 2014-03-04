@@ -12,7 +12,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Filters used allow ["acceptable ads"](https://adblockplus.org/en/acceptable-ads) are ignored (will never implement).
     * ABP filters are not reflected in the matrix (except obviously for those which apply on a whole domain).
         - Rules from HTTPSB have precedence. If a request is evaluated as "allowed" by HTTPSB, it is then evaluated using ABP filters.
-        - The number of requests effectively blocked by complex ABP filters is reported in the _Statistics_ page in the _Dashboard_, so that you can get a sense of whether ABP filters are worth parsing, given the extra memory use.
+        - The number of requests effectively blocked by complex ABP filters is reported in the _Statistics_ page in the _Dashboard_, so that you can get a sense of whether ABP filters are worth parsing and enforcing, given the extra memory use.
     * No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't want to look at ABP code before starting, in order to keep a completely "blank slate" mind with regard to how best implement this with regard to performance and memory footprint.
 
 ***
