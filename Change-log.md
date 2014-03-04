@@ -1,8 +1,14 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.4.0
-- First an apology for having [dismissed too quickly a good suggestion](https://github.com/gorhill/httpswitchboard/issues/149#issuecomment-32458730) a while ago.
-
+- First, an apology for having [dismissed too quickly a good suggestion](https://github.com/gorhill/httpswitchboard/issues/149#issuecomment-32458730) a while ago.
+- Adblock Plus ("ABP") complex filters (those which parse into more than just "block a whole domain") can now be parsed and used to block web requests:
+    * Optional, can be turned on from _Ubiquitous rules_  tab. Disabled by default.
+    * Consider this a beta feature.
+    * Not all ABP complex filters are parsed:
+        - Those with wildcards are ignored (a fix is planned for short-term).
+        - Filters used to [hide elements](https://adblockplus.org/en/filters#elemhide) are ignored (undecided whether I will ever implement).
+        - Filters used allow ["acceptable ads"](https://adblockplus.org/en/acceptable-ads) are ignored (will never implement).
 ***
 
 ### 0.8.3.0
