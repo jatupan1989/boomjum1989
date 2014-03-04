@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.4.0
+
+
+***
+
 ### 0.8.3.0
 - Assets used by HTTPSB can now be updated without having to wait for a new release of the extension.
     * From the _About_ tab of the extension's _Dashboard_.
