@@ -11,9 +11,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Those with [regular expressions](https://adblockplus.org/en/filters#regexps) are currently ignored (probably will support partially, i.e. `*` only): these are rare instances and their use is discouraged anyway).
         - Filters used to [hide elements](https://adblockplus.org/en/filters#elemhide) are ignored (undecided whether I will ever implement since it requires modifying the DOM).
         - Filters used allow ["acceptable ads"](https://adblockplus.org/en/acceptable-ads) are ignored (will never implement).
-    * ABP filters are **not reflected in the matrix** (except obviously for those which apply on a whole domain). There is no user interface to enable/disable a single ABP filter.
+    * ABP filters are **not reflected in the matrix** (except obviously for those which apply on a whole domain). There is no user interface to enable/disable a single ABP complex filter.
         - Rules from HTTPSB have precedence. If a request is evaluated as "allowed" by HTTPSB, it is then evaluated using ABP filters.
-        - The only way to disable an ABP complex filter is to disable the parsing of complex filters, or disable the list in which the filter appears. ABP complex filters are not affected by preset recipes.
+        - The only way to disable a single ABP complex filter is to disable the parsing of all complex filters, or to disable the whole list in which the filter appears. ABP complex filters are not affected by preset recipes.
         - The number of requests effectively blocked by complex ABP filters is reported in the _Statistics_ page in the _Dashboard_, so that you can get a sense of whether ABP filters are worth parsing and enforcing, given the extra memory use.
     * No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't want to look at ABP code before starting, in order to keep a complete "blank slate" mind with regard to how best implement this with regard to performance and memory footprint.
 
