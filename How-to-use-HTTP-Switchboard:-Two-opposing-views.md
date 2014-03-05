@@ -60,4 +60,4 @@ Disadvantages:
 
 Mitigation to disadvantages:
 - The preset lists of blocked hosts, i.e. it could be worst (notice the 22 blocked scripts above).
-- The support of Adblock Plus complex filters introduced in 0.8.4.0.
+- The support of _Adblock Plus_ complex filters introduced in 0.8.4.0.
