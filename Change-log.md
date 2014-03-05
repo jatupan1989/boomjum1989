@@ -16,6 +16,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - The only way to disable a single ABP complex filter is to disable the parsing of all complex filters, or to disable the whole list in which the filter appears. ABP complex filters are not affected by preset recipes.
         - The number of requests effectively blocked by complex ABP filters is reported in the _Statistics_ page in the _Dashboard_, so that you can get a sense of whether ABP filters are worth parsing and enforcing, given the extra memory use.
     * No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't want to look at ABP code before starting, in order to keep a complete "blank slate" mind on to how best implement this with regard to performance and memory footprint.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/198>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/197>.
 
 ***
 
@@ -28,6 +30,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - [Public Suffix List](http://publicsuffix.org/list/).
 - Significantly reduced memory footprint.
     * Not that there wasn't any memory leak, just that for this release, I chose to spend more time on code revision and refactoring instead of just features -- a necessary recurring task in order to ensure the code doesn't drift too far away from sanity. This allowed me to put to test and validate some ideas I was entertaining since a long time regarding memory footprint.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/179>.
 
 ***
 
