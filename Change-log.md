@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Adblock Plus ("ABP") complex filters (those which parse into more than just "block a whole domain") can now be parsed and used to block web requests:
     * Optional, disabled by default. Can be turned on from _Ubiquitous rules_ tab in the _Dashboard_.
     * Consider this a beta feature.
-    * Especially handy for users who prefer to work in [allow-all/block exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views) mode
+    * Especially handy for users who prefer to work in [allow-all/block exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach) mode
     * Not all ABP complex filters are parsed:
         - Those with [options](https://adblockplus.org/en/filters#options) are currently ignored (working on it, as time permit).
         - Those with [regular expressions](https://adblockplus.org/en/filters#regexps) are currently ignored (probably will support partially, i.e. `*` only): these are rare instances and their use is discouraged anyway).
