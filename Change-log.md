@@ -86,6 +86,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * The project's mini-blacklist `assets/httpsb/block-facebook.txt` is gone. If you were using it, just enter the [content of the file](https://raw2.github.com/gorhill/httpswitchboard/master/assets/httpsb/block-facebook.txt) in your user list.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/181>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/129>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/39>
 
 ***
 
