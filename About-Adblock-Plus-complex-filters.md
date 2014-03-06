@@ -16,10 +16,10 @@ At time of writing, only the "plain" ABP complex filters are supported. ABP comp
 
 I ran [this benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) and obtained the following result:
 
-- With HTTPSB with out-of-the-box settings: Adblock+ complex filters blocked 110 requests -- **22.4% of all blocked requests**.
+- With HTTPSB with [out-of-the-box settings](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach): Adblock+ complex filters blocked 110 requests -- **22.4% of all blocked requests**.
 - With HTTPSB in [allow-all/block-exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach) mode: Adblock+ complex filters blocked 425 requests -- **32.4% of all blocked requests**.
 
-I have to say I was rather surprised to see that ABP complex filters still contributed to block over 22% of requests when using HTTPSB with it's [very restrictive out-of-the-box settings](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach).
+I have to say I was rather surprised to see that ABP complex filters still contributed to block over 22% of requests when using HTTPSB with it's very restrictive out-of-the-box settings.
 
 ### Did you get code from Adblock Plus project to implement this feature?
 
