@@ -14,3 +14,11 @@ I have to say I was rather surprised to see that ABP complex filters still contr
 #### Did you get code from Adblock Plus project to implement this feature?
 
 No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't even want to look at ABP code before starting, in order to keep a complete "blank slate" mind on to how best implement this with regard to performance and memory footprint.
+
+Once I came up with my own approach, I did look at ABP code in order to understand why the huge memory footprint (at least the Chromium version, I don't know about the Firefox version) and the overall performance. My findings is that there are key areas which can be improved in Adblock Plus, and one is the hashing mechanism used to store the filters in its dictionary.
+
+With HTTPSB, this was the first problem I saw with the first prototype of code to store the filters. Using only the tokens extracted from the filter was causing some entries in the dictionary to contain way to many filter instances, whereas each of these filter instances have to be checked for a match.
+
+So the solution was to find a way to increase the number of bits in the hash, and the solution I came up with is to see a token as an **anchor** in the string to test. When the tokens are seen as anchors, then whatever characters surrounding a token-anchor can be used to contribute bits to the hash value. This allows to reduce **significantly** the maximum number of filters to process per dictionary entry. This results in more dictionary entries, but with less items in them. Since looking-up a dictionary entry is always fast, the important part is to reduce the maximum number of items per entry. This was the first key step to good performance.
+
+Another problem with ABP current implementation is the use of regular expression to test filter entries. I learned a while ago now that for performance critical code using Javascript, avoid regular expression *whenever possible*. 
