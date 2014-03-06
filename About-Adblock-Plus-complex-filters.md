@@ -8,7 +8,7 @@ Before version 0.8.4.0, HTTPSB was extracting and using only the filters which w
 
 Starting with version 0.8.4.0, HTTPSB extracts, parse and enforce *complex filters*. For example, ABP filter `||yahoo.com/neo/ygbeacon/` is a complex filter, because it represents more than just a hostname, there is also a path component, `/neo/ygbeacon/`, which must also be taken into account.
 
-These complex filter do not fit HTTPSB internal representation, and can not be reflected in the firewall-like matrix. They are currently evaluated internally *only* for requests which are not blocked by HTTPSB.
+These complex filters do not fit HTTPSB internal representation, and can not be reflected in the firewall-like matrix. They are currently evaluated internally *only* for requests which are not blocked by HTTPSB. See this as a convenient extra feature which make possible to consider HTTPSB a complete replacement to ABP.
 
 ### How much do the ABP complex filters contribute to the blocking power of HTTPSB?
 
