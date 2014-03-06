@@ -4,3 +4,7 @@ So here is a collection of observations and facts randomly thrown for the record
 
 #### How much do the ABP complex filters contribute to the blocking power of HTTPSB?
 
+I ran [this benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) and obtained the following result:
+
+- With HTTPSB with out-of-the-box settings: Adblock+ complex filters blocked 110 requests -- or 22.4% of all blocked requests.
+- With HTTPSB in [allow-all/block-exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach) mode: Adblock+ complex filters blocked 425 (32.4% of all blocked requests.
