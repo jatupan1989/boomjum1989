@@ -6,7 +6,9 @@ So here is a collection of observations and facts randomly thrown for the record
 
 Before version 0.8.4.0, HTTPSB was extracting and using only the filters which were naturally supported by HTTPSB: filters used to block plain hostname. For example. ABP filter `||wzus1.thesaurus.com^` translates naturally into HTTPSB's internal representation `* wzus1.thesaurus.com` ("block all types of requests from `wzus1.thesaurus.com`).
 
-Starting with version 0.8.4.0, HTTPSB extracts, parse and enforce *complex filters*. For example, ABP filter `||yahoo.com/neo/ygbeacon/` is a complex filter, because it represents more than a mere hostname, there is also a path component which must be taken into account. These complex filter do not fit HTTPSB internal representation, and can not be reflected in the firewall-like matrix. They are currently evaluated internally *only*  for requests which are not blocked by HTTPSB.
+Starting with version 0.8.4.0, HTTPSB extracts, parse and enforce *complex filters*. For example, ABP filter `||yahoo.com/neo/ygbeacon/` is a complex filter, because it represents more than just a hostname, there is also a path component, `/neo/ygbeacon/`, which must also be taken into account.
+
+These complex filter do not fit HTTPSB internal representation, and can not be reflected in the firewall-like matrix. They are currently evaluated internally *only* for requests which are not blocked by HTTPSB.
 
 ### How much do the ABP complex filters contribute to the blocking power of HTTPSB?
 
