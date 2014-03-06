@@ -8,6 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Sorry :-(
 - Further performance and memory footprint improvements to the code dealing with Adblock Plus complex filters.
     * Reaching optimal performance is a requirement in order to support more complex filter syntax, i.e. wildcards, options, etc.
+- Started a wiki page to collate observations/facts regarding the use ABP complex filters by HTTPSB: [About Adblock Plus complex filters](/gorhill/httpswitchboard/wiki/About-Adblock-Plus-complex-filters).
 
 ***
 
