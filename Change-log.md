@@ -35,7 +35,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - The number of requests effectively blocked by complex ABP filters is reported in the _Statistics_ page in the _Dashboard_, so that you can get a sense of whether ABP filters are worth parsing and enforcing, given the extra memory use.
         - The added overhead of evaluating an ABP complex filter is small, around 30 µs. (I did not revise [this](https://github.com/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F) yet to reflect the new timings.)
     * The main point of this feature is that you are still using ABP along HTTPSB, HTTPSB gets closer to be a complete replacement solution to ABP.
-    * No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't want to look at ABP code before starting, in order to keep a complete "blank slate" mind on to how best implement this with regard to performance and memory footprint.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/198>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/197>.
 
