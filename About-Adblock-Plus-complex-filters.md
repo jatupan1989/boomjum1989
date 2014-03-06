@@ -2,6 +2,11 @@ The parsing and enforcing of Adblock Plus ("ABP") complex filters (those filters
 
 So here is a collection of observations and facts randomly thrown for the record regarding the use of ABP complex filters by HTTPSB.
 
+### How does HTTPSB make us of ABP filters?
+
+Before version 0.8.4.0, HTTPSB was extracting and using only the filters which were naturally supported by HTTPSB: filters used to block plain hostname, i.e. `||wzus1.thesaurus.com^`, which naturally translates into HTTPSB's internal representation `* wzus1.thesaurus.com` ("block all types of requests from `wzus1.thesaurus.com`).
+
+
 ### How much do the ABP complex filters contribute to the blocking power of HTTPSB?
 
 I ran [this benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) and obtained the following result:
