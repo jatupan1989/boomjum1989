@@ -2,7 +2,7 @@ The parsing and enforcing of Adblock Plus ("ABP") complex filters (those filters
 
 So here is a collection of observations and facts randomly thrown for the record regarding the use of ABP complex filters by HTTPSB.
 
-#### How much do the ABP complex filters contribute to the blocking power of HTTPSB?
+### How much do the ABP complex filters contribute to the blocking power of HTTPSB?
 
 I ran [this benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) and obtained the following result:
 
@@ -11,7 +11,7 @@ I ran [this benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-agai
 
 I have to say I was rather surprised to see that ABP complex filters still contributed to block over 22% of requests when using HTTPSB with it's very restrictive out-of-the-box settings.
 
-#### Did you get code from Adblock Plus project to implement this feature?
+### Did you get code from Adblock Plus project to implement this feature?
 
 No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't even want to look at ABP code before starting, in order to keep a complete "blank slate" mind on to how best implement this with regard to performance and memory footprint.
 
