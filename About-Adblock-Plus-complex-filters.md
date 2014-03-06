@@ -10,3 +10,7 @@ I ran [this benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-agai
 - With HTTPSB in [allow-all/block-exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach) mode: Adblock+ complex filters blocked 425 requests -- **32.4% of all blocked requests**.
 
 I have to say I was rather surprised to see that ABP complex filters still contributed to block over 22% of requests when using HTTPSB with it's very restrictive out-of-the-box settings.
+
+#### Did you get code from Adblock Plus project to implement this feature?
+
+No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't even want to look at ABP code before starting, in order to keep a complete "blank slate" mind on to how best implement this with regard to performance and memory footprint.
