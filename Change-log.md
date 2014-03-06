@@ -4,6 +4,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed a bug which could potentially occur when loading the various ubiquitous lists, causing the extension to break:
     * <https://github.com/gorhill/httpswitchboard/issues/199>.
     * The bug would occurs depending on how fast the lists are loaded into memory: slower = bug more likely to occur.
+    * Workaround for those still using version 0.8.4.1 is to disable the "Parse and enforce Adblock+ complex filters" feature.
     * Sorry :-(
 - Further performance and memory footprint improvements to the code dealing with Adblock Plus complex filters.
     * Reaching optimal performance is a requirement in order to support more complex filter syntax, i.e. wildcards, options, etc.
