@@ -10,6 +10,8 @@ Starting with version 0.8.4.0, HTTPSB extracts, parse and enforce *complex filte
 
 These complex filters do not fit HTTPSB internal representation, and can not be reflected in the firewall-like matrix. They are currently evaluated internally *only* for requests which are not blocked by HTTPSB. See this as a convenient extra feature which make possible to consider HTTPSB a complete replacement to ABP.
 
+At time of writing, only the "plain" ABP complex filters are supported. ABP complex filter which contains placeholders or options are currently discarded at load time. Support for a wider class of ABP complex filters is planned.
+
 ### How much do the ABP complex filters contribute to the blocking power of HTTPSB?
 
 I ran [this benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) and obtained the following result:
