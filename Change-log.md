@@ -6,6 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * The bug would occurs depending on how fast the lists are loaded into memory: slower = bug more likely to occur.
     * Sorry :-(
 - Further performance and memory footprint improvements to the code dealing with Adblock Plus complex filters.
+    * Reaching optimal performance is a requirement in order to support more complex filter syntax, i.e. wildcards, options, etc.
 
 ***
 
