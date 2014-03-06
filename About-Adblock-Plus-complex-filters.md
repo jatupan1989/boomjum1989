@@ -15,7 +15,9 @@ I have to say I was rather surprised to see that ABP complex filters still contr
 
 No code was borrowed from ABP, and no code was inspired by ABP's code: I actually didn't even want to look at ABP code before starting, in order to keep a complete "blank slate" mind on to how best implement this with regard to performance and memory footprint.
 
-Once I came up with my own approach, I did look at ABP code in order to understand why the huge memory footprint (at least the Chromium version, I don't know about the Firefox version) and the overall performance. My findings is that there are key areas which can be improved in Adblock Plus, and one is the hashing mechanism used to store the filters in its dictionary.
+Once I came up with my own approach, I did look at ABP code in order to understand why the huge memory footprint (at least the Chromium version, I don't know about the Firefox version) and the overall performance.  These are my conclusions following my understanding of how ABP code works. Correct me if I am wrong.
+
+My findings is that there are key areas which can be improved in Adblock Plus, and the first one is the hashing mechanism used to store the filters in its dictionary.
 
 With HTTPSB, this was the first problem I saw with the first prototype of code to store the filters. Using only the tokens extracted from the filter was causing some entries in the dictionary to contain way to many filter instances, whereas each of these filter instances have to be checked for a match.
 
