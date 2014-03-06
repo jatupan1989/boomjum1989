@@ -4,9 +4,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed a bug which could potentially occur when loading the various ubiquitous lists, causing the extension to break.
 - Further performance and memory footprint improvement to the code dealing with Adblock Plus complex filters.
 
+***
+
 ### 0.8.4.1
 - Fixed potential false negatives (in rare circumstances) when evaluating against Adblock+ complex filters.
 - Simplified Adblock+ complex filters-related code.
+
+***
 
 ### 0.8.4.0
 - First, an apology for having [dismissed too quickly a good suggestion](https://github.com/gorhill/httpswitchboard/issues/149#issuecomment-32458730) a while ago.
