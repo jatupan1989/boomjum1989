@@ -5,7 +5,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * This adds more than 2,000 filters being in use when loading the default ABP lists.
 - Added more lists of ABP filters in the _Ubiquitous rules_ tab.
 
-
 ***
 
 ### 0.8.4.2
