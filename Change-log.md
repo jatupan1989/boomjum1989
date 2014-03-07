@@ -1,5 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.4.3
+- Support for ABP filters with wildcards.
+- Added more lists of ABP filters in the _Ubiquitous rules_ tab.
+
+
+***
+
 ### 0.8.4.2
 - Fixed a bug which could potentially occur when loading the various ubiquitous lists, causing the extension to break:
     * <https://github.com/gorhill/httpswitchboard/issues/199>.
