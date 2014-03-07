@@ -1,7 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.4.3
-- Support for ABP filters with wildcards.
+- Support for ABP complex filters with wildcards.
     * This adds more than 2,000 filters being in use when loading the default ABP lists.
 - Added more lists of ABP filters in the _Ubiquitous rules_ tab.
     * There are all disabled by default, as they have a narrower purpose.
