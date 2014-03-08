@@ -1,10 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
-### 0.8.4.3
+### ~~0.8.4.3~~ ~~0.8.4.4~~ ~~0.8.4.5~~ ~~0.8.4.6~~ 0.8.4.7
+- Sorry for the many spurious versions between 0.8.4.3-0.8.4.7. There was an issue I had a hard time to figure, which I narrowed to a file name in the 3rd-party assets with a reserved character as per Windows rules for filenames (I develop on Linux, so I had a bit of a hard time figuring the issue from the [generic error message](http://stackoverflow.com/questions/15259125/developer-chrome-extension-package-is-invalid-details-could-not-uzip-extensi#) reported by the Chrome store.
 - Support for ABP complex filters with wildcards.
     * This adds more than 2,000 filters being in use when loading the default ABP lists.
 - Added more lists of ABP filters in the _Ubiquitous rules_ tab.
     * These new lists are all disabled by default, as the usefulness of these lists depends on location/language.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/202>.
 
 ***
 
