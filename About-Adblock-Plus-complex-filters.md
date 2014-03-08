@@ -29,7 +29,7 @@ Once I came up with my own approach, I did look at ABP code in order to understa
 
 My findings is that there are key areas which can be improved in Adblock Plus, and the first one is the hashing mechanism used to store the filters in its dictionary.
 
-With HTTPSB, this was the first problem I saw with the first prototype of code to store the filters. Using only the tokens extracted from the filter was causing some entries in the dictionary to contain way to many filter instances, whereas each of these filter instances have to be checked for a match.
+With HTTPSB, this was the first problem I saw with the first prototype of code to store the filters. Using only the tokens extracted from the filter was causing some entries in the dictionary to contain way to many filter instances, whereas each of these filter instances have to be checked for a match in the worst case scenario.
 
 So the challenge was to find a way to increase the number of bits in the hash, and the solution I came up with is to see a token as an **anchor** in the string to test. When the tokens are seen as anchors, then whatever characters surrounding a token-anchor can be used to contribute bits to the hash value. This allows to reduce **significantly** the maximum number of filters to process per dictionary entry. This results in more dictionary entries, but with quite less items in them.
 
