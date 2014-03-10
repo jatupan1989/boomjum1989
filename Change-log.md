@@ -3,6 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.4.8
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/206>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/204>.
+    * Improvement: <http://jsperf.com/old-uritools-vs-new-uritools>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/91#issuecomment-37180275>.
 
 ***
