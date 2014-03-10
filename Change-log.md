@@ -1,5 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.4.8
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/206>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/204>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/91#issuecomment-37180275>.
+
+***
+
 ### ~~0.8.4.3~~ ~~0.8.4.4~~ ~~0.8.4.5~~ ~~0.8.4.6~~ 0.8.4.7
 - Sorry for the many spurious versions between 0.8.4.3 and 0.8.4.7 (Chrome store doesn't allow uploading a package without changing the version number):
     * There was an issue I had a hard time to figure, which I narrowed to a [file name in the 3rd-party assets with a reserved character as per Windows rules for filenames](/gorhill/httpswitchboard/commit/cb0016f53d171b0a0ea464d75b6f76840784db72) (I develop on Linux, so I had a bit of a hard time figuring the issue from the [generic error message](http://stackoverflow.com/questions/15259125/developer-chrome-extension-package-is-invalid-details-could-not-uzip-extensi#) reported by the Chrome store.
