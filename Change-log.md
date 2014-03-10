@@ -1,10 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.4.8
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/206>.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/204>.
-    * Improvement: <http://jsperf.com/old-uritools-vs-new-uritools>.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/91#issuecomment-37180275>.
+- Fixed newly added assets not being added: <https://github.com/gorhill/httpswitchboard/issues/206>.
+- Code improvement: <https://github.com/gorhill/httpswitchboard/issues/204>.
+    * <http://jsperf.com/old-uritools-vs-new-uritools>.
+- Fixed Hangouts extension not working: <https://github.com/gorhill/httpswitchboard/issues/91#issuecomment-37180275>.
 
 ***
 
