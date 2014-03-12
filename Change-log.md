@@ -1,5 +1,16 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.5.0
+- New button in the matrix pop-up which allows to turn on/off filtering using Adblock Plus ("ABP") complex filters for a specific scope.
+    * The state of this button is saved as part of a scope when you lock down your changes.
+    * The number in the badge represents to total number of requests blocked on the page using ADP filtering.
+- The state of the padlock (to persist changes) and eraser (to revert changes) buttons now reflect the number of temporary changes (including the ABP button) which are not persisted in the current matrix.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/208>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/205>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/189>.
+
+***
+
 ### 0.8.4.8
 - Fixed newly added assets not being added: <https://github.com/gorhill/httpswitchboard/issues/206>.
 - Code improvement: <https://github.com/gorhill/httpswitchboard/issues/204>.
