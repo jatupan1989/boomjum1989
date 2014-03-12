@@ -2,6 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.5.0
 - New button in the matrix pop-up which allows to turn on/off filtering using Adblock Plus ("ABP") complex filters for a specific scope.
+    * ![ABP filtering button](https://f.cloud.github.com/assets/585534/2400994/85c8c4fc-aa10-11e3-8db5-140d8a8fb2ee.png)
     * The state of this button is saved as part of a scope when you lock down your changes.
     * The number in the badge represents to total number of requests blocked on the page using ADP filtering.
 - The state of the padlock (to persist changes) and eraser (to revert changes) buttons now reflect the number of temporary changes (including the ABP button) which are not persisted in the current matrix.
