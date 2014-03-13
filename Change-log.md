@@ -1,5 +1,11 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.5.1
+- Fixed "Not all hostname-compatible rules from ABP files imported as HTTPSB blocked hostname": <https://github.com/gorhill/httpswitchboard/issues/210>.
+- Fixed "Details in Statistics Page not working correctly": <https://github.com/gorhill/httpswitchboard/issues/209>.
+
+***
+
 ### 0.8.5.0
 - New button in the matrix pop-up which allows to turn on/off filtering using Adblock Plus ("ABP") complex filters for a specific scope.
     * ![ABP filtering button](https://f.cloud.github.com/assets/585534/2400994/85c8c4fc-aa10-11e3-8db5-140d8a8fb2ee.png)
