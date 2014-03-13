@@ -1,8 +1,8 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.5.1
-- Fixed "Not all hostname-compatible rules from ABP files imported as HTTPSB blocked hostname": <https://github.com/gorhill/httpswitchboard/issues/210>.
-- Fixed "Details in Statistics Page not working correctly": <https://github.com/gorhill/httpswitchboard/issues/209>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/210>: "Not all hostname-compatible rules from ABP files imported as HTTPSB blocked hostname".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/209>: "Details in Statistics Page not working correctly".
 
 ***
 
