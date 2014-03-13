@@ -13,9 +13,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * The number in the badge represents to total number of requests blocked on the page using ADP filtering.
 - The state of the padlock (to persist changes) and eraser (to revert changes) buttons now reflect the number of temporary changes (including the ABP button) which are not persisted in the current matrix.
 - Net requests blocked through ABP filtering are now identifiable by a special icon in the request log in the _Statistics_ tab in HTTPSB's _Dashboard_: by hovering the mouse over that icon you can see which ABP rule specifically is responsible for the blocking.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/208>.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/205>.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/189>.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/208>: "Adblock Plus filtering is still in effect even after turning off HTTPSB".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/205>: "Need a way to easily exclude a whole page or domain from ABP-filtering".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/189>: "Provide a badge for other toolbar icons in popup menus".
 
 ***
 
