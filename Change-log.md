@@ -3,7 +3,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.5.3
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/213>: "HTTPSB's "power switch" not working anymore."
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/32>: "Build matrix incrementally."
-- 
 - (I will be working more on bug fixes and language support framework for the time being.)
 
 ***
