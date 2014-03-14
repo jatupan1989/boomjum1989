@@ -1,5 +1,11 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.5.3
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/213>: "HTTPSB's "power switch" not working anymore."
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/32>: "Build matrix incrementally."
+
+***
+
 ### 0.8.5.2
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/211>: "Hostnames with underscores not parsed properly."
 
