@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.5.5
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/207>: "Flush cached 3rd-party assets when a new version is installed".
-    * Before this fix, 3rd-party assets were deemed out-of-date after an update even though a new version is *always* shipped with the most up to date assets.
+    * Before this fix, 3rd-party assets were still deemed out-of-date after an update even though a new version is *always* shipped with the most up to date assets.
 
 ***
 
