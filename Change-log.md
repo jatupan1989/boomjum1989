@@ -4,7 +4,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/219>: "Number of requests over-reported in matrix".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/217>: "Add Wiltteri, the finnish supplement list for EasyList to HTTPSB".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/207>: "Flush cached 3rd-party assets when a new version is installed".
-    * Before this fix, 3rd-party assets were still deemed out-of-date after an update even though a new version is almost always shipped with the most up to date assets.
+    * Before this fix, 3rd-party assets were still deemed out-of-date after an update even when a new version was shipped with the most up to date assets.
 
 ***
 
