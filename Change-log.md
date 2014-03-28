@@ -1,5 +1,8 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.5.6
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/215>: "Necessary script in frame not shown in matrix".
+
 ### 0.8.5.5
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/219>: "Number of requests over-reported in matrix".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/217>: "Add Wiltteri, the finnish supplement list for EasyList to HTTPSB".
