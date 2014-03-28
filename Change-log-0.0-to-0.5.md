@@ -1,3 +1,7 @@
+[More recent change log](https://github.com/gorhill/httpswitchboard/wiki/Change-log).
+
+***
+
 ### 0.5.9
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/61>.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/55>.
