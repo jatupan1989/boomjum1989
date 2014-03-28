@@ -3,6 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.5.6
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/215>: "Necessary script in frame not shown in matrix".
     * This bug would show up specifically if a user had the Chromium settings *"Block third-party cookies and site data"* enabled.
+    * This caused the user to lack the necessary information about the number of scripts attempting to execute within embedded frames (if and once these were unblocked).
 
 ***
 
