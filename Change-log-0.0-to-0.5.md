@@ -1,4 +1,4 @@
-[More recent change log](https://github.com/gorhill/httpswitchboard/wiki/Change-log).
+[More recent change logs](https://github.com/gorhill/httpswitchboard/wiki/Change-log).
 
 ***
 
