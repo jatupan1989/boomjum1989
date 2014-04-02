@@ -16,7 +16,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.8.5.4
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/212>: "Youtube may not be whitelisted during first install for Opera".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/207>: "Youtube may not be whitelisted during first install for Opera".
 
 ***
 
