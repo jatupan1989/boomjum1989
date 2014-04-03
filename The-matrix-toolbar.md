@@ -11,10 +11,10 @@ There are three scope levels: global, domain-level, and site-level scope.
 Default is currently global scope: `*`. In global scope mode, rules apply to all web pages, except those which match a narrower scope.
 
 Domain-level scope:
-- Example: `*.google.com`. Rules at domain-level scope will apply to web pages which match the scope, except if for web pages which match an even narrower scope.
+- Example: `*.google.com`. Rules at domain-level scope will apply to web pages which match the scope, except for web pages which match a site-level scope.
 
 Site-level scope:
-- Example: `www.facebook.com`. Rules at site-level scope will apply to web pages which match *exactly* the name of the scope, including the scheme.
+- Example: `www.facebook.com`. Rules at site-level scope will apply to web pages which match *exactly* the name of the scope.
 
 An example for the use of scopes: block `facebook.com` globally, but allow `facebook.com` when visiting `www.facebook.com`. This is useful to prevent those ubiquitous servers from tracking you, unless you explicitly visit them.
 
