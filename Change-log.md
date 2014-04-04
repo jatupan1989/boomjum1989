@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.6.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/115>: "Ability to make global rules".
-    * The ability to create ubiquitous whitelist rules, i.e. whitelisting hostnames in all scopes.
+    * The ability to create ubiquitous whitelist rules, i.e. the whitelisting of hostnames in all scopes.
     * A new section at the bottom of the _Ubiquitous rules_ tab as been added, where the user can provide his own list of hostnames which are to be ubiquitously whitelisted.
 
 ***
