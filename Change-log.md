@@ -1,5 +1,12 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.6.0
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/115>: "Ability to make global rules".
+    * The ability to create ubiquitous whitelist rules, i.e. whitelisting hostnames in all scopes.
+    * A new section at the bottom of the _Ubiquitous rules_ tab as been added, where the user can provide his own list of hostnames which are to be ubiquitously whitelisted.
+
+***
+
 ### 0.8.5.6
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/215>: "Necessary script in frame not shown in matrix".
     * This bug would show up specifically if a user had the Chromium settings *"Block third-party cookies and site data"* enabled.
