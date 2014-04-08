@@ -16,3 +16,18 @@ Furthermore, one can blacklist explicitly the `cookie` column, so that cookie in
 
 Note that removing cookie information synchronously from request headers (what HTTPSB does) is a much more reliable way to deal with cookies than just deleting them asynchronously from the browser.
 
+Incapsula: "One of World’s Largest Websites Hacked: Turns Visitors into 'DDoS Zombies' "
+
+Date: April 3, 2014
+
+Link: http://www.incapsula.com/blog/world-largest-site-xss-ddos-zombies.html
+
+> As a result, each time a legitimate visitor landed on that page, his browser automatically executed the injected JavaScript, which in turn injected a hidden <iframe> with the address of the DDoSer’s C&C domain. There, an Ajax-scripted DDoS tool hijacked the browser, forcing it to issue a DDoS request at a rate of one request per second.
+
+HTTP Switchboard would have protected a user in many ways.
+
+- If first-party javascript is disabled, the malicious code would not execute.
+- If first-party javascript is enabled, the malicious code then creates an `iframe` object
+- The malicious `iframe` object attempts to load more malicious javascript code from a host belonging to the malicious party, but HTTP Switchboard protects you doubly here:
+    * `iframe` object are blacklisted out-of-the-box.
+    * All hosts are blacklisted by default out-of-the-box, i.e. the malicious host is rather unlikely to have been whitelisted by a user, thus it defaults to being blocked.
