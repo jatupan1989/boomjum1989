@@ -30,4 +30,4 @@ HTTP Switchboard would have protected a user in many ways.
 - If first-party javascript is enabled, the malicious code then creates an `iframe` object
 - The malicious `iframe` object attempts to load more malicious javascript code from a host belonging to the malicious party, but HTTP Switchboard protects you doubly here:
     * `iframe` object are blacklisted out-of-the-box.
-    * All hosts are blacklisted by default out-of-the-box, i.e. the malicious host is rather unlikely to have been whitelisted by a user, thus it defaults to being blocked.
+    * All hosts are blacklisted by default out-of-the-box, i.e. it is rather unlikely an obscure malicious host have been whitelisted by a user, thus it defaults to being blocked.
