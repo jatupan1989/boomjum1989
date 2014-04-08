@@ -16,7 +16,7 @@ Furthermore, one can blacklist explicitly the `cookie` column, so that cookie in
 
 Note that removing cookie information synchronously from request headers (what HTTPSB does) is a much more reliable way to deal with cookies than just deleting them asynchronously from the browser.
 
-Incapsula: "One of World’s Largest Websites Hacked: Turns Visitors into 'DDoS Zombies' "
+### Incapsula: "One of World’s Largest Websites Hacked: Turns Visitors into 'DDoS Zombies' "
 
 Date: April 3, 2014
 
