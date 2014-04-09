@@ -20,7 +20,7 @@ Edit: Since version 0.6.6, a new column has been added in the *HTTP Switchboard*
 
 - [AdBlock Plus](https://chrome.google.com/webstore/detail/adblock-plus-beta/cfhdojbkjhnklbpkdaibdccddilifddb)
     * version 1.6.1
-    * Installed as per [EFF's advices to improve privacy](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online), including "EasyPrivacy" list (questionable advice given the results here).
+    * Installed as per [EFF's advices to improve privacy](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online), including "EasyPrivacy" list.
 - [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) ("increasing the transparency of your browsing experience and giving you tools to control your privacy online")
     * version 5.0.0
     * "Block all", and nothing whitelisted.
