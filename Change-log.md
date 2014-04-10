@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Saving to cloud-based "Chrome Sync" storage is not implemented, due to the [limits imposed on size](https://developer.chrome.com/extensions/storage#property-sync).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/115>: "Ability to make global rules".
     * The ability to create ubiquitous whitelist rules, i.e. the whitelisting of hostnames in all scopes.
-    * A new section at the bottom of the _Ubiquitous rules_ tab as been added, where the user can provide his own list of hostnames which are to be ubiquitously whitelisted.
+    * A new section at the bottom of the _Ubiquitous rules_ tab as been added, where the user can provide his own list of hostnames which are to be ubiquitously whitelisted, i.e. whitelisted in all scopes.
 
 ***
 
