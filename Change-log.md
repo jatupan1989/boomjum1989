@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.6.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/195>: "Need an 'export all'/'import' feature".
-    * New buttons, in the _About_ tab: *Backup all...* and *Restore all...*
+    * New buttons, in the _About_ tab: *Backup to file...* and *Restore from file...*
     * When restoring, **ALL** existing settings, rules, etc. will be **overwritten**, and the extension will be restarted.
     * Be mindful that the backed up data is saved as a `text/json` file, hence it is directly human readable. Take appropriate measures (back up to an encrypted drive or folder, etc.) if you have privacy concerns.
     * Saving to Google cloud-based "sync" storage is not implemented, due to the [limits imposed on size](https://developer.chrome.com/extensions/storage#property-sync).
