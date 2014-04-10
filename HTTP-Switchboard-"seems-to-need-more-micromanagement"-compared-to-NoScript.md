@@ -11,3 +11,5 @@ No really. I supposed the erroneous impression stems from all the cells in the m
 In both case, one single click was required to enable scripts temporarily from `arstechnica.com`.
 
 From the two screenshots, one can see however that _HTTPSB_ refers to more hostnames than _NoScript_: It is because _HTTPSB_ will report **all** net traffic, i.e. not just that of scripts on the page. In the example above, one can see that with out-of-the-box settings, _HTTPSB_ also blocked a tracking pixel from `condenast.112.2o7.net`.
+
+Of course, the more scripts allowed by a user, the more tracking pixels and other annoyances are going to be reported by _HTTPSB_.
