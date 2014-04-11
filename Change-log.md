@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.6.2
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/225>: " 'slashdot.org' site is blocked when using 'fanboy-annoyance.txt' ".
+
+***
+
 ### 0.8.6.1
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/224>: " 'Restore from file' doesn't always restore a user's custom ubiquitous rules".
 
