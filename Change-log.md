@@ -7,7 +7,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.8.6.1
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/224>: " 'Restore from file' doesn't always restore a user's custom ubiquitous rules".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/224>: "_Restore from file_ doesn't always restore a user's custom ubiquitous rules".
 
 ***
 
