@@ -2,6 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.6.2
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/225>: " 'slashdot.org' site is blocked when using 'fanboy-annoyance.txt' ".
+    * HTTPSB now supports the parsing and enforcement of the `third-party` ABP condition for ABP complex filters.
 
 ***
 
