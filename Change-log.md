@@ -3,6 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.6.2
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/225>: "`slashdot.org` site is blocked when using `fanboy-annoyance.txt`".
     * HTTPSB now supports the parsing and enforcement of the [ABP's `third-party` filter option](https://adblockplus.org/blog/recognizing-third-party-content) for ABP complex filters.
+    * This fix causes a whole set of ABP complex filters from HTTPSB's firewall-like engine to HTTPSB's custom ABP-filter engine, which is slightly more demanding on memory footprint. There are optimisations planned for HTTPSB's custom ABP-filter engine which will reduce memory footprint.
 
 ***
 
