@@ -1,5 +1,10 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.6.1
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/224>: " 'Restore from file' doesn't always restore a user's custom ubiquitous rules".
+
+***
+
 ### 0.8.6.0
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/195>: "Need an 'export all'/'import' feature".
     * New buttons, in the _About_ tab: *Backup to file...* and *Restore from file...*
