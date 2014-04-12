@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.6.3
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/226>: "Overzealous ABP filtering: `||` needs to match beginning of domain name".
-    * More accurately, `||` needs to match the start of a label in a hostname. The bug cause needed CSS files from loading on <http://lifehacker.com>, <http://gawker.com>, etc. because there was a false positive for an ABP complex filter.
+    * More accurately, `||` needs to match the start of a label in a hostname. The bug blocked needed CSS files on <http://lifehacker.com>, <http://gawker.com>, etc. because there was a false positive for an ABP complex filter.
 
 ***
 
