@@ -15,7 +15,12 @@ I advise new users to stick to whitelist/blacklist domain cells (the left-most c
 
 ![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.gif)
 
-This is the out-of-the-box settings:
+How to enable (this is the out-of-the-box settings):
+- Blacklist the `all` cell.
+- Blacklist the `frame` cell.
+- Save by clicking on the padlock.
+
+Behaviors:
 - All is blocked by default (through the blacklisting of the `all` cell).
 - CSS and images are whitelisted.
 - Frames are blacklisted.
@@ -49,9 +54,11 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.gif)
 
 How to enable:
-- Whitelisting the `all` cell.
-- Un-blacklisting of the `frame` cell.
+- Whitelist the `all` cell.
+- Un-blacklist the `frame` cell.
+- Save by clicking on the padlock.
 
+Behaviors:
 - All is allowed by default.
 - Preset blocked hosts are still blacklisted (because their own blacklist rule has precedence over the whitelist rule of the `all` cell).
 
