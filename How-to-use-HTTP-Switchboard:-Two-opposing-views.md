@@ -1,9 +1,9 @@
 There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is everything in between and [beyond](http://www.wilderssecurity.com/threads/http-switchboard-for-chrome-chromium.356427/page-25#post-2357557). Basically: your choice.
 
-One important thing to remember though, regardless of the approach you choose, the preset lists of blocked hosts is useful to block the ad servers, trackers, malware, nuisance, etc. of the internet.
-
 - [The block-all/allow-exceptionally approach](#the-block-allallow-exceptionally-approach)
 - [The allow-all/block-exceptionally approach](#the-allow-allblock-exceptionally-approach)
+
+One important thing to remember though, regardless of the approach you choose, the preset lists of blocked hosts is useful to block the ad servers, trackers, malware, nuisance, etc. of the internet.
 
 #### Quick notes for less geeky users
 
