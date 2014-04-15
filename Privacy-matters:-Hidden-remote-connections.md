@@ -62,7 +62,7 @@ origin.any.bing.com
 [gibberish].yahoo.com
 ```
 
-### Firefox 26 + NoScript / Linux Mint
+### Firefox 26 + NoScript / Linux
 
 For reference purpose.
 
