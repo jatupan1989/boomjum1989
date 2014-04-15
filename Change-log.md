@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.6.4
 - Removed Fanboy lists from out-of-the-box default selected ubiquitous lists. Because [this](http://www.wilderssecurity.com/threads/http-switchboard-for-chrome-chromium.356427/page-26#post-2362143).
-    * I personally use the Fanboy lists, however these are causing a bit too much material to be blocked, especially annoying for a new user who chooses to begin using HTTPSB in [allow-all/block-exceptionally approach](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach).
+    * I personally use the Fanboy lists, however these are causing a bit too much material to be blocked, especially annoying for a new user who chooses to use HTTPSB in [allow-all/block-exceptionally approach](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach).
 
 ### 0.8.6.3
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/226>: "Overzealous ABP filtering: `||` needs to match beginning of domain name".
