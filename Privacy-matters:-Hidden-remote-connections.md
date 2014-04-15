@@ -12,8 +12,6 @@ At start, and then regularly:
 [gibberish].1e100.net         # seems to correspond to "clients[?].google.com"
 ```
 
-[Chrome developer on reddit](http://www.reddit.com/r/chrome/comments/1xsxjv/best_browser_google_chrome_vs_chromium/cff4ec8): "Chromium does extension updates, yes"
-
 At start, if "_Settings_/_Languages_/_Offer to translate pages that..._" is enabled:
 ```
 translate.googleapis.com
