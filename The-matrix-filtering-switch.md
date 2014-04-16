@@ -13,6 +13,6 @@ With the addition of the matrix filtering switch, I took the opportunity to make
 
 Note that the state of the matrix filtering switch is persisted as part of a scope state (just like the ABP filtering switch).
 
-The matrix filtering switch **will not** modify in any way the matrix rules of the scope, it just allows to bypass these rules. This means that the persisted state of the matrix rules will stay visible even though all the cells in the matrix are turned green when the matrix filtering is off.
+The matrix filtering switch **will not** modify in any way the matrix rules of the scope, it just allows to bypass these rules. This means that the persisted state of the matrix rules will stay visible even though all the cells in the matrix are turned green when matrix filtering is off.
 
 It is **not** possible to edit the matrix rules when matrix filtering is off.
