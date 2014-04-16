@@ -5,3 +5,8 @@ It may happen a user give up in trying to figure the proper set of matrix rules 
 So it is now possible to turn off matrix filtering for a specific scope, which will leave all other scopes unaffected. Here is a comparison of three matrix states, block-all/allow-exceptionally, allow-all/block-exceptionally, and matrix filtering off:
 
 ![Matrix filtering](https://raw.githubusercontent.com/gorhill/httpswitchboard/a65026f65973c1a81ba69ecbc5041da5fe956054/doc/img/mtx-filtering-switch.gif)
+
+With the addition of the matrix filtering switch, I took the opportunity to make these other changes in order to increase consistency:
+
+- The new matrix filtering switch is _independent_ from the ABP filtering switch: one can disable matrix filtering and still benefit from ABP filtering.
+- The new matrix filtering button shows the number of requests blocked in a badge, just like the ABP filtering button.
