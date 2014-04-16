@@ -1,5 +1,9 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.7.0
+- The master switch is gone.
+- A new ["matrix filtering"](https://github.com/gorhill/httpswitchboard/wiki/The-matrix-filtering-switch) is now available, and it is scope-based (see it as a master switch, but it applies only to the current scope).
+
 ### 0.8.6.4
 - [Release](https://github.com/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.6.4.zip) date: 15 April 2014
 - No changes for existing users.
