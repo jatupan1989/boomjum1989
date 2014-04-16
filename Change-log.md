@@ -3,7 +3,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.7.0
 - The master switch is gone.
 - A new ["matrix filtering" switch](https://github.com/gorhill/httpswitchboard/wiki/The-matrix-filtering-switch) is now available, and it is scope-based (see it as a master switch, but it applies only to the current scope).
-- The HTTPSB entries in the browser's contextual menu (right-click) have been removed: I found out there were not working correctly due to the many changes which have happened since the contextual menu code was released. More thoughts are needed before I fix and put back this feature. Probably not many users were relying on the contextual menu since nobody reported it wasn't working properly.
+- The HTTPSB entries in the browser's contextual menu (right-click) have been removed: I found out they were not working correctly due to the many changes which have happened since the contextual menu code was released. More thoughts are needed before I fix and put back this contextual menu entries. Probably not many users were relying on the contextual menu since nobody reported it wasn't working properly.
 
 ***
 
