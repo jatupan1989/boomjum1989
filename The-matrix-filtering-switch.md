@@ -1,4 +1,4 @@
-With _HTTP Switchboard_ version 0.8.7.0, the master switch (which used was the left-most button in the matrix toolbar) is gone, and has been replaced with a new **scope-based** master switch. There are many advantages for having a master switch which applies only to the current scope.
+With _HTTP Switchboard_ version 0.8.7.0, the master switch (which was the left-most button in the matrix toolbar) is gone, and has been replaced with a new **scope-based** master switch. There are many advantages for having a master switch which applies only to the current scope.
 
 It may happen a user give up in trying to figure the proper set of matrix rules in order to make a web site work properly. Sometimes, ubiquitously blacklisted hostnames must unfortunately be un-blacklisted for a web page to work properly. It may quickly become bothersome, to the point where a user was simply switching off HTTPSB completely just because of one specific web page.
 
