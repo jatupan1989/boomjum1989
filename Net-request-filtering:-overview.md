@@ -44,4 +44,4 @@ To evaluate whether the request should be blocked or allowed, matrix filtering w
 - No: Is everything from anywhere blacklisted?
 - Yes: request is blocked
 
-Actually, things are a bit more complicated, as the pseudo-code above doesn't take into account that hostname/type cells inherit from two ancestors. HTTPSB deals with the ambiguity by allowing such requests **if and only if** both inheritance ancestors evaluate as allow. However, if strict blocking is disabled, the hostname ancestor has precedence over the type ancestor.
+Actually, things are a bit more complicated, as the pseudo-code above doesn't take into account that hostname/type nodes inherit from two ancestors. HTTPSB deals with the ambiguity by allowing such requests **if and only if** both ancestor nodes evaluate as "allowed". However, if strict blocking is disabled, the hostname ancestor node has precedence over the type ancestor node.
