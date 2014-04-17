@@ -1,7 +1,7 @@
 ### Overview
 
 <p align="center">
-![Net request filtering](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-overview.png)
+!<img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-overview.png" />
 </p>
 
 ### Matrix filtering
