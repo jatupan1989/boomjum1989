@@ -69,6 +69,8 @@ At time of writing, not all ABP filters are supported, though the most common on
 
 Still, roughly the proportion of parsed and enforced ABP filters is almost 80% of all ABP filters, or 90% when disregarding ABP filters used for whitelisting (support for these is planned).
 
-ABP filtering takes place **after** matrix filtering, therefore if a specific net request is blocked through matrix filtering, the ABP filtering will not be used. Any net request which is evaluated as "allowed" by matrix filtering will then be further evaluated against ABP filtering.
+ABP filtering takes place **after** matrix filtering, therefore if a specific net request is blocked through matrix filtering, then ABP filtering will not be used, as the net request has already been evaluated as blocked.
+
+Any net request which is evaluated as "allowed" by matrix filtering will however be further evaluated through the ABP filtering engine.
 
 Great care has been taken to implement an efficient ABP filtering engine in HTTPSB (code was written from scratch), and the result is such that it consumes considerably less memory and CPU cycles than the official ABP extension on Chromium-based browsers.
