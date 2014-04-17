@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-overview.png" />
 </p>
 
-Starting with version 0.8.7.0, matrix filtering engine and ABP filtering engine can be selectively turned on or off, independently. Whether matrix filtering and/or ABP filtering is on or off is a per-scope setting.
+Starting with [version 0.8.7.0](https://github.com/gorhill/httpswitchboard/wiki/Change-log#0870), matrix filtering engine and ABP filtering engine can be selectively turned on or off, independently. Whether matrix filtering and/or ABP filtering is on or off is a per-scope setting.
 
 ## Matrix filtering
 
