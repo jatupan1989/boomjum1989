@@ -1,6 +1,6 @@
 ### Overview
 
-![Net request filtering](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-overview.png)
+|![Net request filtering](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-overview.png)|
 
 ### Matrix filtering
 
