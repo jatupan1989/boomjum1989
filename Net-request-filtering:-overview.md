@@ -2,6 +2,8 @@
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-overview.png" />
 </p>
 
+Starting with version 0.8.7.0, matrix filtering engine and ABP filtering engine can be selectively turned on or off independently. Whether martix filtering and/or ABP filtering is on or off is a per-scope setting.
+
 ## Matrix filtering
 
 Matrix filtering uses a inheritance model to transfer the block or allow status of a node to a lower precedence node:
