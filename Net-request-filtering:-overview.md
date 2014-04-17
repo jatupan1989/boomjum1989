@@ -12,6 +12,7 @@ Matrix filtering uses a inheritance model to transfer the block or allow status 
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-mtxfiltering-overview.png" />
 </p>
 
+Where _type_ correspond to the type of the request, which currently can be: _cookie_, _stylesheet_/_web font_, _image_, _plug-in_, _script_, _xmlhttprequest_, _iframe_, and _other_ (HTML5 video, HTML audio, SVG, and some other uncategorized requests).
 To use a concrete example, let's take the following URL: `https://www.example.com/image.png`.
 
 The hostname and the type of the request is extracted from the URL:
