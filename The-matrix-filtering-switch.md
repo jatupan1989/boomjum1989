@@ -1,11 +1,3 @@
-### Overview
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-overview.png" />
-</p>
-
-### Matrix filtering
-
 With _HTTP Switchboard_ version 0.8.7.0, the master switch (which was the left-most button in the matrix toolbar) is gone, and has been replaced with a new **scope-based** master switch. There are many advantages for having a master switch which applies **only** to the current scope.
 
 It may happen a user give up in trying to figure the proper set of matrix rules in order to make a web site work properly. Sometimes, ubiquitously blacklisted hostnames must unfortunately be un-blacklisted for a web page to work properly. It may quickly become bothersome, to the point where a user was simply switching off HTTPSB completely just because of one specific web page.
@@ -24,7 +16,3 @@ Note that the state of the matrix filtering switch is persisted as part of a sco
 The matrix filtering switch **will not** modify in any way the matrix rules of the scope, it just allows to bypass these rules. This means that the persisted state of the matrix rules will stay visible even though all the cells in the matrix are turned green when matrix filtering is off.
 
 It is **not** possible to edit the matrix rules when matrix filtering is off.
-
-### ABP filtering
-
-[to do]
