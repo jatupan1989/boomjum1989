@@ -5,6 +5,8 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [Credits](wiki/Credits)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [Net request filtering: overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
+        - Matrix filtering
+        - ABP filtering
     * User interface (recommended reading)
         - [The badge](/gorhill/httpswitchboard/wiki/The-badge)
         - [The matrix toolbar](/gorhill/httpswitchboard/wiki/The-matrix-toolbar)
