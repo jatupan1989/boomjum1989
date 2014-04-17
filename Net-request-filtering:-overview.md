@@ -4,7 +4,7 @@
 
 ## Matrix filtering: overview
 
-Matrix filtering uses a inheritance model to transfer the block or allow status of a cell to a lower precedence cell:
+Matrix filtering uses a inheritance model to transfer the block or allow status of a node to a lower precedence node:
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-mtxfiltering-overview.png" />
