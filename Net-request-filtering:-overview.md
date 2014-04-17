@@ -31,7 +31,7 @@ To evaluate whether the request should be blocked or allowed, matrix filtering w
 - No: Go up one step in the precedence hierarchy
 - Is everything from `example.com` whitelisted?
 - Yes: request is allowed
-- No: Is `everything` from `example.com` blacklisted?
+- No: Is everything from `example.com` blacklisted?
 - Yes: request is blocked
 - No: Go up one step in the precedence hierarchy
 - Is `image` from anywhere whitelisted?
