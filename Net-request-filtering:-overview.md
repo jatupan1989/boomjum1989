@@ -47,3 +47,10 @@ To evaluate whether the request should be blocked or allowed, matrix filtering w
 Actually, things are a bit more complicated, as the pseudo-code above doesn't take into account that hostname/type nodes inherit from two ancestors. HTTPSB deals with the ambiguity by allowing such requests **if and only if** both ancestor nodes evaluate as "allowed". However, if strict blocking is disabled, the hostname ancestor node has precedence over the type ancestor node.
 
 The hierarchical evaluation in matrix filtering allows a user to easily toggle whole set of block/allow permissions by just blacklisting or whitelisting a single node. For instance, whitelisting (or blacklisting) the "all" node allows to turn all graylisted descendant nodes into allow (or block) mode.
+
+Note that matrix filtering is used to evaluate more than whether net requests are to be allowed or blocked: it is also used to evaluate:
+
+- Whether javascript execution should be blocked
+- Whether cookies should be stripped from outgoing HTTP headers
+- Whether HTTP referer information should be stripped from outgoing HTTP headers
+- Whether HTML5 localStorage should be emptied for a particular hostname
