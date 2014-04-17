@@ -2,24 +2,25 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.7.0
 - The master switch is gone.
-- A new ["matrix filtering" switch](https://github.com/gorhill/httpswitchboard/wiki/The-matrix-filtering-switch) is now available, and it is scope-based (see it as a master switch, but it applies only to the current scope).
+- A new ["matrix filtering" switch](/gorhill/httpswitchboard/wiki/The-matrix-filtering-switch) is now available, and it is scope-based (see it as a master switch, but it applies only to the current scope).
     * Since now matrix filtering can be turned off for a specific scope, the chromium-behind-the-scene scope will come out-of-the-box with matrix filtering turned off, in order to guarantee that HTTPSB does not interfere with the browser or other extensions out-of-the-box.
     * There were cases of [extensions being broken by HTTPSB](http://blog.martinkadlec.eu/post/501-smart-rss-final-v10#comment-4645) *despite* the chromium-behind-the-scene scope defaulting to allow-all/block-exceptionally, because some of the hostnames the user was feeding another extension were ubquitously blacklisted.
     * For existing users, matrix filtering will be on by default for all scopes, including the chromium-behind-the-scene scope, to ensure there is no change in behavior with your existing installation.
+- New wiki page for an overview of [HTTPSB's filtering engine](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
 - The HTTPSB entries in the browser's contextual menu (right-click) have been removed: I found out they were not working correctly due to the many changes which have happened since the contextual menu code was released. More thoughts are needed before I fix and put back these contextual menu entries. Probably not many users were relying on the contextual menu since nobody reported it wasn't working properly.
 
 ***
 
 ### 0.8.6.4
-- [Release](https://github.com/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.6.4.zip) date: 15 April 2014
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.6.4.zip) date: 15 April 2014
 - No changes for existing users.
 - Removed Fanboy lists from out-of-the-box default selected ubiquitous lists. Because [this](http://www.wilderssecurity.com/threads/http-switchboard-for-chrome-chromium.356427/page-26#post-2362143).
-    * I personally use the Fanboy lists, however these are causing a bit too much material to be blocked, especially annoying for a new user who chooses to use HTTPSB in [allow-all/block-exceptionally approach](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach).
+    * I personally use the Fanboy lists, however these are causing a bit too much material to be blocked, especially annoying for a new user who chooses to use HTTPSB in [allow-all/block-exceptionally approach](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach).
 
 ***
 
 ### 0.8.6.3
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/226>: "Overzealous ABP filtering: `||` needs to match beginning of domain name".
+- Fixed </gorhill/httpswitchboard/issues/226>: "Overzealous ABP filtering: `||` needs to match beginning of domain name".
     * More accurately, `||` needs to match the start of a label in a hostname. The bug blocked needed CSS files on <http://lifehacker.com>, <http://gawker.com>, etc. because there was a false positive for an ABP complex filter (URLs from `c.kinja-static.com` were erroneously reported as matching `||a-static.com^` filter).
 
 ***
