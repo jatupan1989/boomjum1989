@@ -1,4 +1,3 @@
-
 ### Matrix filtering
 
 With _HTTP Switchboard_ version 0.8.7.0, the master switch (which was the left-most button in the matrix toolbar) is gone, and has been replaced with a new **scope-based** master switch. There are many advantages for having a master switch which applies **only** to the current scope.
