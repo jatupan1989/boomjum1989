@@ -2,7 +2,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.7.0
 - The master switch is gone.
-- A new ["matrix filtering" switch](https://github.com/gorhill/httpswitchboard/wiki/HTTP-Switchboard:-net-request-filtering#matrix-filtering) is now available, and it is scope-based (see it as a master switch, but it applies only to the current scope).
+- A new ["matrix filtering" switch](https://github.com/gorhill/httpswitchboard/wiki/The-matrix-filtering-switch) is now available, and it is scope-based (see it as a master switch, but it applies only to the current scope).
     * Since now matrix filtering can be turned off for a specific scope, the chromium-behind-the-scene scope will come out-of-the-box with matrix filtering turned off, in order to guarantee that HTTPSB does not interfere with the browser or other extensions out-of-the-box.
     * There were cases of [extensions being broken by HTTPSB](http://blog.martinkadlec.eu/post/501-smart-rss-final-v10#comment-4645) *despite* the chromium-behind-the-scene scope defaulting to allow-all/block-exceptionally, because some of the hostnames the user was feeding another extension were ubquitously blacklisted.
     * For existing users, matrix filtering will be on by default for all scopes, including the chromium-behind-the-scene scope.
