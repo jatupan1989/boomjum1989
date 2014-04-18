@@ -55,7 +55,7 @@ All requests are evaluated in real-time against the current state of the matrix,
 
 Note that matrix filtering is used to evaluate more than just whether net requests are to be allowed or blocked. It is also used to evaluate:
 
-- Whether javascript execution should be blocked
+- Whether javascript execution should be blocked for inline javascript
 - Whether cookies should be stripped from outgoing HTTP headers
 - Whether HTTP referer information should be stripped from outgoing HTTP headers
 - Whether HTML5 localStorage should be emptied for a particular hostname
