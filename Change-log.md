@@ -1,6 +1,7 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
 ### 0.8.7.1
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.7.1.zip) date: 18 April 2014
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/237>: "Do not auto-create site-level scope if matrix filtering for global scope is off".
 
 ***
