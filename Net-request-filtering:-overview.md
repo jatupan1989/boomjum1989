@@ -82,4 +82,4 @@ Great care has been taken to implement an efficient ABP filtering engine in HTTP
 
 To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, ABP evaluates around 100 filters/URL, while HTTPSB evaluates around 4 filters/URL.
 
-Also, whereas ABP uses regular expressions internally to test for a filter match, HTTPSB uses simpler plain string comparisons wherever it can, which is most cases (see <http://jsperf.com/regexp-vs-indexof-abp-miss/3> and <http://jsperf.com/regexp-vs-indexof-abp-hit/3>), and less demanding on memory usage.
+Also, whereas ABP uses regular expressions internally to test for a filter match, HTTPSB uses simpler plain string comparisons whenever it more efficient to do so, which is true for the great majority of filters (see <http://jsperf.com/regexp-vs-indexof-abp-miss/3> and <http://jsperf.com/regexp-vs-indexof-abp-hit/3>), and less demanding on memory usage.
