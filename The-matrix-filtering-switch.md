@@ -11,7 +11,7 @@ With the addition of the matrix filtering switch, I took the opportunity to make
 - The new matrix filtering switch is _independent_ from the ABP filtering switch: one can disable matrix filtering and still benefit from ABP filtering.
 - The new matrix filtering button shows the number of requests blocked in a badge, just like the ABP filtering button.
 
-Note that the state of the matrix filtering switch is persisted as part of a scope state (just like the ABP filtering switch).
+**Important:** The state of the matrix filtering switch **is persisted** as part of a scope state (just like the ABP filtering switch).
 
 The matrix filtering switch **will not** modify in any way the matrix rules of the scope, it just allows to bypass these rules. This means that the persisted state of the matrix rules will stay visible even though all the cells in the matrix are turned green when matrix filtering is off.
 
