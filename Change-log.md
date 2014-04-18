@@ -10,7 +10,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Adblock Plus filter syntax is now supported in the user-supplied ubiquitous rules.
     * You can mix and match plain hostname rules with Adblock Plus filter rules.
     * "One hostname per line" becomes "One rule per line".
-    * Respect [proper and sane ABP-filter syntax](https://adblockplus.org/en/filter-cheatsheet) and all will be fine. Remember: garbage in, garbage out, so if you feed HTTPSB garbage, do not expect HTTPSB to behave properly.
+    * Respect [proper and sane ABP-filter syntax](https://adblockplus.org/en/filter-cheatsheet) and all will be fine.
+        - Remember: garbage in, garbage out, so if you feed HTTPSB garbage, do not expect HTTPSB to behave properly.
 - The HTTPSB entries in the browser's contextual menu (right-click) have been removed: I found out they were not working correctly due to the many changes which have happened since the contextual menu code was released. More thoughts are needed before I fix and put back these contextual menu entries. Probably not many users were relying on the contextual menu since nobody reported it wasn't working properly.
 
 ***
