@@ -78,4 +78,4 @@ ABP filtering takes place **after** matrix filtering, therefore if a specific ne
 
 Any net request which is evaluated as "allowed" by matrix filtering will however be further evaluated through the ABP filtering engine.
 
-Great care has been taken to implement an efficient ABP filtering engine in HTTPSB (code was written from scratch), and the result is such that it consumes considerably less memory and CPU cycles than the official ABP extension on Chromium-based browsers. To give a glimpse of the performance gain of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, ABP evaluates around 100 filters/URL, while HTTPSB evaluates around 4 filters/URL.
+Great care has been taken to implement an efficient ABP filtering engine in HTTPSB (code was written from scratch), and the result is such that it consumes considerably less memory and CPU cycles than the official ABP extension on Chromium-based browsers. To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, ABP evaluates around 100 filters/URL, while HTTPSB evaluates around 4 filters/URL.
