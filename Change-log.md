@@ -6,7 +6,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Since now matrix filtering can be turned off for a specific scope, the chromium-behind-the-scene scope will come out-of-the-box with matrix filtering turned off, in order to guarantee that, out-of-the-box, HTTPSB does not interfere with the browser or other extensions.
     * There were cases of [extensions being broken by HTTPSB](http://blog.martinkadlec.eu/post/501-smart-rss-final-v10#comment-4645) *despite* the chromium-behind-the-scene scope defaulting to allow-all/block-exceptionally, because some of the hostnames the user was feeding another extension were ubiquitously blacklisted.
     * For existing users, matrix filtering will be on by default for all scopes, including the chromium-behind-the-scene scope, to ensure there is no change in behavior with your existing installation.
-- New wiki page for an overview of [HTTPSB's filtering engine](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
 - Adblock Plus filter syntax is now supported as a user-supplied ubiquitous rule.
     * You can mix and match plain hostname rules with Adblock Plus filter rules.
     * "One hostname per line" becomes "One rule per line".
@@ -14,6 +13,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Remember: garbage in, garbage out, so if you feed HTTPSB garbage rules, HTTPSB's behavior as a result is undefined.
     * Be mindful that [not all ABP filter syntax is supported](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview#abp-filtering).
 - The HTTPSB entries in the browser's contextual menu (right-click) have been removed: I found out they were not working correctly due to the many changes which have happened since the contextual menu code was released. More thoughts are needed before I fix and put back these contextual menu entries. Probably not many users were relying on the contextual menu since nobody reported it wasn't working properly.
+- New wiki page for an overview of [HTTPSB's filtering engine](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
 
 ***
 
