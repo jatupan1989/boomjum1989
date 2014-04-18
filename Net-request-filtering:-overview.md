@@ -51,7 +51,7 @@ Actually, things are a bit more complicated, as the pseudo-code above doesn't ta
 
 The hierarchical evaluation in matrix filtering allows a user to easily toggle whole set of block/allow permissions by just blacklisting or whitelisting a single node. For instance, whitelisting (or blacklisting) the "all" node allows to turn all graylisted descendant nodes into allow (or block) mode.
 
-All requests are evaluated in real-time against the current state of the matrix, so this means even future requests which have not been seen yet are affected by any change made to the matrix. For instance, this address a [problem often raised by NoScript users](http://forums.informaction.com/viewtopic.php?f=7&t=8309).
+All requests are evaluated in real-time against the current state of the matrix, so this means even future requests which have not been seen yet are affected by any change made to the matrix. For instance, this address a [problem often raised by NoScript users](http://forums.informaction.com/viewtopic.php?f=7&t=8309): if a user whitelist (or blacklist) the `all` cell in the matrix, all graylisted cells in the matrix will inherit the _allow_ (or _block_) status of the `all` cell.
 
 Note that matrix filtering is used to evaluate more than just whether net requests are to be allowed or blocked. It is also used to evaluate:
 
