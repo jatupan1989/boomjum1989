@@ -14,8 +14,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Be mindful that [not all ABP filter syntax is supported](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview#abp-filtering).
 - The HTTPSB entries in the browser's contextual menu (right-click) have been removed: I found out they were not working correctly due to the many changes which have happened since the contextual menu code was released. More thoughts are needed before I fix and put back these contextual menu entries. Probably not many users were relying on the contextual menu since nobody reported it wasn't working properly.
 - New wiki page for an overview of [HTTPSB's filtering engine](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
-- Fixed </gorhill/httpswitchboard/issues/234>: "Per-scope switch to disable all ubiquitous blocked hosts".
-- Fixed </gorhill/httpswitchboard/issues/232>: "Allow user to supply his own ADP-compatible filters".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/234>: "Per-scope switch to disable all ubiquitous blocked hosts".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/232>: "Allow user to supply his own ADP-compatible filters".
 
 ***
 
