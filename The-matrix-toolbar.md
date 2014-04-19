@@ -35,7 +35,7 @@ Starting with version 0.7.8.0, preset recipes were introduced in order to assist
 
 ![Matrix toolbar](https://raw.github.com/gorhill/httpswitchboard/master/doc/img/popupmenu-toolbar-4.png)
 
-The feature is still beta, and of course writing preset recipes take time. Eventually (in my dreams), there will be enough preset recipes out to assist less geeky users for the most common cases.
+The feature is still beta, and of course writing preset recipes take time. Eventually (in my dreams), there will be enough preset recipes out to assist novice users for the most common cases.
 
 ### Remove temporary rules from current scope
 
