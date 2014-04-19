@@ -56,7 +56,7 @@ See this [wiki page](/gorhill/httpswitchboard/wiki/In-the-top-left-of-the-matrix
 - Open the popup menu of *HTTP Switchboard*
 - Click on the *Stats* icon in the top-right corner
 - *HTTP Switchboard* info page opens
-- Scroll down to the *Geeky stats* section
+- Scroll down to the *Advanced stats* section
 - There you can see the full URL of all requests, blocked or allowed, made by your browser
 - Use the drop-down list to select the stats for a specific page
 - Use the checkbox filters to narrow to specific types of request
