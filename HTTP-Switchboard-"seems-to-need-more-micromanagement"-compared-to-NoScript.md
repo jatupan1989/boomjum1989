@@ -12,4 +12,4 @@ In both case, one single click was required to enable scripts temporarily from `
 
 From the two screenshots, one can see however that _HTTPSB_ refers to more hostnames than _NoScript_: It is because _HTTPSB_ will report **all** net traffic, i.e. not just that of scripts on the page. In the example above, one can see that with out-of-the-box settings, _HTTPSB_ also blocked a tracking pixel from `condenast.112.2o7.net`.
 
-Of course, the more scripts allowed by a user, the more tracking pixels and other annoyances are going to be reported by _HTTPSB_. To get ~~the same~~ similar (but falling short) level of information and control, a user would have to also install _Request Policy_ aside _NoScript_.
+Of course, the more scripts allowed by a user, the more tracking pixels and other annoyances are going to be reported by _HTTPSB_. To get ~~the same~~ similar (but falling short) level of information and control, a user would have to also install _Request Policy_ aside _NoScript_. (I say "falling short" because _Request Policy_ categorize request only using their hostname, it does not further categorize requests by type.)
