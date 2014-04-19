@@ -13,7 +13,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Since now matrix filtering can be turned off for a specific scope, the chromium-behind-the-scene scope will come out-of-the-box with matrix filtering turned off, in order to guarantee that, out-of-the-box, HTTPSB does not interfere with the browser or other extensions.
     * There were cases of [extensions being broken by HTTPSB](http://blog.martinkadlec.eu/post/501-smart-rss-final-v10#comment-4645) *despite* the chromium-behind-the-scene scope defaulting to allow-all/block-exceptionally, because some of the hostnames the user was feeding another extension were ubiquitously blacklisted.
     * For existing users, matrix filtering will be on by default for all scopes, including the chromium-behind-the-scene scope, to ensure there is no change in behavior with your existing installation.
-- Adblock Plus filter syntax is now supported as a user-supplied ubiquitous rule.
+- Adblock Plus filter syntax is now supported as user-supplied ubiquitous rules.
     * You can mix and match plain hostname rules with Adblock Plus filter rules.
     * "One hostname per line" becomes "One rule per line".
     * Respect [proper and sane ABP-filter syntax](https://adblockplus.org/en/filter-cheatsheet) and all should be fine.
