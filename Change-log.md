@@ -340,7 +340,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - I will soon provide here a link to a wiki page which describe the syntax.
     * Currently, only recipes available: Youtube, Vimeo, Disqus, Livefyre (as 3d parties).
     * I will work to add more useful recipes and make quick minor updates in the coming days to make these available.
-    * It is a convenient feature for everybody, but primary motivation is to help less geeky user to not give up on the extension.
+    * It is a convenient feature for everybody, but primary motivation is to help less advanced user to not give up on the extension.
 - Added new preset lists of blocked hosts:
     * [Adblock+ EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)
     * [Adblock+ EasyPrivacy](https://easylist-downloads.adblockplus.org/easyprivacy.txt)
