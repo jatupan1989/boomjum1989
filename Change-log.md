@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - New option in the _Settings_ tab: "Auto delete unused temporary scopes".
     * Disabled by default.
     * Especially useful for users who have enabled "Auto create temporary site-level scopes".
-    * A temporary scope (which has no permanent counterpart) won't be deleted _immediately_ after the web page for which it applies is closed. It will linger a bit, and if it still unused after 20 minutes or so, it will be removed from memory.
+    * A temporary scope (which has no permanent counterpart) won't be deleted _immediately_ after the web page for which it applies is closed. It will linger a bit, and if it still unused after 20 minutes or so, it will then be removed from memory.
 
 ***
 
