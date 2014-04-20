@@ -46,6 +46,7 @@ To evaluate whether the request should be blocked or allowed, matrix filtering w
 - Yes: request is allowed
 - No: Is everything from anywhere blacklisted?
 - Yes: request is blocked
+- No: request is blocked
 
 Actually, things are a bit more complicated, as the pseudo-code above doesn't take into account that type/domain (or type/subdomain) nodes inherit from two ancestors. HTTPSB deals with the ambiguity by allowing such requests **if and only if** both ancestor nodes evaluate as "allowed". However, if [strict blocking](/gorhill/httpswitchboard/wiki/%22Strict-blocking%22-illustrated) is disabled, the status of the domain (or subdomain) ancestor node has precedence over the type ancestor node.
 
