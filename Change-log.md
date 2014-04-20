@@ -1,5 +1,14 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
+### 0.8.8.0
+- Not released yet.
+- New option in the _Settings_ tab: "Auto delete unused temporary scopes".
+    * Disabled by default.
+    * Especially useful for users who have enabled "Auto create temporary site-level scopes".
+    * A temporary scope (which has no permanent counterpart) won't be deleted _immediately_ after the web page for which it applies is closed. It will linger a bit, and if it still unused after 20 minutes or so, it will be removed from memory.
+
+***
+
 ### 0.8.7.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.7.1.zip) date: 18 April 2014
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/237>: "Do not auto-create site-level scope if matrix filtering for global scope is off".
