@@ -32,7 +32,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Per site permissions: an example](wiki/Per-site-permissions:-an-example)
     * ["I trust this site, I just want to whitelist all for this site"](wiki/Whitelist-all-by-default-for-a-site-you-trust)
     * ["It is difficult to find the rules required to make [www.example.com] work"](/gorhill/httpswitchboard/wiki/Finding-rules-required-to-make-%5Bwww.example.com%5D-work)
-    * [In the top left of the matrix, what is "other"?](/gorhill/httpswitchboard/wiki/In-the-top-left-of-the-matrix,-what-is-%22other%22%3F)
+    * [In the top right of the matrix, what is "other"?](/gorhill/httpswitchboard/wiki/In-the-top-right-of-the-matrix,-what-is-%22other%22%3F)
     * [Visual pollution: Hide blacklisted hostnames from view](/gorhill/httpswitchboard/wiki/Hide-blacklisted-hostnames-from-view)
     * [URL redirections](/gorhill/httpswitchboard/wiki/URL-redirections)
     * [Behind-the-scene requests](https://github.com/gorhill/httpswitchboard/wiki/Behind-the-scene-requests)
