@@ -13,6 +13,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/229>: "Auto-reload only current tab".
     * The user has now the choice to smart reload: _None_, _Current_, or _All_ (default).
     * Just a reminder: smart reload ensures that **only** the pages which are affected by a change in the matrix will be reloaded. The feature here gives the user the choice of which set of pages are going to be candidates for smart reload.
+- I changed the appearance of the filtering switches when in their _off_ state: These switches are kind of important, so they need to stand out more if switched off.
 
 ***
 
