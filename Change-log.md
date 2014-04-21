@@ -1,6 +1,6 @@
 For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
 
-**IMPORTANT:** I develop and test HTTPSB using the latest official releases of Chromium (tested on v33), Chrome (tested on v34) and Opera (tested on v20). Once in a while I will test the official release of Yandex (it has been a while though). I guess I should set-up a development version of Chromium, but I do not have much time currently to do so. I know it often happens people reports that HTTPSB has some malfunction with some development version of a Chromium-based browser, malfunctions which I can reproduce on an official release.
+**IMPORTANT:** I develop and test HTTPSB using the latest official releases of Chromium (tested on v33), Chrome (tested on v34) and Opera (tested on v20). Once in a while I will test the official release of Yandex (it has been a while though). I guess I should set-up a development version of Chromium, but I do not have much time currently to do so. I know it often happens people reports that HTTPSB has some malfunctions with a development version of one of the Chromium-based browsers, malfunctions which I often can't reproduce on an official release. TL;DR I can't guarantee HTTPSB will run flawlessly on a development version of a Chromium-based browser.
 
 ### 0.8.8.0
 - Not released yet.
