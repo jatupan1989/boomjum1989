@@ -6,7 +6,7 @@ The remote connections were collated after having disabled **everything** which 
 
 **TODO:**
 
-    - Evaluate the use of the `--host-rules` [command-line switch](http://peter.sh/experiments/chromium-command-line-switches/#host-rules).
+- Evaluate the use of the `--host-rules` [command-line switch](http://peter.sh/experiments/chromium-command-line-switches/#host-rules).
 
 ### Chromium 31 + HTTPSB / Linux
 
