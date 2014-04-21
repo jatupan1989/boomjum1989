@@ -10,6 +10,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Disabled by default.
     * Especially useful for users who have enabled "Auto create temporary site-level scopes".
     * A temporary scope (which has no permanent counterpart) won't be deleted _immediately_ after the web page for which it applies is closed. It will linger a bit, and if it still unused after 20 minutes or so, it will then be removed from memory.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/229>: "Auto-reload only current tab".
+    * The user has now the choice to smart reload: _None_, _Current_, or _All_ (default).
+    * Just a reminder: smart reload ensures that **only** the pages which are affected by a change in the matrix will be reloaded. The feature here gives the user the choice of which set of pages are going to be candidates for smart reload.
 
 ***
 
