@@ -84,3 +84,9 @@ Great care has been taken to implement an efficient ABP filtering engine in HTTP
 To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, ABP evaluates around 100 filters/URL, while HTTPSB evaluates around 5 filters/URL.
 
 Also, whereas ABP uses regular expressions internally to test for a filter match, HTTPSB uses simpler plain string comparisons whenever it is more efficient to do so, which is true for the great majority of filters (see <http://jsperf.com/regexp-vs-indexof-abp-miss/3> and <http://jsperf.com/regexp-vs-indexof-abp-hit/3>).
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/abp-vs-httpsb.png" />
+</p>
+
+In the above screenshot, ABP and HTTPSB were set to use [_EasyList without element hiding_](https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt) and [_EasyPrivacy_](https://easylist-downloads.adblockplus.org/easyprivacy.txt). Now, HTTPSB had _over 56,000 blocked hosts_ as matrix-filtering rules (those rules are enabled out-of-the-box), and still, HTTPSB runs much leaner than ABP.
