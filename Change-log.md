@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.8.8.0
-- Not released yet.
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.8.0.zip) date: 21 April 2014
 - New option in the _Settings_ tab: "Auto delete unused temporary scopes".
     * Disabled by default.
     * Especially useful for users who have enabled "Auto create temporary site-level scopes".
