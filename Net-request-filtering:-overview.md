@@ -89,7 +89,7 @@ Also, whereas ABP uses regular expressions internally to test for a filter match
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/abp-vs-httpsb.png" />
 </p>
 
-In the above screenshot, ABP and HTTPSB were set to use [_EasyList without element hiding_](https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt) and [_EasyPrivacy_](https://easylist-downloads.adblockplus.org/easyprivacy.txt). So-called "acceptable ads" was disabled in ABP.
+In the above screenshot, ABP 1.7.4 and HTTPSB 0.8.8 were set to use [_EasyList without element hiding_](https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt) and [_EasyPrivacy_](https://easylist-downloads.adblockplus.org/easyprivacy.txt). So-called "acceptable ads" was disabled in ABP.
 
 Now, HTTPSB had _an extra 56,000+ blocked hosts_ as matrix-filtering rules (those rules are enabled out-of-the-box), and still, HTTPSB runs much leaner than ABP, as seen above.
 
