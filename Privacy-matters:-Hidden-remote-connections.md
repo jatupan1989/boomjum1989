@@ -9,6 +9,8 @@ The remote connections were collated after having disabled **everything** which 
 - `--disable-background-networking` [desc](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking)
     * "The following systems are disabled via this flag: IntranetRedirectDetector (requests randomURLs 2-5s after startup); GoogleUrlTracker (searchdomaincheck); SafeBrowsing updater; Extension updater" [(ref)](https://codereview.chromium.org/3312014) [(thanks!)](http://www.wilderssecurity.com/threads/wanted-an-assessment-of-tactics-against-privacy-invasions-by-chrome-browser.362914/page-2#post-2364193)
 
+I am currently using `chromium-browser --disable-component-extensions-with-background-pages --disable-background-networking %U` as a launcher shortcut in Linux Mint.
+
 ### Chromium 31 + HTTPSB / Linux
 
 At start, and then regularly:
