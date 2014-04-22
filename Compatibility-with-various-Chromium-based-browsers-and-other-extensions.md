@@ -6,5 +6,7 @@ I know it often happens people report that HTTPSB has some malfunctions with a d
 
 ### Compatibility with other extensions
 
-I will list here known issues, benign or serious, with other extensions.
+I will list here known issues, benign or serious, with other extensions. One important note though: As per [Chrome API](https://developer.chrome.com/extensions/webRequest#implementation), only one extension can modify the request or response headers, and only one extension is allow to redirect a request.
+
+##### Adblock Plus
 
