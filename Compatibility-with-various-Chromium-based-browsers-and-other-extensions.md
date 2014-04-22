@@ -8,5 +8,19 @@ I know it often happens people report that HTTPSB has some malfunctions with a d
 
 I will list here known issues, benign or serious, with other extensions. One important note though: As per [Chrome API](https://developer.chrome.com/extensions/webRequest#implementation), only one extension can modify the request or response headers, and only one extension is allow to redirect a request.
 
-##### Adblock Plus
+##### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
+
+Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict.
+
+##### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
+
+ScriptSafe doesn't work properly with HTTPSB when scripts are blocked by HTTPSB.
+
+HTTPSB blocks javascript execution using a [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) directive (reliable), while ScriptSafe used [chrome.contentSettings.javascript.set](https://developer.chrome.com/extensions/contentSettings#property-javascript) (unreliable).
+
+The use of a Content Security Policy by HTTPSB prevents script files from even being requested, and as a result [chrome.webRequest.OnBeforeRequest](https://developer.chrome.com/extensions/webRequest#event-onBeforeRequest) is not fired for these external files, which causes ScriptSafe to not see the existence of these files, therefore they won't appears in ScriptSafe user interface, therefore they can't be whitelisted.
+
+Allowing scripts using HTTPSB causes ScriptSafe to be able to see external scripts.
+
+My advise is to stick to one extension or the other, and not have both installed and enabled at the same time.
 
