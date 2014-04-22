@@ -4,6 +4,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.8.8.1
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.8.1.zip) date: 21 April 2014
+- French translation work by [tailHey](https://github.com/tailHey)
+- Removed obsolete portion of text in _Settings_ tab regarding behind the scene filtering.
+
+***
+
 ### 0.8.8.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.8.0.zip) date: 21 April 2014
 - New option in the _Settings_ tab: "Auto delete unused temporary scopes".
