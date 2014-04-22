@@ -7,6 +7,7 @@ The remote connections were collated after having disabled **everything** which 
 **TODO** Evaluate the use of the following [command-line switches](http://peter.sh/experiments/chromium-command-line-switches/):
 - `--host-rules` [desc](http://peter.sh/experiments/chromium-command-line-switches/#host-rules)
 - `--disable-background-networking` [desc](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking)
+    * "The following systems are disabled via this flag: IntranetRedirectDetector (requests randomURLs 2-5s after startup); GoogleUrlTracker (searchdomaincheck); SafeBrowsing updater; Extension updater" [(ref)](https://codereview.chromium.org/3312014) [(thanks!)](http://www.wilderssecurity.com/threads/wanted-an-assessment-of-tactics-against-privacy-invasions-by-chrome-browser.362914/page-2#post-2364193)
 
 ### Chromium 31 + HTTPSB / Linux
 
