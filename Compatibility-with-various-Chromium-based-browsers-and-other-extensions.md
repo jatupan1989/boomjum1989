@@ -20,7 +20,7 @@ HTTPSB blocks javascript execution using a [Content Security Policy](https://en.
 
 The use of a Content Security Policy by HTTPSB prevents script files from even being requested, and as a result [chrome.webRequest.OnBeforeRequest](https://developer.chrome.com/extensions/webRequest#event-onBeforeRequest) is not fired for these external files, which causes ScriptSafe to not see the existence of these files, therefore they won't appears in ScriptSafe user interface, therefore they can't be whitelisted.
 
-Allowing scripts using HTTPSB causes ScriptSafe to be able to see external scripts.
+Allowing 1st-party scripts in HTTPSB causes ScriptSafe to be able to see external scripts.
 
 My advice is to stick to one extension or the other, and not have both installed and enabled at the same time.
 
