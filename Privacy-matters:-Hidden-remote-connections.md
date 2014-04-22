@@ -4,9 +4,9 @@ These requests are not merely behind-the-scene (which are reported by HTTPSB), t
 
 The remote connections were collated after having disabled **everything** which can be reasonably disabled by a user in order to prevent as much those hidden remote connections. Only the `about:blank` page was opened after browser was launched, and only HTTPSB extension installed locally was present.
 
-**TODO** Evaluate the use of the following [command-line switch](http://peter.sh/experiments/chromium-command-line-switches/):
-- `--host-rules`
-- `--disable-background-networking`
+**TODO** Evaluate the use of the following [command-line switches](http://peter.sh/experiments/chromium-command-line-switches/):
+- `--host-rules` [desc](http://peter.sh/experiments/chromium-command-line-switches/#host-rules)
+- `--disable-background-networking` [desc](http://peter.sh/experiments/chromium-command-line-switches/#disable-background-networking)
 
 ### Chromium 31 + HTTPSB / Linux
 
