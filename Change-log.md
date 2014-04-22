@@ -7,7 +7,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.8.8.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.8.1.zip) date: 21 April 2014
 - French translation [work](/gorhill/httpswitchboard/commit/8cefe17645de9076dd0cfbdfacf93873f84b1b77) by [tailHey](https://github.com/tailHey)
-- Removed obsolete portion of text in _Settings_ tab regarding behind the scene filtering.
+- Removed [obsolete portion of text](/gorhill/httpswitchboard/commit/dc95785c8f52d0f64520e1148eb9daccdb939d9d) in _Settings_ tab regarding behind the scene filtering.
 
 ***
 
