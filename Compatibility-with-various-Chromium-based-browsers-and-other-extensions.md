@@ -22,5 +22,5 @@ The use of a Content Security Policy by HTTPSB prevents script files from even b
 
 Allowing scripts using HTTPSB causes ScriptSafe to be able to see external scripts.
 
-My advise is to stick to one extension or the other, and not have both installed and enabled at the same time.
+My advice is to stick to one extension or the other, and not have both installed and enabled at the same time.
 
