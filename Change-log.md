@@ -10,7 +10,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/239>: "ABP filters not working when there's an uppercase letter"
     * ABP filters are now case insensitive.
 - Internationalization infrastructure work
-    * I can say that finally HTTPSB is fully ready for translation, although I expect there might be small bits a few places that I missed. The translation work in whatever language itself is left to volunteers.
+    * I can say that finally HTTPSB is fully ready for translation, although I expect there might be small bits here and there that I missed. The translation work in whatever language itself is left to volunteers.
 
 ***
 
