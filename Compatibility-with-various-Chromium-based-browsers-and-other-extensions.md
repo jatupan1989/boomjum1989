@@ -16,7 +16,7 @@ Both extensions may try to replace the content of `<iframe>` objects with harmle
 
 ScriptSafe doesn't work properly with HTTPSB when scripts are blocked by HTTPSB.
 
-HTTPSB blocks javascript execution using a [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) directive, while ScriptSafe used [chrome.contentSettings.javascript.set](https://developer.chrome.com/extensions/contentSettings#property-javascript).
+HTTPSB blocks javascript execution using a [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) directive (ScriptSafe uses [chrome.contentSettings.javascript.set](https://developer.chrome.com/extensions/contentSettings#property-javascript).)
 
 The use of a Content Security Policy by HTTPSB prevents script files from even being requested, and as a result [chrome.webRequest.OnBeforeRequest](https://developer.chrome.com/extensions/webRequest#event-onBeforeRequest) is not fired for these external files, which causes ScriptSafe to not see the existence of these files, therefore they won't appears in ScriptSafe user interface, therefore they can't be whitelisted.
 
