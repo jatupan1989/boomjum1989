@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.8.9.0
 
-- Release date: Not released yet
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.9.0.zip) date: 24 April 2014
 - New privacy feature: [User-Agent](https://en.wikipedia.org/wiki/User_agent) spoofing.
     * Available in the _Settings_ tab:
         - Enable/disable (disabled by default)
