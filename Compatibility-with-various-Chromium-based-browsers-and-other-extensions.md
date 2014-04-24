@@ -10,7 +10,9 @@ I will list here known issues, benign or serious, with other extensions.
 
 ### Any extension which modifies request and/or response headers
 
-**NOT COMPATIBLE.** Chrome API allows [only **one** extension to modify request or response headers](https://developer.chrome.com/extensions/webRequest#implementation), and the last one installed wins.
+**NOT COMPATIBLE.**
+
+Chrome API allows [only **one** extension to modify request or response headers](https://developer.chrome.com/extensions/webRequest#implementation), and the last one installed wins.
 
 Since modifying request and response headers is **key** in _HTTP Switchboard_ (disabling javascript execution, stripping outgoing cookies, referer, etc.), consider that any extensions which requires modifying headers is strictly incompatible with _HTTP Switchboard_: One of the two extensions won't be able to do its job, which in the case of HTTPSB is critical.
 
