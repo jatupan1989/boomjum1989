@@ -4,6 +4,20 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.8.9.0
+
+- Release date: Not released yet
+- New privacy feature: [User-Agent](https://en.wikipedia.org/wiki/User_agent) spoofing.
+    * Available in the _Settings_ tab:
+        - Enable/disable
+        - An input field to choose at which interval (minutes) to randomly pick a new user agent string
+        - A text area so you can enter your own list of user agent strings from which to randomly pick
+            * Enter nothing to blank the user agent string (not recommended)
+            * Enter a single user agent string to force on particular
+            * Enter many to cycle randomly through them, as per your supplied interval
+
+***
+
 ### 0.8.8.2
 
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.8.2.zip) date: 23 April 2014
