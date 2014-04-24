@@ -24,6 +24,7 @@ This warning applies to all extensions listed below, I didn't specifically check
 
 I know many users install other sort of blockers alongside HTTPSB, so if any of these blockers modifies the headers, than the resulting protection you get **could be less** than if you were using any of them alone.
 
+[TODO: feature comparison with other blockers so that people can make an informed choice]
 [TODO: provide diagnostic pages at <http://raymondhill.net/httpsb>]
 
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
