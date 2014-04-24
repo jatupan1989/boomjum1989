@@ -16,7 +16,7 @@ Chrome API allows [only **ONE** extension to modify request or response headers]
 
 Since modifying request and response headers is **key** for HTTPSB to perform its duty reliably (disabling javascript execution, stripping outgoing cookies, referer, etc.), consider that any extension which requires modifying HTTP headers is strictly incompatible with HTTPSB: One of the two extensions won't be able to do its job, which in the case of HTTPSB is **critical**.
 
-Note that their is no way for HTTPSB to find out and notify the user on whether it fails to properly modify the headers, so you are ultimately responsible for ensuring HTTPSB is the **only extension installed** which modifies headers, or its the **last one installed** (in which case other extensions which modify headers won't work properly).
+Note that their is no way for HTTPSB to find out and notify the user on whether it failed to properly modify the headers, so you are ultimately responsible for ensuring HTTPSB is the **only extension installed** which modifies headers, or its the **last one installed** (in which case other extensions which modify headers won't work properly).
 
 This warning applies to all extensions listed below, I didn't specifically check whether they modify HTTP headers, so aside the specific issues found, you will have to ensure as well they do not modify HTTP headers.
 
