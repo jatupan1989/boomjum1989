@@ -3,6 +3,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [Change log](wiki/Change-log)
 - [Permissions](wiki/Permissions)
 - [Credits](wiki/Credits)
+- [IMPORTANT: Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [Net request filtering: overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
         - Matrix filtering (to do)
