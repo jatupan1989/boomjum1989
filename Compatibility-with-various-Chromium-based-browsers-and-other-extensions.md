@@ -16,6 +16,8 @@ Chrome API allows [only **ONE** extension to modify request or response headers]
 
 Since modifying request and response headers is **key** for _HTTP Switchboard_ to perform its duty reliably (disabling javascript execution, stripping outgoing cookies, referer, etc.), consider that any extension which requires modifying HTTP headers is strictly incompatible with _HTTP Switchboard_: One of the two extensions won't be able to do its job, which in the case of HTTPSB is **critical**.
 
+This warning applies to all extensions listed below, I didn't specifically check whether they modify HTTP headers, so aside the specific issues found, you will have to ensure as well they do not modify HTTP headers.
+
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
 
 Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict.
