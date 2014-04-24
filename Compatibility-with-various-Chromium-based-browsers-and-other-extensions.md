@@ -22,6 +22,8 @@ Note that their is no way for HTTPSB to find out and notify the user on whether 
 
 This warning applies to all extensions listed below, I didn't specifically check whether they modify HTTP headers, so aside the specific issues found, you will have to ensure as well they do not modify HTTP headers.
 
+I know many users install other sort of blockers alongside HTTPSB, so if any of these blockers modifies the headers, than the resulting protection you get is **quite likely less** than if you were using any of them alone.
+
 [TODO: provide diagnostic pages at <http://raymondhill.net/httpsb>]
 
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
