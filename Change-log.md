@@ -15,6 +15,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
             * Enter nothing to blank the user agent string (not recommended)
             * Enter a single user agent string to force on particular
             * Enter many to cycle randomly through them, as per your supplied interval
+    * Of interest: [_EFF_: "Browser Versions Carry 10.5 Bits of Identifying Information on Average"](https://www.eff.org/deeplinks/2010/01/tracking-by-user-agent)
 
 ***
 
