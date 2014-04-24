@@ -17,7 +17,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
             * Enter many to cycle randomly through them, as per your supplied interval
     * Of interest: [_EFF_: "Browser Versions Carry 10.5 Bits of Identifying Information on Average"](https://www.eff.org/deeplinks/2010/01/tracking-by-user-agent)
 - Version française maintenant complète après la [révision finale de tailHey](/gorhill/httpswitchboard/commit/b6e094844433a3709c2e861b41218158eea601d4)
-    * Except for the newly added user agent spoofing feature.
 
 ***
 
