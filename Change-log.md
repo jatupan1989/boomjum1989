@@ -13,7 +13,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - An input field to choose at which interval (minutes) to randomly pick a new user agent string
         - A text area so you can enter your own list of user agent strings from which to randomly pick
             * Enter nothing to blank the user agent string (not recommended)
-            * Enter a single user agent string to force on particular
+            * Enter a single user agent string to force a particular one
             * Enter many to cycle randomly through them, as per your supplied interval
     * Of interest: [_EFF_: "Browser Versions Carry 10.5 Bits of Identifying Information on Average"](https://www.eff.org/deeplinks/2010/01/tracking-by-user-agent)
 - French translation completed after [final revision by tailHey](/gorhill/httpswitchboard/commit/b6e094844433a3709c2e861b41218158eea601d4)
