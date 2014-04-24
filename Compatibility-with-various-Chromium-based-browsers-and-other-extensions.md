@@ -22,6 +22,8 @@ Note that their is no way for HTTPSB to find out and notify the user on whether 
 
 This warning applies to all extensions listed below, I didn't specifically check whether they modify HTTP headers, so aside the specific issues found, you will have to ensure as well they do not modify HTTP headers.
 
+[TODO: provide diagnostic pages at <http://raymondhill.net/httpsb>]
+
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
 
 Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict.
