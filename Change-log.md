@@ -17,6 +17,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
             * Enter many to cycle randomly through them, as per your supplied interval
             * I put in a couple of default user agent strings I found while browsing around, but I suggest you pick your own user agent strings going forward. There are various sources out there: you choose.
             * Don't go overboard with the number of user agent strings, a handful of the top most common strings is just enough to accomplish the purpose.
+            * Prefixing a line with `#` will cause the line to be ignored
     * Of interest: [_EFF_: "Browser Versions Carry 10.5 Bits of Identifying Information on Average"](https://www.eff.org/deeplinks/2010/01/tracking-by-user-agent)
 - Version française maintenant complète après la [révision finale de tailHey](/gorhill/httpswitchboard/commit/b6e094844433a3709c2e861b41218158eea601d4)
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/100>: "Ability to neutralize User-Agent string for enhanced privacy" (as per above)
