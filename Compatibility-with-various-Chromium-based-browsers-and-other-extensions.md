@@ -14,9 +14,9 @@ I will list here known issues, benign or serious, with other extensions.
 
 Chrome API allows [only **ONE** extension to modify request or response headers](https://developer.chrome.com/extensions/webRequest#implementation), and the last one installed wins.
 
-Since modifying request and response headers is **key** for _HTTP Switchboard_ to perform its duty reliably (disabling javascript execution, stripping outgoing cookies, referer, etc.), consider that any extension which requires modifying HTTP headers is strictly incompatible with _HTTP Switchboard_: One of the two extensions won't be able to do its job, which in the case of HTTPSB is **critical**.
+Since modifying request and response headers is **key** for HTTPSB to perform its duty reliably (disabling javascript execution, stripping outgoing cookies, referer, etc.), consider that any extension which requires modifying HTTP headers is strictly incompatible with HTTPSB: One of the two extensions won't be able to do its job, which in the case of HTTPSB is **critical**.
 
-Note that their is no way for HTTP Switchboard to find out and notify the user on whether it fails to properly modify the headers, so you are ultimately responsible for ensuring HTTP Switchboard is the **only extension installed** which modifies headers, or its the **last one installed** (in which case other extensions which modify headers won't work properly).
+Note that their is no way for HTTP Switchboard to find out and notify the user on whether it fails to properly modify the headers, so you are ultimately responsible for ensuring HTTPSB is the **only extension installed** which modifies headers, or its the **last one installed** (in which case other extensions which modify headers won't work properly).
 
 This warning applies to all extensions listed below, I didn't specifically check whether they modify HTTP headers, so aside the specific issues found, you will have to ensure as well they do not modify HTTP headers.
 
