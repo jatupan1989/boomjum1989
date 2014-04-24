@@ -8,15 +8,15 @@ I know it often happens people report that HTTPSB has some malfunctions with a d
 
 I will list here known issues, benign or serious, with other extensions. One important note though: As per [Chrome API](https://developer.chrome.com/extensions/webRequest#implementation), only one extension can modify the request or response headers, and only one extension is allow to redirect a request.
 
-#### Any extension which modifies request headers
+### Any extension which modifies request headers
 
 **NOT COMPATIBLE.** Chrome API allows [only **one** extension to modify request or response headers](https://developer.chrome.com/extensions/webRequest#implementation), and the last one installed wins.
 
-#### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
+### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
 
 Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict.
 
-#### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
+### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
 
 ScriptSafe doesn't work properly with HTTPSB when scripts are blocked by HTTPSB.
 
