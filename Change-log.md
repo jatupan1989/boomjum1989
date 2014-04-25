@@ -4,6 +4,15 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.8.9.2
+
+- Release date: Not released yet
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/242>: "Requests showing up as blocked and allowed in Statistics Request log".
+    * Just to be cleared, the flaw was in the **reporting** of javascript files in the request log when blocked through ABP filtering: the files were properly blocked, they were just wrongly reported as "allowed".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/241>: "Wrong display of 0% in Statistics tab (ABP complex filters)".
+
+***
+
 ### 0.8.9.1
 
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.9.1.zip) date: 25 April 2014
