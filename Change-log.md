@@ -4,6 +4,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.8.9.3
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.9.3.zip) date: 25 April 2014
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/244>: ""HTTP cookie headers foiled" repeated twice in the Statistics tab".
+    * The second entry was supposed to be "HTTP referer headers foiled"
+
+***
+
 ### 0.8.9.2
 
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.9.2.zip) date: 25 April 2014
