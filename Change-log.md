@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.8.9.1
-- Workaround for <https://github.com/gorhill/httpswitchboard/issues/240>: "Privacy check box doesn't save [in Chrome 36 dev, Chrome 34 is ok]"
+- Workaround for <https://github.com/gorhill/httpswitchboard/issues/240>: "Privacy check box doesn't save [in Chrome 36 dev, Chrome 34 is ok]" ([bug #366989](https://code.google.com/p/chromium/issues/detail?id=366989))
 - [Traduction de la fonctionnalité User-Agent](/gorhill/httpswitchboard/commit/ca55a2564d944e6955346791b628b2a7c4a23e2c) par [tailHey](https://github.com/tailHey)
 
 ***
