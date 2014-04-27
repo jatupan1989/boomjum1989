@@ -4,10 +4,27 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.0.0
+
+- Release date: Not released yet
+- Changed feature: You can now choose to auto-create domain- or site-level scopes (before only site-level scope was available).
+    * I figure this was required as in general a domain-level scope offers an optimal balance between usability and security.
+    * The security gain from using global scope to using a domain-level scope is huge.
+    * The security gain from using a domain-level scope to using a site-level scope is marginal in most cases.
+    * The convenience gain of using a domain-level scope rather than a site-level scope is significant.
+    * For instance, it is quite common for a web site which requires logging in to use HTTP redirect directive from one subdomain to another.
+        - Example: log in on `login.example.com`, end up on `members.example.com`.
+        - With a site-level scope set to `login.example.com`, the login operation would fail because whatever whitelist rules created apply to `login.example.com`, but not to `members.example.com`.
+        - This is where domain-level scope is great, as whatever whitelist rules created in `*.example.com` apply both to `login.example.com` and `members.example.com`.
+    * Therefore domain-level scopes are now considered the preferred way of using HTTPSB, and heading toward 1.0, I made the auto-creation of domain-level scopes the default, along with the deletion of usnused scopes enabled. Existing users will have their current settings respected though.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/250>: "Let the user choose whether site- or domain-level scopes should be auto-created".
+
+***
+
 ### 0.8.9.3
 
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.8.9.3.zip) date: 25 April 2014
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/244>: ""HTTP cookie headers foiled" repeated twice in the Statistics tab".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/244>: "'HTTP cookie headers foiled' repeated twice in the Statistics tab".
     * The second entry was supposed to be "HTTP referer headers foiled"
 
 ***
