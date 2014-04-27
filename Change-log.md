@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 - Release date: Not released yet
 - Changed feature: You can now choose to auto-create domain- or site-level scopes (before only site-level scope was available).
-    * I figure this was required as in general a domain-level scope offers an optimal balance between usability and security.
+    * I figure this was required as in general, a domain-level scope offers an optimal balance between usability and security.
     * The security gain from using global scope to using a domain-level scope is huge.
     * The security gain from using a domain-level scope to using a site-level scope is marginal in most cases.
     * The convenience gain of using a domain-level scope rather than a site-level scope is significant.
