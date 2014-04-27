@@ -1,6 +1,6 @@
 **TL;DR I can't guarantee HTTPSB will run flawlessly on a development version of a Chromium-based browser.**
 
-**TL;DR I can't guarantee HTTPSB will run flawlessly when installed aside an other extension which also modify HTTP headers.**
+**TL;DR I can't guarantee HTTPSB will run flawlessly when installed aside an other extension which also modifies HTTP headers.**
 
 I develop and test HTTPSB using the latest official releases of Chromium (v33/Linux), Chrome (v34/Linux&Windows) and Opera (v20/Windows). Once in a while I test the official release of Yandex (it has been a while though). I guess I should set-up a development version of Chromium, but I do not have much time currently to do so.
 
