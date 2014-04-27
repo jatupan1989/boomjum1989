@@ -20,7 +20,7 @@ The hostname and the type of the request is extracted from the URL:
 - Hostname: `www.example.com`
 - Type: `image`
 
-To evaluate whether the request should be blocked or allowed, matrix filtering will first look-up the block/allow status using exactly the hostname and type:
+To evaluate whether the request should be blocked or allowed, matrix filtering will first look-up the block/allow status using exactly the hostname and type, then go up the hierarchy for when no explicit rule is found:
 
 - Is `image` from `www.example.com` whitelisted?
 - Yes: request is allowed
