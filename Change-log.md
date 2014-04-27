@@ -12,7 +12,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * The security gain from using global scope to using a domain-level scope is huge.
     * The security gain from using a domain-level scope to using a site-level scope is marginal in most cases.
     * The convenience gain of using a domain-level scope rather than a site-level scope is significant.
-    * For instance, it is quite common for a web site which requires logging in to use HTTP redirect directive from one subdomain to another.
+    * For instance, it is quite common for a web site which requires logging in to use HTTP redirect directives from one subdomain to another.
         - Example: log in on `login.example.com`, end up on `members.example.com`.
         - With a site-level scope set to `login.example.com`, the login operation would fail because whatever whitelist rules created apply to `login.example.com`, but not to `members.example.com`.
         - This is where domain-level scope is great, as whatever whitelist rules created in `*.example.com` apply both to `login.example.com` and `members.example.com`.
