@@ -52,6 +52,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [EFF's Panopticlick](https://panopticlick.eff.org/index.php?action=log)
     * [Anonymity test](http://ip-check.info/?lang=en)
     * [www.canyoutrackme.com](http://www.canyoutrackme.com/)
+    * [BrowserLeaks.com](http://www.browserleaks.com/)
     * [All sort of tracking cookies](http://samy.pl/evercookie/)
     * [What's My User Agent?](http://www.whatsmyuseragent.com/)
     * Chromium net internals: `chrome://net-internals/` (paste in address bar)
