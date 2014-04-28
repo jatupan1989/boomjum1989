@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.0.0
 
-- Release date: Not released yet
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.0.0.zip) date: 27 April 2014
 - Changed feature: You can now choose to auto-create domain- or site-level scopes (before only site-level scope was available).
     * I figure this was required as in general, a domain-level scope offers an optimal balance between usability and security.
     * The security gain from using global scope to using a domain-level scope is huge.
@@ -17,7 +17,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - With a site-level scope set to `login.example.com`, the login operation would fail because whatever whitelist rules were created in the `login.example.com` scope do not apply to the `members.example.com` scope.
         - This is where domain-level scope is great, as whatever whitelist rules created in `*.example.com` apply both to `login.example.com` and `members.example.com`.
         - A real life example of this particular issue was raised recently: <https://github.com/gorhill/httpswitchboard/issues/249> (French).
-    * Therefore domain-level scopes are now considered the preferred way of using HTTPSB, and heading toward 1.0, I made the auto-creation of domain-level scopes the default, along with the deletion of usnused scopes enabled. Existing users will have their current settings respected though.
+    * Therefore domain-level scopes are now considered the preferred way of using HTTPSB. Defaults are left unchanged though, as I want to further evaluate whether auto-scoping should be enabled out of the box.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/250>: "Let the user choose whether site- or domain-level scopes should be auto-created".
 
 ***
