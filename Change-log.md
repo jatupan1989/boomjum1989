@@ -17,7 +17,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - With a site-level scope set to `login.example.com`, the login operation would fail because whatever whitelist rules were created in the `login.example.com` scope do not apply to the `members.example.com` scope.
         - This is where domain-level scope is great, as whatever whitelist rules created in `*.example.com` apply both to `login.example.com` and `members.example.com`.
         - A real life example of this particular issue was raised recently: <https://github.com/gorhill/httpswitchboard/issues/249> (French).
-    * Therefore domain-level scopes are now considered the preferred way of using HTTPSB. Defaults are left unchanged though, as I want to further evaluate whether auto-scoping should be enabled out of the box.
+    * Therefore aute-creation of domain-level scopes is now considered the preferred way of using HTTPSB. Defaults are left unchanged though, as I want to further evaluate whether auto-scoping should be enabled out of the box.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/250>: "Let the user choose whether site- or domain-level scopes should be auto-created".
 
 ***
