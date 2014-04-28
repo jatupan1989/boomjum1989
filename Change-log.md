@@ -6,6 +6,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.0.0
 
+- **I care about backward compatibility, but apparently I failed this time. It has come to my attention that a user had its settings for auto-create scope disabled, despite me having put [code in there](/gorhill/httpswitchboard/blob/master/js/storage.js#L53) to translate the old internal setting into the new one. ~~I still do not understand how this code can fail, but in any case,~~ my apologies for this fumbling.**
+
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.0.0.zip) date: 27 April 2014
 - Changed feature: You can now choose to auto-create domain- or site-level scopes (before only site-level scope was available).
     * I figure this was required as in general, a domain-level scope offers an optimal balance between usability and security.
@@ -18,7 +20,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - This is where domain-level scope is great, as whatever whitelist rules created in `*.example.com` apply both to `login.example.com` and `members.example.com`.
         - A real life example of this particular issue was raised recently: <https://github.com/gorhill/httpswitchboard/issues/249> (French).
     * Therefore aute-creation of domain-level scopes is now considered the preferred way of using HTTPSB. Defaults are left unchanged though, as I want to further evaluate whether auto-scoping should be enabled out of the box.
-    * **I care about backward compatibility, but apparently I failed this time. It has come to my attention that a user had its settings for auto-create scope disabled, despite me having put [code in there](/gorhill/httpswitchboard/blob/master/js/storage.js#L53) to translate the old internal setting into the new one. I still do not understand how this code can fail, but in any case, my apologies for this fumbling.**
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/250>: "Let the user choose whether site- or domain-level scopes should be auto-created".
 
 ***
