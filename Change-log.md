@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.0.0
 
-- **I care about backward compatibility, but apparently I failed this time. It has come to my attention that a user had its settings for auto-create scope disabled, despite me having put [code in there](/gorhill/httpswitchboard/blob/master/js/storage.js#L53) to translate the old internal setting into the new one. ~~I still do not understand how this code can fail, but in any case,~~ my apologies for this fumbling.**
+- **I care about backward compatibility,** but apparently I failed this time. It has come to my attention that a user had its settings for auto-create scope disabled, despite me having put [code in there](/gorhill/httpswitchboard/blob/master/js/storage.js#L53) to translate the old internal setting into the new one. ~~I still do not understand how this code can fail, but in any case,~~ **my apologies for this fumbling.** (I could fix the problem, but I suppose it is too late at this point, so simplest workaround is to go to the _Settings_ tab a re-select your choice.)
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.0.0.zip) date: 27 April 2014
 - Changed feature: You can now choose to auto-create domain- or site-level scopes (before only site-level scope was available).
     * I figure this was required as in general, a domain-level scope offers an optimal balance between usability and security.
