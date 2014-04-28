@@ -18,6 +18,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - This is where domain-level scope is great, as whatever whitelist rules created in `*.example.com` apply both to `login.example.com` and `members.example.com`.
         - A real life example of this particular issue was raised recently: <https://github.com/gorhill/httpswitchboard/issues/249> (French).
     * Therefore aute-creation of domain-level scopes is now considered the preferred way of using HTTPSB. Defaults are left unchanged though, as I want to further evaluate whether auto-scoping should be enabled out of the box.
+    * **I care about backward compatibility, but apparently I failed this time. It has come to my attention that a user had its settings for auto-create scope disabled, despite me having put [code in there](/gorhill/httpswitchboard/blob/master/js/storage.js#L53) to translate the old internal setting into the new one. I still do not understand how this code can fail, but in any case, my apology for this fumbling.**
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/250>: "Let the user choose whether site- or domain-level scopes should be auto-created".
 
 ***
