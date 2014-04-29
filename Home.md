@@ -6,8 +6,6 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [IMPORTANT: Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [Net request filtering: overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
-        - Matrix filtering (to do)
-        - ABP filtering (to do)
     * User interface (recommended reading)
         - [The badge](/gorhill/httpswitchboard/wiki/The-badge)
         - [The matrix toolbar](/gorhill/httpswitchboard/wiki/The-matrix-toolbar)
