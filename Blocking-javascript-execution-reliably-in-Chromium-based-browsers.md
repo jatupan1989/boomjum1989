@@ -50,7 +50,7 @@ It just works.
 
 The event handler is executed in a synchronous manner, and Chromium-based browsers have supported the `Content-Security-Policy` header since a while now. [6]
 
-And after having spent so much time to try to find a solution, it was a marvelous moment when I finally realized this solved the thorny issue of blocking javascript reliably.
+After having spent so much time to try to find a solution, it was a marvelous moment when I finally realized this solved the thorny issue of blocking javascript reliably.
 
 It works so well, I wouldn't be surprised to see the same approach adopted by other javascript blockers written for Chromium-based browsers in the future.
 
