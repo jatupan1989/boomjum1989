@@ -46,7 +46,9 @@ In the `chrome.webRequest.onBeforeRequest`, `chrome.webRequest.onBeforeSendHeade
 
 Thus the solution was to create a `chrome.webRequest.onHeadersReceived` event handler which would inject a `Content-Security-Policy` header with the directive `"script-src 'none'"`.
 
-It just works.
+It just works:
+
+![HTTPSB can block reliably](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-can-block-reliably.png)
 
 The event handler is executed in a synchronous manner, and Chromium-based browsers have supported the `Content-Security-Policy` header since a while now. [6]
 
