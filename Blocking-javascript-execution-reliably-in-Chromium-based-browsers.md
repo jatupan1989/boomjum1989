@@ -1,4 +1,4 @@
-_[Posted here because Hacker News post are limited to 2000 characters, and I didn't want to truncate the text]_
+_[Posted here because a Hacker News post is limited to 2000 characters, and I didn't want to truncate the text]_
 
 There is an unfortunate myth still going on out there which can be resumed as follow:
 
