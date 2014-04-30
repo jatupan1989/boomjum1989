@@ -6,7 +6,7 @@ There is an unfortunate myth still going on out there which can be resumed as fo
 
 I disagree.
 
-## The Myth
+## The myth
 
 Unfortunately, more often than not, my attempts at explaining that it is indeed possible to block javascript execution reliably in a Chromium-based browser are quickly dismissed with no visible attempts, from my point of view, to really understand how it works, so that there can be a genuine assessment of how reliable it is.
 
