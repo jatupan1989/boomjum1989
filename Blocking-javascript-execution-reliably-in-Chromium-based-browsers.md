@@ -20,7 +20,7 @@ The purpose of this post is my attempt to dispel this particular myth. Honestly,
 
 ## The problem
 
-Other javascript blockers on Chromium-based browsers typically rely on the chrome.contentSettings.javascript API to block or allow execution of javascript for a given web page. [2]
+Other javascript blockers on Chromium-based browsers typically rely on the `chrome.contentSettings.javascript` API to block or allow execution of javascript for a given web page. [2]
 
 This particular API is unreliable, because as per chrome API documentation, "[unless] the doc says otherwise, methods in the chrome.* APIs are asynchronous". [3]
 
