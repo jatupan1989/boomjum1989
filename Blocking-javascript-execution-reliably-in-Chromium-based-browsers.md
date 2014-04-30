@@ -2,7 +2,7 @@ _[Posted here because Hacker News post are limited to 2000 characters, and I did
 
 There is an unfortunate myth still going on out there which can be resumed as follow:
 
-"It is not possible to reliably block javascript execution in [Chromium-based browser]".
+> It is not possible to reliably block javascript execution in [Chromium-based browser]
 
 I disagree.
 
