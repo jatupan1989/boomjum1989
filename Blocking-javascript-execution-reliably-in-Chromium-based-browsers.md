@@ -1,4 +1,4 @@
-_[Posted here because a Hacker News post is limited to 2000 characters, and I didn't want to truncate the text]_
+_[This was meant for a post on Hacker News, but posted here because a HN post is limited to 2000 characters, and I didn't want to truncate the text]_
 
 There is an unfortunate myth still going on out there which can be resumed as follow:
 
@@ -6,7 +6,7 @@ There is an unfortunate myth still going on out there which can be resumed as fo
 
 I disagree.
 
-### The Myth
+## The Myth
 
 Unfortunately, more often than not, my attempts at explaining that it is indeed possible to block javascript execution reliably in a Chromium-based browser are quickly dismissed with no visible attempts, from my point of view, to really understand how it works, so that there can be a genuine assessment of how reliable it is.
 
@@ -18,7 +18,7 @@ Given the huge amount of hours I dedicated to this project, I have to admit that
 
 The purpose of this post is my attempt to dispel this particular myth. Honestly, I don't think I will really dispel the myth, but I can't help but give it a try.
 
-### The problem
+## The problem
 
 Other javascript blockers on Chromium-based browsers typically rely on the chrome.contentSettings.javascript API to block or allow execution of javascript for a given web page. [2]
 
@@ -32,7 +32,7 @@ Early in the development of my extension, this is also how I tried to block inli
 
 Asynchronous is a good thing, but in this particular, narrow case, it is definitely not.
 
-### The solution
+## The solution
 
 I spent long hours to try and figure what could be done. Wrote quite a lot of prototype code, which I always had to throw.
 
@@ -54,7 +54,7 @@ And after having spent so much time to try to find a solution, it was a marvelou
 
 It works so well, I wouldn't be surprised to see the same approach adopted by other javascript blockers written for Chromium-based browsers in the future.
 
-### The exception: Data URI
+## The exception: Data URI
 
 In Chromium-based browsers, loading a data URI in the address bar doesn't result in HTTP headers being received through a `chrome.webRequest.onHeadersReceived` event handler, therefore no `Content-Security-Policy "script-src 'none'"` header can be injected, thus inline javascript cannot be disabled for data URIs. [7]
 
