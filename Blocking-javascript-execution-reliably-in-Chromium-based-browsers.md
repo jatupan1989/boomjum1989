@@ -70,10 +70,10 @@ This mitigates *significantly* the execution of javascript code in a data URI, a
 
 ## References
 
-[1] <https://github.com/gorhill/httpswitchboard#http-switchboard-for-chromium>
-[2] <https://developer.chrome.com/extensions/contentSettings>
-[3] <https://developer.chrome.com/extensions/api_index#conventions>
-[4] <https://github.com/gorhill/httpswitchboard/issues/35>
-[5] <https://developer.chrome.com/extensions/webRequest>
-[6] <http://caniuse.com/contentsecuritypolicy>
-[7] <http://forums.informaction.com/viewtopic.php?f=8&t=7020&start=30#p68784>
+- [1] <https://github.com/gorhill/httpswitchboard#http-switchboard-for-chromium>
+- [2] <https://developer.chrome.com/extensions/contentSettings>
+- [3] <https://developer.chrome.com/extensions/api_index#conventions>
+- [4] <https://github.com/gorhill/httpswitchboard/issues/35>
+- [5] <https://developer.chrome.com/extensions/webRequest>
+- [6] <http://caniuse.com/contentsecuritypolicy>
+- [7] <http://forums.informaction.com/viewtopic.php?f=8&t=7020&start=30#p68784>
