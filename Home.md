@@ -39,7 +39,6 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Why does *HTTP Switchboard* ignore my existing settings first time I install it?](/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-ignore-my-existing-settings-first-time-I-install-it%3F)
 - [Recipes (web site-scoped)](/gorhill/httpswitchboard/wiki/Recipes-%28web-site-scoped%29)
 - [_HTTP Switchboard_ "seems to need more micromanagement" compared to _NoScript_](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-%22seems-to-need-more-micromanagement%22-compared-to-NoScript)
-- [Can _HTTP Switchboard_ block reliably javascript, or whatever net request?](/gorhill/httpswitchboard/wiki/Can-HTTP-Switchboard-block-reliably-javascript,-or-whatever-net-request%3F)
 - [How does *HTTP Switchboard* compares to *AdBlock+*, *Ghostery* or *Disconnect* concerning privacy?](/gorhill/httpswitchboard/wiki/How-does-HTTP-Switchboard-compares-to-AdBlock-%2C-Ghostery-or-Disconnect-concerning-privacy%3F)
 - [Doesn't *HTTP Switchboard* add a significant overhead to network traffic?](/gorhill/httpswitchboard/wiki/Doesn't-HTTPSB-add-a-significant-overhead-to-network-traffic%3F)
 - [Why does *HTTP Switchboard* conflict with AdBlock+?](/gorhill/httpswitchboard/wiki/Why-does-HTTP-Switchboard-conflict-with-AdBlock-%3F)
