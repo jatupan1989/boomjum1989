@@ -1,5 +1,1 @@
-Yes.
-
-![HTTPSB can block reliably](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-can-block-reliably.png)
-
-_HTTP Switchboard_ uses a different mechanism than previous Chromium blockers to prevent the execution of javascript, and this new mechanism takes effect **before** the content of a web page is received.
+See: <https://github.com/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers>
