@@ -4,6 +4,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [Permissions](wiki/Permissions)
 - [Credits](wiki/Credits)
 - [IMPORTANT: Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
+- [MYTH BUSTER: Blocking javascript execution reliably in Chromium based browsers](https://github.com/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [Net request filtering: overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
     * User interface (recommended reading)
