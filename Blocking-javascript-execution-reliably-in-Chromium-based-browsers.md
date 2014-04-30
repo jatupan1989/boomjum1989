@@ -44,7 +44,7 @@ There are only three places (which I know of so far) in the chrome API where cod
 
 In the `chrome.webRequest.onBeforeRequest`, `chrome.webRequest.onBeforeSendHeaders`, and `chrome.webRequest.onHeadersReceived` event handlers. [5]
 
-Thus the solution was to create a `chrome.webRequest.onHeadersReceived` event handler which would inject a `Content-Security-Policy` header with the directive "script-src 'none'".
+Thus the solution was to create a `chrome.webRequest.onHeadersReceived` event handler which would inject a `Content-Security-Policy` header with the directive `"script-src 'none'"`.
 
 It just works.
 
