@@ -4,6 +4,14 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 1.0.0.0
+
+- At some point there has to be a **version 1.0**, and as it is, I am considering tagging the current version as **the** version 1.0.
+    * I do not see any pending issues which are major enough to justify waiting any longer.
+    * At this point, my thoughts are about the out-of-the-box default settings to use to strike a proper balance of usability for a majority of new users.
+
+***
+
 ### 0.9.0.0
 
 - **I care about backward compatibility,** but apparently I failed this time. It has come to my attention that a user had its settings for auto-create scope disabled, despite me having put [code in there](/gorhill/httpswitchboard/blob/master/js/storage.js#L53) to translate the old internal setting into the new one. ~~I still do not understand how this code can fail, but in any case,~~ **my apologies for this fumbling.** (I could fix the problem, but I suppose it is too late at this point, so simplest workaround is to go to the _Settings_ tab a re-select your choice of scope auto-creation -- `domain` is now the preferred choice.)
