@@ -70,7 +70,7 @@ This mitigates *significantly* the execution of javascript code in a data URI, a
 
 ## Feedback
 
-If you wish to comment on this issue, you can do so at:
+If you wish to comment on this topic, you can do so at:
 
 - [Reddit thread](http://www.reddit.com/r/privacy/comments/24dos5/myth_javascript_execution_can_not_be_reliably/)
 - [Hacker News thread](https://news.ycombinator.com/news)
