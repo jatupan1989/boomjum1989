@@ -68,6 +68,13 @@ Furthermore, if my extension is present, external resources referenced in a data
 
 This mitigates *significantly* the execution of javascript code in a data URI, and I do not consider this enough of an issue to for my work to deserve the "unreliable" tag.
 
+## Feedback
+
+If you wish to comment on this issue, you can do so at:
+
+- [Reddit thread](http://www.reddit.com/r/privacy/comments/24dos5/myth_javascript_execution_can_not_be_reliably/)
+- [Hacker News thread](https://news.ycombinator.com/news)
+
 ## References
 
 - [1] <https://github.com/gorhill/httpswitchboard#http-switchboard-for-chromium>
