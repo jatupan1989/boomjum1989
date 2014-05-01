@@ -62,7 +62,7 @@ In Chromium-based browsers, loading a data URI in the address bar doesn't result
 
 Now, I just want to emphasize that data URIs for Chromium-based browsers are treated quite differently than other browsers:
 
-In a Chromium-based browser, a data URI *is its own unique origin*, and as per Chromium developers, "they don't have access to cookies or other resources belonging to their parent".
+In a Chromium-based browser, a data URI *is its own unique origin*, and [as per Chromium developers](https://code.google.com/p/chromium/issues/detail?id=142635#c7), "they don't have access to cookies or other resources belonging to their parent". [8]
 
 Furthermore, if my extension is present, external resources referenced in a data URI, and which are not whitelisted won't be allowed to load.
 
@@ -84,3 +84,4 @@ If you wish to comment on this topic, you can do so at:
 - [5] <https://developer.chrome.com/extensions/webRequest>
 - [6] <http://caniuse.com/contentsecuritypolicy>
 - [7] <http://forums.informaction.com/viewtopic.php?f=8&t=7020&start=30#p68784>
+- [8] <https://code.google.com/p/chromium/issues/detail?id=142635#c7>
