@@ -10,7 +10,7 @@ Unfortunately, more often than not, my attempts at explaining that it is indeed 
 
 Months ago, I unexpectedly found myself writing an extension for Chromium to enhance security. Nothing was planned, it just happened after I started hacking with the API "just to see" how all this worked.
 
-It's called HTTP Switchboard [1], and as I entertain the idea of slapping "v1.0" on it at this point, I am still faced with the myth "[Chromium-based browser] can't reliably block javascript".
+It's called [HTTP Switchboard](/gorhill/httpswitchboard#http-switchboard-for-chromium) [1], and as I entertain the idea of slapping "v1.0" on it at this point, I am still faced with the myth "[Chromium-based browser] can't reliably block javascript".
 
 Given the huge amount of hours I dedicated to this project, I have to admit that it does sadden me to see such a myth unfairly undermining my work.
 
@@ -18,15 +18,15 @@ The purpose of this post is my attempt to dispel this particular myth. Honestly,
 
 ## The problem
 
-Other javascript blockers on Chromium-based browsers typically rely on the `chrome.contentSettings.javascript` API to block or allow execution of javascript for a given web page. [2]
+Other javascript blockers on Chromium-based browsers typically rely on the [chrome.contentSettings.javascript](https://developer.chrome.com/extensions/contentSettings) API to block or allow execution of javascript for a given web page. [2]
 
-This particular API is unreliable, because as per chrome API documentation, "[unless] the doc says otherwise, methods in the chrome.* APIs are asynchronous". [3]
+This particular API is unreliable, because as per [chrome API documentation](https://developer.chrome.com/extensions/api_index#conventions), "[unless] the doc says otherwise, methods in the chrome.* APIs are asynchronous". [3]
 
 This means that when an extension calls, say, `chrome.contentSettings.javascript.set([rule])` to block or allow javascript execution, the rule passed to the API call will take effect *at some point in the future*, and this future could be *after* the web page has loaded, *after* the page has been parsed, and *after* inline javascript has been executed.
 
 There is just no guarantee as to when the rule will take effect.
 
-Early in the development of my extension, this is also how I tried to block inline javascript execution, and this was causing ugly issues. [4]
+Early in the development of my extension, this is also how I tried to block inline javascript execution, and this was causing [ugly issues](/gorhill/httpswitchboard/issues/35). [4]
 
 Asynchronous is a good thing, but in this particular, narrow case, it is definitely not.
 
@@ -40,7 +40,7 @@ In retrospect, this seems an obvious solution, but I guess it is not *that* obvi
 
 There are only three places (which I know of so far) in the chrome API where code can be (optionally) executed in a synchronous ("blocking") manner:
 
-In the `chrome.webRequest.onBeforeRequest`, `chrome.webRequest.onBeforeSendHeaders`, and `chrome.webRequest.onHeadersReceived` event handlers. [5]
+In the `chrome.webRequest.onBeforeRequest`, `chrome.webRequest.onBeforeSendHeaders`, and `chrome.webRequest.onHeadersReceived` [event handlers](https://developer.chrome.com/extensions/webRequest). [5]
 
 Thus the solution was to create a `chrome.webRequest.onHeadersReceived` event handler which would inject a `Content-Security-Policy` header with the directive `"script-src 'none'"`.
 
@@ -48,7 +48,7 @@ It just works:
 
 ![HTTPSB can block reliably](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-can-block-reliably.png)
 
-The event handler is executed in a synchronous manner, and Chromium-based browsers have supported the `Content-Security-Policy` header since a while now. [6]
+The event handler is executed in a synchronous manner, and Chromium-based browsers have supported the `Content-Security-Policy` header [since a while now](http://caniuse.com/contentsecuritypolicy). [6]
 
 After having spent so much time to try to find a solution, it was a marvelous moment when I finally realized this solved the thorny issue of blocking javascript reliably.
 
@@ -56,7 +56,7 @@ It works so well, I wouldn't be surprised to see the same approach adopted by ot
 
 ## The exception: Data URI
 
-In Chromium-based browsers, loading a data URI in the address bar doesn't result in HTTP headers being received through a `chrome.webRequest.onHeadersReceived` event handler, therefore no `Content-Security-Policy "script-src 'none'"` header can be injected, thus inline javascript cannot be disabled for data URIs. [7]
+In Chromium-based browsers, loading a data URI in the address bar doesn't result in HTTP headers being received through a `chrome.webRequest.onHeadersReceived` event handler, therefore no `Content-Security-Policy "script-src 'none'"` header can be injected, thus inline javascript [cannot be disabled](http://forums.informaction.com/viewtopic.php?f=8&t=7020&start=30#p68784) for data URIs. [7]
 
 (But this is not the case brought forth by the majority of people arguing that javascript cannot be reliably blocked in a Chromium-based browser.)
 
