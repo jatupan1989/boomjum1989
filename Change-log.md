@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 - At some point there has to be a **version 1.0**, and as it is, I am considering tagging the current version as **the** version 1.0.
     * I do not see any pending issues which are major enough to justify waiting any longer.
-    * At this point, my thoughts are about the out-of-the-box default settings to use to strike a proper balance of usability for a majority of new users.
+    * At this point, my thoughts are about which the out-of-the-box default settings to use to strike a proper balance of usability for a majority of new users.
 
 ***
 
