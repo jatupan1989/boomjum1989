@@ -32,7 +32,7 @@ Asynchronous is a good thing, but in this particular, narrow case, it is definit
 
 ## The solution
 
-I spent long hours to try and figure what could be done. Wrote quite a lot of prototype code, which I always had to throw.
+I spent long hours to try and figure what could be done. Wrote quite a lot of prototype code, which I always had to throw away.
 
 Eventually, one prototype worked.
 
