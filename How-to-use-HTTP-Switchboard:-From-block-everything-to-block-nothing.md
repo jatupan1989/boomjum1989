@@ -6,4 +6,4 @@ Examples:
 
 - [Block-All / Allow-Exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach)
 - [Allow-All / Block-Exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach)
-- Allow-Everything but Disclose-Everything
+- [Allow-Everything / Disclose-Everything](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-nothingdisclose-everything-approach)
