@@ -6,7 +6,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 
 #### February 26, 2014
 
-|               | HTTPSB<sup>OOB</sup> | HTTPSB<sup>AA/BX</sup> | Ghostery  | Adblock+          | Disconnect   | No blocker        |
+|               | HTTPSB<br>OOB | HTTPSB<br>AA/BX | Ghostery  | Adblock+          | Disconnect   | No blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
 | Domains       |       **21** / 22 |       **45** / 46 |       **48** / 49 |       **53** / 54 |       **87** / 88 |     **412** / 413 |
 | Hosts         |       **49** / 78 |      **89** / 142 |      **98** / 165 |      **96** / 152 |     **153** / 232 |     **609** / 697 |
