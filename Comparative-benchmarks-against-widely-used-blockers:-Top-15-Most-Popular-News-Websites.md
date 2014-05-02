@@ -6,7 +6,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 
 #### May 2, 2014
 
-|               | HTTPSB<br>BA/AX   | Ghostery          | Adblock+          | HTTPSB<br>AA/BX   | Disconnect        | Privacy&nbsp;Badger<br>(beta) | No&nbsp;blocker        |
+|               | HTTPSB<br>BA/AX   | Ghostery          | Adblock+          | HTTPSB<br>AA/BX   | Disconnect        | Privacy&nbsp;Badger<br>[beta](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works) | No&nbsp;blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| ------------------------:| -----------------:|
 | Domains       |       **21** / 22 |       **52** / 53 |       **54** / 55 |       **54** / 55 |       **93** / 94 |            **192** / 193 |     **420** / 421 |
 | Hosts         |       **49** / 75 |      **99** / 160 |      **97** / 149 |     **101** / 153 |     **171** / 248 |            **299** / 381 |     **641** / 720 |
