@@ -95,4 +95,4 @@ How to enable:
 
 In this mode, absolutely nothing will be blocked by HTTPSB. A bit useless, but then, this allows a user to see completely what a web page does when no blockers are used, or if you have another blocker extension  installed, to see what is **not** blocked by the other extension.
 
-It also allows a user to see the behind-the-scene connections made by the browser or other installed extensions.
+It also allows a user to see the behind-the-scene connections made by the browser or other installed extensions (except of course those net requests not going through the `chrome.webRequest` API).
