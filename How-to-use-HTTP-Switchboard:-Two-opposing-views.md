@@ -2,6 +2,7 @@ There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is 
 
 - [Block All / Allow Exceptionally](#the-block-allallow-exceptionally-approach)
 - [Allow All / Block Exceptionally](#the-allow-allblock-exceptionally-approach)
+- [Allow All / Disclose All](#the-allow-alldisclose-all-approach)
 
 One important thing to remember though, regardless of the approach you choose, the preset lists of blocked hosts is useful to block the ad servers, trackers, malware, nuisance, etc. of the internet.
 
@@ -75,3 +76,20 @@ Disadvantages:
 Mitigation to disadvantages:
 - The preset lists of blocked hosts, i.e. it could be worst (notice the 22 blocked scripts above).
 - The support of _Adblock Plus_ complex filters introduced in 0.8.4.0.
+
+## The allow-all/block-nothing/disclose-everything approach
+
+This is the "extreme" approach of allowing everything, blocking nothing, but then the user keep the ability to see **all** the connections a web pages does.
+
+![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-allow-all-disclose-all.png)
+
+How to enable:
+- Whitelist the `all` cell.
+- Un-blacklist the `frame` cell.
+- Un-whitelist the `css` and `img` cells (just to keep things tidy).
+- Save by clicking on the padlock.
+- Go to the _Ubiquitous rules_ tab in the dashboard and unselect **all** lists of preset blocked hosts. Click _Apply changes_.
+
+In this mode, absolutely nothing will be blocked by HTTPSB. A bit useless, but then, this allows a user to see completely what a web page does when no blockers are used, or if you have another blocker extension  installed, to see what is not blocked by the other extension.
+
+It also allows a user to see the behind-the-scene connections made by the browser or other installed extensions.
