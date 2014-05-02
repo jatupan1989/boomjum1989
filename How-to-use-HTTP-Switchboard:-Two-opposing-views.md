@@ -1,3 +1,5 @@
+<sup>[Added a 3rd (extreme) example of how HTTPSB can be used, but too late for me to change the title of this entry, that would break all the links to it.]</sup>
+
 There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is everything in between and [beyond](http://www.wilderssecurity.com/threads/http-switchboard-for-chrome-chromium.356427/page-25#post-2357557). Basically: your choice.
 
 - [Block All / Allow Exceptionally](#the-block-allallow-exceptionally-approach)
