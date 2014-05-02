@@ -20,6 +20,8 @@ HTTPSB<sup>OOB</sup> and HTTPSB<sup>AA/BX</sup>:
 
 The latest version of all blockers was used on the day of the benchmark.
 
+Chrome *Settings* / *Privacy* / *Content Settings* / *Cookies* => "Block third-party cookies and site data" was disabled (to see what a blocker won't block).
+
 Chrome *Settings* / *Privacy* / *Content Settings* / *Plug-ins* => "Click to play" was selected.
 
 Chrome *Settings* / *Privacy* / *Content Settings* / *JavaScript* => "Allow all sites to run JavaScript" was selected.
