@@ -2,7 +2,7 @@ There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is 
 
 - [Block All / Allow Exceptionally](#the-block-allallow-exceptionally-approach)
 - [Allow All / Block Exceptionally](#the-allow-allblock-exceptionally-approach)
-- [Allow All / Disclose All](#the-allow-alldisclose-all-approach)
+- [Allow All / Block Nothing / Disclose Everything](#the-allow-alldisclose-all-approach)
 
 One important thing to remember though, regardless of the approach you choose, the preset lists of blocked hosts is useful to block the ad servers, trackers, malware, nuisance, etc. of the internet.
 
