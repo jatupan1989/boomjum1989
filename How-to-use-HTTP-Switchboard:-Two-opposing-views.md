@@ -4,6 +4,7 @@ There are two main ways to use *HTTP Switchboard* ("HTTPSB"), and then there is 
 
 - [Block All / Allow Exceptionally](#the-block-allallow-exceptionally-approach)
 - [Allow All / Block Exceptionally](#the-allow-allblock-exceptionally-approach)
+- [Back to Home](/gorhill/httpswitchboard/wiki)
 
 One important thing to remember though, regardless of the approach you choose, the preset lists of blocked hosts is useful to block the ad servers, trackers, malware, nuisance, etc. of the internet.
 
@@ -77,6 +78,3 @@ Disadvantages:
 Mitigation to disadvantages:
 - The preset lists of blocked hosts, i.e. it could be worst (notice the 22 blocked scripts above).
 - The support of _Adblock Plus_ complex filters introduced in 0.8.4.0.
-
-
-[Back to Home](/gorhill/httpswitchboard/wiki)
