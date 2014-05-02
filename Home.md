@@ -7,6 +7,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [MYTH BUSTER: Javascript execution **can** be reliably blocked in Chromium-based browsers](https://github.com/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
 - [MUST READ: How to use HTTP Switchboard: Two opposing views](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views)
     * [HTTP Switchboard as NoScript](https://github.com/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-NoScript)
+    * [HTTP-Switchboard as a mere reporting tool](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-a-mere-reporting-tool)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [Net request filtering: overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
     * User interface (recommended reading)
