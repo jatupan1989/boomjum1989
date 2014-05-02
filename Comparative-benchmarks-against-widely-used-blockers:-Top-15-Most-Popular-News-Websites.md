@@ -6,7 +6,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 
 #### February 26, 2014
 
-|               | HTTPSB<br>OOB | HTTPSB<br>AA/BX | Ghostery  | Adblock+          | Disconnect   | No blocker        |
+|               | HTTPSB<br>BA/AX | HTTPSB<br>AA/BX | Ghostery  | Adblock+          | Disconnect   | No blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
 | Domains       |       **21** / 22 |       **45** / 46 |       **48** / 49 |       **53** / 54 |       **87** / 88 |     **412** / 413 |
 | Hosts         |       **49** / 78 |      **89** / 142 |      **98** / 165 |      **96** / 152 |     **153** / 232 |     **609** / 697 |
@@ -19,7 +19,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 
 #### January 24, 2014
 
-|               | HTTPSB<br>OOB | Ghostery          | Adblock+          | HTTPSB<br>AA/BX | Disconnect        | No blocker        |
+|               | HTTPSB<br>BA/AX | Ghostery          | Adblock+          | HTTPSB<br>AA/BX | Disconnect        | No blocker        |
 | ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -----------------:| -----------------:|
 | Domains       |       **24** / 25 |       **54** / 55 |       **59** / 60 |       **69** / 70 |       **91** / 92 |     **476** / 477 |
 | Hosts         |       **55** / 82 |     **109** / 183 |     **107** / 169 |     **126** / 200 |     **157** / 240 |     **693** / 785 |
@@ -35,7 +35,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 - [Methodology and notes](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Methodology-and-notes)
 
 ### Notes
-- _HTTPSB<sup>OOB</sup>_ means *HTTP Switchboard* with [out-of-the-box settings](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach).
+- _HTTPSB<sup>BA/AX</sup>_ means *HTTP Switchboard* with [out-of-the-box settings](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-block-allallow-exceptionally-approach).
 - _HTTPSB<sup>AA/BX</sup>_ means *HTTP Switchboard* in [allow-all/block-exceptionally mode](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#wiki-the-allow-allblock-exceptionally-approach), with out-of-the-box preset blacklists.
 
 ### Methodology
