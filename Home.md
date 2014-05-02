@@ -5,6 +5,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [Credits](wiki/Credits)
 - [IMPORTANT: Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
 - [MYTH BUSTER: Javascript execution **can** be reliably blocked in Chromium-based browsers](https://github.com/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
+- [MUST READ: How to use HTTP Switchboard: Two opposing views](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [Net request filtering: overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
     * User interface (recommended reading)
@@ -14,7 +15,6 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
         - [The matrix scope](/gorhill/httpswitchboard/wiki/The-matrix-scope) (under construction)
         - [The matrix cells](/gorhill/httpswitchboard/wiki/The-matrix-cells)
         - [Precedence in the matrix](/gorhill/httpswitchboard/wiki/Precedence-in-the-matrix) (under construction)
-    * [How to use HTTP Switchboard: Two opposing views](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views)
         - [Example: Impact on www.wired.com](https://github.com/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Impact-on-www.wired.com)
     * [Notable news headlines: if you had HTTP Switchboard installed...](https://github.com/gorhill/httpswitchboard/wiki/Notable-news-headlines:-if-you-had-HTTP-Switchboard-installed...)
     * Comparative benchmarks against widely used blockers
