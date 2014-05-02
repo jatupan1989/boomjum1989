@@ -91,7 +91,7 @@ How to enable:
 - Un-whitelist the `css` and `img` cells (just to keep things tidy).
 - Save by clicking on the padlock.
 - Go to the _Ubiquitous rules_ tab in the dashboard and unselect **all** lists of preset blocked hosts. Click _Apply changes_.
-- Ensure you have zero scope rules (backing up all your settings might be a good idea if you just want to try that mode).
+- Ensure you have zero scoped rules (backing up all your settings might be a good idea if you just want to try that mode).
 
 In this mode, absolutely nothing will be blocked by HTTPSB. A bit useless, but then, this allows a user to see completely what a web page does when no blockers are used, or if you have another blocker extension  installed, to see what is **not** blocked by the other extension.
 
