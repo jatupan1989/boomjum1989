@@ -36,7 +36,7 @@ Both extensions may try to replace the content of `<iframe>` objects with harmle
 
 ### [Privacy Badger](https://www.eff.org/privacybadger)
 
-Both extensions modifies outgoing request headers, and since the chrome API (as of Chromium 34) does not allow more than one extension to modify HTTP headers, one of the two extensions may end up being unable to do what is is supposed to do.
+Both extensions modify outgoing request headers, and since the chrome API (as of Chromium 34) does not allow more than one extension to modify HTTP headers, one of the two extensions may end up being unable to do what is is supposed to do.
 
 As per chrome API, the last extension _installed_ (not the same as _enabled_) wins. So this means:
 
