@@ -51,6 +51,7 @@ As per chrome API, the last extension _installed_ (not the same as _enabled_) wi
     - will **not** be able to spoof user-agent information
 - If HTTPSB is installed last, then Privacy Badger...
     - will **not** be able to remove outbound cookies as per its own heuristic
+    - will **not** be able to inject `DNT` into request headers
 
 So if you wish to use HTTPSB along with Privacy Badger, definitely install Privacy Badger **after** HTTPSB.
 
