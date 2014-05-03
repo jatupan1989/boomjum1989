@@ -10,11 +10,11 @@ Notice in the screenshot above that a domain-level scope was auto-created by HTT
 
 Now from this point, you have choice to soft-allow all or hard-allow all.
 
-Soft-allow will whitelist the whole matrix **except** the ubiquitously blocked hostnames. This is simple done by whitelisting the `all` cell:
+Soft-allowing all will whitelist the whole matrix **except** the ubiquitously blocked hostnames. This is simple done by whitelisting the `all` cell:
 
 ![Block-all / soft allow all](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-block-all-narrowly-allow-all-soft.png)
 
-Hard-allow will whitelist the whole matrix **including** the ubiquitously blocked hostnames. This is unfortunately needed sometimes as some web sites require some of these nuisance servers to be reachable in order for a page to work properly. This is simple done by disabling matrix filtering:
+Hard-allowing all will whitelist the whole matrix **including** the ubiquitously blocked hostnames. This is unfortunately needed sometimes as some web sites require some of these nuisance servers to be reachable in order for a page to work properly. This is simple done by disabling matrix filtering:
 
 ![Block-all / hard allow all](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-block-all-narrowly-allow-all-hard.png)
 
