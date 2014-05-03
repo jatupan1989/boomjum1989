@@ -41,12 +41,12 @@ Both extensions modify outgoing request headers, and since the chrome API (as of
 As per chrome API, the last extension _installed_ (not the same as _enabled_) wins. So this means:
 
 - If Privacy Badger is installed last, then HTTPSB...
-    - will **not** be able to _remove_ outbound cookies as per matrix
+    - will **not** be able to remove outbound cookies as per matrix
     - will still be able to delete them from the browser
     - will **not** be able to strip referer information as per matrix
     - will **not** be able to spoof user-agent information
 - If HTTPSB is installed last, then Privacy Badger...
-    - will **not** be able to _remove_ outbound cookies as per its own heuristic
+    - will **not** be able to remove outbound cookies as per its own heuristic
 
 ### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
 
