@@ -59,6 +59,8 @@ So if you wish to use HTTPSB along with Privacy Badger, definitely install Priva
 
 After having read how Privacy Badger works, I actually think it is an excellent complementary extension to use aside HTTPSB, **especially** if you use HTTPSB in a permissive way (for example [allow-all/block-exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach)). Just be sure to install it **after** HTTPSB has been installed.
 
+On the other hand, if you really want to completely control your outgoing cookies using HTTPSB's matrix, install HTTPSB *after* Privacy Badger. Privacy Badger will still be able to be "trained" and to block net requests to servers which are deemed untrustworthy (as per "training").
+
 ### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
 
 ScriptSafe doesn't work properly with HTTPSB when scripts are blocked by HTTPSB.
