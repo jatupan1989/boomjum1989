@@ -32,7 +32,7 @@ I know many users install other sort of blockers alongside HTTPSB, so if any of 
 
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
 
-Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict.
+Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict, but the result is harmless because whoever wins, the `<iframe>` objects will end up being properly neutralized.
 
 ### [Privacy Badger](https://www.eff.org/privacybadger)
 
