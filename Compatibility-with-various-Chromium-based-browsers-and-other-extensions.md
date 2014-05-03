@@ -38,7 +38,7 @@ Compatible.
 
 Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict, but the result is harmless because whoever wins, the `<iframe>` objects will end up being properly neutralized.
 
-### [Privacy Badger](https://www.eff.org/privacybadger)
+### [Privacy Badger](https://www.eff.org/privacybadger) (from EFF)
 
 Strictly speaking, not compatible, but still can be used together meaningfully is you install Privacy Badger with HTTPSB and accept that some of privacy-related features of one of the extensions will not work (reliably).
 
