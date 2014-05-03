@@ -59,6 +59,9 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.gif)
 
 How to enable:
+- Use _Restore from file..._ to import [this file](https://github.com/gorhill/httpswitchboard/blob/master/stuff/httpsb-allow-all-block-exceptionally-setup.txt)
+
+or manually:
 - Whitelist the `all` cell.
 - Un-blacklist the `frame` cell.
 - Save by clicking on the padlock.
