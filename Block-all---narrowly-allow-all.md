@@ -14,7 +14,7 @@ Soft-allowing all will whitelist the whole matrix **except** the ubiquitously bl
 
 ![Block-all / soft allow all](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-block-all-narrowly-allow-all-soft.png)
 
-Hard-allowing all will whitelist the whole matrix **including** the ubiquitously blocked hostnames. This is unfortunately needed sometimes as some web sites require some of these nuisance servers to be reachable in order for a page to work properly. This is simple done by disabling matrix filtering:
+Hard-allowing all will whitelist the whole matrix **including** the ubiquitously blocked hostnames. This is unfortunately needed sometimes as some web sites require some of these nuisance servers to be reachable in order for a page to work properly. This is simply done by disabling matrix filtering:
 
 ![Block-all / hard allow all](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-block-all-narrowly-allow-all-hard.png)
 
