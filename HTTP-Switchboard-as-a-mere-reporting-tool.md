@@ -4,6 +4,6 @@ This is the "extreme" approach of allowing everything, blocking nothing, but the
 
 I created a backup file which can be restored (from the _About_ tab) in order to turn HTTPSB into a mere reporting tool:
 
-<httpshttps://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-block-nothing-report-everything-setup.txt>.
+<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-block-nothing-report-everything-setup.txt>.
 
 Remember: Restoring data from a full backup file will overwrite all your settings!
