@@ -59,7 +59,7 @@ After having read how Privacy Badger works, I actually think it is an excellent 
 
 So if you wish to use HTTPSB along with Privacy Badger, installing Privacy Badger **before** or **after** depends on the results you wish:
 
-If you want Privacy Badger to completely control your outbound cookies as per its own "training" heuristic, install Privacy Badger **after** HTTPSB.
+If you want Privacy Badger to completely control your outbound cookies as per [its own heuristics](/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works), install Privacy Badger **after** HTTPSB.
 
 If you want HTTPSB to completely control your outbound cookies as per its matrix state, install HTTPSB **after** Privacy Badger.
 
