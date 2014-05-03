@@ -1,3 +1,8 @@
 - [Home](/gorhill/httpswitchboard/wiki)
-- [How to use: two opposing views](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views)
+- Various ways to use _HTTP Switchboard_
+    - [Block all / allow exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach) (default)
+    - [Allow all / block exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach)
+    - [NoScript-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-NoScript)
+    - [RequestPolicy-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-RequestPolicy)
+    - [Block nothing / report everything](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-a-mere-reporting-tool)
 - [Net-request-filtering engines: an overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
