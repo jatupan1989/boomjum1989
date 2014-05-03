@@ -32,6 +32,8 @@ I know many users install other sort of blockers alongside HTTPSB, so if any of 
 
 ### [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)
 
+Compatible.
+
 Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict, but the result is harmless because whoever wins, the `<iframe>` objects will end up being properly neutralized.
 
 ### [Privacy Badger](https://www.eff.org/privacybadger)
@@ -39,6 +41,8 @@ Both extensions may try to replace the content of `<iframe>` objects with harmle
 Both extensions modify outgoing request headers, and since the chrome API (as of Chromium 34) does not allow more than one extension to modify HTTP headers, one of the two extensions may end up being unable to do what is is supposed to do.
 
 As per chrome API, the last extension _installed_ (not the same as _enabled_) wins. So this means:
+
+Strictly speaking, not compatible, but still can be used together meaningfully is you install Privacy Badger **after** HTTPSB and accept that some of HTTPSB's privacy-related feature will not work reliably.
 
 - If Privacy Badger is installed last, then HTTPSB...
     - will **not** be able to remove outbound cookies as per matrix
