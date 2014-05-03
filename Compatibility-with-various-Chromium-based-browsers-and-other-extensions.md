@@ -16,6 +16,8 @@ I will list here known issues, benign or serious, with other extensions.
 
 **NOT COMPATIBLE.**
 
+(in the strict sense, but sometimes the parts that are "broken" may not be enough to justify the removal of the "incompatible" extensions).
+
 Chrome API allows [only **ONE** extension to modify request or response headers](https://developer.chrome.com/extensions/webRequest#implementation), and the last one installed wins.
 
 Since modifying request and response headers is **key** for HTTPSB to perform its duty reliably (disabling javascript execution, stripping outgoing cookies, referer, etc.), consider that any extension which requires modifying HTTP headers is strictly incompatible with HTTPSB: One of the two extensions won't be able to do its job, which in the case of HTTPSB is **critical**.
