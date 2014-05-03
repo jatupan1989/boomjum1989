@@ -63,7 +63,7 @@ If you want Privacy Badger to completely control your outbound cookies as per [i
 
 If you want HTTPSB to completely control your outbound cookies as per its matrix state, install HTTPSB **after** Privacy Badger.
 
-Regardless of the choice, Privacy Badger will still be able to be "trained" and block net requests to servers which are deemed untrustworthy (as per "training"), and HTTPSB will still be able to block net requests as per its matrix and ABP filtering engines.
+Regardless of the choice, Privacy Badger will still be able to be "trained" and block net requests to servers which are deemed untrustworthy, and HTTPSB will still be able to block net requests as per its matrix and ABP filtering engines.
 
 **IMPORTANT:** Privacy Badger relies on being able to perform [XmlHttpRequests](https://en.wikipedia.org/wiki/XMLHttpRequest) to the servers it evaluates (it requests their `dnt-policy.txt` file). Therefore this means you will have to ensure the `XHR` cell in the matrix is whitelisted for the [chromium-behind-the-scene scope](/gorhill/httpswitchboard/wiki/Behind-the-scene-requests) in order to not trip Privacy Badger's evaluation of 3rd-parties.
 
