@@ -40,7 +40,7 @@ Both extensions may try to replace the content of `<iframe>` objects with harmle
 
 ### [Privacy Badger](https://www.eff.org/privacybadger)
 
-Strictly speaking, not compatible, but still can be used together meaningfully is you install Privacy Badger **after** HTTPSB and accept that some of HTTPSB's privacy-related features will not work (reliably).
+Strictly speaking, not compatible, but still can be used together meaningfully is you install Privacy Badger with HTTPSB and accept that some of privacy-related features of one of the extensions will not work (reliably).
 
 Both extensions modify outgoing request headers, and since the chrome API (as of Chromium 34) does not allow more than one extension to modify HTTP headers, one of the two extensions may end up being unable to do what is is supposed to do.
 
@@ -55,11 +55,15 @@ As per chrome API, the last extension _installed_ (not the same as _enabled_) wi
     - will **not** be able to remove outbound cookies as per its own heuristic
     - will **not** be able to inject the [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) header into request headers
 
-So if you wish to use HTTPSB along with Privacy Badger, definitely install Privacy Badger **after** HTTPSB.
+After having read how Privacy Badger works, I actually think it is an excellent complementary extension to use aside HTTPSB, **especially** if you use HTTPSB in a permissive way (for example [allow-all/block-exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach)).
 
-After having read how Privacy Badger works, I actually think it is an excellent complementary extension to use aside HTTPSB, **especially** if you use HTTPSB in a permissive way (for example [allow-all/block-exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach)). Just be sure to install it **after** HTTPSB has been installed.
+So if you wish to use HTTPSB along with Privacy Badger, installing Privacy Badger **before** or **after** depends on the results you wish:
 
-On the other hand, if you really want to completely control your outgoing cookies using HTTPSB's matrix, install HTTPSB *after* Privacy Badger. Privacy Badger will still be able to be "trained" and to block net requests to servers which are deemed untrustworthy (as per "training").
+If you want Privacy Badger to completely control your outbound cookies as per its own "training" heuristic, install Privacy Badger **after** HTTPSB.
+
+If you want HTTPSB to completely control your outbound cookies as per its matrix state, install HTTPSB *after* Privacy Badger.
+
+Regardless of the choice, Privacy Badger will still be able to be "trained" and block net requests to servers which are deemed untrustworthy (as per "training"), and HTTPSB will still be able to block net requests as per its matrix and ABP filtering engines.
 
 ### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
 
