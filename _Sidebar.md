@@ -6,3 +6,6 @@
     - [RequestPolicy-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-RequestPolicy)
     - [Block nothing / report everything](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-a-mere-reporting-tool)
 - [Net-request-filtering engines: an overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
+- [Compatibility with other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
+    - [Adblock Plus](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions#adblock-plus)
+    - [Privacy Badger](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions#privacy-badger)
