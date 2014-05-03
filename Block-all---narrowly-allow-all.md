@@ -1,6 +1,6 @@
 This mode is interesting for people who wants to be protected by default when landing on any web site, and yet wish to be able to allow the whole web site - but **only** that web site -- with a single click.
 
-Through the use of a matrix scope, it is possible to allow a whole site without affecting the default block-all status for all other web sites.
+Through the use of a matrix scope, it is possible to allow a whole site without affecting the default block-all status of all other web sites.
 
 Here is how the matrix would look like right after landing on the web site:
 
