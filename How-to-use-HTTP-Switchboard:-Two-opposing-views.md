@@ -18,6 +18,9 @@ I advise new users to stick to whitelist/blacklist domain cells (the left-most c
 ![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.gif)
 
 How to enable (this is the out-of-the-box settings):
+- Use _Restore from file..._ to import [this file](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-factory-setup.txt)
+
+or manually:
 - Blacklist the `all` and `frame` cells.
 - Whitelist the `css` and `img` cells.
 - Save by clicking on the padlock.
