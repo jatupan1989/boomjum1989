@@ -61,7 +61,7 @@ So if you wish to use HTTPSB along with Privacy Badger, installing Privacy Badge
 
 If you want Privacy Badger to completely control your outbound cookies as per its own "training" heuristic, install Privacy Badger **after** HTTPSB.
 
-If you want HTTPSB to completely control your outbound cookies as per its matrix state, install HTTPSB *after* Privacy Badger.
+If you want HTTPSB to completely control your outbound cookies as per its matrix state, install HTTPSB **after** Privacy Badger.
 
 Regardless of the choice, Privacy Badger will still be able to be "trained" and block net requests to servers which are deemed untrustworthy (as per "training"), and HTTPSB will still be able to block net requests as per its matrix and ABP filtering engines.
 
