@@ -8,4 +8,6 @@ I created a backup file which can be restored (from the _About_ tab) in order to
 
 <https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-noscript-like-setup.txt>.
 
+_NoScript_ comes with a preset list of hostnames for which javascript is allowed, this list has been included in the above setup file as ubiquitously whitelisted hostnames.
+
 Remember: Restoring data from a full backup file will overwrite all your settings!
