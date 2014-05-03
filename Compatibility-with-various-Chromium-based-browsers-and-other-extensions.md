@@ -38,7 +38,7 @@ Both extensions may try to replace the content of `<iframe>` objects with harmle
 
 ### [Privacy Badger](https://www.eff.org/privacybadger)
 
-Strictly speaking, not compatible, but still can be used together meaningfully is you install Privacy Badger **after** HTTPSB and accept that some of HTTPSB's privacy-related feature will not work reliably.
+Strictly speaking, not compatible, but still can be used together meaningfully is you install Privacy Badger **after** HTTPSB and accept that some of HTTPSB's privacy-related features will not work (reliably).
 
 Both extensions modify outgoing request headers, and since the chrome API (as of Chromium 34) does not allow more than one extension to modify HTTP headers, one of the two extensions may end up being unable to do what is is supposed to do.
 
