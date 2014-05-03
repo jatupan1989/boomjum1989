@@ -43,8 +43,8 @@ As per chrome API, the last extension _installed_ (not the same as _enabled_) wi
 - If Privacy Badger is installed last, then HTTPSB...
     - will **not** be able to _remove_ outbound cookies as per matrix
     - will still be able to delete them from the browser
-    - will not be able to strip referer information as per matrix
-    - will not be able to spoof user-agent information
+    - will **not** be able to strip referer information as per matrix
+    - will **not** be able to spoof user-agent information
 - If HTTPSB is installed last, then Privacy Badger...
     - will **not** be able to _remove_ outbound cookies as per its own heuristic
 
