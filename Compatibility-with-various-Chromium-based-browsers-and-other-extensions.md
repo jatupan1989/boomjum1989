@@ -55,6 +55,8 @@ As per chrome API, the last extension _installed_ (not the same as _enabled_) wi
 
 So if you wish to use HTTPSB along with Privacy Badger, definitely install Privacy Badger **after** HTTPSB.
 
+After having read how Privacy Badger works, I actually think it is an excellent complementary extension to use aside HTTPSB, **especially** if you use HTTPSB in permissive way. Just be sure to install it **after** HTTPSB has been installed.
+
 ### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
 
 ScriptSafe doesn't work properly with HTTPSB when scripts are blocked by HTTPSB.
