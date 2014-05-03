@@ -16,7 +16,7 @@ I will list here known issues, benign or serious, with other extensions.
 
 **NOT COMPATIBLE.**
 
-(in the strict sense, but sometimes the parts that are "broken" may not be enough to justify the removal of the "incompatible" extensions).
+"Not compatible" in the strictest sense, but sometimes the parts that are "broken" may not be enough to justify the removal of the "incompatible" extension.
 
 Chrome API allows [only **ONE** extension to modify request or response headers](https://developer.chrome.com/extensions/webRequest#implementation), and the last one installed wins.
 
