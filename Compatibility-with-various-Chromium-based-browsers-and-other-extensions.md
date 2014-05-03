@@ -34,6 +34,20 @@ I know many users install other sort of blockers alongside HTTPSB, so if any of 
 
 Both extensions may try to replace the content of `<iframe>` objects with harmless content using a redirect operation. When this happens, the browser will warn of a conflict.
 
+### [Privacy Badger](https://www.eff.org/privacybadger)
+
+Both extensions modifies outgoing request headers, and since the chrome API does not allow more than one extension to modify HTTP headers, one of the two extensions may end up being unable to do what is is supposed to do.
+
+As per chrome API, the last extension _installed_ (not the same as _enabled_) wins. So this means:
+
+- If Privacy Badger is installed last, then HTTPSB...
+    - will **not** be able to _remove_ outbound cookies as per matrix
+    - will still be able to delete them from the browser
+    - will not be able to strip referer information as per matrix
+    - will not be able to spoof user-agent information
+- If HTTPSB is installed last, then Privacy Badger...
+    - will **not** be able to _remove_ outbound cookies as per its own heuristic
+
 ### [ScriptSafe](https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf)
 
 ScriptSafe doesn't work properly with HTTPSB when scripts are blocked by HTTPSB.
