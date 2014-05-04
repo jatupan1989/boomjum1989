@@ -12,6 +12,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.0.1
+- Release date: Not release yet
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/252>: Mismatch between user agent string from HTTP header and user agent string from `window.navigator.userAgent`.
+
+***
+
 ### 0.9.0.0
 
 - **I care about backward compatibility,** but apparently I failed this time. It has come to my attention that a user had its settings for auto-create scope disabled, despite me having put [code in there](/gorhill/httpswitchboard/blob/master/js/storage.js#L53) to translate the old internal setting into the new one. ~~I still do not understand how this code can fail, but in any case,~~ **my apologies for this fumbling.** (I could fix the problem, but I suppose it is too late at this point, so simplest workaround is to go to the _Settings_ tab a re-select your choice of scope auto-creation -- `domain` is now the preferred choice.)
