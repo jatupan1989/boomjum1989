@@ -33,7 +33,7 @@ Behaviors:
 
 Advantages:
 - Security is greatly enhanced.
-    * External and inline scripts won't execute (contrary to a commonly held belief, inline scripting can be disabled in Chromium).
+    * External and inline scripts won't execute (contrary to a commonly held belief, [inline scripting can be disabled in Chromium](/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)).
 - Privacy is greatly enhanced.
 - Use less network bandwidth ([web pages download faster](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites))
 
