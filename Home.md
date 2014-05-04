@@ -4,7 +4,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [Permissions](wiki/Permissions)
 - [Credits](wiki/Credits)
 - [IMPORTANT: Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
-- [MYTH BUSTER: Javascript execution **can** be reliably blocked in Chromium-based browsers](https://github.com/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
+- [Dispelling a myth: Javascript execution **can** be reliably blocked in Chromium-based browsers](https://github.com/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
 - [MUST READ: How to use HTTP Switchboard: Two opposing views](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views)
     * And then more:
     * [Block all / Narrowly allow all](/gorhill/httpswitchboard/wiki/Block-all---narrowly-allow-all)
