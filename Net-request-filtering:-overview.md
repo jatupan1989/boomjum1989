@@ -4,7 +4,7 @@
 
 The matrix filtering engine and the ABP filtering engine can be selectively turned on or off, independently. Whether matrix filtering and/or ABP filtering is on or off is a per-scope setting. When both filtering engines are turned off, HTTPSB can still be useful by acting as a reporting tool, as it will still report in the matrix and request log all the net connections a web page does.
 
-Great care has been taken to write CPU- and memory-efficient filtering engine code.
+Great care has been taken to write CPU- and memory-efficient code for both filtering engines.
 
 ## Matrix filtering
 
