@@ -1,4 +1,5 @@
 - [Home](/gorhill/httpswitchboard/wiki)
+- [Change log](/gorhill/httpswitchboard/wiki/Change-log)
 - How to use: you choose
     - [Block all / allow exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-block-allallow-exceptionally-approach) (default)
     - [Allow all / block exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach)
