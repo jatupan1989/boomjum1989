@@ -15,7 +15,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 | Net requests  |   **680** / 1,199 |   **966** / 1,722 |   **913** / 1,612 |   **930** / 1,648 | **1,124** / 1,936 |        **1,340** / 2,176 | **2,079** / 2,849 |
 | Bandwidth     |        15,147,576 |        27,406,535 |        26,489,990 |        27,040,340 |        28,758,904 |                        ? |                 ? |
 
-<sup>Changes from previous benchmark: EFF-backed Privacy Badger (beta) added, see [these important notes](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works), mostly, the results for Privacy Badger represent a worst-case scenario as the extension improves with usage. Starting with [HTTP Switchboard version 0.8.6.4](/gorhill/httpswitchboard/wiki/Change-log#0864), Fanboy's lists are not longer enabled by default.</sup>
+<sup>Changes from previous benchmark: EFF-backed Privacy Badger (beta) added, see [these important notes](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works), mostly, the results for Privacy Badger represent a worst-case scenario as the extension improves with usage (next benchmark I will prime it beforehand). Starting with [HTTP Switchboard version 0.8.6.4](/gorhill/httpswitchboard/wiki/Change-log#0864), Fanboy's lists are not longer enabled by default.</sup>
 
 #### February 26, 2014
 
