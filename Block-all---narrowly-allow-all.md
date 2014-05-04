@@ -6,7 +6,7 @@ Here is how the matrix would look like right after landing on the web site:
 
 ![Block-all](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-block-all-narrowly-allow-all.png)
 
-Notice in the screenshot above that a domain-level scope was auto-created by HTTPSB (`*.wired.com`).
+Notice in the screenshot above that a domain-level scope was auto-created by HTTPSB (`*.wired.com`), therefore any new rules will apply *only* to web pages from on `wired/com`.
 
 Now from this point, you have choice to soft-allow all or hard-allow all.
 
