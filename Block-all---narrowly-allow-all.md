@@ -18,7 +18,7 @@ Hard-allowing all will whitelist the whole matrix **including** the ubiquitously
 
 ![Block-all / hard allow all](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-block-all-narrowly-allow-all-hard.png)
 
-In both cases above, soft- or hard-allowing all applies **ONLY** to web pages sitting on the `wired.com` domain, everything else would still be blocked by default.
+In both cases above, soft- or hard-allowing all applies **ONLY** to web pages sitting on the `wired.com` domain, everything else would still be blocked by default. Also, remember that all changes are temporary, until you click the padlock.
 
 I created a backup file which can be restored (from the _About_ tab) in order to make HTTPSB behave as described above:
 
