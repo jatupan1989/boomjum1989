@@ -1,4 +1,4 @@
-This is the "extreme" approach of allowing everything, blocking nothing, but then the user keeps the ability to see **all** the connections a web pages does.
+This is the "extreme" approach of allowing everything, blocking nothing, but then the user keeps the ability to see **all** the connections a web page does.
 
 ![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-allow-all-disclose-all.png)
 
