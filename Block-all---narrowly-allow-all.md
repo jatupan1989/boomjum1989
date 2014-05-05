@@ -8,7 +8,7 @@ Here is how the matrix would look like right after landing on the web site:
 
 Notice in the screenshot above that a domain-level scope was auto-created by HTTPSB (`*.wired.com`), therefore new permissions will apply *only* to web pages from on `wired.com`.
 
-Now from this point, you have choice to soft-allow all or hard-allow all.
+Now from this point, you have choice to soft-allow all or hard-allow all (or whatever else, really).
 
 Soft-allowing all will whitelist the whole matrix **except** the ubiquitously blocked hostnames. This is simple done by whitelisting the `all` cell:
 
