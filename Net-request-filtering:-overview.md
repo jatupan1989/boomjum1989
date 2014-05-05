@@ -71,11 +71,10 @@ ABP filters allow for a more granular control than matrix filtering when it come
 
 At time of writing, not all ABP filters are supported, though the most common ones are supported. Not supported yet:
 
-- Whitelist filters, i.e. those starting with `@@`
 - Any filter which has options other than the `third-party` option
 - Any filter which purpose is to hide elements
 
-Still, roughly the proportion of parsed and enforced ABP filters is almost 80% of all ABP filters, or 90% when disregarding ABP filters used for whitelisting (support for these is planned).
+Still, roughly the proportion of parsed and enforced ABP filters is almost 90% of all ABP filters.
 
 ABP filtering takes place **after** matrix filtering, therefore if a specific net request is blocked through matrix filtering, then ABP filtering will not be used, as the net request has already been evaluated as blocked.
 
