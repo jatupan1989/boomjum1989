@@ -15,6 +15,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.9.0.1
 - Release date: Not release yet
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/252>: Mismatch between user agent string from HTTP header and user agent string from `window.navigator.userAgent`.
+- Progress on <https://github.com/gorhill/httpswitchboard/issues/231>: "More complete support of Adblock filters"
+    * Whitelist filters now supported. Coverage of ABP filter syntax is still not complete, but supporting whitelist filters bumps up the coverage from 84.5% to 87.9% in the case of EasyList + EasyPrivacy.
 
 ***
 
