@@ -13,7 +13,7 @@ I advise new users to stick to whitelist/blacklist domain cells (the left-most c
 
 ## The block-all/allow-exceptionally approach
 
-This is _HTTP Switchboard'a_ default mode.
+This is _HTTP Switchboard_'s default mode.
 
 ![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.gif)
 
