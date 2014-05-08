@@ -18,7 +18,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * ![Reciper](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-reciper.gif)
     *  The rationale is to decentralize support for the extension, I expect there will always be advanced users somewhere ready to help novice users, and this feature is to make helping easier.
     * The new widget allows to export the current state of the matrix into a _recipe_, and allows to import a recipe into the current matrix. Example:
-        - Novice user asks help for set of rules ti "unbreak" a web site.
+        - Novice user asks help for set of rules to "unbreak" a web site.
         - Advanced user figures the minimal set of rules.
         - Advanced user exports the state of the matrix into a recipe.
         - Advanced user post the resulting recipe somewhere where the novice user can copy it.
