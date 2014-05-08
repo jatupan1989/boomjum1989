@@ -27,7 +27,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Novice user express is gratitude to advanced user.
     * The import is "smart", i.e. it won't allow the import of rules which are irrelevant to the current matrix.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/255>: "A session cookie may be removed before it expires".
-    * Typical symptom: randomly being logged out of whatever service you were logged in.
+    * Typical symptom: randomly being logged out of whatever service you were logged in (not fun).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/252>: Mismatch between user agent string from HTTP header and user agent string from `window.navigator.userAgent`.
 - Progress on <https://github.com/gorhill/httpswitchboard/issues/231>: "More complete support of Adblock filters"
     * Whitelist filters now supported.
