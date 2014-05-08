@@ -19,6 +19,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     *  The rationale is to decentralize support for the extension, I expect there will always be advanced users somewhere ready to help novice users, and this feature is to make helping easier.
     * The new widget allows to export the current state of the matrix into a _recipe_, and allows to import a recipe into the current matrix.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/255>: "A session cookie may be removed before it expires".
+    * Typical symptom: randomly being logged out of whatever service you were logged in.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/252>: Mismatch between user agent string from HTTP header and user agent string from `window.navigator.userAgent`.
 - Progress on <https://github.com/gorhill/httpswitchboard/issues/231>: "More complete support of Adblock filters"
     * Whitelist filters now supported.
