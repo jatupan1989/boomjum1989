@@ -17,7 +17,14 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - New feature: In order to enable users to help each other more easily, users can exchange matrix recipes with each other.
     * ![Reciper](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-reciper.gif)
     *  The rationale is to decentralize support for the extension, I expect there will always be advanced users somewhere ready to help novice users, and this feature is to make helping easier.
-    * The new widget allows to export the current state of the matrix into a _recipe_, and allows to import a recipe into the current matrix.
+    * The new widget allows to export the current state of the matrix into a _recipe_, and allows to import a recipe into the current matrix. Example:
+        - Novice user asks help for set of rules ti "unbreak" a web site.
+        - Advanced user figures the minimal set of rules.
+        - Advanced user exports the state of the matrix into a recipe.
+        - Advanced user post the resulting recipe somewhere where the novice user can copy it.
+        - Novice user pastes the recipe into the recipe field and click on the import button.
+        - Novice user tries if it works, and if so, click on the padlock to lock down the new rules.
+        - Novice user express is gratitude to advanced user.
     * The import is "smart", i.e. it won't allow the import of rules which are irrelevant to the current matrix.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/255>: "A session cookie may be removed before it expires".
     * Typical symptom: randomly being logged out of whatever service you were logged in.
