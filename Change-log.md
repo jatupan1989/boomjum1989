@@ -14,8 +14,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.1.0
 - Release date: Not release yet
-- New feature: In order to enable users to help each other more easily, users can exchange matrix recipe with each other:
+- New feature: In order to enable users to help each other more easily, users can exchange matrix recipe with each other.
     * ![Reciper](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-reciper.gif)
+    *  The rationale is to decentralize support for the extension, I expect there will always be advanced users somewhere ready to help novice users, and this feature is to make helping easier.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/252>: Mismatch between user agent string from HTTP header and user agent string from `window.navigator.userAgent`.
 - Progress on <https://github.com/gorhill/httpswitchboard/issues/231>: "More complete support of Adblock filters"
     * Whitelist filters now supported.
