@@ -22,7 +22,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Advanced user figures the minimal set of rules.
         - Advanced user exports the state of the matrix into a recipe.
         - Advanced user post the resulting recipe somewhere where the novice user can copy it.
-        - Novice user copy-paste the recipe into the recipe field and click on the import button.
+        - Novice user, trusting advanced user, copy-paste the recipe into the recipe field and click on the import button.
         - Novice user tries if it works, and if so, click on the padlock to lock down the new rules.
         - Novice user express his gratitude to advanced user, advanced user answers "no problem".
     * The import is "smart", i.e. it won't allow the import of rules which are irrelevant to the current matrix.
