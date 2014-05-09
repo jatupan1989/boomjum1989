@@ -87,7 +87,8 @@ To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-c
 Also, whereas ABP uses regular expressions internally to test for a filter match, HTTPSB uses simpler plain string comparisons whenever it is more efficient to do so, which is true for the great majority of filters (see <http://jsperf.com/regexp-vs-indexof-abp-miss/3> and <http://jsperf.com/regexp-vs-indexof-abp-hit/3>).
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/abp-vs-httpsb.png" />
+    <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/abp-vs-httpsb.png" /><br>
+    <sup>Memory footprint</sup>
 </p>
 
 In the above screenshot, Adblock Plus 1.7.4, Adblock 2.6.28, and HTTPSB 0.8.9.2 were set to use [_EasyList without element hiding_](https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt) and [_EasyPrivacy_](https://easylist-downloads.adblockplus.org/easyprivacy.txt). So-called "acceptable ads" was disabled in ABP.
@@ -96,6 +97,6 @@ Now, **HTTPSB had an extra 56,000+ blocked hosts as matrix-filtering rules** (th
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/onbeforerequest-perf.png" /><br>
-    <sup>Average time spent to process each single net request: ABP vs. HTTPSB</sup>
+    <sup>CPU footprint: Average time spent to process each single net request: ABP vs. HTTPSB</sup>
 </p>
 The test was run on Google Chrome 34 for Linux, on Linux Mint 16 64-bit. The benchmark was the same as the one used in ["Comparative benchmarks against widely used blockers: Top 15 Most Popular News Websites"](https://github.com/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) (except `repeat` was set to 2), then all the tabs were closed (except for the _Extensions_ tab), and the browser was left idling for over 20 minutes to ensure the browser's garbage collector cleared unused memory from the extensions. The extensions were benchmarked alone, with no other extension present.
