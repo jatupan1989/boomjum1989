@@ -88,14 +88,14 @@ Also, whereas ABP uses regular expressions internally to test for a filter match
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/abp-vs-httpsb.png" /><br>
-    <sup>Memory footprint</sup>
+    <sup>Memory footprint<br>(both matrix and ABP filtering were enabled in HTTPSB)</sup>
 </p>
 
 In the above screenshot, Adblock Plus 1.7.4, Adblock 2.6.28, and HTTPSB 0.8.9.2 were set to use [_EasyList without element hiding_](https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt) and [_EasyPrivacy_](https://easylist-downloads.adblockplus.org/easyprivacy.txt). So-called "acceptable ads" was disabled in ABP.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/onbeforerequest-perf.png" /><br>
-    <sup>CPU footprint: Average time spent to process each single net request: ABP vs. HTTPSB<br>(for the CPU benchmark, both matrix and ABP filtering were enabled in HTTPSB)</sup>
+    <sup>CPU footprint: Average time spent to process each single net request: ABP vs. HTTPSB<br>(both matrix and ABP filtering were enabled in HTTPSB)</sup>
 </p>
 
 **Now regarding the above results, an important fact:** HTTPSB was using **an extra 56,000+ blocked hosts** as matrix-filtering rules (those rules are enabled out-of-the-box), and yet despite this, HTTPSB runs much leaner and faster than ABP, as seen above.<sup>[1]</sup>
