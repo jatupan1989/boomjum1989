@@ -12,6 +12,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.1.1
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.1.1.zip) date: 9 May 2014
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/257>: "cookies dropped randomly since yesterday".
+    * I screwed up, a reverse logic mistake caused session cookies to be systematically removed for users who had the _"Delete non-blocked session cookies..."_ disabled.
+
+***
+
 ### 0.9.1.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.1.0.zip) date: 8 May 2014
 - New feature: In order to enable users to help each other more easily, users can exchange matrix recipes with each other.
