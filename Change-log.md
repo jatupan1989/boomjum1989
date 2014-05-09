@@ -831,4 +831,4 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
-[Older change logs](https://github.com/gorhill/httpswitchboard/wiki/Change-log-0.0-to-0.5).
+[Older change logs: 0.0.0 to 0.5.9](https://github.com/gorhill/httpswitchboard/wiki/Change-log-0.0-to-0.5).
