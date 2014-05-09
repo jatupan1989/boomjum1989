@@ -411,5 +411,5 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
-- [Older change logs: 0.0.0 to 0.5.9](/gorhill/httpswitchboard/wiki/Change-log-0.6.0.0-to-0.7.9.3).
+- [Older change logs: 0.6.0.0 to 0.7.9.3](/gorhill/httpswitchboard/wiki/Change-log-0.6.0.0-to-0.7.9.3).
 - [Even older change logs: 0.0.0 to 0.5.9](/httpswitchboard/wiki/Change-log-0.0-to-0.5).
