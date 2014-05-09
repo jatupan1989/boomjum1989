@@ -98,7 +98,7 @@ In the above screenshot, Adblock Plus 1.7.4, Adblock 2.6.28, and HTTPSB 0.8.9.2 
     <sup>CPU footprint: Average time spent to process each single net request: ABP vs. HTTPSB</sup>
 </p>
 
-**Now regarding the above results, an important fact:** HTTPSB had _an extra 56,000+ blocked hosts_ as matrix-filtering rules (those rules are enabled out-of-the-box), and yet despite this, HTTPSB runs much leaner and faster than ABP, as seen above.<sup>[1]</sup>
+**Now regarding the above results, an important fact:** HTTPSB was using **an extra 56,000+ blocked hosts** as matrix-filtering rules (those rules are enabled out-of-the-box), and yet despite this, HTTPSB runs much leaner and faster than ABP, as seen above.<sup>[1]</sup>
 
 The test was run on Google Chrome 34 for Linux, on Linux Mint 16 64-bit. The benchmark was the same as the one used in ["Comparative benchmarks against widely used blockers: Top 15 Most Popular News Websites"](https://github.com/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) (except `repeat` was set to 2), then all the tabs were closed (except for the _Extensions_ tab), and the browser was left idling for over 20 minutes to ensure the browser's garbage collector cleared unused memory from the extensions. The extensions were benchmarked alone, with no other extension present.
 
