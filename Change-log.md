@@ -24,7 +24,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Advanced user post the resulting recipe somewhere where the novice user can copy it.
         - Novice user copy-paste the recipe into the recipe field and click on the import button.
         - Novice user tries if it works, and if so, click on the padlock to lock down the new rules.
-        - Novice user express his gratitude to advanced user.
+        - Novice user express his gratitude to advanced user, advanced user says "no problem".
     * The import is "smart", i.e. it won't allow the import of rules which are irrelevant to the current matrix.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/255>: "A session cookie may be removed before it expires".
     * Typical symptom: randomly being logged out of whatever service you were logged in (not fun).
