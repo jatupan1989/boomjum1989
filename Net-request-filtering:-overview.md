@@ -82,7 +82,7 @@ Any net request which is evaluated as "allowed" by matrix filtering will however
 
 Great care has been taken to implement an efficient ABP filtering engine in HTTPSB (code was written from scratch), and the result is such that it consumes considerably less memory and CPU cycles than the official ABP extension on Chromium-based browsers.
 
-To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, for the benchmark described below, **ABP evaluates 121 filters/URL**, while for the same benchmark **HTTPSB evaluates 5 filters/URL** (the result in the case of HTTPSB was a _worst-case scenario_, as matrix filtering had been turned off so as to ensure apples-vs-apples comparison: no requests were blocked by the matrix filtering engine, therefore all filtering duty fell onto the ABP filtering engine).
+To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, for the benchmark described below, **ABP evaluates 121 filters/URL**, while for the same benchmark **HTTPSB evaluates 5 filters/URL**<sup>[1]</sup>.
 
 Also, whereas ABP uses regular expressions internally to test for a filter match, HTTPSB uses simpler plain string comparisons whenever it is more efficient to do so, which is true for the great majority of filters (see <http://jsperf.com/regexp-vs-indexof-abp-miss/3> and <http://jsperf.com/regexp-vs-indexof-abp-hit/3>).
 
@@ -98,10 +98,12 @@ In the above screenshot, Adblock Plus 1.7.4, Adblock 2.6.28, and HTTPSB 0.8.9.2 
     <sup>CPU footprint: Average time spent to process each single net request: ABP vs. HTTPSB<br>(both matrix and ABP filtering were enabled in HTTPSB)</sup>
 </p>
 
-**Now regarding the above results, an important fact:** HTTPSB was using **an extra 56,000+ blocked hosts** as matrix-filtering rules (those rules are enabled out-of-the-box), and yet despite this, HTTPSB runs much leaner and faster than ABP, as seen above.<sup>[1]</sup>
+**Now regarding the above results, an important fact:** HTTPSB was using **an extra 56,000+ blocked hosts** as matrix-filtering rules (those rules are enabled out-of-the-box), and yet despite this, HTTPSB runs much leaner and faster than ABP, as seen above.<sup>[2]</sup>
 
 The test was run on Google Chrome 34 for Linux, on Linux Mint 16 64-bit. The benchmark was the same as the one used in ["Comparative benchmarks against widely used blockers: Top 15 Most Popular News Websites"](https://github.com/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites) (except `repeat` was set to 2), then all the tabs were closed (except for the _Extensions_ tab), and the browser was left idling for over 20 minutes to ensure the browser's garbage collector cleared unused memory from the extensions. The extensions were benchmarked alone, with no other extension present.
 
 ***
 
-[1] I still have an extra improvement in store to further reduce memory footprint regarding the implementation of ABP filters, but I do not consider this a priority at this point.
+[1] The result in the case of HTTPSB was a _worst-case scenario_, as matrix filtering had been turned off so as to ensure apples-vs-apples comparison: no requests were blocked by the matrix filtering engine, therefore all filtering duty fell onto the ABP filtering engine.
+
+[2] I still have an extra improvement in store to further reduce memory footprint regarding the implementation of ABP filters, but I do not consider this a priority at this point.
