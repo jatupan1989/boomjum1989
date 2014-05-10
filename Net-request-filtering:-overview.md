@@ -82,7 +82,7 @@ Any net request which is evaluated as "allowed" by matrix filtering will however
 
 Great care has been taken to implement an efficient ABP filtering engine in HTTPSB (code was written from scratch), and the result is such that it consumes considerably less memory and CPU cycles than the official ABP extension on Chromium-based browsers.
 
-To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, for the benchmark described below, ABP evaluates **121 filters/URL**, while for the same benchmark HTTPSB evaluates **5 filters/URL** (the result in the case of HTTPSB was a worst-case scenario, as matrix filtering had been turned off so as to ensure proper measurement: no requests were blocked by the matrix filtering engine, therefore all filtering duty fell onto the ABP filtering engine).
+To give a glimpse of the better performance of HTTPSB over ABP in handling ABP-compatible filters, I measured that on average, for the benchmark described below, ABP evaluates **121 filters/URL**, while for the same benchmark HTTPSB evaluates **5 filters/URL** (the result in the case of HTTPSB was a _worst-case scenario_, as matrix filtering had been turned off so as to ensure apples-vs-apples comparison: no requests were blocked by the matrix filtering engine, therefore all filtering duty fell onto the ABP filtering engine).
 
 Also, whereas ABP uses regular expressions internally to test for a filter match, HTTPSB uses simpler plain string comparisons whenever it is more efficient to do so, which is true for the great majority of filters (see <http://jsperf.com/regexp-vs-indexof-abp-miss/3> and <http://jsperf.com/regexp-vs-indexof-abp-hit/3>).
 
