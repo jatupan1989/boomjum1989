@@ -12,6 +12,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.1.2
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.1.2.zip) date: 10 May 2014
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/258>: "Adblock+ complex filters not working".
+    * Given the size this project reached, I think I am at the point where I will have to ask for a couple of volunteers (5?) to test draft versions before I officially release a version or revision.
+
+***
+
 ### 0.9.1.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.1.1.zip) date: 9 May 2014
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/257>: "cookies dropped randomly since yesterday".
