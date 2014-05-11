@@ -12,6 +12,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.1.3
+- Release date: Not released
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/261>: "Front page on www.tsn.ca goes blank when user agent spoofing is enabled".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/259>: "Performance: single char hash for ubiquitous hostnames in matrix filtering".
+
+***
+
 ### 0.9.1.2
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.1.2.zip) date: 10 May 2014
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/258>: "Adblock+ complex filters not working".
