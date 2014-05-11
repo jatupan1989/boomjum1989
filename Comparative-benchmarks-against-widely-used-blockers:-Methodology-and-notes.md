@@ -10,7 +10,9 @@ Adblock+:
     * [EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)
     * [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
 
-HTTPSB<sup>OOB</sup> and HTTPSB<sup>AA/BX</sup>:
+HTTPSB<sup>BA/AX</sup> and HTTPSB<sup>AA/BX</sup>:
+- "BA/AX" means "block all / allow exceptionally"
+- "AA/BX" means "allow all / block exceptionally"
 - Blacklists used:
     * Out-of-the-box blacklists
     * [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
