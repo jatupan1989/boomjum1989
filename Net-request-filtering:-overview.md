@@ -104,6 +104,6 @@ The test was run on Google Chrome 34 for Linux, on Linux Mint 16 64-bit. The ben
 
 ***
 
-[1] The result in the case of HTTPSB was a _worst-case scenario_, as matrix filtering had been turned off so as to ensure apples-vs-apples comparison: no requests were blocked by the matrix filtering engine, therefore all filtering duty fell onto the ABP filtering engine.
+[1] For this particular measurement, the result in the case of HTTPSB was a _worst-case scenario_, as matrix filtering had been turned off so as to ensure apples-vs-apples comparison: no requests were blocked by the matrix filtering engine, therefore all filtering duty fell onto the ABP filtering engine.
 
 [2] I still have an extra improvement in store to further reduce memory footprint regarding the implementation of ABP filters, but I do not consider this a priority at this point.
