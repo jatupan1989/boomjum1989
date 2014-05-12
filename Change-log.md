@@ -4,14 +4,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
-### 1.0.0.0
-
-- At some point there has to be a **version 1.0**, and as it is, I am considering tagging the current version as **the** version 1.0.
-    * I do not see any pending issues which are major enough to justify waiting any longer (am I forgetting something?)
-    * At this point, my thoughts are about which the out-of-the-box default settings to use to strike a proper balance of usability/security/privacy for **new** users.
-
-***
-
 ### 0.9.1.3
 - Release date: Not released
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/261>: "Front page on www.tsn.ca goes blank when user agent spoofing is enabled".
