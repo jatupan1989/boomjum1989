@@ -1,7 +1,7 @@
 HTTP Switchboard also uses the work of other people. As of v0.7.6.1:
 
 - Translations:
-    * русский: @r35p3ct
+    * русский: [r35p3ct](https://github.com/r35p3ct)
     * Français: [tailHey](https://github.com/tailHey)
     * Deutsch: [tlu1024](https://github.com/tlu1024)
 - Specific contributions to project code:
