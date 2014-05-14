@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.2.0
 - Release date: Not released
-- Big news for Russian users: Russian translation by [r35p3ct](https://github.com/r35p3ct) (Thanks!)
+- Big news for Russian users: [Russian translation](/gorhill/httpswitchboard/commits/master/_locales/ru/messages.json) by [r35p3ct](https://github.com/r35p3ct) (Thanks!)
 - With issue #231 now fully addressed, coverage of ABP complex filters is now 99.7%.
     * Because of this, ABP filtering engine is now enabled by default for new installations.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/261>: "Front page on www.tsn.ca goes blank when user agent spoofing is enabled".
