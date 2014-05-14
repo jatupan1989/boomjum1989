@@ -69,12 +69,9 @@ Starting with [version 0.8.4.0](https://github.com/gorhill/httpswitchboard/wiki/
 
 ABP filters allow for a more granular control than matrix filtering when it comes to block net requests, as it is based on finding patterns in the whole URL, rather than just looking at the hostname and type of a net request.
 
-At time of writing, not all ABP filters are supported, though the most common ones are supported. Not supported yet:
+Only filters which purpose is to block net requests are supported. Element hiding filters and filters with the `$popup` option are ignored, since HTTPSB's primary purpose is to control net requests.
 
-- Any filter which has options other than the `third-party` option
-- Any filter which purpose is to hide elements
-
-Still, roughly the proportion of parsed and enforced ABP filters is almost 90% of all ABP filters.
+With version 0.9.2.0, the proportion of parsed and enforced net request-related ABP filters is 99.7% of all net request-related ABP filters.
 
 ABP filtering takes place **after** matrix filtering, therefore if a specific net request is blocked through matrix filtering, then ABP filtering will not be used, as the net request has already been evaluated as blocked.
 
