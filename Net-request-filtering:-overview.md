@@ -65,7 +65,7 @@ Note that matrix filtering is used to evaluate more than just whether net reques
 
 ## ABP filtering
 
-Starting with [version 0.8.4.0](https://github.com/gorhill/httpswitchboard/wiki/Change-log#0840), HTTPSB supports to the parsing and enforcing ABP filter syntax.
+Starting with [version 0.8.4.0](https://github.com/gorhill/httpswitchboard/wiki/Change-log#0840), HTTPSB supports the parsing and enforcing ABP filter syntax.
 
 ABP filters allow for a more granular control than matrix filtering when it comes to block net requests, as it is based on finding patterns in the whole URL, rather than just looking at the hostname and type of a net request.
 
