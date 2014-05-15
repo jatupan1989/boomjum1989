@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.9.2.0
-- Release date: Not released
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.2.0.zip) date: 14 May 2014
 - Big news for Russian users: [Russian translation](/gorhill/httpswitchboard/commits/master/_locales/ru/messages.json) landed by [r35p3ct](/r35p3ct) (That's quite a lot of work in one swoop. Thanks!)
     - Including further contributions by [extesy](/extesy)
 - With [issue #231](/gorhill/httpswitchboard/issues/231) now fully addressed, coverage of ABP complex filters is now 99.7%.
