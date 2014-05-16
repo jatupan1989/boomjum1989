@@ -92,7 +92,7 @@ In the above screenshot, Adblock Plus 1.7.4, Adblock 2.6.28, and HTTPSB 0.8.9.2 
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/onbeforerequest-perf.png" /><br>
-    <sup>CPU footprint: Average time spent to process each single net request: ABP vs. HTTPSB<br>(both matrix and ABP filtering were enabled in HTTPSB)</sup>
+    <sup>CPU footprint: Average time spent to process each single net request: ABP 1.8.1 vs. HTTPSB 0.9.2<br>(both matrix and ABP filtering were enabled in HTTPSB)</sup>
 </p>
 
 **Now regarding the above results, an important fact:** HTTPSB was using **an extra 59,000+ blocked hosts** as matrix-filtering rules (those rules are enabled out-of-the-box), and yet despite this, HTTPSB runs much leaner and faster than ABP, as seen above.<sup>[2]</sup>
