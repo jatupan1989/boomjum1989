@@ -4,6 +4,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.2.1
+- Release date: Not released yet
+- This revision accommodates Opera web store.
+- No issue fixed, but as the extension is heading toward version 1.0, I will spend more time code reviewing (and making changes if needed), benchmarking (memory, cpu), etc.
+- For technically minded individual, changes can be seen in the [commit history](https://github.com/gorhill/httpswitchboard/commits/master) (I can't open an issue for every little code revision resulting from code review).
+
 ### 0.9.2.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.2.0.zip) date: 14 May 2014
 - Big news for Russian users: [Russian translation](/gorhill/httpswitchboard/commits/master/_locales/ru/messages.json) landed by [r35p3ct](/r35p3ct) (That's quite a lot of work in one swoop. Thanks!)
