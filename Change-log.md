@@ -9,7 +9,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/135>: "Change the colour of the blocked frame to grey".
     * Due to popular demand, I added a new option in the _Settings_ tab: "Blocked frames color (any valid CSS color):" along with a text input field to enter a valid CSS color directive.
     * Default is `rgba(204, 0, 0, 1)`, i.e. as it was before.
-    * Example of valid CSS color value: `silver`, `#c00`, `rgba(192, 192, 192, 0.2)` (note the opacity value), etc.
+    * Example of valid CSS color values: `silver`, `#c00`, `rgba(192, 192, 192, 0.2)` (note the opacity value), etc.
     * Reference for CSS color: <http://www.w3.org/TR/css3-color/>
     * **Beware:** I personally believe that hiding blocked frames is a bad idea (hence my resistance to implement the feature). So whether hidden frames are visible or not is now completely up to you. If you really want to completely render invisible blocked frames, the CSS color name is `transparent`.
 
