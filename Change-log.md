@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.3.0
 - Release date: Not released yet.
-- New feature: Due to popular demand, I added a new option in the _Settings_ tab: "Blocked frames color (any valid CSS color):" along with a text input field to enter a valid CSS color directive.
+- **New feature:** Due to popular demand, I added a new option in the _Settings_ tab: "Blocked frames color (any valid CSS color):" along with a text input field to enter a valid CSS color directive.
     * Default is `rgba(204, 0, 0, 1)`, i.e. as it was before.
     * Example of valid CSS color values: `silver`, `#c00`, `rgba(192, 192, 192, 0.2)` (note the opacity value), etc.
     * Reference for CSS color: <http://www.w3.org/TR/css3-color/>
