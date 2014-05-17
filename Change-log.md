@@ -12,8 +12,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Example of valid CSS color values: `silver`, `#c00`, `rgba(192, 192, 192, 0.2)` (note the opacity value), etc.
     * Reference for CSS color: <http://www.w3.org/TR/css3-color/>
     * **Beware:** I personally believe that hiding blocked frames from view is a bad idea (hence my resistance to implement the feature). So whether hidden frames are visible or not is now completely up to you. If you really want to completely render invisible blocked frames, the CSS color name is `transparent`.
-- More work on performance and code review.
     * To reset to factory color, just empty the value and press return: the field will be filled with factory color `rgba(204, 0, 0, 1)`.
+- More work on performance and code review.
 
 ***
 
