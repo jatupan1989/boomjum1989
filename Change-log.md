@@ -15,7 +15,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * As of now there is **no** code to validate whether the CSS color you enter is valid. If is not valid, result will likely be invisible blocked frames, so be careful.
     * To reset to factory color, just empty the input filed and press return: the field will be filled with factory color `rgba(204, 0, 0, 1)`.
     * I have to admit, it is a nice feature to have... I ended using it, my color: `rgba(204,204,204,0.8)`.
-    * **Note:** After the update was published, [my-password-is-password](/my-password-is-password) [found a fix](/gorhill/httpswitchboard/commit/6525a93bc6703e19ee3a1014806c84abff5e049b#commitcomment-6360130) for the slight visual glitch in the pattern. It's not worth to release a new revision just for this, but I will include the fix in the next release.
+    * **Note:** After v0.9.3.0 was published, [my-password-is-password](/my-password-is-password) [found a fix](/gorhill/httpswitchboard/commit/6525a93bc6703e19ee3a1014806c84abff5e049b#commitcomment-6360130) for the slight visual glitch in the pattern. It's not worth to release a new revision just for this, but I will include the fix in the next release.
 - More work on performance and code review.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/135>: "Change the colour of the blocked frame to grey".
 
