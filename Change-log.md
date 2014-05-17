@@ -5,7 +5,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.9.3.0
-- Release date: Not released yet.
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.3.0.zip) date: 17 May 2014
 - **New feature:** Due to popular demand, I added a new option in the _Settings_ tab: _"Blocked frames color (any valid CSS color):"_ along with a text input field to enter a valid CSS color value.
     * Default is `rgba(204, 0, 0, 1)`, i.e. as it was before internally.
     * Example of valid CSS color values: `silver`, `#c00`, `rgba(192, 192, 192, 0.2)` (note the opacity value), etc.
