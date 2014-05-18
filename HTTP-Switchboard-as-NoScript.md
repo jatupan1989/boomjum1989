@@ -12,7 +12,7 @@ _NoScript_ comes with a preset list of hostnames for which javascript is allowed
 
 Remember: Restoring data from a full backup file will overwrite all your settings!
 
-## HTTP Switchboard "seems to need more micromanagement" compared to NoScript
+# HTTP Switchboard "seems to need more micromanagement" compared to NoScript
 
 Not really. I supposed the erroneous impression stems from all the cells in the matrix. It does not require more management. If a user wants to allow one script from one page, one click is sufficient with _HTTP Switchboard_, just like _NoScript_. Admittedly though, if a user wants to allow one or more scripts **permanently**, an extra click is required, to tell _HTTPSB_ to persist the whitelisted cells in the matrix, since by design, all permissions are temporary -- with the benefit that as opposed to _NoScript_, there is no need to duplicate every hostname in the menu (one for temporary permission, one for permanent permission.)
 
