@@ -10,4 +10,6 @@ This is what motivated me to actually support ABP cosmetic filters: it's easier 
 
 Here is a first test to compare memory consumption when loading this page in the browser:
 
-![Memory: ABP vs HTTPSB](/gorhill/httpswitchboard/blob/master/doc/img/abp-vs-httpsb-mem-test1.png)
+![Memory: ABP vs HTTPSB](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/abp-vs-httpsb-mem-test1.png)
+
+Note that in the test above, HTTPSB had its default out-of-the-box preset blocked hosts loaded and enabled, which represents an extra 60,000 firewall-like rules, something not present in ABP.
