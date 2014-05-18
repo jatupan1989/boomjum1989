@@ -12,6 +12,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Enable in the _Ubiquitous rules_ tab.
     * Coverage of ABP cosmetic filters is currently nearly 87%. I will add more as time permits.
     * Currently I measured that over 20,885 cosmetic filters are parsed and enforced, while the total is somewhere over 24,087 (as of writing).
+    * Just in case: the better performance has nothing to do with the fact that coverage is currently 87% instead of 100%.
+    * Test page: <http://simple-adblock.com/faq/testing-your-adblocker/>
 
 ***
 
