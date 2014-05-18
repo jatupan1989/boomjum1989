@@ -1,0 +1,10 @@
+Many people have asked me to support ABP element hiding filters (I prefer to use "cosmetic filters") in the past. I've always resisted because I see _HTTP Switchboard_ as a tool to inform/manage where your browser connects.
+
+Regarding ABP memory consumption, I'm with [Firefox](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/) about this.
+
+When the way to implement ABP element hiding filters is to inject a [gigantic style sheet](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/comment-page-1/#comment-11173) in every page (and frame), it bothers me to see the blame shifted onto Firefox.
+
+Injecting such a large number of CSS rules indiscriminately is nonsense, and this is the **first** thing which should be addressed before asking Firefox to fix itself.
+
+This is what motivated me to actually support ABP cosmetic filters: it's easier to demonstrate that clearly the code can be improved rather than talk about it endlessly. So here it is, with version 0.9.4.0, ABP cosmetic filters are supported. Consider this feature beta, and as of writing, the support is somewhere around 88% of all cosmetic filters (there is no performance issue or otherwise in supporting the missing filters, it's just a time thing).
+
