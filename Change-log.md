@@ -7,7 +7,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.9.4.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.4.0.zip) date: 18 May 2014
 - **New feature:** Support for ABP cosmetic filters (aka ""element hiding" filters).
-    * The reason I changed my mind: [On the Adblock Plus memory consumption](/gorhill/httpswitchboard/wiki/On-the-Adblock-Plus-memory-consumption).
+    * The reason I changed my mind: [Adblock Plus memory consumption](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption).
     * Disabled by default.
     * Enable in the _Ubiquitous rules_ tab.
     * Coverage of ABP cosmetic filters is currently nearly 87%. I will add more as time permits.
