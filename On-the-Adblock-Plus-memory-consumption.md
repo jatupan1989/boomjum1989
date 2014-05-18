@@ -8,7 +8,7 @@ Injecting such a large number of CSS rules indiscriminately is nonsense, and thi
 
 This is what motivated me to actually support ABP cosmetic filters: it's easier to demonstrate that clearly the code can be improved rather than talk about it endlessly. So here it is, with version 0.9.4.0, ABP cosmetic filters are supported.
 
-Consider this feature early beta, and as of writing, the support is somewhere around 88% of all cosmetic filters (there is no performance issue or otherwise in supporting the missing filters, it's just a time thing). Note that I didn't spent that much time trying to optimize further than the primary proof-of-concept to show it is possible to improve memory consumption in ABP.
+Consider this feature early beta, and as of writing, the support is somewhere around 87% of all cosmetic filters (there is no performance issue or otherwise in supporting the missing filters, it's just a time thing). Note that I didn't spent that much time trying to optimize further than the primary proof-of-concept to show it is possible to improve memory consumption in ABP.
 
 Here is a first test to compare memory consumption when loading this page in the browser:
 
