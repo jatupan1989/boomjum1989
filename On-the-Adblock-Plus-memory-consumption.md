@@ -8,3 +8,6 @@ Injecting such a large number of CSS rules indiscriminately is nonsense, and thi
 
 This is what motivated me to actually support ABP cosmetic filters: it's easier to demonstrate that clearly the code can be improved rather than talk about it endlessly. So here it is, with version 0.9.4.0, ABP cosmetic filters are supported. Consider this feature beta, and as of writing, the support is somewhere around 88% of all cosmetic filters (there is no performance issue or otherwise in supporting the missing filters, it's just a time thing).
 
+Here is a first test to compare memory consumption when loading this page in the browser:
+
+![Memory: ABP vs HTTPSB](/gorhill/httpswitchboard/blob/master/doc/img/abp-vs-httpsb-mem-test1.png)
