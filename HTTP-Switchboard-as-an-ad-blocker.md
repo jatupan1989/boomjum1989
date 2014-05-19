@@ -8,4 +8,6 @@ I created a backup file which can be restored (from the _About_ tab) in order to
 
 <https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-just-block-ads-setup.txt>.
 
+From this point, you can head to the _Ubiquitous rules_  tab in the dashboard and select more third-party lists to enhance privacy, etc.
+
 Remember: Restoring data from a full backup file will overwrite all your settings!
