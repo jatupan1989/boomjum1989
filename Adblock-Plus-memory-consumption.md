@@ -4,7 +4,7 @@ Regarding [ABP memory consumption](https://blog.mozilla.org/nnethercote/2014/05/
 
 When the way to implement ABP element hiding filters is to inject a [gigantic style sheet](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/comment-page-1/#comment-11173) in every page (and frame), it bothers me to see the blame shifted onto Firefox.
 
-Injecting such a large number of CSS rules indiscriminately is nonsense, and this is the **first** thing which should be addressed before asking Firefox to fix itself.
+Injecting such a large number of CSS rules indiscriminately is nonsense, and this is the **first** thing i which thought should be addressed before asking Firefox to fix itself.
 
 This is what motivated me to actually support ABP cosmetic filters: it's easier to demonstrate that clearly the code can be improved. So here it is, with [version 0.9.4.0](/gorhill/httpswitchboard/wiki/Change-log#0940), ABP cosmetic filters are supported.
 
