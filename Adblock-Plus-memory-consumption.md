@@ -20,4 +20,4 @@ Note that in the test above, HTTPSB had its default out-of-the-box preset blocke
 
 Tests for screenshots above was Chromium 34 on Linux 64-bit.
 
-Implementation ([abp-hide-filters.js)](https://github.com/gorhill/httpswitchboard/blob/master/js/abp-hide-filters.js)) is rather modular, it doesn't really depend anything else in HTTPSB except for the utility to extract domain name from a URL, which should be easy enough to replace.
+Implementation ([abp-hide-filters.js)](/gorhill/httpswitchboard/blob/master/js/abp-hide-filters.js) ) is rather modular, it doesn't really depend anything else in HTTPSB except for the utility to extract domain name from a URL, which should be easy enough to replace.
