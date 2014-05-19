@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.4.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.4.1.zip) date: 18 May 2014
-- Fixed a couple of quirks ([here](/gorhill/httpswitchboard/commit/c8cd9c55bc5dccd40ac0a2064e0599ac6fe8a189) and [here](/gorhill/httpswitchboard/commit/8aff8064193db6c90b200af7d2445f2bb9d8bf2f) ) in the implementation of ABP cosmetic filters.
+- Fixed a couple of quirks ([here](/gorhill/httpswitchboard/commit/c8cd9c55bc5dccd40ac0a2064e0599ac6fe8a189) and [here](/gorhill/httpswitchboard/commit/8aff8064193db6c90b200af7d2445f2bb9d8bf2f)) in the implementation of ABP cosmetic filters.
     * It doesn't affect at all benchmark results [shown there](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption)).
 
 ***
