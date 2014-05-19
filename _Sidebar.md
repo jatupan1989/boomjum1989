@@ -5,7 +5,7 @@
     - [Allow all / block exceptionally](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views#the-allow-allblock-exceptionally-approach)
     - [Block-all / narrowly allow all](/gorhill/httpswitchboard/wiki/Block-all---narrowly-allow-all)
     - [NoScript-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-NoScript)
-    - [Adblock Plus-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-an-ad-blocker)
+    - [Adblock blocker-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-an-ad-blocker)
     - [RequestPolicy-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-RequestPolicy)
     - [Block nothing / report everything](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-a-mere-reporting-tool)
 - [Net-request-filtering engines: an overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
