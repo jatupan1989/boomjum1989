@@ -6,7 +6,7 @@ When the way to implement ABP element hiding filters is to inject a [gigantic st
 
 Injecting such a large number of CSS rules indiscriminately is nonsense, and this is the **first** thing which should be addressed before asking Firefox to fix itself.
 
-This is what motivated me to actually support ABP cosmetic filters: it's easier to demonstrate that clearly the code can be improved rather than talk about it endlessly. So here it is, with [version 0.9.4.0](/gorhill/httpswitchboard/wiki/Change-log#0940), ABP cosmetic filters are supported.
+This is what motivated me to actually support ABP cosmetic filters: it's easier to demonstrate that clearly the code can be improved. So here it is, with [version 0.9.4.0](/gorhill/httpswitchboard/wiki/Change-log#0940), ABP cosmetic filters are supported.
 
 The major difference with ABP implementation is that only the CSS rules which are relevant to a page are injected, which means a handful of them at most for a typical ad-driven web page, and often none at all -- as opposed to ABP which injects 20,000 CSS rules into every single web page ([as per ABP developer](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/comment-page-1/#comment-11173)). For example, visiting [www.wired.com](http://www.wired.com/) with matrix filtering turned off, only **one single CSS rule** is injected into the page by HTTPSB.
 
