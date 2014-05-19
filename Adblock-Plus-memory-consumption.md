@@ -10,7 +10,7 @@ This is what motivated me to actually support ABP cosmetic filters: it's easier 
 
 The major difference with ABP implementation is that only the CSS rules which are relevant to a page are injected, which means a handful of them at most for a typical ad-driven web page, and often none at all -- as opposed to ABP which injects 20,000 CSS rules into every single web page ([as per ABP developer](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/comment-page-1/#comment-11173)). For example, visiting [www.wired.com](http://www.wired.com/) with matrix filtering turned off, only **one single CSS rule** is injected into the page by HTTPSB.
 
-Consider this feature early beta, and as of writing, the support is somewhere around 87% of all cosmetic filters (there is no performance issue or otherwise in supporting the missing filters, it's just a time thing). Note that I didn't spent that much time trying to optimize further than the primary proof-of-concept to show it is possible to improve memory consumption in ABP.
+Consider this feature early beta, and as of writing, the support is somewhere around 87% of all cosmetic filters (there is no performance issue or otherwise in supporting the missing filters, it's just a time thing). Note that I didn't spent that much time trying to optimize further than the primary proof-of-concept to show it is possible to improve memory consumption, and improve how fast web pages come to live (not injecting 20,000 CSS rules has a noticeable effect on how fast pages are parsed by the browser).
 
 Here is a first test to compare memory consumption when loading [this page](http://vimcolorschemetest.googlecode.com/svn/html/index-c.html) in the browser:
 
