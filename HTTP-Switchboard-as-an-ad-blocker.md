@@ -6,6 +6,6 @@ Here is how the matrix would look like:
 
 I created a backup file which can be restored (from the _About_ tab) in order to make HTTPSB behave close to how _RequestPolicy_ works:
 
-<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-just-block-ads.txt>.
+<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-just-block-ads-setup.txt>.
 
 Remember: Restoring data from a full backup file will overwrite all your settings!
