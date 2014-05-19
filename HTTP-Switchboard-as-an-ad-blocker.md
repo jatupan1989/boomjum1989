@@ -1,4 +1,4 @@
-You can configure _HTTP Switchboard_ in such a way as to make it behaves close to typical ad blockers works.
+You can configure _HTTP Switchboard_ in such a way as to make it behaves close to how typical ad blockers work.
 
 Here is how the matrix would look like:
 
