@@ -10,6 +10,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
     * [Block all / Narrowly allow all](/gorhill/httpswitchboard/wiki/Block-all---narrowly-allow-all)
     * [HTTP Switchboard as NoScript](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-NoScript)
     * [HTTP Switchboard as RequestPolicy](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-RequestPolicy)
+    * [HTTP Switchboard as an ad blocker](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-an-ad-blocker)
     * [HTTP-Switchboard as a mere reporting tool](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-a-mere-reporting-tool)
 - Documentation (some entries not necessarily up to date detail-wise...)
     * [Net request filtering: overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
