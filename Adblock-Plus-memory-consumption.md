@@ -16,6 +16,6 @@ Here is a first test to compare memory consumption when loading [this page](http
 
 ![Memory: ABP vs HTTPSB](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/abp-vs-httpsb-mem-test1.png)
 
-Note that in the test above, HTTPSB had its default out-of-the-box preset blocked hosts loaded and enabled in the matrix filtering engine, which represents an extra 60,000 filter rules, something not present in ABP.
+Note that in the test above, HTTPSB had its default out-of-the-box preset blocked hosts loaded and enabled in the matrix filtering engine, which represents an extra 60,000 filter rules, something not present in ABP. Also, HTTPSB injects two more scripts into every pages and frames as part of its normal operation, these add up too.
 
 Tests for screenshots above was Chromium 34 on Linux 64-bit.
