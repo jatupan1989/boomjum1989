@@ -1,4 +1,4 @@
-You can configure _HTTP Switchboard_ in such a way as to make it behaves close to how [Adblock Plus](https://adblockplus.org/) works.
+You can configure _HTTP Switchboard_ in such a way as to make it behaves close to typical ad blockers works.
 
 Here is how the matrix would look like:
 
