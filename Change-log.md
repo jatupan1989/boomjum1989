@@ -14,6 +14,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Currently I measured that over 20,885 cosmetic filters are parsed and enforced, while the total is somewhere over 24,087 (as of writing).
     * Just in case: the better performance has nothing to do with the fact that coverage is currently 87% instead of 100%.
     * Test page: <http://simple-adblock.com/faq/testing-your-adblocker/>
+    * **Note:** I found a couple of quirks in my implementation of ABP cosmetic filters. I will release a revision later tonight after doing some more code review. (It doesn't affect at all benchmark results [shown there](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption)).
 
 ***
 
