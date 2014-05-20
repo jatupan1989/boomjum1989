@@ -8,6 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.4.2.zip) date: 19 May 2014
 - Increased coverage of cosmetic filters (ABP element hiding filters) to 99%.
 - Added support to make cosmetic filters friendly to pages which have dynamically loaded content.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/261>
 - Contributions by [Landpaddle](/Landpaddle):
     * <https://github.com/gorhill/httpswitchboard/pull/281>
     * <https://github.com/gorhill/httpswitchboard/pull/279>
