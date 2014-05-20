@@ -6,7 +6,7 @@
 
 Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept actually was **exactly for those generic cosmetic filters which are meant to apply on every webpages.**
 
-Support for hostname-specific cosmetic filters, the easy cases, was added today (which brings coverage to 99%).
+Support for hostname-specific cosmetic filters, the ones which are easy to implement efficiently, was added today (which brings coverage to 99%).
 
 ***
 
