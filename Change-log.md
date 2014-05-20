@@ -4,6 +4,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.4.3
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.4.3.zip) date: 20 May 2014
+- [Translation work](/gorhill/httpswitchboard/commit/7ec845f1453cb7b068d18c5e410a5cb336b0aab5) by [r35p3ct](/r35p3ct)
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/283>
+
+***
+
 ### 0.9.4.2
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.4.2.zip) date: 19 May 2014
 - Increased coverage of cosmetic filters (ABP element hiding filters) to 99%.
