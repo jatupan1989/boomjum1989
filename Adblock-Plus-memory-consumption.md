@@ -1,8 +1,8 @@
-**19 May 2014 @ 20h00 EDT:** I've just seen [a comment by Wladimir Palant](https://adblockplus.org/blog/on-the-adblock-plus-memory-consumption#c005360) regarding this post. I quote:
+**19 May 2014 @ 20h00 EDT:** I've just seen [a comment by Wladimir Palant](https://adblockplus.org/blog/on-the-adblock-plus-memory-consumption#c005360) regarding this post. I quote (my emphasis):
 
 > Reply from Wladimir Palant:
 > 
-> It’s because roughly 60% of the filters currently in EasyList are meant to apply on all webpages so this kind of filtering wouldn’t help much. Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work. Fact is, with this implementation only the most simple filters are supported and even that support is very incomplete for pages that change dynamically.
+> It’s because roughly **60% of the filters currently in EasyList are meant to apply on all webpages so this kind of filtering wouldn’t help much**. Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work. Fact is, with this implementation only the most simple filters are supported and even that support is very incomplete for pages that change dynamically.
 
 Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept actually was **exactly for those generic cosmetic filters which are meant to apply on every webpages.**
 
