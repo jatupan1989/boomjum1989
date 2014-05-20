@@ -6,7 +6,7 @@
 
 Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept actually was **exactly for those 60% generic cosmetic filters which are meant to apply on every webpages.**
 
-Thing is, coverage was extended to 99% today, and also it works for pages which change dynamically.
+Also, coverage was extended to 99% today, **and** also it works for pages which change dynamically.
 
 ***
 
