@@ -1,3 +1,15 @@
+**19 May 2014 @ 20h00 EDT:** I've just seen [a comment by Wladimir Palant](https://adblockplus.org/blog/on-the-adblock-plus-memory-consumption#c005360) regarding this post. I quote:
+
+> Reply from Wladimir Palant:
+> 
+> It’s because roughly 60% of the filters currently in EasyList are meant to apply on all webpages so this kind of filtering wouldn’t help much. Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work. Fact is, with this implementation only the most simple filters are supported and even that support is very incomplete for pages that change dynamically.
+
+Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented actually was exactly for those generic cosmetic filters which are meant to apply on every webpages.
+
+Support for hostname-specific cosmetic filters, the easy cases, was added today (which brings coverage to 99%).
+
+***
+
 Many people have asked me to support ABP element hiding filters (I prefer to refer to these as "cosmetic filters") in the past. I've always resisted because I see _HTTP Switchboard_ as a tool to inform/manage where your browser connects. But...
 
 Regarding [ABP memory consumption](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/), I'm with Firefox on this.
