@@ -4,7 +4,7 @@
 > 
 > It’s because roughly **60% of the filters currently in EasyList are meant to apply on all webpages so this kind of filtering wouldn’t help much**. Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work. Fact is, with this implementation only the most simple filters are supported and even that support is very incomplete for pages that change dynamically.
 
-Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept actually was **exactly for those 60% generic cosmetic filters which are meant to apply on every webpages.**
+Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept was **exactly for those 60% generic cosmetic filters which are meant to apply on every webpages.**
 
 Also, coverage was extended to 99% today, **and** it also works for pages which change dynamically.
 
