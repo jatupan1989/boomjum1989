@@ -14,6 +14,8 @@ And I don't know what to make of "**intentionally** broken approach" comment. It
 
 (By the way, [coverage was extended to 99% today](/gorhill/httpswitchboard/commit/83e213c8f31c192c12661c88c88afe1cd7ac4e45), **and** [it also works for pages which change dynamically](/gorhill/httpswitchboard/commit/fded0434be226120051ddde1d6b702486604b741).)
 
+<sub>Edit 201-05-20 02h00: Commented on the "memory issue this is trying to solve" passage.</sub>
+
 ***
 
 Many people have asked me to support ABP element hiding filters (I prefer to refer to these as "cosmetic filters") in the past. I've always resisted because I see _HTTP Switchboard_ as a tool to inform/manage where your browser connects. But...
