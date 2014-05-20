@@ -8,7 +8,7 @@ Unfortunately, I can tell he didn't look at the implementation, because the "kin
 
 Also, I don't know what to make of his "**intentionally** broken approach" comment. It doesn't sound like a nice thing to say.
 
-(By the way, coverage was extended to 99% today, **and** it also works for pages which change dynamically.)
+(By the way, [coverage was extended to 99% today](/gorhill/httpswitchboard/commit/83e213c8f31c192c12661c88c88afe1cd7ac4e45), **and** [it also works for pages which change dynamically](/gorhill/httpswitchboard/commit/fded0434be226120051ddde1d6b702486604b741).)
 
 ***
 
