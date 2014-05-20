@@ -6,7 +6,7 @@
 
 Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept was **exactly for those 60% generic cosmetic filters which are meant to apply on every webpages**.
 
-> Note that the memory issue this is trying to solve isn’t very significant – except on very few webpages.
+> Note that **the memory issue this is trying to solve** isn’t very significant – except on very few webpages.
 
 The idea was less about solving a "memory issue", and more about avoiding to abuse the browser by having 20,000 CSS rules indiscriminately injected on every page and frames within that page.
 
