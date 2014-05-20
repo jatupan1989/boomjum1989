@@ -6,7 +6,7 @@
 
 Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept was **exactly for those 60% generic cosmetic filters which are meant to apply on every webpages**.
 
-Also, I don't know what to make of his "**intentionally** broken approach" comment. It doesn't sound like a nice thing to say. As a developer, I definitely break things sometimes (which is not the case here, it was a proof of concept first and foremost), but "intentionally"?
+Also, I don't know what to make of his "**intentionally** broken approach" comment. It doesn't sound like a nice thing to say.
 
 (By the way, coverage was extended to 99% today, **and** it also works for pages which change dynamically.)
 
