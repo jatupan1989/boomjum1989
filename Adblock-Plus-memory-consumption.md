@@ -10,7 +10,9 @@ Unfortunately, I can tell he didn't look at the implementation, because the "kin
 
 The idea was less about solving a "memory issue", and more about avoiding to abuse the browser by having 20,000 CSS rules indiscriminately injected on every page and frames within that page.
 
-And I don't know what to make of "**intentionally** broken approach" comment. It doesn't sound like a nice thing to say.
+> Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work.
+
+I don't know what to make of "**intentionally** broken approach" comment. It doesn't sound like a nice thing to say. I would like to know **specifically** what is broken. Being specific is helpful to users too.
 
 (By the way, [coverage was extended to 99% today](/gorhill/httpswitchboard/commit/83e213c8f31c192c12661c88c88afe1cd7ac4e45), **and** [it also works for pages which change dynamically](/gorhill/httpswitchboard/commit/fded0434be226120051ddde1d6b702486604b741).)
 
