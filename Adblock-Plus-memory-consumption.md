@@ -1,4 +1,4 @@
-**19 May 2014 @ 20h00 EDT:** I've just seen [a comment by Wladimir Palant](https://adblockplus.org/blog/on-the-adblock-plus-memory-consumption#c005360) regarding this post. I quote (my emphasis):
+**19 May 2014 @ 20h00 EDT:** I've just seen [a comment by Wladimir Palant](https://adblockplus.org/blog/on-the-adblock-plus-memory-consumption#c005360) ([another one here](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39)) regarding this post. I quote (my emphasis):
 
 > Reply from Wladimir Palant:
 > 
