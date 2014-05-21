@@ -12,6 +12,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/276>: "Improve coverage of ABP cosmetic filters"
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/260>: "Ad blocking differs from Adblock with the same rules"
 
+And while I have your ear, I want users to be reassured that the new cosmetic filters feature is **not** a "broken implementation" [as suggested by Wladimir Palant](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c41). **It's pure fabrication.** Everything is [in the open on Github](/gorhill/httpswitchboard/commits/master), with time stamps, etc. Any developer who can read javascript will be able to confirm everything I wrote in [my original article](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption).
+
+My only mistake was to think the ABP developers would be happy I found and shared a solution to their problem of **indiscriminately** injecting 20,000 CSS rules on every page and frames on that page.
 
 ***
 
