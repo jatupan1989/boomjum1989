@@ -19,6 +19,7 @@ I don't know what to make of "**intentionally** broken approach" comment. It doe
 <sub>Edit 201-05-20 02h00: Commented on the "memory issue this is trying to solve" passage, and "intentionally broken approach".</sub>
 
 ***
+***
 
 Many people have asked me to support ABP element hiding filters (I prefer to refer to these as "cosmetic filters") in the past. I've always resisted because I see _HTTP Switchboard_ as a tool to inform/manage where your browser connects. But...
 
