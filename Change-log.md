@@ -4,6 +4,17 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.4.4
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.4.4.zip) date: 21 May 2014
+- Coverage of cosmetic filters (ABP "element hide" filters) is now 100%.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/286>: "Add pub2srv.com in HTTP Switchboard's self maintained blacklist"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/283>: "Make the cosmetic filter rule injection more efficient for long running dynamic pages"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/276>: "Improve coverage of ABP cosmetic filters"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/260>: "Ad blocking differs from Adblock with the same rules"
+
+
+***
+
 ### 0.9.4.3
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.4.3.zip) date: 20 May 2014
 - [Translation work](/gorhill/httpswitchboard/commit/7ec845f1453cb7b068d18c5e410a5cb336b0aab5) by [r35p3ct](/r35p3ct)
