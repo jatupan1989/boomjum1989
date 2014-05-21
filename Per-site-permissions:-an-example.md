@@ -1,3 +1,5 @@
+[Screenshots in this article are quite outdated. I need to update them.]
+
 *HTTP Switchboard* supports per-web site permissions. Here is a typical case example to illustrate why per-site permissions are useful, and how to use per-site permissions.
 
 Some [hostnames](https://en.wikipedia.org/wiki/Hostname) are ubiquitous on the internet.
