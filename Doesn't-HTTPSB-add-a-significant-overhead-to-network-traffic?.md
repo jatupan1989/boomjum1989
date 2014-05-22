@@ -1,3 +1,5 @@
+[The results in this article were out-dated. Anything in here is quite probably no longer reproducible. Some code might have gotten better, some other might have gotten worst. For instance, HTTPSB average time for its onBeforeRequest() has gone up, because it now handles ABP pattern-based filters. Other extensions might have improved or worsened. These numbers are no longer useful.]
+
 TL;DR: No.
 
 HTTPSB uses Chromium's [webRequest API](http://developer.chrome.com/extensions/webRequest.html) (more specifically, the `webRequest.onBeforeRequest` handler), which means for every single request, javascript code is executed in order to evaluate whether the request should be allowed or blocked.
