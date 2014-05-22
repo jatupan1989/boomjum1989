@@ -16,7 +16,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 Similarly, his _"potentially significant hang when the page loads"_ "concern" is pure nonsense, given that ABP does magnitudes worst to inject its thousands of CSS rules. In worst case scenarios, HTTPSB does at most a couple hundreds iterations, which consist of [tightly optimized javascript code] of look-up operations(/gorhill/httpswitchboard/blob/master/js/abp-hide-filters.js#L514) (fast) in order to narrow the number of CSS rules to inject to a handful.
 
-Injecting the CSS rules **IS** the expensive operation, hence you want to minimize this as much as possible. ABP injects thousands of these CSS rules indiscriminately.
+Injecting the CSS rules **IS** the expensive operation, hence you want to minimize this as much as possible. ABP injects 20,000 of these CSS rules indiscriminately, so expressing "concerns" that HTTPSB _may_ end up looping 500 times performing fast look-up operations is just plain intellectual dishonesty.
 
 Everything is [in the open on Github](/gorhill/httpswitchboard/commits/master), with time stamps, etc. Any developer who can read javascript will be able to confirm everything I wrote in [my original article](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption). I wish this will happen.
 
