@@ -14,7 +14,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 **And while I have your ear,** I want users to be reassured that the new cosmetic filters feature is **not** a _"broken implementation"_ [as suggested by Wladimir Palant](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39). **It's pure fabrication.**
 
-Similarly, his _"potentially significant hang when the page loads"_ "concern" is pure nonsense, given that ABP does magnitude worst to inject its thousands of CSS rules. In worst case scenarios, HTTPSB does at most a couple hundreds iterations, which consist of tightly optimized javascript code.
+Similarly, his _"potentially significant hang when the page loads"_ "concern" is pure nonsense, given that ABP does magnitudes worst to inject its thousands of CSS rules. In worst case scenarios, HTTPSB does at most a couple hundreds iterations, which consist of tightly optimized javascript code.
 
 Everything is [in the open on Github](/gorhill/httpswitchboard/commits/master), with time stamps, etc. Any developer who can read javascript will be able to confirm everything I wrote in [my original article](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption). I wish this will happen.
 
