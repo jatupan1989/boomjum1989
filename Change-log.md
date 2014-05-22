@@ -12,7 +12,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/276>: "Improve coverage of ABP cosmetic filters"
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/260>: "Ad blocking differs from Adblock with the same rules"
 
-And while I have your ear, I want users to be reassured that the new cosmetic filters feature is **not** a _"broken implementation"_ [as suggested by Wladimir Palant](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c41). **It's pure fabrication.**
+**And while I have your ear,** I want users to be reassured that the new cosmetic filters feature is **not** a _"broken implementation"_ [as suggested by Wladimir Palant](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c41). **It's pure fabrication.**
 
 Similarly, his _"potentially significant hang when the page loads"_ "concern" is pure nonsense, given that ABP does magnitude worst to inject its thousands of CSS rules. In worst case scenarios, HTTPSB does at most a couple hundreds iterations, which consist of tightly optimized javascript code.
 
