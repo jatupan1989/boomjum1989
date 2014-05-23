@@ -17,7 +17,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * These are merely starting point, user can customize at will afterward
     * Users who already have an existing implementation, this setup page can still be accessed from the _About_ tab in the dashboard: click the _Start from scratch_ button.
     * **Important:** Keep in mind that loading a predefined configuration is similar to restoring all your settings and data, which means everything will be overwritten.
-        - So if you just want to _try_ these configurations, be sure you backed up your data beforehand.
+        - So if you just want to _try_ these configurations, be sure you back up your data beforehand.
 
 ***
 
