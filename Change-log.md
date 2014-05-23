@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.0.zip) date: 23 May 2014
 - **New feature:** When installing for first time, users will be presented with a list of "flavoured" setup to help them get started:
     * _Breakage_ refers to the likeliness of web pages not rendering and/or behaving as expected
-    * _Block all/ allow exceptionally_ => Security: very high, Breakage: high (default mode)
+    * _Block all / allow exceptionally_ => Security: very high, Breakage: high (default mode)
     * _Allow all / block exceptionally_ => Security: medium, Breakage: medium low
     * _Ad blocker-like_ => Security: low, Breakage: low
     * _NoScript-like_ => Security: high, Breakage: high
