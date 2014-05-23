@@ -15,7 +15,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - _RequestPolicy-like_ => Security: medium high, Breakage: high
         - _Block nothing / report everything_ => Security: none, Breakage: none
     * These are merely starting points, user can customize at will afterward
-    * For users who already have an existing implementation, this setup page can still be accessed from the _About_ tab in the dashboard: click the _Start from scratch_ button.
+    * For users who already have an existing implementation, this setup page can still be accessed from the _About_ tab in the dashboard: click the _Start from scratch..._ button.
     * **Important:** Keep in mind that loading a predefined configuration is similar to restoring all your settings and data, which means everything will be overwritten.
         - So if you just want to _try_ these configurations, be sure you have a back up of your data.
 - Fixed a bug in the parsing of cosmetic filters which prevented exception filters to work.
