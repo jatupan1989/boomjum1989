@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.5.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.0.zip) date: 23 May 2014
-- **New feature:** When installing for first time, users will be presented with a list of "flavoured" setup to help them get started:
+- **New feature:** When installing the extension for first time, users will be presented with a list of "flavoured" setup to help them get started:
     * _Breakage_ refers to the likeliness of web pages not rendering and/or behaving as expected
     * _Block all / allow exceptionally_ => Security: very high, Breakage: high (default mode)
     * _Allow all / block exceptionally_ => Security: medium, Breakage: medium low
@@ -15,6 +15,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * _RequestPolicy-like_ => Security: medium high, Breakage: high
     * _Block nothing / report everything_ => Security: none, Breakage: none
     * These are merely starting point, user can customize at will afterward
+    * Users who already have an existing implementation, this setup page can still be accessed from the _About_ tab in the dashboard: click the _Start from scratch_ button.
+    * **Important:** Keep in mind that loading a predefined setup is similar to restoring all your settings and data, which means everything will be overwritten.
+        - So if you just want to try these setups, be sure you backed up your data beforehand.
 
 ***
 
