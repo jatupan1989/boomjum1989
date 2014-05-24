@@ -51,3 +51,5 @@ In HTTPSB, the test differs according to the filter type: at parse time, filters
 For example, this is the test code for one of a very common filter (note that regular expression is used):
 
     return url.substr(tokenBeg - 1, this.s.length) === this.s;
+
+The end result is that HTTPSB is less likely to be a burden on the browser.
