@@ -11,7 +11,7 @@
 - [Net-request-filtering engines: an overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
 - [Javascript can be reliably blocked in Chromium-based browsers](/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
 - [Adblock Plus memory consumption](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption)
-- [Net request filtering efficiency: HTTP Switchboard vs. Adblock Plus](/gorhill/httpswitchboard/wiki/Adblock-Plus-net-request-filtering-(in)efficiency)
+- [Net request filtering efficiency: HTTP Switchboard vs. Adblock Plus](/gorhill/httpswitchboard/wiki/Net-request-filtering-efficiency:-HTTP-Switchboard-vs.-Adblock-Plus)
 - [Compatibility with other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
     - [Adblock Plus](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions#adblock-plus)
     - [Privacy Badger](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions#privacy-badger)
