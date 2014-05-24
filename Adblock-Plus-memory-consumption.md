@@ -1,28 +1,3 @@
-**19 May 2014 @ 20h00 EDT:** I've just seen [a comment by Wladimir Palant](https://adblockplus.org/blog/on-the-adblock-plus-memory-consumption#c005360) ([another one here](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39)) regarding this post. I quote (my emphasis):
-
-> Reply from Wladimir Palant:
-> 
-> It’s because roughly **60% of the filters currently in EasyList are meant to apply on all webpages so this kind of filtering wouldn’t help much**. Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work. Fact is, with this implementation only the most simple filters are supported and even that support is very incomplete for pages that change dynamically.
-
-Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept was **exactly for those 60% generic cosmetic filters which are meant to apply on every webpages**.
-
-> Note that **the memory issue this is trying to solve** isn’t very significant – except on very few webpages.
-
-The idea was less about solving a "memory issue", and more about avoiding to abuse the browser by having 20,000 CSS rules indiscriminately injected on every page and frames within that page.
-
-> Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work.
-
-I don't know what to make of "**intentionally** broken approach" comment. It doesn't sound like a nice thing to say. I would like to know **specifically** what is broken. Being specific is helpful to users too.
-
-(By the way, [coverage was extended to 99% today](/gorhill/httpswitchboard/commit/83e213c8f31c192c12661c88c88afe1cd7ac4e45), **and** [it also works for pages which change dynamically](/gorhill/httpswitchboard/commit/fded0434be226120051ddde1d6b702486604b741).)
-
-**21 May 2014 @ 10h30 EDT:** Due to the lack of response/feedback/specifics from Wladimir Palant on [Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39), I can't conclude otherwise than deliberate misrepresentation from his part regarding the work I did. Keep in mind this willingness to misrepresent when you consider using Adblock Plus.
-
-<sub>Edit 2014-05-20 02h00: Commented on the "memory issue this is trying to solve" passage, and "intentionally broken approach".</sub>
-
-***
-***
-
 Many people have asked me to support ABP element hiding filters (I prefer to refer to these as "cosmetic filters") in the past. I've always resisted because I see _HTTP Switchboard_ as a tool to inform/manage where your browser connects. But...
 
 Regarding [ABP memory consumption](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/), I'm with Firefox on this.
@@ -48,3 +23,28 @@ Note that in the test above, HTTPSB had its default out-of-the-box preset blocke
 Tests for screenshots above was Chromium 34 on Linux 64-bit.
 
 Implementation ([abp-hide-filters.js](/gorhill/httpswitchboard/blob/master/js/abp-hide-filters.js) and [contentscript-elemhide.js](/gorhill/httpswitchboard/blob/master/js/contentscript-elemhide.js)) is rather modular, it doesn't really depend on anything else in HTTPSB except for the utility to extract domain name from a URL, which should be easy enough to replace.
+
+***
+***
+
+**19 May 2014 @ 20h00 EDT:** I've just seen [a comment by Wladimir Palant](https://adblockplus.org/blog/on-the-adblock-plus-memory-consumption#c005360) ([another one here](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39)) regarding this post. I quote (my emphasis):
+
+> Reply from Wladimir Palant:
+> 
+> It’s because roughly **60% of the filters currently in EasyList are meant to apply on all webpages so this kind of filtering wouldn’t help much**. Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work. Fact is, with this implementation only the most simple filters are supported and even that support is very incomplete for pages that change dynamically.
+
+Unfortunately, I can tell he didn't look at the implementation, because the "kind of filtering" I implemented in this proof of concept was **exactly for those 60% generic cosmetic filters which are meant to apply on every webpages**.
+
+> Note that **the memory issue this is trying to solve** isn’t very significant – except on very few webpages.
+
+The idea was less about solving a "memory issue", and more about avoiding to abuse the browser by having 20,000 CSS rules indiscriminately injected on every page and frames within that page.
+
+> Of course one could go there and implement an intentionally broken approach in order to claim that the performance is great if “87% of the filters” work.
+
+I don't know what to make of "**intentionally** broken approach" comment. It doesn't sound like a nice thing to say. I would like to know **specifically** what is broken. Being specific is helpful to users too.
+
+(By the way, [coverage was extended to 99% today](/gorhill/httpswitchboard/commit/83e213c8f31c192c12661c88c88afe1cd7ac4e45), **and** [it also works for pages which change dynamically](/gorhill/httpswitchboard/commit/fded0434be226120051ddde1d6b702486604b741).)
+
+**21 May 2014 @ 10h30 EDT:** Due to the lack of response/feedback/specifics from Wladimir Palant on [Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=988266#c39), I can't conclude otherwise than deliberate misrepresentation from his part regarding the work I did. Keep in mind this willingness to misrepresent when you consider using Adblock Plus.
+
+<sub>Edit 2014-05-20 02h00: Commented on the "memory issue this is trying to solve" passage, and "intentionally broken approach".</sub>
