@@ -9,6 +9,6 @@
     - [RequestPolicy-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-RequestPolicy)
     - [Block nothing / report everything](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-a-mere-reporting-tool)
 - [Net-request-filtering engines: an overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
+- [Net request filtering efficiency: HTTP Switchboard vs. Adblock Plus](/gorhill/httpswitchboard/wiki/Net-request-filtering-efficiency:-HTTP-Switchboard-vs.-Adblock-Plus)
 - [Javascript can be reliably blocked in Chromium-based browsers](/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
 - [Adblock Plus memory consumption](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption)
-- [Net request filtering efficiency: HTTP Switchboard vs. Adblock Plus](/gorhill/httpswitchboard/wiki/Net-request-filtering-efficiency:-HTTP-Switchboard-vs.-Adblock-Plus)
