@@ -1,6 +1,6 @@
 Adblock Plus net request filtering is based on finding pattern in a URL.
 
-For example, the first filter in [EasyList](https://easylist.adblockplus.org/en/) is `&ad_box_`, which means: "If the URL of a net request contains the sub-string `&ad_box_` at any position, block the request".
+For example, the first filter in [EasyList](https://easylist.adblockplus.org/en/) is `&ad_box_`, which means: "If the URL of a net request contains the sub-string `&ad_box_`, at any position, block the request".
 
 Net filtering based on finding pattern in a URL is a CPU-intensive task, as for every request, a URL must be tested against thousands of pattern-based filters (over 20,000 just in EasyList, some with wildcard(s)), and this must be accomplish in real-time, in order to tell the browser whether the request should be allowed or cancelled.
 
