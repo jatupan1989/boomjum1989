@@ -4,6 +4,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.5.1
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.1.zip) date: 24 May 2014
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/260>: "Ad blocking differs from Adblock with the same rules"
+
+***
+
 ### 0.9.5.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.0.zip) date: 23 May 2014
 - **New feature:** When installing the extension for first time, users will be presented with a list of "flavoured" configurations to help them get started
