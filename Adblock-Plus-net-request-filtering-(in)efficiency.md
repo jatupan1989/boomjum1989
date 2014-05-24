@@ -52,4 +52,4 @@ For example, this is the test code for one of a very common filter (note that re
 
     return url.substr(tokenBeg - 1, this.s.length) === this.s;
 
-The end result is that HTTPSB is less likely to be a burden on the browser.
+In HTTPSB, pattern-matching filtering is implemented with efficiency as the primary concern, and as a result HTTPSB is less likely to be a burden on the browser than ABP when loading web pages, especially those which are the results of hundreds of net requests.
