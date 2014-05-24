@@ -7,7 +7,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.9.5.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.1.zip) date: 24 May 2014
 - [Translation work](/gorhill/httpswitchboard/commit/e990fae66190f8ded4fd0ff326b2adc98dd732f0) by [tailHey](/tailHey).
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/260>: "Ad blocking differs from Adblock with the same rules"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/260>: "Ad blocking differs from Adblock with the same rules" (this was [not the same bug](/gorhill/httpswitchboard/issues/260#issuecomment-44000577) as the original issue).
 
 ***
 
