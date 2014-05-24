@@ -36,7 +36,7 @@ Then HTTPSB:
     HTTPSB.adbProfiler> number or filters tested per URL: 8 (sample: 11200 URLs)
     HTTPSB.adbProfiler> number or filters tested per URL: 8 (sample: 11400 URLs)
 
-How each filter is tested is also important: it has to be **fast**.
+How each filter is tested is also important: **it has to be fast**.
 
 Here is the filter test code in ABP (note the regular expression):
 
