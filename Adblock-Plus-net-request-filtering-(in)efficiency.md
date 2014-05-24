@@ -10,7 +10,7 @@ When I decided to support pattern-matching net request filtering, I took the dec
 
 ABP-compatible pattern-matching filters have been supported since a while now, but here I would like to show the difference in my implementation and that of the official ABP extension. Remember, pattern-matching is a CPU-intensive operation, so the goal of an implementation is to minimize as much as possible the number of filters tested for each URL.
 
-Here are the results for ADP first:
+So for both ABP and HTTPSB, I ran my [reference benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites), and here are the results for ADP first:
 
     ABP.adbProfiler> number or filters tested per URL: 107 (sample: 9600 URLs)
     ABP.adbProfiler> number or filters tested per URL: 107 (sample: 9800 URLs)
