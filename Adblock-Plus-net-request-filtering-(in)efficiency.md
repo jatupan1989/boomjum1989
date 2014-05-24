@@ -8,7 +8,7 @@ In _HTTP Switchboard_, I eventually accepted to support Adblock Plus net request
 
 When I decided to support pattern-matching net request filtering, I took the decision to start from scratch and to not look at ABP code on how they implemented pattern-matching net request filtering, and as with matrix filtering, the implementation had to be as efficient as possible.
 
-ABP-compatible pattern-matching filters have been supported since a while now, but here I would like to show the difference in my implementation and that of the official ABP extension. Remember, pattern-matching a filter is a CPU-intensive operation, so the goal of an implementation is to minimize as much as possible the number of filters tested for each URL.
+ABP-compatible pattern-matching filters have been supported since a while now, but here I would like to show the difference in my implementation and that of the official ABP extension. Remember, pattern-matching is a CPU-intensive operation, so the goal of an implementation is to minimize as much as possible the number of filters tested for each URL.
 
 Here are the results for ADP first:
 
