@@ -12,7 +12,7 @@ ABP-compatible pattern-matching filters have been supported since a while now, b
 
 Remember, pattern-matching is a CPU-intensive operation, so the goal of an implementation is to minimize as much as possible the number of filters tested for each URL.
 
-So for both ABP (v1.8.1/Chromium) and HTTPSB (0.9.5.1/Chromium), I ran my [reference benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites), and here are the results for ADP first:
+So for both ABP (v1.8.1/Chromium) and HTTPSB (0.9.5.1/Chromium), I ran my [reference benchmark](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites), and here are the results. First, ADP:
 
     ABP.adbProfiler> number or filters tested per URL: 107 (sample: 9600 URLs)
     ABP.adbProfiler> number or filters tested per URL: 107 (sample: 9800 URLs)
