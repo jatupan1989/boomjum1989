@@ -8,6 +8,6 @@ In the above setup, all the request types are graylisted by default, and "Auto-w
 
 I created a backup file which can be restored (from the _About_ tab) in order to make HTTPSB behave close to how _RequestPolicy_ works:
 
-<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-requestpolicy-like-setup.txt>.
+<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/assets/httpsb/setup/httpsb-requestpolicy-like-setup.txt>.
 
 Remember: Restoring data from a full backup file will overwrite all your settings!
