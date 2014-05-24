@@ -46,7 +46,7 @@ Here is the filter test code in ABP (note the regular expression):
     }
     return false;
 
-In HTTPSB, the test differs according to the filter type: at parse time, filters are categorized and an representation is used to store them, which means each filter is tested with optimal code.
+In HTTPSB, the test differs according to the filter type: at parse time, filters are categorized and an optimal representation is picked to store them, which means each filter is tested with optimal code.
 
 For example, this is the test code for one of a very common filter (note that regular expression is used):
 
