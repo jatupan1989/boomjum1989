@@ -44,7 +44,7 @@ HTTPSB is able to reduce the 25,000+ pattern-matching filters found in EasyList 
 
 How each filter is tested is also important: **it has to be fast**.
 
-Here is the filter test code in ABP (note the regular expression):
+Here is the [filter test code in ABP](/adblockplus/adblockplus/blob/master/lib/filterClasses.js#L544) (note the regular expression):
 
     if (this.regexp.test(location) &&
         (RegExpFilter.typeMap[contentType] & this.contentType) != 0 &&
