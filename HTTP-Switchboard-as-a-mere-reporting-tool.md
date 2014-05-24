@@ -6,6 +6,6 @@ This mode might also be useful to find out what is **not** blocked by other inst
 
 I created a backup file which can be restored (from the _About_ tab) in order to turn HTTPSB into a mere reporting tool:
 
-<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-block-nothing-report-everything-setup.txt>.
+<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/assets/httpsb/setup/httpsb-block-nothing-report-everything-setup.txt>.
 
 Remember: Restoring data from a full backup file will overwrite all your settings!
