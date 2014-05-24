@@ -6,7 +6,7 @@ Here is how the matrix would look like:
 
 I created a backup file which can be restored (from the _About_ tab) in order to make HTTPSB behave close to how _NoScript_ works:
 
-<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/stuff/httpsb-noscript-like-setup.txt>.
+<https://raw.githubusercontent.com/gorhill/httpswitchboard/master/assets/httpsb/setup/httpsb-noscript-like-setup.txt>.
 
 _NoScript_ comes with a preset list of hostnames for which javascript is allowed, this list has been included in the above setup file as ubiquitously whitelisted hostnames. In order for this whitelist to work properly, ["strict blocking"](/gorhill/httpswitchboard/wiki/%22Strict-blocking%22-illustrated) is disabled in the above setup file.
 
