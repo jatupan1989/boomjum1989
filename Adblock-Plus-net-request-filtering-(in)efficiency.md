@@ -38,6 +38,8 @@ Then HTTPSB:
     HTTPSB.adbProfiler> number or filters tested per URL: 8 (sample: 11200 URLs)
     HTTPSB.adbProfiler> number or filters tested per URL: 8 (sample: 11400 URLs)
 
+In other words, as per results above, HTTPSB is able to reduce the 25,000+ pattern-matching filters found in EasyList and EasyPrivacy into eight tests for each URL (on average), while ABP was not able to reduce these same 25,000+ pattern-matching filters into less than 107 tests (on average).
+
 How each filter is tested is also important: **it has to be fast**.
 
 Here is the filter test code in ABP (note the regular expression):
