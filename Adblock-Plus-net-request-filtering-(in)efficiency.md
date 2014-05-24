@@ -40,7 +40,7 @@ Then HTTPSB:
 
 In other words, as per results above:
 
-HTTPSB is able to reduce the 25,000+ pattern-matching filters found in EasyList and EasyPrivacy into only eight tests for each URL (on average), while ABP is not able to reduce these same 25,000+ pattern-matching filters into less than 107 tests (on average).
+HTTPSB is able to reduce the 25,000+ pattern-matching filters found in EasyList and EasyPrivacy into only eight tests for each URL (on average), while ABP is not able to reduce these same 25,000+ pattern-matching filters into less than 107 tests for each URL (on average).
 
 How each filter is tested is also important: **it has to be fast**.
 
