@@ -36,7 +36,9 @@ Then HTTPSB:
     HTTPSB.adbProfiler> number or filters tested per URL: 8 (sample: 11200 URLs)
     HTTPSB.adbProfiler> number or filters tested per URL: 8 (sample: 11400 URLs)
 
-How each filter is tested is also important, here is ABP test:
+How each filter is tested is also important: it has to be **fast**.
+
+Here is the filter test code in ABP (note the regular expression):
 
     if (this.regexp.test(location) && (RegExpFilter.typeMap[contentType] & this.contentType) != 0 && (this.thirdParty == null || this.thirdParty == thirdParty) && this.isActiveOnDomain(docDomain))
     {
@@ -44,6 +46,8 @@ How each filter is tested is also important, here is ABP test:
     }
     return false;
 
-In HTTPSB, the test differs according to the filter type: at parse time, filter are categorized and the optimal class is used to store them, which means each filter is tested with only the needed code. For example, this is the test code for one of a very common filter:
+In HTTPSB, the test differs according to the filter type: at parse time, filters are categorized and an representation is used to store them, which means each filter is tested with optimal code.
+
+For example, this is the test code for one of a very common filter (note that regular expression is used):
 
     return url.substr(tokenBeg - 1, this.s.length) === this.s;
