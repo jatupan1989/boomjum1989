@@ -4,6 +4,14 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.5.2
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.2.zip) date: 25 May 2014
+- [Translation work](/gorhill/httpswitchboard/commit/a4be5beeed6b18446e5cd5fc2c6cd50c75c0f658) by [r35p3ct](/r35p3ct) (Russian).
+- [Translation work](/gorhill/httpswitchboard/commit/f27a13a9a6c97516fa24c4f48d15d7966111651b) by [tlu1024](/tlu1024) (German).
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/300>: "Built-in Chinalist needs update"
+
+***
+
 ### 0.9.5.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.1.zip) date: 24 May 2014
 - [Translation work](/gorhill/httpswitchboard/commit/e990fae66190f8ded4fd0ff326b2adc98dd732f0) by [tailHey](/tailHey).
