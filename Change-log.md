@@ -9,6 +9,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - [Translation work](/gorhill/httpswitchboard/commit/a4be5beeed6b18446e5cd5fc2c6cd50c75c0f658) by [r35p3ct](/r35p3ct) (Russian).
 - [Translation work](/gorhill/httpswitchboard/commit/f27a13a9a6c97516fa24c4f48d15d7966111651b) by [tlu1024](/tlu1024) (German).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/300>: "Built-in Chinalist needs update"
+    * Apparently the other China list in there is not updating anymore, so I will remove it at some point.
 
 ***
 
