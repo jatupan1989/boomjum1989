@@ -1,4 +1,4 @@
-[The results in this article were out-dated. Anything in here is quite probably no longer reproducible. Some code might have gotten better, some other might have gotten worst. For instance, HTTPSB average time for its onBeforeRequest() has gone up, because it now handles ABP pattern-based filters. Other extensions might have improved or worsened. These numbers are no longer useful.]
+[The results in this article are out-dated. Anything in here is quite probably no longer reproducible. Some code might have gotten better, some other might have gotten worst. For instance, HTTPSB average time for its onBeforeRequest() has gone up, because it now handles ABP pattern-based filters. Other extensions might have improved or worsened. These numbers are no longer useful.]
 
 TL;DR: No.
 
