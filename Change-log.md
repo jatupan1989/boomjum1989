@@ -4,6 +4,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.5.4
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.4.zip) date: 26 May 2014
+- More translation work by [tlu1024](/tlu1024) (German), [r35p3ct](/r35p3ct) (Russian), and [tailHey](/tailHey) (French)
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/306>: "Number of blocked script not counted properly for global stats"
+
+***
+
 ### 0.9.5.3
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.3.zip) date: 25 May 2014
 - [Lot of translation work](/tlu1024?tab=activity) by [tlu1024](/tlu1024) (German)
