@@ -4,6 +4,18 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.5.3
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.3.zip) date: 25 May 2014
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/299>: "Frame transparency doesn't work for the whole replacement frame"
+    * Your current choice of color/opacity will be reset to factory setting. Sorry.
+    * I had no choice but to change the internal representation of the color information, and trying to ensure backward compatibility would have requires way too much complicated code, and in general the rule is more code = higher likelihood of new bugs. I went with the safe approach.
+    * Since now opacity setting is separate from color setting, you don't have to enter a "CSS color", the built-in widget for color picking can now be used.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/52>: "Make matrix colors work for color blind people"
+    * I can't tell whether it is good enough, so I will await feedback from color-blind people.
+    * I couldn't use patterns, as the cells and the permanent state indicators are too small for patterns. So I went with shades of grays.
+
+***
+
 ### 0.9.5.2
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.2.zip) date: 25 May 2014
 - [Translation work](/gorhill/httpswitchboard/commit/a4be5beeed6b18446e5cd5fc2c6cd50c75c0f658) by [r35p3ct](/r35p3ct) (Russian).
