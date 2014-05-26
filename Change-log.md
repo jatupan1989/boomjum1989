@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.5.3
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.3.zip) date: 25 May 2014
-- [Lot of translation work](/tlu1024?tab=activity) bu [tlu1024](/tlu1024) (German)
+- [Lot of translation work](/tlu1024?tab=activity) by [tlu1024](/tlu1024) (German)
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/299>: "Frame transparency doesn't work for the whole replacement frame"
     * Your current choice of color/opacity will be reset to factory setting. Sorry.
     * I had no choice but to change the internal representation of the color information, and trying to ensure backward compatibility would have requires way too much complicated code, and in general the rule is more code = higher likelihood of new bugs. I went with the safe approach.
