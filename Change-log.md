@@ -9,7 +9,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - [Lot of translation work](/tlu1024?tab=activity) by [tlu1024](/tlu1024) (German)
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/299>: "Frame transparency doesn't work for the whole replacement frame"
     * Your current choice of color/opacity will be reset to factory setting. Sorry.
-    * I had no choice but to change the internal representation of the color information, and trying to ensure backward compatibility would have requires way too much complicated code, and in general the rule is more code = higher likelihood of new bugs. I went with the safer option.
+    * I had no choice but to change the internal representation of the color information, and trying to ensure backward compatibility would have required way too much complicated code, and in general the rule is more code = higher likelihood of new bugs. I went with the safer option.
     * Since now opacity setting is separate from color setting, you don't have to enter a "CSS color", the built-in widget for color picking can now be used.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/52>: "Make matrix colors work for color blind people"
     * I can't tell whether it is good enough, so I will await feedback from color-blind people.
