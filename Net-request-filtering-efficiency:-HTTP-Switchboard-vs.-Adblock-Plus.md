@@ -64,6 +64,10 @@ For example, this is the test code for one of a very common filter (note that **
 
 In HTTPSB, pattern-matching filtering is implemented with efficiency as the primary concern, and as a result HTTPSB is less likely to be a burden on the browser than ABP when loading web pages, especially those which are the results of hundreds of net requests.
 
+Therefore, because of this better filtering efficiency in HTTPSB, I don't need to warn the user against using too many filters, [like ABP does here](https://adblockplus.org/en/getting_started#subscription) (excerpt):
+
+> It is important to note that you should not add too many filterlists to Adblock Plus. This will slow down the adblocker, therefore, your browsing. As a rule of thumb, it is highly recommended to not use overlapping filterlists (e.g. choose either EasyList OR Fanboy's List).
+
 HTTPSB's implementation of ABP-compatible net request filters is found in [js/abp-filters.js](/gorhill/httpswitchboard/blob/master/js/abp-filters.js).
 
 I consider optimizing to be a never ending quest. Sometimes new ideas come to mind after we thought we got close to ultimate code optimization. Finding new ways to optimize further has happened many times for my implementation of ABP filters, so I won't be silly and claim it can't be improved :-)
