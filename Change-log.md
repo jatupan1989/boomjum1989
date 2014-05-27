@@ -6,6 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.5.5
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.5.zip) date: 27 May 2014
+- Normally when assets are merely updated, no new revision is necessary, but in the current case a new list has been added (ABP Japnese filter), so the revision was necessary.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/312>: "Add recipe for Twitch.tv"
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/309>: "Add inmuiads.info in HTTP Switchboard's self maintained blacklist"
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/308>: "ABP Japnese filter request"
