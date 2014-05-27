@@ -4,6 +4,14 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.5.5
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.5.zip) date: 27 May 2014
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/312>: "Add recipe for Twitch.tv"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/309>: "Add inmuiads.info in HTTP Switchboard's self maintained blacklist"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/308>: "ABP Japnese filter request"
+
+***
+
 ### 0.9.5.4
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.4.zip) date: 26 May 2014
 - More translation work by [tlu1024](/tlu1024) (German), [r35p3ct](/r35p3ct) (Russian), and [tailHey](/tailHey) (French)
