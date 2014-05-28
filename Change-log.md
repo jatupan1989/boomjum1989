@@ -4,6 +4,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.6.0
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.6.0.zip) date: 28 May 2014
+- [Chinese (Simplified) translation](/gorhill/httpswitchboard/commit/deab1cbfd756782b76f566ab4d80be1ffc3b33ac) by [noblehng](/noblehng).
+
+***
+
 ### 0.9.5.6
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.6.zip) date: 28 May 2014
 - As part of [fix to #218](/gorhill/httpswitchboard/issues/218), the built-in list of block lists can now be updated without waiting for a new release of the extension.
