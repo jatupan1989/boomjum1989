@@ -1,12 +1,6 @@
 HTTP Switchboard also uses the work of other people. As of v0.7.6.1:
 
-- Translations:
-    * русский: [r35p3ct](https://github.com/r35p3ct)
-    * Français: [tailHey](https://github.com/tailHey)
-    * Deutsch: [tlu1024](https://github.com/tlu1024)
-- Specific contributions to project code:
-    * [GuardianMajor](https://github.com/GuardianMajor): [Collapsible help boxes](/gorhill/httpswitchboard/pull/57) in the *Settings* page.
-    * [my-password-is-password](https://github.com/my-password-is-password) for his inputs and pull requests.
+- [Contributors](/gorhill/httpswitchboard/graphs/contributors)
 - [All people who took time to report issues](/gorhill/httpswitchboard/issues).
 - Third-parties:
     * [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
