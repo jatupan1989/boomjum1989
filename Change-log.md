@@ -4,6 +4,15 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.5.6
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.6.zip) date: 28 May 2014
+- As part of fix to #218 (see below), the built-in list of block lists can now be updated without waiting for a new release of the extension.
+    * Essentially this means I can add new (or remove obsolete) lists and users will be able to start to use these new lists after updating assests, rather than having to wait for a new release of the extension.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/316>: "download attachment in gmail"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/218>: "Friendly names for lists of ubiquitous blocked hosts"
+
+***
+
 ### 0.9.5.5
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.5.5.zip) date: 27 May 2014
 - Normally when assets are merely updated, no new revision is necessary, but in the current case a new list has been added (ABP Japnese filter), so the revision was necessary.
