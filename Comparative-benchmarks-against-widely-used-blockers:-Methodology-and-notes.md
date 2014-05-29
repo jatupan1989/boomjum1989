@@ -16,7 +16,7 @@ HTTPSB<sup>BA/AX</sup> and HTTPSB<sup>AA/BX</sup>:
 - Blacklists used:
     * Out-of-the-box blacklists
     * [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
-        - ~~HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.~~ Not the case anymore since 0.8.4.0: most ABP-compatible filters are not parsed and enforced.
+        - ~~HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.~~ Not the case anymore since [0.8.4.0](/gorhill/httpswitchboard/wiki/Change-log#0840): most ABP-compatible filters are not parsed and enforced.
 
 [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
 
