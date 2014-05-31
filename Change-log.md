@@ -6,7 +6,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.7.0
 - Release date: Not released yet
-- I consider this a new version because of how [issue #303](/gorhill/httpswitchboard/issues/303) was fixed (_"Support `file://` protocol"_).
+- I consider this a new version because of how [issue #303](/gorhill/httpswitchboard/issues/303) was fixed (_"Support `file://` protocol"_):
+    * [to do]
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/321>: "Improper handling of IP addresses in the matrix".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/303>: "Support `file://` protocol".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/246>: "Matrix: header row should always be present".
