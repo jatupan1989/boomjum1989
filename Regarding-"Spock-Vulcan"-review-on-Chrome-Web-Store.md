@@ -5,8 +5,8 @@ Someone nicknamed "Spock Vulcan" left this review in the Chrome Web Store:
 I don't hate rating this review as (suspiciously) pure nonsense. Everybody can find out by themselves. Here is the counter proof:
 
 - Top screenshot is for HTTPSB in block-all/allow-exceptionally mode: DOMContentLoaded = 304 ms
-- Middle screenshot is for HTTPSB in allow-block-exceptionally mode: DOMContentLoaded = 1114 ms
-- Bottom screenshot is without HTTPSB: DOMContentLoaded = 1570 ms
+- Middle screenshot is for HTTPSB in allow-block-exceptionally mode: DOMContentLoaded = 1,114 ms
+- Bottom screenshot is without HTTPSB: DOMContentLoaded = 1,570 ms
 
 ![Wired timings](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/spock-vulcan-counterproof.png)
 
