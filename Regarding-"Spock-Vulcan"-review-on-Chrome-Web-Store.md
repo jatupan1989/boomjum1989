@@ -19,4 +19,4 @@ Browser cache was cleared before each test.
 
 One thing is for sure: HTTPSB gives full information and control to users about what web pages are allowed to do. HTTPSB is free, comes with no strings attached and no agenda. HTTPSB is significantly more efficient memory- and CPU-wise than any other comparable blockers I've measured so far.
 
-It's bound to annoy some people who make a living off the bloat.
+It's bound to annoy some people who make a living (directly or indirectly) off the bloat.
