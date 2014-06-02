@@ -9,3 +9,5 @@ I don't hate rating this review as (suspiciously) pure nonsense. Everybody can f
 - Bottom screenshot is without HTTPSB: DOMContentLoaded = 1570 ms
 
 ![Wired timings](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/spock-vulcan-counterproof.png)
+
+Click [here](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/spock-vulcan-counterproof.png) for image in its original size.
