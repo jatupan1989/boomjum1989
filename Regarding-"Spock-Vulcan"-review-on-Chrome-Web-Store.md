@@ -13,3 +13,7 @@ This review is (suspiciously) pure nonsense. Everybody can find out by themselve
 Click [here](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/spock-vulcan-counterproof.png) for image in its original size.
 
 Browser cache was cleared before each test.
+
+One thing is for sure: HTTPSB gives full information and control to users about what web pages do. HTTPSB is free and comes with no strings attached, no agenda. HTTPSB is significantly more efficient memory- and CPU-wise.
+
+It's bound to annoy some people who make a living off the bloat.
