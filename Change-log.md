@@ -4,8 +4,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### The end
+- Moving on.
+
+***
+
 ### 0.9.7.0
-- Release date: Not released yet
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.7.0.zip) date: 2 June 2014
 - I consider this a new version because of how [issue #303](/gorhill/httpswitchboard/issues/303) was fixed (_"Support `file://` protocol"_):
     * [to do]
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/325>: "Google search ads not block in 'Adblock emulation mode'".
