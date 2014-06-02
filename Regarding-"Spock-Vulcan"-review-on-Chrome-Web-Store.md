@@ -11,3 +11,5 @@ I don't hate rating this review as (suspiciously) pure nonsense. Everybody can f
 ![Wired timings](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/spock-vulcan-counterproof.png)
 
 Click [here](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/spock-vulcan-counterproof.png) for image in its original size.
+
+Browser cache was cleared before each test.
