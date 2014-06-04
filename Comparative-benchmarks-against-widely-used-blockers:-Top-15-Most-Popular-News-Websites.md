@@ -6,58 +6,58 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 
 #### June 4, 2014
 
-|                         | HTTPSB<br>BA/AX            | HTTPSB<br>AA/BX            | Adblock                    | Adguard                    | Privacy<br>Badger            | No blocker                 |
-| ----------------------- | --------------------------:| --------------------------:| --------------------------:| --------------------------:| ----------------------------:| --------------------------:|
-| <sup>Domains</sup>      |       **21** <sub>22</sub> |       **52** <sub>53</sub> |       **74** <sub>75</sub> |       **93** <sub>94</sub> |       **157** <sub>158</sub> |     **401** <sub>402</sub> |
-| <sup>Hosts</sup>        |       **48** <sub>74</sub> |      **97** <sub>143</sub> |     **128** <sub>183</sub> |     **150** <sub>222</sub> |       **236** <sub>316</sub> |     **596** <sub>683</sub> |
-| <sup>Scripts</sup>      |         **0** <sub>0</sub> |     **183** <sub>263</sub> |     **215** <sub>299</sub> |     **235** <sub>321</sub> |       **308** <sub>406</sub> |     **505** <sub>625</sub> |
-| <sup>Cookies</sup>      |         **0** <sub>0</sub> |        **2** <sub>34</sub> |        **8** <sub>49</sub> |       **20** <sub>74</sub> |         **38** <sub>99</sub> |     **231** <sub>317</sub> |
-| <sup>Net requests</sup> |   **625** <sub>1,217</sub> |   **879** <sub>1,653</sub> | **1,025** <sub>1,864</sub> | **1,044** <sub>1,911</sub> |   **1,144** <sub>2,021</sub> | **1,973** <sub>2,980</sub> |
-| <sup>Bandwidth</sup>    |                 16,645,571 |                          ? |                 25,884,484 |                          ? |                            ? |                 29,375,024 |
+|              | HTTPSB<br>BA/AX               | HTTPSB<br>AA/BX               | Adblock                       | Adguard                       | Privacy<br>Badger               | No blocker                    |
+| ------------ | -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:| -------------------------------:| -----------------------------:|
+| Domains      |       **21**<br><sup>22</sup> |       **52**<br><sup>53</sup> |       **74**<br><sup>75</sup> |       **93**<br><sup>94</sup> |       **157**<br><sup>158</sup> |     **401**<br><sup>402</sup> |
+| Hosts        |       **48**<br><sup>74</sup> |      **97**<br><sup>143</sup> |     **128**<br><sup>183</sup> |     **150**<br><sup>222</sup> |       **236**<br><sup>316</sup> |     **596**<br><sup>683</sup> |
+| Scripts      |         **0**<br><sup>0</sup> |     **183**<br><sup>263</sup> |     **215**<br><sup>299</sup> |     **235**<br><sup>321</sup> |       **308**<br><sup>406</sup> |     **505**<br><sup>625</sup> |
+| Cookies      |         **0**<br><sup>0</sup> |        **2**<br><sup>34</sup> |        **8**<br><sup>49</sup> |       **20**<br><sup>74</sup> |         **38**<br><sup>99</sup> |     **231**<br><sup>317</sup> |
+| Net requests |   **625**<br><sup>1,217</sup> |   **879**<br><sup>1,653</sup> | **1,025**<br><sup>1,864</sup> | **1,044**<br><sup>1,911</sup> |   **1,144**<br><sup>2,021</sup> | **1,973**<br><sup>2,980</sup> |
+| Bandwidth    |                    16,645,571 |                             ? |                    25,884,484 |                             ? |                               ? |                    29,375,024 |
 
-<sup>From now on I'm going to benchmark other blockers too. I will keep providing benchmarks for HTTPSB in _BA/AX_ and _AA/BX_ mode,
+From now on I'm going to benchmark other blockers too. I will keep providing benchmarks for HTTPSB in _BA/AX_ and _AA/BX_ mode,
 and _No blocker_ stats, so the results from these can be used as "anchors" to compare blockers across benchmarks. For example, with
 the above results, I can say that using HTTPSB's results as anchors, [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) and [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb) perform better privacy-wise than [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom),
 [Adguard AdBlocker](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) and
 [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp).
-**Note:** This time I primed Privacy Badger before the benchmark.</sup>
+**Note:** This time I primed Privacy Badger before the benchmark.
 
 #### May 2, 2014
 
-|                         | HTTPSB<br>BA/AX            | Ghostery                   | Adblock+                   | HTTPSB<br>AA/BX            | Disconnect                 | Privacy<br>Badger                 | No blocker                 |
-| ----------------------- | --------------------------:| --------------------------:| --------------------------:| --------------------------:| --------------------------:| ---------------------------------:| --------------------------:|
-| <sup>Domains</sup>      |       **21** <sub>22</sub> |       **52** <sub>53</sub> |       **54** <sub>55</sub> |       **54** <sub>55</sub> |       **93** <sub>94</sub> |            **192** <sub>193</sub> |     **420** <sub>421</sub> |
-| <sup>Hosts</sup>        |       **49** <sub>75</sub> |      **99** <sub>160</sub> |      **97** <sub>149</sub> |     **101** <sub>153</sub> |     **171** <sub>248</sub> |            **299** <sub>381</sub> |     **641** <sub>720</sub> |
-| <sup>Scripts</sup>      |         **0** <sub>0</sub> |     **173** <sub>286</sub> |     **177** <sub>272</sub> |     **169** <sub>265</sub> |     **262** <sub>385</sub> |            **334** <sub>455</sub> |     **518** <sub>641</sub> |
-| <sup>Cookies</sup>      |         **0** <sub>0</sub> |        **8** <sub>47</sub> |        **1** <sub>33</sub> |        **2** <sub>43</sub> |       **19** <sub>83</sub> |             **52** <sub>115</sub> |     **263** <sub>341</sub> |
-| <sup>Net requests</sup> |   **680** <sub>1,199</sub> |   **966** <sub>1,722</sub> |   **913** <sub>1,612</sub> |   **930** <sub>1,648</sub> | **1,124** <sub>1,936</sub> |        **1,340** <sub>2,176</sub> | **2,079** <sub>2,849</sub> |
-| <sup>Bandwidth</sup>    |                 15,147,576 |                 27,406,535 |                 26,489,990 |                 27,040,340 |                 28,758,904 |                                 ? |                          ? |
+|              | HTTPSB<br>BA/AX               | Ghostery                      | Adblock+                      | HTTPSB<br>AA/BX               | Disconnect                    | Privacy<br>Badger              | No blocker                    |
+| ------------ | -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:| ------------------------------:| -----------------------------:|
+| Domains      |       **21**<br><sup>22</sup> |       **52**<br><sup>53</sup> |       **54**<br><sup>55</sup> |       **54**<br><sup>55</sup> |       **93**<br><sup>94</sup> |      **192**<br><sup>193</sup> |     **420**<br><sup>421</sup> |
+| Hosts        |       **49**<br><sup>75</sup> |      **99**<br><sup>160</sup> |      **97**<br><sup>149</sup> |     **101**<br><sup>153</sup> |     **171**<br><sup>248</sup> |      **299**<br><sup>381</sup> |     **641**<br><sup>720</sup> |
+| Scripts      |         **0**<br><sup>0</sup> |     **173**<br><sup>286</sup> |     **177**<br><sup>272</sup> |     **169**<br><sup>265</sup> |     **262**<br><sup>385</sup> |      **334**<br><sup>455</sup> |     **518**<br><sup>641</sup> |
+| Cookies      |         **0**<br><sup>0</sup> |        **8**<br><sup>47</sup> |        **1**<br><sup>33</sup> |        **2**<br><sup>43</sup> |       **19**<br><sup>83</sup> |       **52**<br><sup>115</sup> |     **263**<br><sup>341</sup> |
+| Net requests |   **680**<br><sup>1,199</sup> |   **966**<br><sup>1,722</sup> |   **913**<br><sup>1,612</sup> |   **930**<br><sup>1,648</sup> | **1,124**<br><sup>1,936</sup> |  **1,340**<br><sup>2,176</sup> | **2,079**<br><sup>2,849</sup> |
+| Bandwidth    |                    15,147,576 |                    27,406,535 |                    26,489,990 |                    27,040,340 |                    28,758,904 |                              ? |                             ? |
 
-<sup>Changes from previous benchmark: EFF-backed Privacy Badger (beta) added, see [these important notes](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works), mostly, the results for Privacy Badger represent a worst-case scenario as the extension improves with usage (next benchmark I will prime it beforehand). Starting with [HTTP Switchboard version 0.8.6.4](/gorhill/httpswitchboard/wiki/Change-log#0864), Fanboy's specialized lists are not longer enabled by default.</sup>
+Changes from previous benchmark: EFF-backed Privacy Badger (beta) added, see [these important notes](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works), mostly, the results for Privacy Badger represent a worst-case scenario as the extension improves with usage (next benchmark I will prime it beforehand). Starting with [HTTP Switchboard version 0.8.6.4](/gorhill/httpswitchboard/wiki/Change-log#0864), Fanboy's specialized lists are not longer enabled by default.
 
 #### February 26, 2014
 
-|                         | HTTPSB<br>BA/AX            | HTTPSB<br>AA/BX            | Ghostery                   | Adblock+                   | Disconnect                 | No blocker                 |
-| ----------------------- | --------------------------:| --------------------------:| --------------------------:| --------------------------:| --------------------------:| --------------------------:|
-| <sup>Domains</sup>      |       **21** <sub>22</sub> |       **45** <sub>46</sub> |       **48** <sub>49</sub> |       **53** <sub>54</sub> |       **87** <sub>88</sub> |     **412** <sub>413</sub> |
-| <sup>Hosts</sup>        |       **49** <sub>78</sub> |      **89** <sub>142</sub> |      **98** <sub>165</sub> |      **96** <sub>152</sub> |     **153** <sub>232</sub> |     **609** <sub>697</sub> |
-| <sup>Scripts</sup>      |         **0** <sub>0</sub> |     **171** <sub>282</sub> |     **176** <sub>291</sub> |     **175** <sub>280</sub> |     **252** <sub>392</sub> |     **525** <sub>677</sub> |
-| <sup>Cookies</sup>      |         **0** <sub>0</sub> |        **3** <sub>43</sub> |        **5** <sub>48</sub> |        **2** <sub>35</sub> |       **16** <sub>85</sub> |     **231** <sub>316</sub> |
-| <sup>Net requests</sup> |   **630** <sub>1,229</sub> |   **941** <sub>1,710</sub> |   **965** <sub>1,794</sub> |   **920** <sub>1,698</sub> | **1,063** <sub>2,018</sub> | **2,120** <sub>3,048</sub> |
-| <sup>Bandwidth</sup>    |                 16,342,053 |                 26,603,582 |                 26,502,113 |                 26,714,512 |                 27,950,492 |                 31,282,722 |
+|              | HTTPSB<br>BA/AX               | HTTPSB<br>AA/BX               | Ghostery                      | Adblock+                      | Disconnect                    | No blocker                    |
+| ------------ | -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:|
+| Domains      |       **21**<br><sup>22</sup> |       **45**<br><sup>46</sup> |       **48**<br><sup>49</sup> |       **53**<br><sup>54</sup> |       **87**<br><sup>88</sup> |     **412**<br><sup>413</sup> |
+| Hosts        |       **49**<br><sup>78</sup> |      **89**<br><sup>142</sup> |      **98**<br><sup>165</sup> |      **96**<br><sup>152</sup> |     **153**<br><sup>232</sup> |     **609**<br><sup>697</sup> |
+| Scripts      |         **0**<br><sup>0</sup> |     **171**<br><sup>282</sup> |     **176**<br><sup>291</sup> |     **175**<br><sup>280</sup> |     **252**<br><sup>392</sup> |     **525**<br><sup>677</sup> |
+| Cookies      |         **0**<br><sup>0</sup> |        **3**<br><sup>43</sup> |        **5**<br><sup>48</sup> |        **2**<br><sup>35</sup> |       **16**<br><sup>85</sup> |     **231**<br><sup>316</sup> |
+| Net requests |   **630**<br><sup>1,229</sup> |   **941**<br><sup>1,710</sup> |   **965**<br><sup>1,794</sup> |   **920**<br><sup>1,698</sup> | **1,063**<br><sup>2,018</sup> | **2,120**<br><sup>3,048</sup> |
+| Bandwidth    |                    16,342,053 |                    26,603,582 |                    26,502,113 |                    26,714,512 |                    27,950,492 |                    31,282,722 |
 
-<sup>Change from previous benchmark: Starting with HTTP Switchboard version 0.8.3.0, all preset lists of blocked hosts are enabled by default, except of for the huge "assets/thirdparties/hosts-file.net/hosts.txt". This allows HTTPSB in allow-all/block-exceptionally mode to perform well when compared to other blockers.</sup>
+Change from previous benchmark: Starting with HTTP Switchboard version 0.8.3.0, all preset lists of blocked hosts are enabled by default, except of for the huge "assets/thirdparties/hosts-file.net/hosts.txt". This allows HTTPSB in allow-all/block-exceptionally mode to perform well when compared to other blockers.
 
 #### January 24, 2014
 
-|                         | HTTPSB<br>BA/AX            | Ghostery                   | Adblock+                   | HTTPSB<br>AA/BX            | Disconnect                 | No blocker                 |
-| ----------------------- | --------------------------:| --------------------------:| --------------------------:| --------------------------:| --------------------------:| --------------------------:|
-| <sup>Domains</sup>      |       **24** <sub>25</sub> |       **54** <sub>55</sub> |       **59** <sub>60</sub> |       **69** <sub>70</sub> |       **91** <sub>92</sub> |     **476** <sub>477</sub> |
-| <sup>Hosts</sup>        |       **55** <sub>82</sub> |     **109** <sub>183</sub> |     **107** <sub>169</sub> |     **126** <sub>200</sub> |     **157** <sub>240</sub> |     **693** <sub>785</sub> |
-| <sup>Scripts</sup>      |         **0** <sub>0</sub> |     **176** <sub>307</sub> |     **173** <sub>293</sub> |     **187** <sub>327</sub> |     **235** <sub>391</sub> |     **534** <sub>698</sub> |
-| <sup>Cookies</sup>      |         **0** <sub>0</sub> |        **4** <sub>54</sub> |        **1** <sub>44</sub> |       **10** <sub>73</sub> |       **12** <sub>86</sub> |     **299** <sub>389</sub> |
-| <sup>Net requests</sup> |   **651** <sub>1,232</sub> | **1,064** <sub>1,921</sub> | **1,019** <sub>1,815</sub> | **1,087** <sub>1,934</sub> | **1,103** <sub>2,091</sub> | **2,300** <sub>3,236</sub> |
-| <sup>Bandwidth</sup>    |                 14,935,325 |                 25,128,116 |                 25,150,853 |                 25,785,433 |                 26,007,184 |                 28,855,067 |
+|              | HTTPSB<br>BA/AX               | Ghostery                      | Adblock+                      | HTTPSB<br>AA/BX               | Disconnect                    | No blocker                    |
+| ------------ | -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:| -----------------------------:|
+| Domains      |       **24**<br><sup>25</sup> |       **54**<br><sup>55</sup> |       **59**<br><sup>60</sup> |       **69**<br><sup>70</sup> |       **91**<br><sup>92</sup> |     **476**<br><sup>477</sup> |
+| Hosts        |       **55**<br><sup>82</sup> |     **109**<br><sup>183</sup> |     **107**<br><sup>169</sup> |     **126**<br><sup>200</sup> |     **157**<br><sup>240</sup> |     **693**<br><sup>785</sup> |
+| Scripts      |         **0**<br><sup>0</sup> |     **176**<br><sup>307</sup> |     **173**<br><sup>293</sup> |     **187**<br><sup>327</sup> |     **235**<br><sup>391</sup> |     **534**<br><sup>698</sup> |
+| Cookies      |         **0**<br><sup>0</sup> |        **4**<br><sup>54</sup> |        **1**<br><sup>44</sup> |       **10**<br><sup>73</sup> |       **12**<br><sup>86</sup> |     **299**<br><sup>389</sup> |
+| Net requests |   **651**<br><sup>1,232</sup> | **1,064**<br><sup>1,921</sup> | **1,019**<br><sup>1,815</sup> | **1,087**<br><sup>1,934</sup> | **1,103**<br><sup>2,091</sup> | **2,300**<br><sup>3,236</sup> |
+| Bandwidth    |                    14,935,325 |                    25,128,116 |                    25,150,853 |                    25,785,433 |                    26,007,184 |                    28,855,067 |
 
 ### See also
 - [Top 15 Most Popular Business Websites](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-Business-Websites)
