@@ -4,10 +4,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
-### The end
-- Moving on.
-- I will update assets regularly.
-- I will ensure it keeps working with whatever latest version of Chromium-based browsers.
+### ~~The end~~
+- Can't help it: I keep wondering how to improve it.
+- Priority: To not let feature creep turn this into a mess.
 
 ***
 
