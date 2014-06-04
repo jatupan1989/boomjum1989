@@ -3,7 +3,11 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 **IMPORTANT:** [Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
 
 
+***
+
+- 4 June 2014
 - Updated reference benchmark with [results for new blockers](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites#june-4-2014).
+    * Privacy Badger was properly primed this time.
 
 ***
 
