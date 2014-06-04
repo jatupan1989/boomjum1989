@@ -4,7 +4,7 @@ Benchmarks were done using [*Browser session benchmark*](https://github.com/gorh
 
 The benchmarks are run on Chromium Linux Mint 64-bit. Any Chromium-based browser should be able to run it though.
 
-Adblock+:
+Adblock Plus, Adblock:
 - _Allow some non-intrusive advertising_ was disabled
 - Filter lists used:
     * [EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)
