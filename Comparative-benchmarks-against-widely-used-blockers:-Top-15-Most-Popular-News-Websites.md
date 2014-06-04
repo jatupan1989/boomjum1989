@@ -15,12 +15,12 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 | Net requests |   **625**<br><sup>1,217</sup> |   **879**<br><sup>1,653</sup> | **1,025**<br><sup>1,864</sup> | **1,044**<br><sup>1,911</sup> |   **1,144**<br><sup>2,021</sup> | **1,973**<br><sup>2,980</sup> |
 | Bandwidth    |                    16,645,571 |                             ? |                    25,884,484 |                             ? |                               ? |                    29,375,024 |
 
-From now on I'm going to benchmark other blockers too. I will keep providing benchmarks for HTTPSB in _BA/AX_ and _AA/BX_ mode,
+<sup>From now on I'm going to benchmark other blockers too. I will keep providing benchmarks for HTTPSB in _BA/AX_ and _AA/BX_ mode,
 and _No blocker_ stats, so the results from these can be used as "anchors" to compare blockers across benchmarks. For example, with
 the above results, I can say that using HTTPSB's results as anchors, [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) and [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb) perform better privacy-wise than [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom),
 [Adguard AdBlocker](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) and
 [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp).
-**Note:** This time I primed Privacy Badger before the benchmark.
+**Note:** This time I primed Privacy Badger before the benchmark.</sup>
 
 #### May 2, 2014
 
@@ -33,7 +33,7 @@ the above results, I can say that using HTTPSB's results as anchors, [Ghostery](
 | Net requests |   **680**<br><sup>1,199</sup> |   **966**<br><sup>1,722</sup> |   **913**<br><sup>1,612</sup> |   **930**<br><sup>1,648</sup> | **1,124**<br><sup>1,936</sup> |  **1,340**<br><sup>2,176</sup> | **2,079**<br><sup>2,849</sup> |
 | Bandwidth    |                    15,147,576 |                    27,406,535 |                    26,489,990 |                    27,040,340 |                    28,758,904 |                              ? |                             ? |
 
-Changes from previous benchmark: EFF-backed Privacy Badger (beta) added, see [these important notes](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works), mostly, the results for Privacy Badger represent a worst-case scenario as the extension improves with usage (next benchmark I will prime it beforehand). Starting with [HTTP Switchboard version 0.8.6.4](/gorhill/httpswitchboard/wiki/Change-log#0864), Fanboy's specialized lists are not longer enabled by default.
+<sup>Changes from previous benchmark: EFF-backed Privacy Badger (beta) added, see [these important notes](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works), mostly, the results for Privacy Badger represent a worst-case scenario as the extension improves with usage (next benchmark I will prime it beforehand). Starting with [HTTP Switchboard version 0.8.6.4](/gorhill/httpswitchboard/wiki/Change-log#0864), Fanboy's specialized lists are not longer enabled by default.</sup>
 
 #### February 26, 2014
 
@@ -46,7 +46,7 @@ Changes from previous benchmark: EFF-backed Privacy Badger (beta) added, see [th
 | Net requests |   **630**<br><sup>1,229</sup> |   **941**<br><sup>1,710</sup> |   **965**<br><sup>1,794</sup> |   **920**<br><sup>1,698</sup> | **1,063**<br><sup>2,018</sup> | **2,120**<br><sup>3,048</sup> |
 | Bandwidth    |                    16,342,053 |                    26,603,582 |                    26,502,113 |                    26,714,512 |                    27,950,492 |                    31,282,722 |
 
-Change from previous benchmark: Starting with HTTP Switchboard version 0.8.3.0, all preset lists of blocked hosts are enabled by default, except of for the huge "assets/thirdparties/hosts-file.net/hosts.txt". This allows HTTPSB in allow-all/block-exceptionally mode to perform well when compared to other blockers.
+<sup>Change from previous benchmark: Starting with HTTP Switchboard version 0.8.3.0, all preset lists of blocked hosts are enabled by default, except of for the huge "assets/thirdparties/hosts-file.net/hosts.txt". This allows HTTPSB in allow-all/block-exceptionally mode to perform well when compared to other blockers.</sup>
 
 #### January 24, 2014
 
