@@ -16,8 +16,9 @@ HTTPSB<sup>BA/AX</sup> and HTTPSB<sup>AA/BX</sup>:
 - "AA/BX" means "allow all / block exceptionally"
 - Blacklists used:
     * Out-of-the-box blacklists
-    * [Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)
-        - ~~HTTPSB uses _only_ the blacklisted domain filters from that list, the rest is entirely ignored.~~ Not the case anymore since [0.8.4.0](/gorhill/httpswitchboard/wiki/Change-log#0840): most ABP-compatible filters are not parsed and enforced.
+        - All malware, ad servers, trackers, nuisance lists.
+        - EasyList, EasyPrivacy
+        - ~~[Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)~~ Not anymore since May 2nd.
 
 [Ghostery](http://www.ghostery.com/) and [Disconnect](https://disconnect.me/) were set in their respective equivalent of "Block all trackers" mode.
 
