@@ -8,8 +8,8 @@ Adblock Plus, Adblock:
 - _Allow some non-intrusive advertising_ was disabled
 - Filter lists used:
     * [EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)
-    * ~~[Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)~~ (before June 4th, 2014)
     * [EasyPrivacy](https://easylist-downloads.adblockplus.org/easyprivacy.txt) (starting June 4th, 2014)
+    * ~~[Fanboy+Easylist-Merged Ultimate List](http://www.fanboy.co.nz/filters.html)~~ (before June 4th, 2014)
 
 HTTPSB<sup>BA/AX</sup> and HTTPSB<sup>AA/BX</sup>:
 - "BA/AX" means "block all / allow exceptionally"
