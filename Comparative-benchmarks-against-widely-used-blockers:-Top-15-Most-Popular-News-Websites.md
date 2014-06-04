@@ -4,7 +4,7 @@ The values are averages of aggregated results of the 15 web page visited over 5 
 
 The most important figure in my opinion with regard to privacy is the 3rd-party _Domain_ count, hence the results are ordered from left-to-right according to the third-party domain count.
 
-**Important:** Starting June 4th, 2014, only _EasyList_, _EasyPrivacy_ and malware protection filters (or equivalent) are going to be used for _Adblock Plus_ and _Adblock_, or whatever equivalent for other blockers. I just realized that I used much more aggressive settings for _ABP_ and _Ghostery_ than for _HTTPSB AA/BX_ for benchmarks done before June 4th, 2014. (Specialized _Fanboy_ lists were not enabled for _HTTPSB_, while equivalent were for _ABP_ and _Ghostery_).
+**Important:** Starting June 4th, 2014, only _EasyList_, _EasyPrivacy_ and malware protection filters (or equivalent) are going to be used for _Adblock Plus_ and _Adblock_, or whatever equivalent for other blockers. I just realized that I used much more aggressive settings for _ABP_ and _Ghostery_ than for _HTTPSB AA/BX_ for benchmarks done before June 4th, 2014. Specialized _Fanboy_ lists were not enabled for _HTTPSB_, while equivalent were for _ABP_ and _Ghostery_. This means that for a more meaningful comparison next time I will have to leave "Widgets" un-selected in _Ghostery_.
 
 #### June 4, 2014
 
