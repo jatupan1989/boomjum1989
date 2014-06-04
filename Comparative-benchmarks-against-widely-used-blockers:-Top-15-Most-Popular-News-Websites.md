@@ -17,7 +17,7 @@ The most important figure in my opinion with regard to privacy is the 3rd-party 
 
 <sup>From now on I'm going to benchmark other blockers too. I will keep providing benchmarks for HTTPSB in _BA/AX_ and _AA/BX_ mode,
 and _No blocker_ stats, so the results from these can be used as "anchors" to compare blockers across benchmarks. For example, with
-the above results, I can say that using HTTPSB's results as anchors, Ghostery and Adblock Plus perform better than [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom),
+the above results, I can say that using HTTPSB's results as anchors, [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) and [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb) perform better privacy-wise than [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom),
 [Adguard AdBlocker](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) and
 [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp).
 **Note:** This time I primed Privacy Badger before the benchmark.</sup>
