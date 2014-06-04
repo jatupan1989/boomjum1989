@@ -4,6 +4,24 @@ The values are averages of aggregated results of the 15 web page visited over 5 
 
 The most important figure in my opinion with regard to privacy is the 3rd-party _Domain_ count, hence the results are ordered from left-to-right according to the third-party domain count.
 
+#### June 4, 2014
+
+|               | HTTPSB<br>BA/AX   | HTTPSB<br>AA/BX   | Adblock           | Adguard AdBlocker | Privacy&nbsp;Badger | No&nbsp;blocker   |
+| ------------- | -----------------:| -----------------:| -----------------:| -----------------:| -------------------:| -----------------:|
+| Domains       |       **21** / 22 |       **52** / 53 |       **74** / 75 |       **93** / 94 |       **157** / 158 |     **401** / 402 |
+| Hosts         |       **48** / 74 |      **97** / 143 |     **128** / 183 |     **150** / 222 |       **236** / 316 |     **596** / 683 |
+| Scripts       |         **0** / 0 |     **183** / 263 |     **215** / 299 |     **235** / 321 |       **308** / 406 |     **505** / 625 |
+| Cookies       |         **0** / 0 |        **2** / 34 |        **8** / 49 |       **20** / 74 |         **38** / 99 |     **231** / 317 |
+| Net requests  |   **625** / 1,217 |   **879** / 1,653 | **1,025** / 1,864 | **1,044** / 1,911 |   **1,144** / 2,021 | **1,973** / 2,980 |
+| Bandwidth     |        16,645,571 |                 ? |        25,884,484 |                 ? |                   ? |        29,375,024 |
+
+<sup>From now on I'm going to benchmark other blockers too. I will keep providing benchmarks for HTTPSB in _BA/AX_ and _AA/BX_ mode,
+and _No blocker_ stats, so the results from these can be used as "anchors" to compare blockers across benchmarks. For example, with
+the above result, I can say that using HTTPSB's results as anchors, Ghostery and Adblock Plus perform better than [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom),
+[Adguard AdBlocker](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) and
+[Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp).
+**Note:** This time I primed Privacy Badger before the benchmark.</sup>
+
 #### May 2, 2014
 
 |               | HTTPSB<br>BA/AX   | Ghostery          | Adblock+          | HTTPSB<br>AA/BX   | Disconnect        | Privacy&nbsp;Badger<br>[beta](https://github.com/EFForg/privacybadgerfirefox/blob/master/README.md#how-heuristic-blocking-works) | No&nbsp;blocker        |
