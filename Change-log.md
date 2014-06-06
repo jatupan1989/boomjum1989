@@ -24,9 +24,11 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Now these schemes will be reported on the page where they occurs, and `{schemename}-scheme` will be used as the hostname for scope selection. Examples:
         - A `file:///...` URI will be reported as a `file-scheme` scope in the matrix.
         - A new tab in Chromium is reported as a `chrome-scheme` scope.
+        - A new tab in Opera is reported as a `opera-scheme` scope.
         - A `data:...` URI is reported as a `data-scheme` scope.
         - A `chrome-extension://...` URI is reported as a `chrome-extension` scheme.
         - Etc.
+    - Inline javascript cannot be disabled for pages with scheme other than `http` and `https`.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/325>: "Google search ads not block in 'Adblock emulation mode'".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/321>: "Improper handling of IP addresses in the matrix".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/303>: "Support `file://` protocol".
