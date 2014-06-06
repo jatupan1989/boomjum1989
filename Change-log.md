@@ -26,7 +26,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - A new tab in Chromium is reported as a `chrome-scheme` scope.
         - A new tab in Opera is reported as a `opera-scheme` scope.
         - A `data:...` URI is reported as a `data-scheme` scope.
-        - A `chrome-extension://...` URI is reported as a `chrome-extension` scheme.
+        - A `chrome-extension://...` URI is reported as a `chrome-extension-scheme`.
         - Etc.
     - Inline javascript cannot be disabled for pages with scheme other than `http` and `https`.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/325>: "Google search ads not block in 'Adblock emulation mode'".
