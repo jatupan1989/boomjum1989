@@ -24,7 +24,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Now these schemes will be reported on the page where they occurs, and `{schemename}-scheme` will be used as the hostname for scope selection. Examples:
         - A `file:///...` URI will be reported as a `file-scheme` scope in the matrix.
         - A new tab in Chromium is reported as a `chrome-scheme` scope.
-        - A data URI, `data:...` is reported as a `data-scheme` scope.
+        - A `data:...` URI is reported as a `data-scheme` scope.
         - A `chrome-extension://...` URI is reported as a `chrome-extension` scheme.
         - Etc.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/325>: "Google search ads not block in 'Adblock emulation mode'".
