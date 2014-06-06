@@ -20,7 +20,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.9.7.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.7.0.zip) date: 2 June 2014
 - I consider this a new version because of how [issue #303](/gorhill/httpswitchboard/issues/303) was fixed (_"Support `file://` protocol"_):
-    * [to do]
+    * URI schemes other than `http` or `https` used to be reported in the behind-the-scene matrix.
+    * Now these schemes will be reported on the page where they occurs, and `{scheme name}-scheme` will be used as the hostname for scope selection. Examples:
+        - A `file:///...` URI will be reported as a `file-scheme` scope in the matrix.
+        - A new tab in Chromium is reported as a `chrome-scheme` scope.
+        - A data URI, `data:...` is reported as a `data-scheme` scope.
+        - A `chrome-extension://...` URI is reported as a `chrome-extension` scheme.
+        - Etc.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/325>: "Google search ads not block in 'Adblock emulation mode'".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/321>: "Improper handling of IP addresses in the matrix".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/303>: "Support `file://` protocol".
