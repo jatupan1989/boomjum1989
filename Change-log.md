@@ -5,6 +5,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.7.1
+- Release date: Not released yet.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/330>: "ABP rules blocking images can't be unblocked".
+
+***
+
 - 4 June 2014
 - Updated reference benchmark with [results for new blockers](/gorhill/httpswitchboard/wiki/Comparative-benchmarks-against-widely-used-blockers:-Top-15-Most-Popular-News-Websites#june-4-2014).
     * Privacy Badger was properly primed this time.
