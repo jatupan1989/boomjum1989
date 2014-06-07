@@ -1,3 +1,7 @@
+**Summary:** For a web page which requires fetching resources from 100 URLs (commonly above that nowadays on popular web sites), on average, _Adblock Plus_ will test 10,800 filters using slower javascript code, while _HTTP Switchboard_ will test 800 filters using faster javascript code.
+
+***
+
 Adblock Plus net request filtering is based on finding pattern in a URL.
 
 For example, the first filter in [EasyList](https://easylist.adblockplus.org/en/) is `&ad_box_`, which means: "If the URL of a net request contains the sub-string `&ad_box_`, at any position, block the request".
