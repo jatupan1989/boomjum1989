@@ -1,4 +1,4 @@
-**Summary:** For a web page which requires fetching resources from 100 URLs (commonly above that nowadays on popular web sites), on average, _Adblock Plus_ will test 10,800 filters using slower javascript code, while _HTTP Switchboard_ will test 800 filters using faster javascript code.
+**Summary:** For a web page which requires fetching resources from 100 URLs (commonly above that nowadays on popular web sites), on average, _Adblock Plus_ will test 10,700 filters using slower javascript code, while _HTTP Switchboard_ will test 800 filters using faster javascript code.
 
 ***
 
