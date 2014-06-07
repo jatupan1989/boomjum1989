@@ -6,7 +6,7 @@ This review is (suspiciously) pure nonsense. Everybody can find out by themselve
 
 - Top screenshot is for HTTPSB in block-all/allow-exceptionally mode:
     * DOMContentLoaded = 304 ms. Number of net requests = 108.
-- Middle screenshot is for HTTPSB in allow-block-exceptionally mode:
+- Middle screenshot is for HTTPSB in allow-all/block-exceptionally mode:
     * DOMContentLoaded = 1,114 ms. Number of net requests = 170.
 - Bottom screenshot is without HTTPSB
     * DOMContentLoaded = 1,570 ms. Number of requests = 291.
