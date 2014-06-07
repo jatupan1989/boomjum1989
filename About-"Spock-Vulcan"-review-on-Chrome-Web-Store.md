@@ -7,9 +7,9 @@ This review is (suspiciously) pure nonsense. Everybody can find out by themselve
 - Top screenshot is for HTTPSB in block-all/allow-exceptionally mode:
     * DOMContentLoaded = 0.3 seconds <sub>(number of net requests = 108)</sub>
 - Middle screenshot is for HTTPSB in allow-all/block-exceptionally mode:
-    * DOMContentLoaded = 1.1 seconds <sub>(number of net requests = 170)</sub>
+    * DOMContentLoaded = 1.11 seconds <sub>(number of net requests = 170)</sub>
 - Bottom screenshot is **without** HTTPSB
-    * DOMContentLoaded = 1.6 seconds <sub>(number of requests = 291)</sub>
+    * DOMContentLoaded = 1.57 seconds <sub>(number of requests = 291)</sub>
 
 So HTTPSB did not "add unnecessary delay", but rather the opposite: **it reduced unnecessary delay**.
 
