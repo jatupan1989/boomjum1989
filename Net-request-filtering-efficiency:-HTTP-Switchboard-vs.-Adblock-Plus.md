@@ -1,4 +1,4 @@
-**Summary:** For a web page which requires fetching resources from 100 URLs (commonly above that nowadays on popular web sites), on average, _Adblock Plus_ ("ABP") will test 10,700 filters, while _HTTP Switchboard_ ("HTTPSB") will test 800 filters. Furthermore, the filter-testing javascript code is faster in HTTPSB than it is in ABP.
+**Summary:** For a web page which requires fetching resources from 100 URLs (commonly above that nowadays on popular web sites), on average, _Adblock Plus_ ("ABP") will test 10,700 filters, while _HTTP Switchboard_ ("HTTPSB") will test 800 filters. Furthermore, the filter-testing javascript code is leaner and faster in HTTPSB than it is in ABP.
 
 ***
 
