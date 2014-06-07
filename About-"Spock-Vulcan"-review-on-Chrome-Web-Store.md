@@ -5,11 +5,13 @@ Someone nicknamed "Spock Vulcan" left this review in the Chrome Web Store:
 This review is (suspiciously) pure nonsense. Everybody can find out by themselves. Here is the counter proof:
 
 - Top screenshot is for HTTPSB in block-all/allow-exceptionally mode:
-    * DOMContentLoaded = 304 ms. Number of net requests = 108.
+    * DOMContentLoaded = 0.3 seconds <sub>(number of net requests = 108)</sub>
 - Middle screenshot is for HTTPSB in allow-all/block-exceptionally mode:
-    * DOMContentLoaded = 1,114 ms. Number of net requests = 170.
-- Bottom screenshot is without HTTPSB
-    * DOMContentLoaded = 1,570 ms. Number of requests = 291.
+    * DOMContentLoaded = 1.1 seconds <sub>(number of net requests = 170)</sub>
+- Bottom screenshot is **without** HTTPSB
+    * DOMContentLoaded = 1.6 seconds <sub>(number of requests = 291)</sub>
+
+So HTTPSB did not "add unnecessary delay", but rather the opposite: **it reduced unnecessary delay**.
 
 ![Wired timings](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/spock-vulcan-counterproof.png)
 
