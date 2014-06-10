@@ -16,6 +16,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - This is equivalent to whitelist the domain cell of the current web page.
     * Added: "Remove all temporary changes".
         - This will remove _all_ temporary changes.
+    * Unchanged: "Settings..."
 
 ***
 
