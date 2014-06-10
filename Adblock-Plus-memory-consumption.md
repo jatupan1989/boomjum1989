@@ -1,3 +1,7 @@
+**Summary:** Where _Adblock Plus_ ("ABP") indiscriminately injects over 13,000 generic CSS rules into every page and frames, _HTTP Switchboard_ ("HTTPSB") injects only a handful at most of the same generic CSS rules. HTTPSB's approach is to analyse a web page in order to dramatically narrow down the generic CSS selectors which will be injected in web pages and frames. For example, on [wired.com](http://www.wired.com/) ABP injects over 13,000 generic CSS selectors while **HTTPSB injects only 8 generic CSS selectors**.
+
+***
+
 Many people have asked me to support ABP element hiding filters (I prefer to refer to these as "cosmetic filters") in the past. I've always resisted because I see _HTTP Switchboard_ as a tool to inform/manage where your browser connects. But...
 
 Regarding [ABP memory consumption](https://blog.mozilla.org/nnethercote/2014/05/14/adblock-pluss-effect-on-firefoxs-memory-usage/), I'm with Firefox on this.
