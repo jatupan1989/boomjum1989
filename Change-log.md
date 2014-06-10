@@ -7,6 +7,13 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ### 0.9.7.1
 - Release date: Not released yet.
+- Added more ABP-filter lists. Titles:
+    * "Adblock Plus Lithuania"
+    * "Adblock Polska"
+    * "Icelandic ABP List"
+    * "Greek AdBlock Filter"
+    * "Filtros Nauscopicos"
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/333>: "Necessary script for frame not shown in the matrix".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/330>: "ABP rules blocking images can't be unblocked".
 
 ***
