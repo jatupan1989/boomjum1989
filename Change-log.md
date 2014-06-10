@@ -5,6 +5,20 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.8.0
+- Release date: Not released yet
+- Revised extension shortcuts:
+    * Shortcut names internationalized.
+    * Removed: "Open Statistics", "Open Ubiquitous Rules", "Open Scoped Rules".
+    * Added: "Temporarily whitelist all".
+        - This is equivalent to whitelist the `all` cell.
+    * Added: "Temporarily whitelist page domain".
+        - This is equivalent to whitelist the domain cell of the current web page.
+    * Added: "Remove all temporary changes".
+        - This will remove _all_ temporary changes.
+
+***
+
 ### 0.9.7.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.7.1.zip) date: 10 June 2014
 - Added more ABP-filter lists. Titles:
