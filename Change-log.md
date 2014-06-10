@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 0.9.8.0
 - Release date: Not released yet
 - Revised extension shortcuts:
-    * Shortcut names internationalized.
+    * Shortcut names can be internationalized.
     * Removed: "Open Statistics", "Open Ubiquitous Rules", "Open Scoped Rules".
     * Added: "Temporarily whitelist all".
         - This is equivalent to whitelist the `all` cell.
