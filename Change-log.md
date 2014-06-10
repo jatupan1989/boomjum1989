@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.9.7.1
-- Release date: Not released yet.
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.7.1.zip) date: 10 June 2014
 - Added more ABP-filter lists. Titles:
     * "Adblock Plus Lithuania"
     * "Adblock Polska"
