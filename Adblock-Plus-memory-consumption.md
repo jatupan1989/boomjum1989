@@ -1,4 +1,4 @@
-**Summary:** Where _Adblock Plus_ ("ABP") indiscriminately injects over 13,000 generic CSS rules into every page and frames, _HTTP Switchboard_ ("HTTPSB") injects only a handful at most of the same generic CSS rules. HTTPSB's approach is to analyse a web page in order to dramatically narrow down the generic CSS selectors which will be injected in web pages and frames. For example, on [wired.com](http://www.wired.com/) ABP injects over 13,000 generic CSS selectors while **HTTPSB injects only 8 generic CSS selectors**.
+**Summary:** Where _Adblock Plus_ ("ABP") indiscriminately injects over 13,000 generic CSS rules into every page and frames, _HTTP Switchboard_ ("HTTPSB") injects only a handful generic CSS rules at most. HTTPSB's approach is to analyse a web page in order to dramatically narrow down the generic CSS selectors which need to be injected in web pages and frames. For example, on [wired.com](http://www.wired.com/) ABP injects over 13,000 generic CSS selectors while **HTTPSB injects only 8 generic CSS selectors**.
 
 ***
 
