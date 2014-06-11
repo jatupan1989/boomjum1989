@@ -60,13 +60,21 @@ Here is the [filter test code in ABP](/adblockplus/adblockplus/blob/master/lib/f
 
     return false;
 
+Using a regular expression at that point is expensive, as the regular expression code will scan the whole subject URL in an attempt (likely to be a miss) to find a match.
+
 In HTTPSB, the test differs according to the filter type: at parse time, filters are categorized and an optimal representation is picked to store them, which means each filter is tested with optimal code.
 
 For example, this is the test code for one of a very common filter (note that **no** regular expression is used):
 
     return url.substr(tokenBeg - 1, this.s.length) === this.s;
 
-In HTTPSB, pattern-matching filtering is implemented with efficiency as the primary concern, and as a result HTTPSB is less likely to be a burden on the browser than ABP when loading web pages, especially those which are the results of hundreds of net requests.
+In HTTPSB, there is no need to use a regular expression for the majority of filters, hence the filter test code itself is faster.
+
+***
+
+In HTTPSB, pattern-matching filtering is implemented with efficiency as the primary concern: the number of filters tested is significantly lower, and when a filter is tested, the filter test code is significantly faster.
+
+As a result HTTPSB is less likely to be a burden on the browser than ABP when loading web pages, especially those which are the results of hundreds of net requests.
 
 Therefore, because of this better filtering efficiency in HTTPSB, I don't need to warn the user against using too many filters, [like ABP does here](https://adblockplus.org/en/getting_started#subscription) (excerpt, my emphasis):
 
