@@ -5,6 +5,7 @@ HTTP Switchboard also uses the work of other people. As of v0.7.6.1:
 - Third-parties:
     * [punycode.js](https://github.com/bestiejs/punycode.js/) by [Mathias Bynens](http://mathiasbynens.be/).
     * [Mozilla Foundation's Public Suffix List](http://publicsuffix.org/): this allows sensible management of domain names
+    * [md5-o-matic](https://github.com/trentmillar/md5-o-matic) by [trentmillar](https://github.com/trentmillar/)
     * [jQuery](http://jquery.com/)
 - Blacklists of host names:
     * [Peter Lowe's blacklist](http://pgl.yoyo.org/as/index.php): [Ad server hostnames for blocking ads](http://pgl.yoyo.org/as/serverlist.php?mimetype=plaintext) (you may [contribute](http://pgl.yoyo.org/as/#submit) to it!)
