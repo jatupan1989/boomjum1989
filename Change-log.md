@@ -17,6 +17,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - This is equivalent to whitelist the domain cell of the current web page.
     * Added: "Remove all temporary changes" (Alt-Q).
         - This will remove _all_ temporary changes.
+    * Chrome API allows only four shortcuts per extension, so I had to choose carefully what I think are the most useful shortcuts.
 
 ***
 
