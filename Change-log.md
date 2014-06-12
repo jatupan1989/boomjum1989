@@ -12,7 +12,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Unchanged: "Settings..." (Alt-S)
     * Removed: "Open Statistics", "Open Ubiquitous Rules", "Open Scoped Rules".
     * Added: "Temporarily whitelist all" (Alt-A).
-        - This is equivalent to whitelist the `all` cell.
+        - This is equivalent to whitelist the `all` cell. Because whitelisting the `all` cell is a drastic action, a domain-level scope is automatically created beforehand so as to avoid whitelisting the whole internet.
     * Added: "Temporarily whitelist page domain" (Alt-W).
         - This is equivalent to whitelist the domain cell of the current web page.
     * Added: "Remove all temporary changes" (Alt-Q).
