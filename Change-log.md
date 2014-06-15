@@ -9,8 +9,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Release date: Not released yet
 - Revised extension shortcuts:
     * Shortcut names can be internationalized.
-    * Unchanged: "Settings..." (Alt-S)
-    * Removed: "Open Statistics", "Open Ubiquitous Rules", "Open Scoped Rules".
+    * Removed: "Open Setings", "Open Statistics", "Open Ubiquitous Rules", "Open Scoped Rules".
+    * Added: "Open dashboard..." (Alt-S) (will go to whatever tab is open in the dashboard, or the _Settings_ tab)
     * Added: "Temporarily whitelist all" (Alt-A).
         - This is equivalent to whitelisting the `all` matrix cell. Because whitelisting the `all` cell is a drastic action, a domain-level scope is automatically created beforehand so as to avoid whitelisting the whole internet.
     * Added: "Temporarily whitelist page domain" (Alt-W).
