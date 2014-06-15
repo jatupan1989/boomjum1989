@@ -9,13 +9,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Release date: Not released yet
 - Revised extension shortcuts:
     * Shortcut names can be internationalized.
-    * Removed: "Open Setings", "Open Statistics", "Open Ubiquitous Rules", "Open Scoped Rules".
-    * Added: "Open dashboard..." (Alt-S) (will go to whatever tab is open in the dashboard, or the _Settings_ tab)
-    * Added: "Temporarily whitelist all" (Alt-A).
+    * **"Open dashboard..."** (Alt-S) (will go to whatever tab is open in the dashboard, or the _Settings_ tab)
+    * **"Temporarily whitelist all"** (Alt-A).
         - This is equivalent to whitelisting the `all` matrix cell. Because whitelisting the `all` cell is a drastic action, a domain-level scope is automatically created beforehand so as to avoid whitelisting the whole internet.
-    * Added: "Temporarily whitelist page domain" (Alt-W).
+    * **"Temporarily whitelist page domain"** (Alt-W).
         - This is equivalent to whitelist the domain cell of the current web page.
-    * Added: "Remove all temporary changes" (Alt-Q).
+    * **"Remove all temporary changes"** (Alt-Q).
         - This will remove _all_ temporary changes.
     * Chrome API allows only a maximum of four shortcuts per extension, so I had to choose carefully what I think are the most useful shortcuts.
 - External assets are now updated automatically.
