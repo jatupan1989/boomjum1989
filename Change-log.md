@@ -24,6 +24,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - When the extension launches; or
         - Every five days
     * You can still force an update in the _"About"_ tab, or you can just forget about looking whether updates are available, it will be all taken care for you.
+    * In order to harden update feature so that a user does not end up with corrupted files, I worked and spun off a [standalone MD5 hashing library](/gorhill/yamd5.js) (in case whoever is interested).
 
 ***
 
