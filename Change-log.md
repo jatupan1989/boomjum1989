@@ -18,6 +18,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Added: "Remove all temporary changes" (Alt-Q).
         - This will remove _all_ temporary changes.
     * Chrome API allows only a maximum of four shortcuts per extension, so I had to choose carefully what I think are the most useful shortcuts.
+- External assets are now updated automatically.
+    * _"External assets"_ are those you can see listed in the _"About"_ tab in the dashboard.
+    * External assets are automatically updated...
+        - When the extension launches; or
+        - Every five days
+    * You can still force an update in the _"About"_ tab, or you can just forget about looking for updates now, it will be all taken care for you.
 
 ***
 
