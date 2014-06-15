@@ -23,7 +23,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * External assets are automatically updated...
         - When the extension launches; or
         - Every five days
-    * You can still force an update in the _"About"_ tab, or you can just forget about looking for updates now, it will be all taken care for you.
+    * You can still force an update in the _"About"_ tab, or you can just forget about looking whether updates are available, it will be all taken care for you.
 
 ***
 
