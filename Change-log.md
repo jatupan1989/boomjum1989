@@ -25,6 +25,9 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
         - Every five days
     * You can still force an update in the _"About"_ tab, or you can just forget about looking whether updates are available, it will be all taken care for you.
     * In order to harden update feature so that a user does not end up with corrupted files, I worked and spun off a [standalone MD5 hashing library](/gorhill/yamd5.js) (in case whoever is interested).
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/338>: "Quick heads-up: Update Punycode".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/334>: "Automatic update of ubiquitious lists".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/263>: "Handle properly error pages returned when fetching `assets/checksums.txt`".
 
 ***
 
