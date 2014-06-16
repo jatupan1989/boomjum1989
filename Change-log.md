@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.9.8.0
-- Release date: Not released yet
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.8.0.zip) date: 15 June 2014
 - Revised extension shortcuts:
     * Shortcut names can be internationalized.
     * **"Open dashboard..."** (Alt-S) (will go to whatever tab is open in the dashboard, or the _Settings_ tab)
