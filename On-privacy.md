@@ -2,6 +2,8 @@
 
 ### Hyperlink auditing
 
+I became aware about "hyperlink-auditing" after reading [this post](http://www.wilderssecurity.com/threads/hyperlink-auditing-aka-a-ping-and-beacon-aka-navigator-sendbeacon.364904/).
+
 Reference: <http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#hyperlink-auditing>.
 
 I have [observed](http://jsfiddle.net/Ronny/5ntzw/) that hyperlink-auditing pings are reported as a request of type `other`, in the [behind-the-scene](/gorhill/httpswitchboard/wiki/Behind-the-scene-requests) matrix. Be aware that HTTPSB ships with the behind-the-scene matrix- and ABP-filtering disabled in order to not break browser's auto-update features and to not interfere with other extensions.
