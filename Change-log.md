@@ -19,9 +19,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * Chrome API allows only a maximum of four shortcuts per extension, so I had to choose carefully what I think are the most useful shortcuts.
 - External assets are now updated automatically.
     * _"External assets"_ are those you can see listed in the _"About"_ tab in the dashboard.
-    * External assets are automatically updated...
-        - When the extension launches; or
-        - Every five days
+    * External assets are automatically updated when the extension launches; or every five days thereafter.
     * You can still force an update in the _"About"_ tab, or you can just forget about looking whether updates are available, it will be all taken care for you.
     * In order to harden update feature so that a user does not end up with corrupted files, I worked on, and spun off a [standalone MD5 hashing library](/gorhill/yamd5.js) (in case whoever is interested).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/338>: "Quick heads-up: Update Punycode".
