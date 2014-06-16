@@ -25,13 +25,3 @@ Out of the box, the matrix for behind-the-scene requests is in allow-all mode, i
 From there you can choose to block selectively or wholly, while keeping in mind that Chromium-based browsers may use behind-the-scene requests in the course of their normal operation, and also keep in mind extensions may also perform their own net requests which appear as behind-the-scene requests to HTTPSB.
 
 If you choose to block wholly or partially behind-the-scene requests, you are responsible for any potentially negative side-effects. For example, if you block requests which are used by the browser to update or install extensions, please don't blame HTTPSB for actually preventing the update or installation of extensions.
-
-***
-
-**Update (February 19, 2014):** It has been noticed that with Chromium v32, the number of behind-the-scene requests is higher than with the previous version of Chromium. It appears that, for some reasons, the [chrome.webRequest API](http://developer.chrome.com/extensions/webRequest) often fails to properly bind many requests to the tab where they originate. There is not much HTTPSB can do to fix this as the problem is completely within the browser.
-
-In particular, this may often break HTTPSB's "preset recipes" feature if you set your behind-the-scene matrix in block-all mode (out-of-the-box, the behind-the-scene matrix is in allow-all/block-exceptionally mode). The workaround is obviously to set your behind-the-scene matrix in allow-all/block-exceptionally mode, or set your behind-the-scene matrix as follow:
-
-![Unwarranted behind-the-scene requests](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/chromium-v32-bts-requests.png)
-
-If you use the "click to play" feature for plug-ins, the above settings is completely acceptable security-wise.
