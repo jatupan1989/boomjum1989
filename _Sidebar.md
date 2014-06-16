@@ -8,6 +8,7 @@
     - [Ad blocker-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-an-ad-blocker)
     - [RequestPolicy-like approach](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-RequestPolicy)
     - [Block nothing / report everything](/gorhill/httpswitchboard/wiki/HTTP-Switchboard-as-a-mere-reporting-tool)
+- [On privacy](/gorhill/httpswitchboard/wiki/On-privacy)
 - [Net-request-filtering engines: an overview](/gorhill/httpswitchboard/wiki/Net-request-filtering:-overview)
 - [Net request filtering efficiency: HTTP Switchboard vs. Adblock Plus](/gorhill/httpswitchboard/wiki/Net-request-filtering-efficiency:-HTTP-Switchboard-vs.-Adblock-Plus)
 - [Adblock Plus memory consumption](/gorhill/httpswitchboard/wiki/Adblock-Plus-memory-consumption)
