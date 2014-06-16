@@ -25,6 +25,8 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/338>: "Quick heads-up: Update Punycode".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/334>: "Automatic update of ubiquitious lists".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/263>: "Handle properly error pages returned when fetching `assets/checksums.txt`".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/248>: "Erasing (for single scope) resets to default global scope rule (the one that the extension uses in new install)".
+    * Now the generic rules from global scope will be used rather than the hard-coded factory rules.
 
 ***
 
