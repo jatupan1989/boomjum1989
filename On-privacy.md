@@ -14,7 +14,7 @@ So this means that hyperlink-auditing requests will be reported in the `other` c
 
 In any case, for each hyperlink-auditing attempt, the request log will contain a synthetic URL which will be resembling:
 
-    tracker.example.com/{Ping-To:the-url-you-clicked}
+    http://tracker.example.com/{Ping-To:the-url-you-clicked}
 
 So that you can easily recognize hyperlink-auditing attempts.
 
