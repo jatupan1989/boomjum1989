@@ -12,4 +12,4 @@ Thus, privacy-conscious users will have to go to their behind-the-scene matrix a
 
 You can access the behind-the-scene matrix by opening HTTPSB's dashboard: clicking the extension icon while in the dashboard will open the behind-the-scene matrix, from where matrix- and ABP-filtering can be turned on.
 
-**Note:** I verified that disabling the flag `chrome://flags/#disable-hyperlink-auditing` **does not** disable hyperlink-auditing. Do not rely on this setting.
+**Note:** I verified that disabling the `chrome://flags/#disable-hyperlink-auditing` flag **does not** disable hyperlink-auditing. Do not rely on this setting.
