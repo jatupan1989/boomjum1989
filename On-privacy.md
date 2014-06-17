@@ -16,7 +16,7 @@ In any case, for each hyperlink-auditing attempt, the request log will contain a
 
     http://tracker.example.com/{Ping-To:the-url-you-clicked}
 
-So that you can easily recognize hyperlink-auditing attempts.
+So that you can fully informed about hyperlink-auditing attempts.
 
 The _Statistics_ tab in the dashboard will also show the number of hyperlink-auditing attempts foiled globally.
 
