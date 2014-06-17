@@ -18,6 +18,8 @@ In any case, for each hyperlink-auditing attempt, the request log will contain a
 
 So that you can easily recognize hyperlink-auditing attempts.
 
+The _Statistics_ tab in the dashboard will also show the number of hyperlink-auditing attempts foiled globally.
+
 In summary, you can block hyperlink-auditing through the `other` column in the matrix, or globally through the _"Block all hyperlink auditing attempts"_.
 
 **Note:** I verified that disabling the `chrome://flags/#disable-hyperlink-auditing` flag **does not** disable hyperlink-auditing. Do not rely on this setting.
