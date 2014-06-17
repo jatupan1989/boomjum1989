@@ -18,7 +18,7 @@ In any case, for each hyperlink-auditing attempt, the request log will contain a
 
 So that you can fully informed about hyperlink-auditing attempts.
 
-The _Statistics_ tab in the dashboard will also show the number of hyperlink-auditing attempts foiled globally.
+The _Statistics_ tab in the dashboard will also show the number of hyperlink-auditing attempts foiled globally. Hyperlink-auditing doesn't appear to be widely used so far. I would like to know of web sites where this specific tracking mechanism is used, so if you find any occurrence, you can share where it occurs if you wish in [issue #342](/gorhill/httpswitchboard/issues/342).
 
 In summary, you can block hyperlink-auditing through the `other` column in the matrix, or globally through the _"Block all hyperlink auditing attempts"_.
 
