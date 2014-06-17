@@ -12,7 +12,7 @@ On the technical side, I originally [observed](http://jsfiddle.net/Ronny/5ntzw/)
 
 So this means that hyperlink-auditing requests will be reported in the `other` column of the matrix, and may be reported on the matrix of the page where the request originate, or in the behind-the-scene matrix if HTTPSB does not have enough information to bind the request to the page where it occurred.
 
-In any case, for each hyperlink-auditing attempt, the request log will contain a synthetic URL like so:
+In any case, for each hyperlink-auditing attempt, the request log will contain a synthetic URL which will be resembling:
 
     tracker.example.com/{Ping-To:the-url-you-clicked}
 
