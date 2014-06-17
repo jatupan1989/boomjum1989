@@ -22,4 +22,4 @@ The _Statistics_ tab in the dashboard will also show the number of hyperlink-aud
 
 In summary, you can block hyperlink-auditing through the `other` column in the matrix, or globally through the _"Block all hyperlink auditing attempts"_.
 
-**Note:** There is also the `chrome://flags/#disable-hyperlink-auditing` flag which can be used to disable hyperlink-auditing globally in the browser. If you let hyperlink-auditing to be enable, HTTPSB will be able to block and report to you when the feature is used by web sites. I personally prefer to keep the ability to see when a web site attempts to use the feature, including to see where they are attempting to report the information.
+**Note:** There is also the `chrome://flags/#disable-hyperlink-auditing` flag which can be used to disable hyperlink-auditing globally in the browser. If you keep hyperlink-auditing enabled, HTTPSB will be able to block and report to you when the feature is used by web sites. I personally prefer to keep the ability to see when a web site attempts to use the feature, including to see where they are attempting to report the information.
