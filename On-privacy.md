@@ -22,4 +22,4 @@ The _Statistics_ tab in the dashboard will also show the number of hyperlink-aud
 
 In summary, you can block hyperlink-auditing through the `other` column in the matrix, or globally through the _"Block all hyperlink auditing attempts"_.
 
-**Note:** I verified that disabling the `chrome://flags/#disable-hyperlink-auditing` flag **does not** disable hyperlink-auditing. Do not rely on this setting.
+**Note:** I verified (on Chromium 34/Linux) that disabling the `chrome://flags/#disable-hyperlink-auditing` flag **does not** disable hyperlink-auditing. Do not rely on this setting.
