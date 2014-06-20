@@ -14,6 +14,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/344>: "UA-spoofing disregards user-chosen UA strings for first cycle".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/343>: "Please add datarating.com to blacklist.txt".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/342>: "Address _Hyperlink auditing_".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/302>: "Google Drive (spreadsheet) Issue" via fix to <https://github.com/gorhill/httpswitchboard/issues/231>.
 
 ***
 
