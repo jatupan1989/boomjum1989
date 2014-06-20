@@ -10,6 +10,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - **New privacy setting**: _"Block all hyperlink auditing attempts"_
     * See ["On-privacy: hyperlink auditing"](/gorhill/httpswitchboard/wiki/On-privacy#hyperlink-auditing).
     * Enabled by default: hyperlink-auditing is purely for tracking purpose, there is no benefit to the user.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/345>: "Avoid using chrome.runtime.sendMessage() wherever possible".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/344>: "UA-spoofing disregards user-chosen UA strings for first cycle".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/343>: "Please add datarating.com to blacklist.txt".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/342>: "Address _Hyperlink auditing_".
