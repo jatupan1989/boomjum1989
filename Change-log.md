@@ -5,6 +5,12 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 0.9.9.1
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.9.1.zip) date: 21 June 2014
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/344>: "UA-spoofing disregards user-chosen UA strings for first cycle".
+
+***
+
 ### 0.9.9.0
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.9.0.zip) date: 20 June 2014
 - **New privacy setting**: _"Block all hyperlink auditing attempts"_
@@ -13,7 +19,6 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - Translation work by [various contributors](/gorhill/httpswitchboard/graphs/contributors).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/345>: "Avoid using `chrome.runtime.sendMessage()` wherever possible".
     * I suspect using `chrome.runtime.sendMessage()` was causing a trickle of memory leaks which overtime pushed up the baseline memory footprint of HTTPSB.
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/344>: "UA-spoofing disregards user-chosen UA strings for first cycle".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/343>: "Please add datarating.com to blacklist.txt".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/342>: "Address _Hyperlink auditing_".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/302>: "Google Drive (spreadsheet) Issue" via fix to <https://github.com/gorhill/httpswitchboard/issues/231>.
