@@ -11,7 +11,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     * See ["On-privacy: hyperlink auditing"](/gorhill/httpswitchboard/wiki/On-privacy#hyperlink-auditing).
     * Enabled by default: hyperlink-auditing is purely for tracking purpose, there is no benefit to the user.
 - Translation work by [various contributors](/gorhill/httpswitchboard/graphs/contributors).
-- Fixed <https://github.com/gorhill/httpswitchboard/issues/345>: "Avoid using chrome.runtime.sendMessage() wherever possible".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/345>: "Avoid using `chrome.runtime.sendMessage()` wherever possible".
     * I suspect using `chrome.runtime.sendMessage()` was causing a trickle of memory leaks which overtime pushed up the baseline memory footprint of HTTPSB.
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/344>: "UA-spoofing disregards user-chosen UA strings for first cycle".
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/343>: "Please add datarating.com to blacklist.txt".
