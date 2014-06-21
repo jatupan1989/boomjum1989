@@ -6,7 +6,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ***
 
 ### 0.9.9.0
-- Release date: [sooner than later]
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.9.0.zip) date: 20 June 2014
 - **New privacy setting**: _"Block all hyperlink auditing attempts"_
     * See ["On-privacy: hyperlink auditing"](/gorhill/httpswitchboard/wiki/On-privacy#hyperlink-auditing).
     * Enabled by default: hyperlink-auditing is purely for tracking purpose, there is no benefit to the user.
