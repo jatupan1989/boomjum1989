@@ -46,7 +46,7 @@ In other words, as per results above:
 
 HTTPSB is able to reduce the 25,000+ pattern-matching filters found in EasyList and EasyPrivacy into only eight tests for each URL (on average), while ABP is not able to reduce these same 25,000+ pattern-matching filters into less than 107 tests for each URL (on average).
 
-How each filter is tested is also important: **it has to be fast**.
+How each filter is tested is also important: it has to be fast.
 
 Here is the [filter test code in ABP](/adblockplus/adblockplus/blob/master/lib/filterClasses.js#L544) (note the regular expression):
 
