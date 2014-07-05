@@ -5,6 +5,27 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 
 ***
 
+### 1.0.0.0
+- [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_1.0.0.0.zip) date: 5 July 2014
+- **New setting**: "Copy all rules from global scope into newly created local scopes"
+    - It is mostly useful if you make heavy use of scope (I do), for instance, if you enabled the auto-creation of scopes.
+    - The copying occurs **only** at scope creation time, so if you add rules in the global scope *after* the local scope is created, these won't be copied.
+    - If you have a global scope with a lots of rules, this means all the these will be copied in newly created local scopes.
+    - Hence this feature is really only suited for those who work **only** with scopes, and in such case the global scope would be used to create fine-grained rules which the user wishes to apply everywhere automatically.
+- The privacy-related settings have moved from the _Settings_ tab into a new _Privacy_ tab.
+- Translation work by many [contributors](/gorhill/httpswitchboard/graphs/contributors).
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/364>: "Sign in to Chrome" crashes the browser".
+    - A scope is automatically created for `chrome-scheme` and its `all` cell is whitelisted. If you already have an existing scope for `chrome-scheme`, it will replace the default one.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/361>: "EasyList Czech and Slovak moved".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/360>: "Some ads are not blocked".
+    - I couldn't see the ads on my side, so hopefully this will be fixed, I will await feedback.
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/353>: "Improved message text for 'ubiquitousFormatHint' and 'ubiquitousAllowFormatHint'".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/352>: "Show frame source over blocked frames".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/349>: "When using (auto create) domain level scope, how do I create a rule that auto aplies to each scope when it is created?".
+- Fixed <https://github.com/gorhill/httpswitchboard/issues/194>: "Move the Settings tab's Privacy section to its own tab".
+
+***
+
 ### 0.9.9.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_0.9.9.1.zip) date: 21 June 2014
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/344>: "UA-spoofing disregards user-chosen UA strings for first cycle".
