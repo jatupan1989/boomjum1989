@@ -9,6 +9,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_1.0.0.0.zip) date: 5 July 2014
 - **New setting**: "Copy all rules from global scope into newly created local scopes"
     - Because of [issue #349](/gorhill/httpswitchboard/issues/349) and a handful of others I had closed as "won't fix".
+    - Disabled by default. Without this option, HTTPSB behaves just like before.
     - It is mostly useful if you make heavy use of scopes (I do), for instance, if you enabled the auto-creation of scopes.
     - The copying occurs **only** at scope creation time, so if you add rules in the global scope *after* the local scope is created, these won't be copied.
     - If you have a global scope with a lots of rules, this means all the these will be copied in newly created local scopes. Mind the potential rule bloat (_Scoped rules_ manager will be handy here).
