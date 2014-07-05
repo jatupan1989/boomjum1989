@@ -8,7 +8,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
 ### 1.0.0.1
 - [Release](/gorhill/httpswitchboard/blob/master/dist/httpswitchboard_1.0.0.1.zip) date: 5 July 2014
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/366>: "Blocked sites no longer have an entry in the matrix".
-    - Bug was introduced [on June 29](/gorhill/httpswitchboard/commit/62202fd87f90061359ba5a7272b6f9f06095e107).
+    - Bug was introduced [on June 29](/gorhill/httpswitchboard/commit/62202fd87f90061359ba5a7272b6f9f06095e107) just by reformatting the code...
 
 ***
 
