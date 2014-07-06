@@ -21,6 +21,7 @@ For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. Thi
     - The copying occurs **only** at scope creation time, so if you add rules in the global scope *after* the local scope is created, these won't be copied.
     - If you have a global scope with a lots of rules, this means all the these will be copied in newly created local scopes. Mind the potential rule bloat (_Scoped rules_ manager will be handy here).
     - Hence this feature is really only suited for those who work **only** with scopes, and in such case the global scope would be only used to create fine-grained rules which the user wishes to apply everywhere automatically.
+    - Frankly, it is not ideal. Best would be for the global rules to be seen by narrower scopes without having to copy them. Maybe in a future version. But for now, when I tried to implement this, the required code each net request would be required to run through was heading toward being huge and thus inefficient. I prefer to take my time to do the right thing.
 - The privacy-related settings have moved from the _Settings_ tab into a new _Privacy_ tab.
 - Translation work by many [contributors](/gorhill/httpswitchboard/graphs/contributors).
 - Fixed <https://github.com/gorhill/httpswitchboard/issues/364>: "Sign in to Chrome" crashes the browser".
