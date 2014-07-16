@@ -1,7 +1,4 @@
-For conciseness, *HTTP Switchboard* is referred as HTTPSB in the text below. This page is often updated **before** the latest version is released.
-
-**IMPORTANT:** [Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
-
+Starting with version 1.0.0.2, the log will now be at <https://github.com/gorhill/httpswitchboard/releases>. This is the proper Github way to release versions.
 
 ***
 
