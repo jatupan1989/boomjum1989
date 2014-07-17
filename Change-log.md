@@ -1,4 +1,4 @@
-Starting with version 1.0.0.2, the log will now be at the [releases page](https://github.com/gorhill/httpswitchboard/releases). This is the proper Github way to release versions. Thanks to [mikhaelkh](/mikhaelkh) for the [tip](/gorhill/httpswitchboard/issues/368).
+Starting with version 1.0.0.2, the log will now be at the [_Releases_ page](https://github.com/gorhill/httpswitchboard/releases). This is the proper Github way to release versions. Thanks to [mikhaelkh](/mikhaelkh) for the [tip](/gorhill/httpswitchboard/issues/368).
 
 ***
 
