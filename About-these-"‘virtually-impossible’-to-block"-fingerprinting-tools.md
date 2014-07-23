@@ -8,7 +8,7 @@ Just block the domains known to engage in tracking.
 
 ### Rather of low breakage
 
-Just use the preset blocked hostnames that come out of the box with HTTP Switchboard.
+Just use the preset blocked hostnames that come out of the box with HTTP Switchboard (`addthis.com` has been blocked by these lists since forever).
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-3.png)
 
