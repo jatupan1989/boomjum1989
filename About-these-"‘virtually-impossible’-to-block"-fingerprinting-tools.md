@@ -26,6 +26,6 @@ Block javascript (common recommendation, but you need to not be annoyed by high 
 
 ### High breakage
 
-Don't let anybody in by default.
+Don't let anybody in by default. Require patience, but peace of mind.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-4.gif)
