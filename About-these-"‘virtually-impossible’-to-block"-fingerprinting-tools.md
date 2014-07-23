@@ -2,7 +2,7 @@ This is getting ridiculous. It's not impossible to block. It's rather easy. Ther
 
 ### Low breakage
 
-Just block the domains known to engage in tracking.
+Just block the domains known to engage in tracking. That will teach them.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-2.gif)
 
