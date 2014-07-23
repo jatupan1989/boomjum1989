@@ -6,7 +6,7 @@ Just block the domains known to engage in tracking.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-2.gif)
 
-### Rather of low breakage
+### Rather low breakage
 
 Just use the preset blocked hostnames that come out of the box with HTTP Switchboard (`addthis.com` has been blocked by these lists since forever).
 
