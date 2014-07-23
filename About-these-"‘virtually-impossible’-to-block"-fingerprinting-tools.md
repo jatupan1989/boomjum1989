@@ -14,7 +14,7 @@ Just use the preset blocked hostnames that come out of the box with HTTP Switchb
 
 ### Kind of low breakage
 
-Just prevent the whatever fingerprinting information from leaving your browser.
+Just prevent whatever fingerprinting information from leaving your browser.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-1.gif)
 
