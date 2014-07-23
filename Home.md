@@ -3,6 +3,7 @@ Install from [Chrome web store](https://chrome.google.com/webstore/detail/http-s
 - [Change log](wiki/Change-log)
 - [Permissions](wiki/Permissions)
 - [Credits](wiki/Credits)
+- [About these "'virtually-impossible' to block" fingerprinting tools](https://github.com/gorhill/httpswitchboard/wiki/About-these-%22%E2%80%98virtually-impossible%E2%80%99-to-block%22-fingerprinting-tools)
 - [IMPORTANT: Compatibility with various Chromium based browsers and other extensions](/gorhill/httpswitchboard/wiki/Compatibility-with-various-Chromium-based-browsers-and-other-extensions)
 - [Dispelling a myth: Javascript execution **can** be reliably blocked in Chromium-based browsers](https://github.com/gorhill/httpswitchboard/wiki/Blocking-javascript-execution-reliably-in-Chromium-based-browsers)
 - [MUST READ: How to use HTTP Switchboard: Two opposing views](/gorhill/httpswitchboard/wiki/How-to-use-HTTP-Switchboard:-Two-opposing-views)
