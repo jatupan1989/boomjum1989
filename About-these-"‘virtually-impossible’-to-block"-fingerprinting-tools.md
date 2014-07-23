@@ -18,7 +18,7 @@ Just prevent whatever fingerprinting information from leaving your browser, so t
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-1.gif)
 
-### High breakage
+### Kind of high breakage
 
 Block javascript (common recommendation, but you need to not be annoyed by high breakage)
 
