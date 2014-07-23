@@ -6,17 +6,17 @@ Just block the domains known to engage in tracking.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-2.gif)
 
+### Rather of low breakage
+
+Just use the preset blocked hostnames that come out of the box with HTTP Switchboard.
+
+![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-3.png)
+
 ### Kind of low breakage
 
 Just prevent the whatever fingerprinting information from leaving your browser.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-1.gif)
-
-### Sorta of low breakage
-
-Just use the preset blocked hostnames that come out of the box with HTTP Switchboard.
-
-![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-3.png)
 
 ### High breakage
 
