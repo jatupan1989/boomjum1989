@@ -20,6 +20,12 @@ Just use the preset blocked hostnames that come out of the box with HTTP Switchb
 
 #### High breakage
 
+![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-5.png)
+
+Block javascript (common recommendation, but you need to not be annoyed by high breakage)
+
+#### High breakage
+
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-4.gif)
 
 Don't let anybody in by default.
