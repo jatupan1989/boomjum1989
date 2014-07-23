@@ -14,7 +14,7 @@ Just use the preset blocked hostnames that come out of the box with HTTP Switchb
 
 ### Kind of low breakage
 
-Just prevent whatever fingerprinting information from leaving your browser, so that whatever information was collected can not leave your browser.
+Just prevent whatever fingerprinting information from leaving your browser, so that whatever information was collected can not leave your browser. Note this addresses any kind of fingerprinting (`canvas` is just one among many), and also other creepy thing such as tracking user's mouse etc. (for example, see `bounceexchange.com`).
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-1.gif)
 
