@@ -26,6 +26,6 @@ Block javascript (common recommendation, but you need to not be annoyed by high 
 
 ### High breakage
 
-Don't let anybody in by default. This requires patience, gain is peace of mind. You would be surprised at how many web pages still display properly and can be read just fine. (Scopes can be used to selectively unbreak your favorite web sites).
+Don't let anybody in by default. This requires patience, gain is peace of mind. You would be surprised at how many web pages still display properly and can be read just fine. (Scopes can be used to selectively unbreak your favorite web sites). Just look at how many domains were **not** reached in this mode (compare with screenshots above).
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-4.gif)
