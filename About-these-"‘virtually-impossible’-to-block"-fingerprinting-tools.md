@@ -2,7 +2,7 @@ This is getting ridiculous. It's not impossible to block. It's rather easy. Ther
 
 ### Low breakage
 
-Just block the domains known to engage in tracking, using techniques like canvas-fingerprinting or hum, just plain IP addresses. That will teach them. If no requests can reach their servers, this means their scripts won't reach your browser, and you won't leave IP address marks on their servers. You cease to exist from their point of views.
+Just block the domains known to engage in tracking, using techniques like canvas-fingerprinting or hum, just plain logging of IP addresses. That will teach them. If no requests can reach their servers, this means their scripts won't reach your browser, and you won't leave IP address marks on their servers. You cease to exist from their point of views.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-2.gif)
 
