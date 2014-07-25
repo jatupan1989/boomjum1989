@@ -20,7 +20,7 @@ Just prevent whatever fingerprinting information from leaving your browser. Note
 
 ### Kind of high breakage
 
-Block javascript (common recommendation, but you need to not be annoyed by high breakage)
+Block javascript (common recommendation, but you need to not be annoyed by high breakage). If the only resource downloaded from the server is a script, then blocking the script will prevent your IP address from being logged. They also commonly use 1-pixel image, or sometimes a CSS file, so you might prefer blocking the domain outright if you don't even want your IP address in their log.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-5.png)
 
