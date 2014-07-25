@@ -14,13 +14,13 @@ Just use the preset blocked hostnames that come out of the box with HTTP Switchb
 
 ### Kind of low breakage
 
-Just prevent whatever fingerprinting information from leaving your browser. Note this addresses many kind of fingerprinting (`canvas` is just one among many), and also other creepy things such as tracking user's mouse etc. (for example, see `bounceexchange.com`). This won't prevent your IP address from being logged onto their server though, since you did not prevent **all** requests from reaching their server (see above for this).
+Just prevent whatever fingerprinting information from leaving your browser. Note this addresses many kind of fingerprinting (`canvas` is just one among many), and also other creepy things such as tracking user's mouse etc. (for example, see `bounceexchange.com`). This won't prevent your IP address from being logged onto their servers though, since you did not prevent **all** requests from reaching their server (see above for this).
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-1.gif)
 
 ### Kind of high breakage
 
-Block javascript (common recommendation, but you need to not be annoyed by high breakage). If the only resource downloaded from the server is a script, then blocking the script will prevent your IP address from being logged. They also commonly use 1-pixel image, or sometimes a CSS file, so you might prefer blocking the domain outright if you don't even want your IP address in their log.
+Block javascript (common recommendation, but you need to not be annoyed by high breakage). If the only resource downloaded from the server is javascript files, then blocking these scripts will prevent your IP address from being logged. They also commonly use 1-pixel image, or sometimes a CSS file, so you might prefer blocking the domain outright if you don't even want your IP address in their log.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-5.png)
 
