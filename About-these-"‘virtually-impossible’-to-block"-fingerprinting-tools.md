@@ -8,7 +8,7 @@ Just block the domains known to engage in tracking, using techniques like canvas
 
 ### Rather low breakage
 
-Just use the preset blocked hostnames that come out of the box with HTTP Switchboard (`addthis.com`, `ligatus.com` have been blocked by these lists since forever). Somebody did the work for you to find out those engaged in tracking. You will cease to exist from the point of view of a whole lot of servers.
+Just use the preset blocked hostnames that come out of the box with HTTP Switchboard (`addthis.com`, `ligatus.com` have been blocked by these lists since forever). Somebody did the work for you to find out those engaged in tracking, among other things. You will cease to exist from the point of view of a whole lot of servers.
 
 ![](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/counter-fingerprinting-3.png)
 
