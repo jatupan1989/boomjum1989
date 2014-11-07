@@ -13,7 +13,7 @@ I advise new users to stick to whitelist/blacklist domain cells (the left-most c
 
 ## The block-all/allow-exceptionally approach
 
-![block-all/allow-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.gif)
+![block-all/allow-exceptionally](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-block-all-by-default.gif)
 
 How to enable:
 - Blacklist the `all` and `frame` cells.
@@ -51,7 +51,7 @@ Useful Chromium settings with block-all/allow-exceptionally philosophy:
 
 ## The allow-all/block-exceptionally approach
 
-![allow-all/block-exceptionally](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.gif)
+![allow-all/block-exceptionally](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/httpsb-basics-allow-all-by-default.gif)
 
 How to enable:
 - Whitelist the `all` cell.
