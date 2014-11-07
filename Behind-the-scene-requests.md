@@ -16,7 +16,7 @@ Keep this caveat in mind when you draw conclusions based on what HTTPSB reports 
 
 You can access the matrix for behind-the-scene requests by clicking the extension icon while on HTTPSB's dashboard:
 
-![Matrix example for behind-the-scene requests](https://raw2.github.com/gorhill/httpswitchboard/master/doc/img/behind-the-scene-matrix-generic-example-1.gif "You choose what to block or not to block: Nothing, all, or anything else in between")
+![Matrix example for behind-the-scene requests](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/behind-the-scene-matrix-generic-example-1.gif "You choose what to block or not to block: Nothing, all, or anything else in between")
 
 You can completely choose how behind-the-scene requests are filtered: allow all by default, block all by default, or selectively allow/block as per your choices.
 
