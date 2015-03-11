@@ -1,6 +1,6 @@
 A matrix scope tells HTTPSB which set of rules to use when visiting a particular web page. There are three levels of scope in HTTPSB:
 
-![Scopes](https://raw2.github.com/gorhill/httpswitchboard/b80b342b153c0921feef9f9d0b700942bed80aff/doc/img/about-scopes-1.png)
+![Scopes](https://raw.githubusercontent.com/gorhill/httpswitchboard/master/doc/img/about-scopes-1.png)
 
 Global scope -- identified as `*` (this scope is always present):
 - All rules in the global scope apply to all web pages for which no narrower scope exists.
